@@ -65,7 +65,8 @@ def process_maven():
             ('namespace', group_id),
             ('name', artifact_id),
             ('version', latest_version),
-            ('qualifier', qualifier)
+            ('qualifier', qualifier),
+            ('provider', 'mavencentral'),
         ])
 
 
@@ -117,6 +118,7 @@ def process_pypi():
             ('type', 'pypi'),
             ('name', name),
             ('version', latest_version),
+            ('provider', 'pypi')
         ])
 
 
@@ -152,6 +154,7 @@ def process_nuget():
           ('type', 'nuget'),
           ('name', name),
           ('version', version),
+          ('provider', 'nuget'),
         ])
 
 
@@ -189,7 +192,8 @@ def process_npm():
             ('download_url', download_url),
             ('type', 'npm'),
             ('name', name),
-            ('version', latest_version)
+            ('version', latest_version),
+            ('provider', 'npmjs'),
         ])
 
 
@@ -239,11 +243,12 @@ def process_rubygems():
                 ('type', 'gem'),
                 ('name', name),
                 ('version', version),
+                ('provider', 'rubygems'),
             ])
 
 
 def process():
-    headers = 'download_url type namespace name version qualifier'.split()
+    headers = 'download_url type namespace name version qualifier provider'.split()
     process_pypi()
     with open('./top-packages-out.csv', 'wb') as outfile:
         dict_writer = csv.DictWriter(outfile, headers)

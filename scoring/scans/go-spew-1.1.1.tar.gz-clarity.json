@@ -1,6 +1,6 @@
 {
   "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
-  "scancode_version": "2.9.3.post0.3f970b1e1.dirty.20180927212409",
+  "scancode_version": "2.9.5.post9.e2b29a755",
   "scancode_options": {
     "input": "packages/go-spew-1.1.1.tar.gz-extract",
     "--classify": true,
@@ -16,48 +16,8 @@
     "--summary": true,
     "--summary-key-files": true
   },
-  "scan_start": "2018-09-29T155209.154424",
+  "scan_start": "2018-10-24T222542.627616",
   "files_count": 23,
-  "summary_of_key_files": {
-    "license_expressions": [
-      {
-        "value": "isc",
-        "count": 4
-      }
-    ],
-    "copyrights": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) Dave Collins <dave@davec.name>",
-        "count": 1
-      }
-    ],
-    "holders": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Dave Collins",
-        "count": 1
-      }
-    ],
-    "authors": [
-      {
-        "value": null,
-        "count": 2
-      }
-    ],
-    "programming_language": [
-      {
-        "value": null,
-        "count": 2
-      }
-    ]
-  },
   "summary": {
     "license_expressions": [
       {
@@ -102,14 +62,18 @@
       },
       {
         "value": null,
-        "count": 3
+        "count": 2
+      },
+      {
+        "value": "ActionScript 3",
+        "count": 1
       },
       {
         "value": "Bash",
         "count": 1
       },
       {
-        "value": "YAML",
+        "value": "TypeScript",
         "count": 1
       }
     ]
@@ -121,6 +85,50 @@
     "has_consistent_key_and_file_level_license": true,
     "has_all_spdx_licenses": true,
     "has_all_license_texts": true
+  },
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": "isc",
+        "count": 4
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Dave Collins <dave@davec.name>",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Dave Collins",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 2
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "TypeScript",
+        "count": 1
+      }
+    ]
   },
   "files": [
     {
@@ -152,7 +160,7 @@
       "is_readme": false,
       "is_top_level": true,
       "files_count": 23,
-      "dirs_count": 3,
+      "dirs_count": 4,
       "size_count": 211657,
       "scan_errors": []
     },
@@ -185,7 +193,7 @@
       "is_readme": false,
       "is_top_level": true,
       "files_count": 23,
-      "dirs_count": 2,
+      "dirs_count": 3,
       "size_count": 211657,
       "scan_errors": []
     },
@@ -201,7 +209,7 @@
       "md5": "f3586dbd59654b8649f0f45768f26a7d",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "YAML",
+      "programming_language": "ActionScript 3",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -241,6 +249,39 @@
       "is_media": false,
       "is_source": true,
       "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/cov_report.sh-extract",
+      "type": "directory",
+      "name": "cov_report.sh-extract",
+      "base_name": "cov_report.sh-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
       "licenses": [],
       "license_expressions": [],
       "holders": [],
@@ -348,7 +389,7 @@
       "md5": "cd24249ebeb651612c298e6ceb6e1591",
       "mime_type": "text/x-c",
       "file_type": "C source, ASCII text",
-      "programming_language": null,
+      "programming_language": "TypeScript",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,

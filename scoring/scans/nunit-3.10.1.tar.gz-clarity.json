@@ -1,6 +1,6 @@
 {
   "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
-  "scancode_version": "2.9.3.post0.3f970b1e1.dirty.20180927212409",
+  "scancode_version": "2.9.5",
   "scancode_options": {
     "input": "packages/nunit-3.10.1.tar.gz-extract",
     "--classify": true,
@@ -16,84 +16,8 @@
     "--summary": true,
     "--summary-key-files": true
   },
-  "scan_start": "2018-09-29T155220.724959",
+  "scan_start": "2018-10-24T174645.507783",
   "files_count": 800,
-  "summary_of_key_files": {
-    "license_expressions": [
-      {
-        "value": "mit",
-        "count": 2
-      },
-      {
-        "value": null,
-        "count": 1
-      }
-    ],
-    "copyrights": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) Charlie Poole",
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) Charlie Poole, Rob Prouse",
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) James W. Newkirk, Michael C. Two, Alexei A. Vorontsov",
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) Philip A. Craig",
-        "count": 1
-      }
-    ],
-    "holders": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Charlie Poole",
-        "count": 1
-      },
-      {
-        "value": "Charlie Poole, Rob Prouse",
-        "count": 1
-      },
-      {
-        "value": "James W. Newkirk, Michael C. Two, Alexei A. Vorontsov",
-        "count": 1
-      },
-      {
-        "value": "Philip A. Craig",
-        "count": 1
-      }
-    ],
-    "authors": [
-      {
-        "value": null,
-        "count": 2
-      },
-      {
-        "value": "Charlie Poole (https://github.com/CharliePoole), Rob Prouse (https://github.com/rprouse), Simone Busoli (https://github.com/simoneb), Neil Colvin (https://github.com/oznetmaster) and numerous community contributors.",
-        "count": 1
-      },
-      {
-        "value": "Charlie Poole, James W. Newkirk, Alexei A. Vorontsov, Michael C. Two and Philip A. Craig.",
-        "count": 1
-      }
-    ],
-    "programming_language": [
-      {
-        "value": null,
-        "count": 3
-      }
-    ]
-  },
   "summary": {
     "license_expressions": [
       {
@@ -241,7 +165,7 @@
         "count": 39
       },
       {
-        "value": "JSON",
+        "value": "Objective-C",
         "count": 3
       },
       {
@@ -249,11 +173,11 @@
         "count": 3
       },
       {
-        "value": "Bash",
+        "value": "ActionScript 3",
         "count": 2
       },
       {
-        "value": "YAML",
+        "value": "Bash",
         "count": 2
       },
       {
@@ -273,6 +197,86 @@
     "has_consistent_key_and_file_level_license": true,
     "has_all_spdx_licenses": true,
     "has_all_license_texts": true
+  },
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": "mit",
+        "count": 2
+      },
+      {
+        "value": null,
+        "count": 1
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Charlie Poole",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Charlie Poole, Rob Prouse",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) James W. Newkirk, Michael C. Two, Alexei A. Vorontsov",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Philip A. Craig",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Charlie Poole",
+        "count": 1
+      },
+      {
+        "value": "Charlie Poole, Rob Prouse",
+        "count": 1
+      },
+      {
+        "value": "James W. Newkirk, Michael C. Two, Alexei A. Vorontsov",
+        "count": 1
+      },
+      {
+        "value": "Philip A. Craig",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Charlie Poole (https://github.com/CharliePoole), Rob Prouse (https://github.com/rprouse), Simone Busoli (https://github.com/simoneb), Neil Colvin (https://github.com/oznetmaster) and numerous community contributors.",
+        "count": 1
+      },
+      {
+        "value": "Charlie Poole, James W. Newkirk, Alexei A. Vorontsov, Michael C. Two and Philip A. Craig.",
+        "count": 1
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Objective-C",
+        "count": 1
+      }
+    ]
   },
   "files": [
     {
@@ -304,7 +308,7 @@
       "is_readme": false,
       "is_top_level": true,
       "files_count": 800,
-      "dirs_count": 60,
+      "dirs_count": 62,
       "size_count": 4786905,
       "scan_errors": []
     },
@@ -337,7 +341,7 @@
       "is_readme": false,
       "is_top_level": true,
       "files_count": 800,
-      "dirs_count": 59,
+      "dirs_count": 61,
       "size_count": 4786905,
       "scan_errors": []
     },
@@ -386,7 +390,7 @@
       "md5": "f108cfee52cac139415d069ece39cfa7",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "YAML",
+      "programming_language": "ActionScript 3",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -419,7 +423,7 @@
       "md5": "ac43f9944386f602401fd5911c243b37",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "YAML",
+      "programming_language": "ActionScript 3",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -459,6 +463,39 @@
       "is_media": false,
       "is_source": true,
       "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nunit-3.10.1.tar.gz-extract/nunit-3.10.1/build-extract",
+      "type": "directory",
+      "name": "build-extract",
+      "base_name": "build-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
       "licenses": [],
       "license_expressions": [],
       "holders": [],
@@ -615,8 +652,8 @@
       "date": "2018-03-13",
       "sha1": "326f02541084f9341aec2746e74273c387c78e15",
       "md5": "7b303965af0a01d7c3bddf632addabd6",
-      "mime_type": "text/plain",
-      "file_type": "a /usr/bin/env bash script, ASCII text executable",
+      "mime_type": "text/x-shellscript",
+      "file_type": "Bourne-Again shell script, ASCII text executable",
       "programming_language": "Bash",
       "is_binary": false,
       "is_text": true,
@@ -624,6 +661,39 @@
       "is_media": false,
       "is_source": true,
       "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nunit-3.10.1.tar.gz-extract/nunit-3.10.1/build.sh-extract",
+      "type": "directory",
+      "name": "build.sh-extract",
+      "base_name": "build.sh-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
       "licenses": [],
       "license_expressions": [],
       "holders": [],
@@ -728,7 +798,7 @@
       "md5": "6d07212c82df95e951d2dbc3375dadde",
       "mime_type": "text/plain",
       "file_type": "ASCII text, with very long lines",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -761,7 +831,7 @@
       "md5": "99ab5d65d057e955ac8e5dc7bd87e5fb",
       "mime_type": "text/plain",
       "file_type": "UTF-8 Unicode text, with very long lines",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -1157,7 +1227,7 @@
       "md5": "00c9c316094a2f29c545c2bd62dd9f72",
       "mime_type": "text/plain",
       "file_type": "UTF-8 Unicode text, with very long lines",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -1270,12 +1340,12 @@
       "md5": "daa1163168b71cc18701a5e981a4f2e5",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "JSON",
+      "programming_language": null,
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
       "is_media": false,
-      "is_source": true,
+      "is_source": false,
       "is_script": false,
       "licenses": [],
       "license_expressions": [],
@@ -1303,12 +1373,12 @@
       "md5": "cfbb70450a60be03279519cb1b98c253",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "JSON",
+      "programming_language": null,
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
       "is_media": false,
-      "is_source": true,
+      "is_source": false,
       "is_script": false,
       "licenses": [],
       "license_expressions": [],
@@ -60720,12 +60790,12 @@
       "md5": "ad9fe8ea4093004e43acd67b28257c08",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "JSON",
+      "programming_language": null,
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
       "is_media": false,
-      "is_source": true,
+      "is_source": false,
       "is_script": false,
       "licenses": [],
       "license_expressions": [],

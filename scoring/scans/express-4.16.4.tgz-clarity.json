@@ -1,0 +1,1800 @@
+{
+  "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+  "scancode_version": "2.9.5.post9.e2b29a755",
+  "scancode_options": {
+    "input": "packages/express-4.16.4.tgz-extract",
+    "--classify": true,
+    "--copyright": true,
+    "--csv": "scans/express-4.16.4.tgz-clarity.csv",
+    "--info": true,
+    "--json-pp": "scans/express-4.16.4.tgz-clarity.json",
+    "--license": true,
+    "--license-clarity-score": true,
+    "--license-diag": true,
+    "--license-text": true,
+    "--processes": "4",
+    "--summary": true,
+    "--summary-key-files": true
+  },
+  "scan_start": "2018-10-24T225424.370487",
+  "files_count": 16,
+  "summary": {
+    "license_expressions": [
+      {
+        "value": "mit",
+        "count": 15
+      },
+      {
+        "value": null,
+        "count": 1
+      }
+    ],
+    "copyrights": [
+      {
+        "value": "Copyright (c) Douglas Christopher Wilson",
+        "count": 12
+      },
+      {
+        "value": "Copyright (c) TJ Holowaychuk",
+        "count": 12
+      },
+      {
+        "value": "Copyright (c) Roman Shtylman",
+        "count": 10
+      },
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "Copyright (c) Douglas Christopher Wilson <doug@somethingdoug.com>",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Roman Shtylman <shtylman+expressjs@gmail.com>",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) TJ Holowaychuk <tj@vision-media.ca>",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": "Douglas Christopher Wilson",
+        "count": 13
+      },
+      {
+        "value": "TJ Holowaychuk",
+        "count": 13
+      },
+      {
+        "value": "Roman Shtylman",
+        "count": 11
+      },
+      {
+        "value": null,
+        "count": 3
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 16
+      }
+    ],
+    "programming_language": [
+      {
+        "value": "JavaScript",
+        "count": 12
+      },
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Objective-C",
+        "count": 2
+      }
+    ]
+  },
+  "license_score": {
+    "score": 45,
+    "has_top_level_declared_licenses": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_license": false,
+    "has_all_spdx_licenses": true,
+    "has_all_license_texts": false
+  },
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": "mit",
+        "count": 3
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Copyright (c) Douglas Christopher Wilson <doug@somethingdoug.com>",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Roman Shtylman <shtylman+expressjs@gmail.com>",
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) TJ Holowaychuk <tj@vision-media.ca>",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Douglas Christopher Wilson",
+        "count": 1
+      },
+      {
+        "value": "Roman Shtylman",
+        "count": 1
+      },
+      {
+        "value": "TJ Holowaychuk",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 3
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "Objective-C",
+        "count": 1
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "express-4.16.4.tgz-extract",
+      "type": "directory",
+      "name": "express-4.16.4.tgz-extract",
+      "base_name": "express-4.16.4.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 16,
+      "dirs_count": 4,
+      "size_count": 206123,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 16,
+      "dirs_count": 3,
+      "size_count": 206123,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/History.md",
+      "type": "file",
+      "name": "History.md",
+      "base_name": "History",
+      "extension": ".md",
+      "size": 107836,
+      "date": "1985-10-26",
+      "sha1": "2bb4919da733585bf2e8880e77f9f37c886ec9b4",
+      "md5": "76604ad37384b3565a803da0e88973b2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 224,
+      "date": "1985-10-26",
+      "sha1": "3f41478fdab31acabab8fa1d26126483a141ffb6",
+      "md5": "866e37a4d9fb8799d5415d32ac413465",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1249,
+      "date": "1985-10-26",
+      "sha1": "056d455b1bd8de050d92a35b6d20b6803725f29b",
+      "md5": "5513c00a5c36cd361da863dd9aa8875d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 88.83,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 167,
+            "matched_length": 167,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "The MIT License)\n\nCopyright ([c]) [2009]-[2014] [TJ] [Holowaychuk] <[tj]@[vision]-[media].[ca]>\n[Copyright] ([c]) [2013]-[2014] [Roman] [Shtylman] <[shtylman+expressjs]@[gmail].[com]>\n[Copyright] ([c]) [2014]-[2015] [Douglas] [Christopher] [Wilson] <[doug]@[somethingdoug].[com]>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 2792,
+      "date": "1985-10-26",
+      "sha1": "13be461eb716cb245d726dd04225033ad22ab5f9",
+      "md5": "6485a86e981726326712da2c30925135",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 15,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          },
+          "matched_text": "license\": \"MIT"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/Readme.md",
+      "type": "file",
+      "name": "Readme.md",
+      "base_name": "Readme",
+      "extension": ".md",
+      "size": 4777,
+      "date": "1985-10-26",
+      "sha1": "b8fcca6a4953112723a3098a67e3778a48a711cf",
+      "md5": "d10ea0cfdd9f9dc2c0f533407730ea1e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 17.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 136,
+          "end_line": 138,
+          "matched_rule": {
+            "identifier": "mit_100.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 17
+          },
+          "matched_text": "License\n\n  [MIT](LICENSE"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 11,
+      "dirs_count": 2,
+      "size_count": 89245,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/application.js",
+      "type": "file",
+      "name": "application.js",
+      "base_name": "application",
+      "extension": ".js",
+      "size": 14270,
+      "date": "1985-10-26",
+      "sha1": "703484657233bbf15dd574023a53e131b3f61801",
+      "md5": "569b549e619807c5cd58ab89d7e81109",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/express.js",
+      "type": "file",
+      "name": "express.js",
+      "base_name": "express",
+      "extension": ".js",
+      "size": 2349,
+      "date": "1985-10-26",
+      "sha1": "f171f4996fcc17db6aeb1dd7032d88146edd8be6",
+      "md5": "a72e36c5fef767743f43cf3fd1268cbf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/request.js",
+      "type": "file",
+      "name": "request.js",
+      "base_name": "request",
+      "extension": ".js",
+      "size": 12298,
+      "date": "1985-10-26",
+      "sha1": "199f925df365043439e5f5108859ce3afc3e714f",
+      "md5": "a18141ab024bc63315f4c340a6d9a365",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/response.js",
+      "type": "file",
+      "name": "response.js",
+      "base_name": "response",
+      "extension": ".js",
+      "size": 26964,
+      "date": "1985-10-26",
+      "sha1": "f12d68e0e0a96a980585c9b64920e45e0761966b",
+      "md5": "d07cbc892086deebb1f52ffdf0b80397",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/utils.js",
+      "type": "file",
+      "name": "utils.js",
+      "base_name": "utils",
+      "extension": ".js",
+      "size": 5972,
+      "date": "1985-10-26",
+      "sha1": "c6911132147c6a96712fb2371105a9ba6512bb93",
+      "md5": "23899065325f9a3b0501bccc5231be8d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/view.js",
+      "type": "file",
+      "name": "view.js",
+      "base_name": "view",
+      "extension": ".js",
+      "size": 3326,
+      "date": "1985-10-26",
+      "sha1": "b105feb7b7dd65b69397bf5dc5c62e808aa2e840",
+      "md5": "91c7455190f39cc30d0c5d4627d701fd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/middleware",
+      "type": "directory",
+      "name": "middleware",
+      "base_name": "middleware",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 1738,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/middleware/init.js",
+      "type": "file",
+      "name": "init.js",
+      "base_name": "init",
+      "extension": ".js",
+      "size": 853,
+      "date": "1985-10-26",
+      "sha1": "4b8b9456b57267d5892b097d4ff316838e41dfdd",
+      "md5": "3711ae7ea348d39a41c5139a63e89c12",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/middleware/query.js",
+      "type": "file",
+      "name": "query.js",
+      "base_name": "query",
+      "extension": ".js",
+      "size": 885,
+      "date": "1985-10-26",
+      "sha1": "a66aa642ad6c666470803022cc7c5c46732bd5bc",
+      "md5": "a6e9a6c92c5bfdd9d7b08b267a3b1d44",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/router",
+      "type": "directory",
+      "name": "router",
+      "base_name": "router",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 22328,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/router/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 14883,
+      "date": "1985-10-26",
+      "sha1": "dbc35e680f1062135723d95f0019aa20a241d336",
+      "md5": "c11694deadcecb691f6860a530cc7472",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/router/layer.js",
+      "type": "file",
+      "name": "layer.js",
+      "base_name": "layer",
+      "extension": ".js",
+      "size": 3296,
+      "date": "1985-10-26",
+      "sha1": "302244d96afc6d6fcaaa3afae016fbe8168f192c",
+      "md5": "c6e16965ef05cc02cfee78022496abab",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "express-4.16.4.tgz-extract/package/lib/router/route.js",
+      "type": "file",
+      "name": "route.js",
+      "base_name": "route",
+      "extension": ".js",
+      "size": 4149,
+      "date": "1985-10-26",
+      "sha1": "f762261bee4e52ce1ccf13bf2e42a23d507e39f1",
+      "md5": "be5fcf9a22c2524e813c9a79effb4610",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "MIT Licensed"
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2013 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2013 Roman Shtylman",
+          "start_line": 3,
+          "end_line": 6
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
