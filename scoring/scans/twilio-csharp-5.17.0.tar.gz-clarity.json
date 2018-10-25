@@ -1,6 +1,6 @@
 {
   "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
-  "scancode_version": "2.9.3.post0.3f970b1e1.dirty.20180927212409",
+  "scancode_version": "2.9.5",
   "scancode_options": {
     "input": "packages/twilio-csharp-5.17.0.tar.gz-extract",
     "--classify": true,
@@ -16,64 +16,16 @@
     "--summary": true,
     "--summary-key-files": true
   },
-  "scan_start": "2018-09-29T155333.939206",
+  "scan_start": "2018-10-24T174852.196658",
   "files_count": 939,
-  "summary_of_key_files": {
-    "license_expressions": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "mit",
-        "count": 1
-      }
-    ],
-    "copyrights": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Copyright (c) Twilio, Inc. <help@twilio.com>",
-        "count": 1
-      }
-    ],
-    "holders": [
-      {
-        "value": null,
-        "count": 1
-      },
-      {
-        "value": "Twilio, Inc.",
-        "count": 1
-      }
-    ],
-    "authors": [
-      {
-        "value": null,
-        "count": 2
-      }
-    ],
-    "programming_language": [
-      {
-        "value": null,
-        "count": 2
-      }
-    ]
-  },
   "summary": {
     "license_expressions": [
       {
         "value": null,
-        "count": 937
+        "count": 938
       },
       {
         "value": "mit",
-        "count": 1
-      },
-      {
-        "value": "public-domain",
         "count": 1
       }
     ],
@@ -118,18 +70,18 @@
       },
       {
         "value": null,
-        "count": 11
+        "count": 10
       },
       {
-        "value": "YAML",
-        "count": 2
+        "value": "Objective-C",
+        "count": 3
       },
       {
-        "value": "Docker",
+        "value": "ActionScript 3",
         "count": 1
       },
       {
-        "value": "Makefile",
+        "value": "GAS",
         "count": 1
       },
       {
@@ -139,12 +91,60 @@
     ]
   },
   "license_score": {
-    "score": 30,
+    "score": 45,
     "has_top_level_declared_licenses": true,
     "file_level_license_and_copyright_coverage": 0.0,
     "has_consistent_key_and_file_level_license": false,
-    "has_all_spdx_licenses": false,
+    "has_all_spdx_licenses": true,
     "has_all_license_texts": false
+  },
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "mit",
+        "count": 1
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Twilio, Inc. <help@twilio.com>",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Twilio, Inc.",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 2
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Objective-C",
+        "count": 1
+      }
+    ]
   },
   "files": [
     {
@@ -225,7 +225,7 @@
       "md5": "82dba707476e41b9d0396a9e8eb71a3b",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "YAML",
+      "programming_language": "ActionScript 3",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -258,12 +258,12 @@
       "md5": "f68cf2bc814bcaf3c50f726f5ef76c89",
       "mime_type": "text/plain",
       "file_type": "ASCII text, with CRLF line terminators",
-      "programming_language": "YAML",
+      "programming_language": null,
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
       "is_media": false,
-      "is_source": true,
+      "is_source": false,
       "is_script": false,
       "licenses": [],
       "license_expressions": [],
@@ -357,7 +357,7 @@
       "md5": "1ab2fe066ffd45a4f79adcd632cb9bb2",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -390,12 +390,12 @@
       "md5": "2d7c61da5231030e8ddc5eb54c2b8292",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "Docker",
+      "programming_language": null,
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
       "is_media": false,
-      "is_source": true,
+      "is_source": false,
       "is_script": false,
       "licenses": [],
       "license_expressions": [],
@@ -570,7 +570,7 @@
       "md5": "1c6bec84c29203e75bbeb830af682422",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": "Makefile",
+      "programming_language": "GAS",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -603,7 +603,7 @@
       "md5": "ba05efe6ab8d2ca6c2c9699666a3b51b",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -702,7 +702,7 @@
       "md5": "4226557db719a976c27581ad0a9e3271",
       "mime_type": "text/plain",
       "file_type": "ASCII text",
-      "programming_language": null,
+      "programming_language": "Objective-C",
       "is_binary": false,
       "is_text": true,
       "is_archive": false,
@@ -2668,44 +2668,8 @@
       "is_media": false,
       "is_source": true,
       "is_script": false,
-      "licenses": [
-        {
-          "key": "public-domain",
-          "score": 11.0,
-          "name": "Public Domain",
-          "short_name": "Public Domain",
-          "category": "Public Domain",
-          "is_exception": false,
-          "owner": "Unspecified",
-          "homepage_url": "http://www.linfo.org/publicdomain.html",
-          "text_url": "",
-          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:public-domain",
-          "spdx_license_key": "",
-          "spdx_url": "",
-          "start_line": 14,
-          "end_line": 14,
-          "matched_rule": {
-            "identifier": "public-domain_79.RULE",
-            "license_expression": "public-domain",
-            "licenses": [
-              "public-domain"
-            ],
-            "is_license_text": false,
-            "is_license_notice": false,
-            "is_license_reference": true,
-            "is_license_tag": false,
-            "matcher": "2-aho",
-            "rule_length": 2,
-            "matched_length": 2,
-            "match_coverage": 100.0,
-            "rule_relevance": 11
-          },
-          "matched_text": "public Domain"
-        }
-      ],
-      "license_expressions": [
-        "public-domain"
-      ],
+      "licenses": [],
+      "license_expressions": [],
       "holders": [],
       "copyrights": [],
       "authors": [],

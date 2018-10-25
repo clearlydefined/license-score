@@ -1,0 +1,544 @@
+{
+  "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+  "scancode_version": "2.9.5.post9.e2b29a755",
+  "scancode_options": {
+    "input": "packages/moin.nupkg-extract",
+    "--classify": true,
+    "--copyright": true,
+    "--csv": "scans/moin.nupkg-clarity.csv",
+    "--info": true,
+    "--json-pp": "scans/moin.nupkg-clarity.json",
+    "--license": true,
+    "--license-clarity-score": true,
+    "--license-diag": true,
+    "--license-text": true,
+    "--processes": "4",
+    "--summary": true,
+    "--summary-key-files": true
+  },
+  "scan_start": "2018-10-24T225104.663698",
+  "files_count": 5,
+  "summary": {
+    "license_expressions": [
+      {
+        "value": null,
+        "count": 5
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "Copyright EffectivePath SourcePath",
+        "count": 1
+      },
+      {
+        "value": "Copyright GetProperty EvaluatedValue",
+        "count": 1
+      },
+      {
+        "value": "Copyright SpecCommandFileExists SpecCommandCreatedNuSpec",
+        "count": 1
+      },
+      {
+        "value": "Copyright Tag1 Tag2",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "EffectivePath SourcePath",
+        "count": 1
+      },
+      {
+        "value": "GetProperty EvaluatedValue",
+        "count": 1
+      },
+      {
+        "value": "SpecCommandFileExists SpecCommandCreatedNuSpec",
+        "count": 1
+      },
+      {
+        "value": "Tag1 Tag2",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 4
+      },
+      {
+        "value": "Owners IconUrl",
+        "count": 1
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 5
+      }
+    ]
+  },
+  "license_score": {
+    "score": 30,
+    "has_top_level_declared_licenses": false,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_license": false,
+    "has_all_spdx_licenses": true,
+    "has_all_license_texts": true
+  },
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": null,
+        "count": 1
+      }
+    ],
+    "copyrights": [
+      {
+        "value": "Copyright Tag1 Tag2",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": "Tag1 Tag2",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 1
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 1
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "moin.nupkg-extract",
+      "type": "directory",
+      "name": "moin.nupkg-extract",
+      "base_name": "moin.nupkg-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 5,
+      "dirs_count": 5,
+      "size_count": 3790322,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/[Content_Types].xml",
+      "type": "file",
+      "name": "[Content_Types].xml",
+      "base_name": "[Content_Types]",
+      "extension": ".xml",
+      "size": 448,
+      "date": "2016-02-20",
+      "sha1": "a8d8c1df5764a9560a3e1e7fd2d6e9dc63211631",
+      "md5": "ea2003fcc6db19fb7a54b2c3fae5ed07",
+      "mime_type": "application/xml",
+      "file_type": "XML 1.0 document, UTF-8 Unicode (with BOM) text, with very long lines, with no line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/moin.nuspec",
+      "type": "file",
+      "name": "moin.nuspec",
+      "base_name": "moin",
+      "extension": ".nuspec",
+      "size": 921,
+      "date": "2016-02-20",
+      "sha1": "ef1a96e4e47238d218e03a051d212f333b351165",
+      "md5": "287ef897120518dbe9254b40c20a379b",
+      "mime_type": "application/xml",
+      "file_type": "XML 1.0 document, UTF-8 Unicode (with BOM) text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Tag1 Tag2",
+          "start_line": 14,
+          "end_line": 15
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 Tag1 Tag2",
+          "start_line": 14,
+          "end_line": 15
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/nuget.exe",
+      "type": "file",
+      "name": "nuget.exe",
+      "base_name": "nuget",
+      "extension": ".exe",
+      "size": 3787952,
+      "date": "2016-02-20",
+      "sha1": "56de2b3f051ef6d114ad71ece4ceb5330fe44e0e",
+      "md5": "1e0f14fdbc11c22280ed1bebc610fbf0",
+      "mime_type": "application/x-dosexec",
+      "file_type": "PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "EffectivePath SourcePath",
+          "start_line": 29243,
+          "end_line": 29245
+        },
+        {
+          "value": "GetProperty EvaluatedValue",
+          "start_line": 32754,
+          "end_line": 32759
+        },
+        {
+          "value": "SpecCommandFileExists SpecCommandCreatedNuSpec",
+          "start_line": 32878,
+          "end_line": 32881
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright EffectivePath SourcePath",
+          "start_line": 29243,
+          "end_line": 29245
+        },
+        {
+          "value": "Copyright GetProperty EvaluatedValue",
+          "start_line": 32754,
+          "end_line": 32759
+        },
+        {
+          "value": "Copyright SpecCommandFileExists SpecCommandCreatedNuSpec",
+          "start_line": 32878,
+          "end_line": 32881
+        }
+      ],
+      "authors": [
+        {
+          "value": "Owners IconUrl",
+          "start_line": 11807,
+          "end_line": 11809
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/_rels",
+      "type": "directory",
+      "name": "_rels",
+      "base_name": "_rels",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 489,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/_rels/.rels",
+      "type": "file",
+      "name": ".rels",
+      "base_name": ".rels",
+      "extension": "",
+      "size": 489,
+      "date": "2016-02-20",
+      "sha1": "e07f29f3776b5689edee51141026cdf24a7bc5ba",
+      "md5": "4d6f249465e59b82c38da449e90ec63e",
+      "mime_type": "application/xml",
+      "file_type": "XML 1.0 document, UTF-8 Unicode (with BOM) text, with very long lines, with no line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 1,
+      "dirs_count": 3,
+      "size_count": 512,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/package/services",
+      "type": "directory",
+      "name": "services",
+      "base_name": "services",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 1,
+      "dirs_count": 2,
+      "size_count": 512,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/package/services/metadata",
+      "type": "directory",
+      "name": "metadata",
+      "base_name": "metadata",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 1,
+      "dirs_count": 1,
+      "size_count": 512,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/package/services/metadata/core-properties",
+      "type": "directory",
+      "name": "core-properties",
+      "base_name": "core-properties",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 512,
+      "scan_errors": []
+    },
+    {
+      "path": "moin.nupkg-extract/package/services/metadata/core-properties/ee1abb8a2a954b02ac21e4c2f7f614d9.psmdcp",
+      "type": "file",
+      "name": "ee1abb8a2a954b02ac21e4c2f7f614d9.psmdcp",
+      "base_name": "ee1abb8a2a954b02ac21e4c2f7f614d9",
+      "extension": ".psmdcp",
+      "size": 512,
+      "date": "2016-02-20",
+      "sha1": "c237c35dfec78b3f9d99d2d18ddd36a6961ac0c7",
+      "md5": "40adfedba51898ef36b525fe11b70485",
+      "mime_type": "application/xml",
+      "file_type": "XML 1.0 document, UTF-8 Unicode (with BOM) text, with very long lines, with no line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

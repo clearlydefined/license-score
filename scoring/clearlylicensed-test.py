@@ -24,7 +24,7 @@ def create_dir(name, base_dir=current_dir):
     return d
 
 
-def fetch_package(url, downloads_dir):
+def fetch_package(url, pkg_type, pkg_name, downloads_dir):
     """
     Download the package at `url` in `download_dir` and return its filename.
     """
@@ -58,6 +58,10 @@ def fetch_package(url, downloads_dir):
     value, params = cgi.parse_header(content_disposition)
     filename = params.get('filename') or url.split('/')[-1]
 
+    # hack to get nuget packages to extract correctly
+    if pkg_type == 'nuget':
+        filename = pkg_name + '.nupkg'
+
     with open(os.path.join(downloads_dir, filename), 'wb') as out:
         out.write(response.content)
     return filename
@@ -66,7 +70,6 @@ def fetch_package(url, downloads_dir):
 def extract(archive_loc):
     call(' '.join([
         'extractcode',
-        '--shallow',
         str(archive_loc)
         ]),
         shell=True
@@ -113,16 +116,24 @@ def process(input_csv='clearlylicensed.csv', output_csv='clearlylicensed-out.csv
     scan_results_dir = create_dir('scans')
 
     # hardcode headers to keep order
-    headers = 'download_url type namespace name version qualifier'.split()
+    headers = 'download_url type namespace name version qualifier provider'.split()
 
     # list of mappings
     results = []
 
     for package in get_packages(csv_loc=input_csv):
         download_url = package.get('download_url')
+        pkg_type = package.get('type')
+        pkg_name = package.get('name')
         print('===========================================================')
         print('* Processing:', download_url)
-        filename = fetch_package(download_url, downloads_dir)
+
+        try:
+            filename = fetch_package(download_url, pkg_type, pkg_name, downloads_dir)
+        except Exception:
+            package['scan_results_file'] = 'FAILED DOWNLOAD URL'
+            results.append(package)
+            continue
 
         archive_loc = os.path.join(downloads_dir, filename)
         json_scan_loc = os.path.join(scan_results_dir, filename + '-clarity.json')

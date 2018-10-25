@@ -1,0 +1,2034 @@
+{
+  "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+  "scancode_version": "2.9.3.post0.3f970b1e1.dirty.20180927212409",
+  "scancode_options": {
+    "input": "packages/go-spew-1.1.1.tar.gz-extract",
+    "--classify": true,
+    "--copyright": true,
+    "--csv": "scans/go-spew-1.1.1.tar.gz-clarity.csv",
+    "--info": true,
+    "--json-pp": "scans/go-spew-1.1.1.tar.gz-clarity.json",
+    "--license": true,
+    "--license-clarity-score": true,
+    "--license-diag": true,
+    "--license-text": true,
+    "--processes": "4",
+    "--summary": true,
+    "--summary-key-files": true
+  },
+  "scan_start": "2018-09-29T155209.154424",
+  "files_count": 23,
+  "summary_of_key_files": {
+    "license_expressions": [
+      {
+        "value": "isc",
+        "count": 4
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Copyright (c) Dave Collins <dave@davec.name>",
+        "count": 1
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 1
+      },
+      {
+        "value": "Dave Collins",
+        "count": 1
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 2
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 2
+      }
+    ]
+  },
+  "summary": {
+    "license_expressions": [
+      {
+        "value": "isc",
+        "count": 22
+      },
+      {
+        "value": null,
+        "count": 3
+      }
+    ],
+    "copyrights": [
+      {
+        "value": "Copyright (c) Dave Collins <dave@davec.name>",
+        "count": 19
+      },
+      {
+        "value": null,
+        "count": 4
+      }
+    ],
+    "holders": [
+      {
+        "value": "Dave Collins",
+        "count": 19
+      },
+      {
+        "value": null,
+        "count": 4
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 23
+      }
+    ],
+    "programming_language": [
+      {
+        "value": "Go",
+        "count": 18
+      },
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "Bash",
+        "count": 1
+      },
+      {
+        "value": "YAML",
+        "count": 1
+      }
+    ]
+  },
+  "license_score": {
+    "score": 96,
+    "has_top_level_declared_licenses": true,
+    "file_level_license_and_copyright_coverage": 0.8571428571428571,
+    "has_consistent_key_and_file_level_license": true,
+    "has_all_spdx_licenses": true,
+    "has_all_license_texts": true
+  },
+  "files": [
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract",
+      "type": "directory",
+      "name": "go-spew-1.1.1.tar.gz-extract",
+      "base_name": "go-spew-1.1.1.tar.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 23,
+      "dirs_count": 3,
+      "size_count": 211657,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1",
+      "type": "directory",
+      "name": "go-spew-1.1.1",
+      "base_name": "go-spew-1.1.1",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 23,
+      "dirs_count": 2,
+      "size_count": 211657,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/.travis.yml",
+      "type": "file",
+      "name": ".travis.yml",
+      "base_name": ".travis",
+      "extension": ".yml",
+      "size": 769,
+      "date": "2018-02-21",
+      "sha1": "0887906fdf6ac064741881420631bf875d5a4025",
+      "md5": "f3586dbd59654b8649f0f45768f26a7d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "YAML",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/cov_report.sh",
+      "type": "file",
+      "name": "cov_report.sh",
+      "base_name": "cov_report",
+      "extension": ".sh",
+      "size": 658,
+      "date": "2018-02-21",
+      "sha1": "ae3d8845efc6cb161bee951f9cb31057de375cd5",
+      "md5": "0da3ae60eeb9a8d2a65a592d94f0de9e",
+      "mime_type": "text/x-shellscript",
+      "file_type": "POSIX shell script, ASCII text executable",
+      "programming_language": "Bash",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 766,
+      "date": "2018-02-21",
+      "sha1": "d2f340a01dd48b589a70f627cf7058c585a315e4",
+      "md5": "c06795ed54b2a35ebeeb543cd3a73e56",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 94.21,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 1,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "isc_13.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 114,
+            "matched_length": 114,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "ISC License\n\n[Copyright] ([c]) [2012]-[2016] [Dave] [Collins] <[dave]@[davec].[name]>\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2016 Dave Collins <dave@davec.name>",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 7119,
+      "date": "2018-02-21",
+      "sha1": "473938d3aec51572fe3a6df9b26e3187f1d945d8",
+      "md5": "cd24249ebeb651612c298e6ceb6e1591",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 11.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "isc_22.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "ISC License"
+        },
+        {
+          "key": "isc",
+          "score": 24.17,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 11,
+          "end_line": 11,
+          "matched_rule": {
+            "identifier": "isc_23.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 29
+          },
+          "matched_text": "licensed under the [liberal] ISC license"
+        },
+        {
+          "key": "isc",
+          "score": 11.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 201,
+          "end_line": 201,
+          "matched_rule": {
+            "identifier": "isc_22.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          },
+          "matched_text": "ISC License"
+        }
+      ],
+      "license_expressions": [
+        "isc",
+        "isc",
+        "isc"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/test_coverage.txt",
+      "type": "file",
+      "name": "test_coverage.txt",
+      "base_name": "test_coverage",
+      "extension": ".txt",
+      "size": 4414,
+      "date": "2018-02-21",
+      "sha1": "cd63fff6c98176393b603ce25fda0787004dc6be",
+      "md5": "6c88a41f618472d584373775c66220e5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew",
+      "type": "directory",
+      "name": "spew",
+      "base_name": "spew",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "files_count": 18,
+      "dirs_count": 1,
+      "size_count": 197931,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/bypass.go",
+      "type": "file",
+      "name": "bypass.go",
+      "base_name": "bypass",
+      "extension": ".go",
+      "size": 4715,
+      "date": "2018-02-21",
+      "sha1": "0777893f8371ed9a6359e0cc9f6874f58024764a",
+      "md5": "ee0e9590be8f80f8b8ecf448e60884be",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2015-2016 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/bypasssafe.go",
+      "type": "file",
+      "name": "bypasssafe.go",
+      "base_name": "bypasssafe",
+      "extension": ".go",
+      "size": 1741,
+      "date": "2018-02-21",
+      "sha1": "45d7a6f12546f60fbd919cc367796412c18dc8f9",
+      "md5": "9eaacf451fb0f393a355bb532e4a62aa",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2015-2016 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/common.go",
+      "type": "file",
+      "name": "common.go",
+      "base_name": "common",
+      "extension": ".go",
+      "size": 10364,
+      "date": "2018-02-21",
+      "sha1": "242cf7f3fa56b9cea65bef91eb74fcd2545c8e05",
+      "md5": "e09cee4814f5423be42b6c6d1bf21306",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/common_test.go",
+      "type": "file",
+      "name": "common_test.go",
+      "base_name": "common_test",
+      "extension": ".go",
+      "size": 7930,
+      "date": "2018-02-21",
+      "sha1": "9355dfd11ec3fb4a88f09c960d5acae1f29ed15f",
+      "md5": "31dd2f084ed59f00c2d45292a6027a80",
+      "mime_type": "text/x-pascal",
+      "file_type": "Pascal source, ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/config.go",
+      "type": "file",
+      "name": "config.go",
+      "base_name": "config",
+      "extension": ".go",
+      "size": 12842,
+      "date": "2018-02-21",
+      "sha1": "3a9695196e0c1238644d7c11ee4cb344d083f7c2",
+      "md5": "f5f15a2a0d3ed3ba2a09f5d17a98c708",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/doc.go",
+      "type": "file",
+      "name": "doc.go",
+      "base_name": "doc",
+      "extension": ".go",
+      "size": 8527,
+      "date": "2018-02-21",
+      "sha1": "20bae7768ac7b526ec28505d878385c26b97f670",
+      "md5": "f87212c29173e0518e0e1661510ad432",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/dump.go",
+      "type": "file",
+      "name": "dump.go",
+      "base_name": "dump",
+      "extension": ".go",
+      "size": 13794,
+      "date": "2018-02-21",
+      "sha1": "661379759467e1e8c82ab76cb10476b6d203bd77",
+      "md5": "5babb9a0dfe3b481e06e002af71f757f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/dump_test.go",
+      "type": "file",
+      "name": "dump_test.go",
+      "base_name": "dump_test",
+      "extension": ".go",
+      "size": 33781,
+      "date": "2018-02-21",
+      "sha1": "41ab72231f3f4bb34d99e08f4e16af77554bb918",
+      "md5": "ed4481a7eec638fcd65db33fe39cbedf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/dumpcgo_test.go",
+      "type": "file",
+      "name": "dumpcgo_test.go",
+      "base_name": "dumpcgo_test",
+      "extension": ".go",
+      "size": 3992,
+      "date": "2018-02-21",
+      "sha1": "713280947385973dd9e629b608f300675fc4a0b6",
+      "md5": "574de40a080d4c18fa578203ce9ef5ef",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/dumpnocgo_test.go",
+      "type": "file",
+      "name": "dumpnocgo_test.go",
+      "base_name": "dumpnocgo_test",
+      "extension": ".go",
+      "size": 1219,
+      "date": "2018-02-21",
+      "sha1": "5226d3c97babbdd7965b35acd29d2e394c64c440",
+      "md5": "dc6783dcac64796b9a0c5d2fff6ae807",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/example_test.go",
+      "type": "file",
+      "name": "example_test.go",
+      "base_name": "example_test",
+      "extension": ".go",
+      "size": 5580,
+      "date": "2018-02-21",
+      "sha1": "b7f39fe19a0931848c4c8dbbdde80f9eea33c2df",
+      "md5": "4a8319690e21114fdddcd1a73e3dfb4a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/format.go",
+      "type": "file",
+      "name": "format.go",
+      "base_name": "format",
+      "extension": ".go",
+      "size": 11314,
+      "date": "2018-02-21",
+      "sha1": "0dd952c427f765242a18038a4f9ee4acabd283cb",
+      "md5": "00605b6d46503e7f18e669cbc14bed07",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/format_test.go",
+      "type": "file",
+      "name": "format_test.go",
+      "base_name": "format_test",
+      "extension": ".go",
+      "size": 57466,
+      "date": "2018-02-21",
+      "sha1": "239a059d5d908b38c3135665f7aeebe6a77fa8a8",
+      "md5": "81ea1b04fcfc838ce827ad890e0e15a5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/internal_test.go",
+      "type": "file",
+      "name": "internal_test.go",
+      "base_name": "internal_test",
+      "extension": ".go",
+      "size": 2546,
+      "date": "2018-02-21",
+      "sha1": "50376c584926f24f5827b477454367c86eb8b8df",
+      "md5": "61839aa52b7fcf8805001d3f48f1f2e7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/internalunsafe_test.go",
+      "type": "file",
+      "name": "internalunsafe_test.go",
+      "base_name": "internalunsafe_test",
+      "extension": ".go",
+      "size": 3226,
+      "date": "2018-02-21",
+      "sha1": "87611c878023a4684d8e8eaea35df40242dedbc1",
+      "md5": "4a28c3fcb4d3ae23efc3ea7aaca55018",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/spew.go",
+      "type": "file",
+      "name": "spew.go",
+      "base_name": "spew",
+      "extension": ".go",
+      "size": 5969,
+      "date": "2018-02-21",
+      "sha1": "c35553c6065c1544055b86098777138df8fd6ce0",
+      "md5": "693a4dcf1126587e519763b10b5afd24",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/spew_test.go",
+      "type": "file",
+      "name": "spew_test.go",
+      "base_name": "spew_test",
+      "extension": ".go",
+      "size": 9641,
+      "date": "2018-02-21",
+      "sha1": "27d8fce726560587509e35a08fea0aea280d6613",
+      "md5": "21e5fad2135181364dce631869e4f17f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n * purpose with or without fee is hereby granted, provided that the above\n * copyright notice and this permission notice appear in all copies.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2016 Dave Collins <dave@davec.name>",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/testdata",
+      "type": "directory",
+      "name": "testdata",
+      "base_name": "testdata",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 3284,
+      "scan_errors": []
+    },
+    {
+      "path": "go-spew-1.1.1.tar.gz-extract/go-spew-1.1.1/spew/testdata/dumpcgo.go",
+      "type": "file",
+      "name": "dumpcgo.go",
+      "base_name": "dumpcgo",
+      "extension": ".go",
+      "size": 3284,
+      "date": "2018-02-21",
+      "sha1": "643d96e6e77756375d840e579ce5ef9929e71418",
+      "md5": "ee5afa569bb34cbeab143bb17a684776",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "Go",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "isc",
+          "score": 100.0,
+          "name": "ISC License",
+          "short_name": "ISC License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "ISC - Internet Systems Consortium",
+          "homepage_url": "https://www.isc.org/software/license",
+          "text_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_with_legal_disclaimer_2",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:isc",
+          "spdx_license_key": "ISC",
+          "spdx_url": "https://spdx.org/licenses/ISC",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "isc_14.RULE",
+            "license_expression": "isc",
+            "licenses": [
+              "isc"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 111,
+            "matched_length": 111,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\n// purpose with or without fee is hereby granted, provided that the above\n// copyright notice and this permission notice appear in all copies.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE"
+        }
+      ],
+      "license_expressions": [
+        "isc"
+      ],
+      "holders": [
+        {
+          "value": "Dave Collins",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013 Dave Collins <dave@davec.name>",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
