@@ -233,8 +233,8 @@ License Texts
 -------------
 
 This scoring element is awarded if there is copy of the full license text
-available in the project for every referenced license found in the core facet.
-This is a binary score element.
+available in one of the key files for every referenced license found in the
+core facet. This is a binary score element.
 
 
 ClearlyLicensed Scoring Formula
