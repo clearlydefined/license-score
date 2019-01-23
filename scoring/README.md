@@ -5,7 +5,7 @@ download them, extract them, then scan them with scancode using specific options
 
 The `license_score` data from the scan results will then be added to the correct row in 
 the output csv file: `clearlylicensed-out.csv`. 
-These values are hardcoded for now. 
+These file names are hardcoded for now.
 
 The scans are kept in the `scans` dir and the downloaded packages are in `packages`.
 

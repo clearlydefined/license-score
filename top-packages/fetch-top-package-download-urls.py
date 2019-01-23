@@ -57,7 +57,7 @@ def process_maven():
             continue
 
         download_url = maven_source_url(group_id_url, artifact_id, latest_version)
-        qualifier = 'classifer=source'
+        qualifier = 'classifier=sources'
 
         yield OrderedDict([
             ('download_url', download_url),
