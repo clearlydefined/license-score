@@ -8,7 +8,7 @@ from collections import OrderedDict
 import csv
 import json
 import os
-from subprocess import check_call, call
+from subprocess import call
 import sys
 import traceback
 
@@ -87,6 +87,10 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
                     results.append(package)
                     continue
 
+        if not os.path.exists(downloaded_archive_loc):
+            # things did not download alright
+            continue
+
         if do_extract:
             extract(downloaded_archive_loc)
 
@@ -109,13 +113,20 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
 
         json_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.json')
         csv_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.csv')
+        if not os.path.exists(json_scan_loc):
+            try:
+                scan(target_extracted_archive_loc, json_scan_loc, csv_scan_loc)
+            except KeyboardInterrupt:
+                break
+            except Exception:
+                pass
 
-        scan(target_extracted_archive_loc, json_scan_loc, csv_scan_loc)
+        scan_result={}
+        if os.path.exists(json_scan_loc):
+            with open(json_scan_loc, 'rb') as scanned:
+                scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
 
-        with open(json_scan_loc, 'rb') as scanned:
-            scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
-
-        license_score = scan_result.get('license_clarity_score')
+        license_score = scan_result.get('license_clarity_score', {})
         package.update(license_score)
 
         package['scan_results_file'] = json_scan_loc
@@ -187,7 +198,7 @@ def scan(extracted_archive_loc, json_scan_loc, csv_scan_loc):
         '--license-clarity-score',
         '--summary',
         '--summary-key-files',
-         '-n', '3',
+         '-n', '2',
         '--json-pp', json_scan_loc,
         '--csv', csv_scan_loc,
          extracted_archive_loc
