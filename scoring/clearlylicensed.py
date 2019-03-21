@@ -38,7 +38,10 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
         output_csv='5000-packages-license-score-results-out.csv',
         base_dir=current_dir,
         do_fetch=True,
-        do_extract=True):
+        do_extract=True,
+        do_scan=True,
+        do_rescore=True,
+        types=()):
     """
     Read the package data in the CSV at `input_csv` and write a CSV at
     `output_csv`. The `input_csv` must contain these columns: download_url and
@@ -58,8 +61,10 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
     results = []
 
     for i, package in enumerate(get_packages_data(csv_loc=input_csv)):
-        download_url = package.get('download_url')
         pkg_type = package.get('type')
+        if types and pkg_type not in types:
+            continue
+        download_url = package.get('download_url')
         pkg_name = package.get('name')
         print('===========================================================')
         print(i, 'Processing: ', download_url)
@@ -113,7 +118,16 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
 
         json_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.json')
         csv_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.csv')
-        if not os.path.exists(json_scan_loc):
+
+        if do_rescore and os.path.exists(json_scan_loc) and not do_scan:
+            try:
+                recompute_score(json_scan_loc, csv_scan_loc)
+            except KeyboardInterrupt:
+                break
+            except Exception:
+                pass
+
+        if do_scan and not os.path.exists(json_scan_loc):
             try:
                 scan(target_extracted_archive_loc, json_scan_loc, csv_scan_loc)
             except KeyboardInterrupt:
@@ -121,7 +135,7 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
             except Exception:
                 pass
 
-        scan_result={}
+        scan_result = {}
         if os.path.exists(json_scan_loc):
             with open(json_scan_loc, 'rb') as scanned:
                 scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
@@ -187,25 +201,44 @@ def extract_shallow(archive_loc):
 def scan(extracted_archive_loc, json_scan_loc, csv_scan_loc):
     call(' '.join([
         'scancode',
+        '--package',
         '--copyright',
         '--license',
         '--license-text',
         '--license-diag',
         '--info',
-        '--classify',
-        '--timeout', '10',
-        '--max-in-memory', '0',
-        '--license-clarity-score',
-        '--summary',
-        '--summary-key-files',
-         '-n', '2',
+         '-n', '3',
         '--json-pp', json_scan_loc,
         '--csv', csv_scan_loc,
+
+        '--timeout', '10',
+        '--max-in-memory', '0',
+
+        '--classify',
+        '--license-clarity-score',
+
          extracted_archive_loc
          ]),
         shell=True
     )
 
+
+def recompute_score(json_scan_loc, csv_scan_loc):
+    call(' '.join([
+        'scancode',
+        '--from-json',
+        json_scan_loc,
+
+        '--json-pp', json_scan_loc,
+        '--csv', csv_scan_loc,
+
+        '--classify',
+        '--license-clarity-score',
+
+        '--max-in-memory', '0',
+        ]),
+        shell=True
+    )
 
 def get_packages_data(csv_loc='clearlylicensed.csv'):
     """
@@ -244,4 +277,16 @@ if __name__ == '__main__':
     base_dir = os.environ.get('CLEARDATA', current_dir)
 
     compute_license_score(
-        do_fetch=do_fetch, do_extract=do_extract, base_dir=base_dir)
+        base_dir=base_dir,
+        do_fetch=do_fetch,
+        do_extract=do_extract,
+        do_scan=True,
+        do_rescore=False,
+        types=set([
+            'gem',
+#             'nuget',
+#             'npm',
+             'maven',
+#             'pypi',
+        ]),
+    )
