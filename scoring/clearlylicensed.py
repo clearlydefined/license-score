@@ -284,9 +284,9 @@ if __name__ == '__main__':
         do_rescore=False,
         types=set([
             'gem',
-#             'nuget',
-#             'npm',
-             'maven',
-#             'pypi',
+            'maven',
+            'nuget',
+            'npm',
+            'pypi',
         ]),
     )
