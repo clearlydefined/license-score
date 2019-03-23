@@ -143,7 +143,6 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
         license_score = scan_result.get('license_clarity_score', {})
         package.update(license_score)
 
-        package['scan_results_file'] = json_scan_loc
         results.append(package)
 
     headers = results[0].keys()
