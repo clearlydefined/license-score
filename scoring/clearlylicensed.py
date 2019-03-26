@@ -151,7 +151,6 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
             package.update(license_score)
 
         results.append(package)
-        break
 
     headers = results[0].keys()
     with open(output_csv, 'wb') as outfile:
