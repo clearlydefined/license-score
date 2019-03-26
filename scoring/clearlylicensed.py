@@ -141,9 +141,17 @@ def compute_license_score(input_csv='5000-packages-license-score-data.csv',
                 scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
 
         license_score = scan_result.get('license_clarity_score', {})
-        package.update(license_score)
+        if license_score:
+            renamed = 'score', 'declared', 'discovered', 'consistency', 'spdx', 'full_text'
+            kvs = zip(renamed, license_score.values())
+            license_score = OrderedDict(kvs)
+            license_score['score_bracket'] = int(round(int(license_score['score']) / 10, 1)) * 10
+            license_score['discovered_bracket'] = int(round(float(license_score['discovered']) * 10, 1)) * 10
+
+            package.update(license_score)
 
         results.append(package)
+        break
 
     headers = results[0].keys()
     with open(output_csv, 'wb') as outfile:
@@ -279,8 +287,8 @@ if __name__ == '__main__':
         base_dir=base_dir,
         do_fetch=do_fetch,
         do_extract=do_extract,
-        do_scan=True,
-        do_rescore=False,
+        do_scan=False,
+        do_rescore=True,
         types=set([
             'gem',
             'maven',
