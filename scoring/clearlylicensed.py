@@ -12,7 +12,6 @@ import csv
 import json
 import os
 from subprocess import call
-import sys
 import traceback
 from collections import Counter
 
@@ -21,7 +20,7 @@ try:
 except ImportError:
     from urlparse import urlparse
 
-import attr
+import attr  # NOQA
 import requests
 
 
@@ -106,7 +105,7 @@ def compute_license_score(
         target_extracted_archive_loc = os.path.join(extracts_dir, pkg_type, archive_extract_dir)
 
         if do_fetch:
-            fetch_file = fetch
+            fetch_file = do_fetch
             # filename MUST be present in CSV, otherwise the packages are fetched
             if archive_filename:
                 if not os.path.exists(downloaded_archive_loc):
@@ -257,7 +256,7 @@ def compute_median(datapoints):
         di = getattr(median, 'total')
         di.append(datapoint.score)
 
-    import statistics
+    import statistics  # NOQA
     for a in Aggregate.ptypes:
         dl = getattr(median, a)
         med = dl and statistics.median(dl) or 0
@@ -269,28 +268,27 @@ def compute_median(datapoints):
 def compute_aggregates(results):
     """
     Return a mapping of aggregates as {name: data} where the data for an
-    aggregate is a table which is a list of Aggregate objects.
+    aggregate is a list of Aggregate objects.
     {'Table 1. Totals by type':
         [
             Aggregate(label='score',gem=12, maven=23,...),
             Aggregate(label='discovered',gem=12, maven=23,...),
             Aggregate(label='score',gem=12, maven=23,...),
         ],
-     'Table 2. XXXX  ptype':
-        {
+     'Table 2. Lorem ipsum...':
         ...
-        }
     }
     """
     datapoints = []
     for package in results:
-        datapoint = Datapoint(**{k:v for k, v in package.items() if k in dp_fields})
+        datapoint = Datapoint(**{k: v for k, v in package.items() if k in dp_fields})
         datapoints.append(datapoint)
 
     aggregate_tables = OrderedDict()
 
     ############################################################################
-    aggregate_name = 'Table.1 Tallies for each scoring element by package type (averages for score and discovered)'
+    aggregate_name = 'Table.1 Tallies for the score and each scoring element by package type'
+    ############################################################################
     tallies = OrderedDict()
     package_counts = Counter()
     def update_count(_label, _tallies, _datapoint):
@@ -320,21 +318,22 @@ def compute_aggregates(results):
         tally.compute_total()
         if tally.label == 'score':
             # compute a ratio between 0 and 100
-            for type in Aggregate.ptypes:
-                value = getattr(tally, type)
-                setattr(tally, type, round(value / package_counts[type], 1))
+            for a in Aggregate.ptypes:
+                value = getattr(tally, a)
+                setattr(tally, a, round(value / package_counts[a], 1))
             tally.label = 'score average'
 
         if tally.label == 'discovered':
             # compute a ratio between 0 and 100
-            for type in Aggregate.ptypes:
-                value = getattr(tally, type)
-                setattr(tally, type, round((value / package_counts[type]) * 100, 1))
+            for a in Aggregate.ptypes:
+                value = getattr(tally, a)
+                setattr(tally, a, round((value / package_counts[a]) * 100, 1))
             tally.label = 'discovered average'
 
 
     ############################################################################
     aggregate_name = 'Table 2. Scoring elements percentage by package type'
+    ############################################################################
     percentages = OrderedDict()
     for datapoint in datapoints:
         for label in ('score', 'declared', 'discovered', 'consistency', 'spdx', 'full_text',):
@@ -347,28 +346,29 @@ def compute_aggregates(results):
         percent.compute_total()
         if percent.label not in ('score', 'discovered',):
             # compute a ratio between 0 and 100
-            for type in Aggregate.ptypes:
-                value = getattr(percent, type)
-                setattr(percent, type, round((value / package_counts[type]) * 100, 1))
+            for a in Aggregate.ptypes:
+                value = getattr(percent, a)
+                setattr(percent, a, round((value / package_counts[a]) * 100, 1))
             percent.label = 'percentage with {}'.format(percent.label)
 
         if percent.label == 'score':
             # compute a ratio between 0 and 100
-            for type in Aggregate.ptypes:
-                value = getattr(percent, type)
-                setattr(percent, type, round(value / package_counts[type], 1))
+            for a in Aggregate.ptypes:
+                value = getattr(percent, a)
+                setattr(percent, a, round(value / package_counts[a], 1))
             percent.label = 'score average'
 
         if percent.label == 'discovered':
             # compute a ratio between 0 and 100
-            for type in Aggregate.ptypes:
-                value = getattr(percent, type)
-                setattr(percent, type, round((value / package_counts[type]) * 100, 1))
+            for a in Aggregate.ptypes:
+                value = getattr(percent, a)
+                setattr(percent, a, round((value / package_counts[a]) * 100, 1))
             percent.label = 'discovered average'
 
 
     ############################################################################
     aggregate_name = 'Table 3. Number of packages by license score brackets and by type'
+    ############################################################################
     brackets = OrderedDict([
         (bk, Aggregate(label=blabel)) for bk, blabel in brackets_labels.items()
     ])
@@ -391,6 +391,7 @@ def compute_aggregates(results):
 
     ############################################################################
     aggregate_name = 'Table 4. Number of packages by percentage of discovered license brackets and by type'
+    ############################################################################
     brackets = OrderedDict([
         (bk, Aggregate(label=blabel)) for bk, blabel in brackets_labels.items()
     ])
@@ -408,7 +409,7 @@ def compute_aggregates(results):
 
     ############################################################################
     # aggregate_name= 'Table 4. Number of packages by type above a license score threshold'
-
+    ############################################################################
 
     return aggregate_tables
 
