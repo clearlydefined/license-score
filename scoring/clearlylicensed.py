@@ -238,6 +238,21 @@ class Aggregate(object):
     def compute_total(self):
         self.total = (self.gem + self.maven + self.nuget + self.npm + self.pypi)
 
+    @classmethod
+    def sum(cls, label, aggregates):
+        """
+        Return a new aggregate summing a list of aggregates.
+        """
+        agg = Aggregate(label)
+        for a in aggregates:
+            agg.gem += a.gem
+            agg.maven += a.maven
+            agg.npm += a.npm
+            agg.nuget += a.nuget
+            agg.pypi += a.pypi
+            agg.total += a.total
+        return agg
+
 
 def compute_median(datapoints):
     """
@@ -390,7 +405,16 @@ def compute_aggregates(results):
 
 
     ############################################################################
-    aggregate_name = 'Table 4. Number of packages by percentage of discovered license brackets and by type'
+    aggregate_name = 'Table 4. Number of packages over a score by type'
+    ############################################################################
+    brackets_thresholds = []
+    for bk in (40, 50, 60, 70, 80):
+        aggs = [_agg for _bk, _agg in brackets.items() if _bk >= bk]
+        brackets_thresholds.append(Aggregate.sum('over {}'.format(bk), aggs))
+    aggregate_tables[aggregate_name] = brackets_thresholds
+
+    ############################################################################
+    aggregate_name = 'Table 5. Number of packages by percentage of discovered license brackets and by type'
     ############################################################################
     brackets = OrderedDict([
         (bk, Aggregate(label=blabel)) for bk, blabel in brackets_labels.items()
@@ -527,6 +551,7 @@ def create_dir(name, base_dir=current_dir):
 
 if __name__ == '__main__':
 
+    # set to True to execute/re-execute this step
     do_fetch = False
     do_extract = False
     do_scan = False
