@@ -1,43 +1,52 @@
-Table.1 Tallies for each scoring element by package type (averages for score and discovered)
+Table.1 Tallies for the score and each scoring element by package type
 label,gem,maven,npm,nuget,pypi,total
-score median,30.0,15,30.0,30.0,35.0,30
-score average,34.3,15.0,37.4,19.3,41.2,29.6
+score median,45.0,27,45.0,45.0,46.0,45
+score average,47.0,27.9,51.1,33.6,52.6,42.6
 declared,987,100,968,634,991,3680
 discovered average,3.3,44.2,8.7,1.1,16.7,14.4
 consistency,94,25,140,4,273,536
-spdx,0,13,10,0,0,23
+spdx,848,809,902,950,761,4270
 full_text,163,23,195,1,231,613
 package_counts,998,925,970,1000,1000,4893
 
 
 Table 2. Scoring elements percentage by package type
 label,gem,maven,npm,nuget,pypi,total
-score average,34.3,15.0,37.4,19.3,41.2,29.6
+score average,47.0,27.9,51.1,33.6,52.6,42.6
 percentage with declared,98.9,10.8,99.8,63.4,99.1,75.2
 discovered average,3.3,44.2,8.7,1.1,16.7,14.4
 percentage with consistency,9.4,2.7,14.4,0.4,27.3,11.0
-percentage with spdx,0.0,1.4,1.0,0.0,0.0,0.5
+percentage with spdx,85.0,87.5,93.0,95.0,76.1,87.3
 percentage with full_text,16.3,2.5,20.1,0.1,23.1,12.5
 
 
 Table 3. Number of packages by license score brackets and by type
 label,gem,maven,npm,nuget,pypi,total
-0,7,317,2,352,9,687
-1 to 9,4,71,0,11,0,86
-10 to 19,0,162,0,3,0,165
-20 to 29,0,263,0,0,0,263
-30 to 39,811,46,736,627,531,2751
-40 to 49,68,19,65,6,180,338
-50 to 59,16,25,21,1,95,158
-60 to 69,84,19,94,0,162,359
-70 to 79,7,2,26,0,22,57
-80 to 89,1,1,18,0,1,21
-90 to 99,0,0,0,0,0,0
-100,0,0,8,0,0,8
+0,1,37,0,7,2,47
+1 to 9,0,8,0,2,0,10
+10 to 19,10,321,2,347,7,687
+20 to 29,0,120,0,10,0,130
+30 to 39,123,350,41,41,189,744
+40 to 49,702,25,709,582,349,2367
+50 to 59,11,10,15,6,62,104
+60 to 69,54,28,51,5,182,320
+70 to 79,77,10,86,0,171,344
+80 to 89,17,14,34,0,28,93
+90 to 99,3,2,15,0,10,30
+100,0,0,17,0,0,17
 package_counts,998,925,970,1000,1000,4893
 
 
-Table 4. Number of packages by percentage of discovered license brackets and by type
+Table 4. Number of packages over a score by type
+label,gem,maven,npm,nuget,pypi,total
+over 40,864,89,927,593,802,3275
+over 50,162,64,218,11,453,908
+over 60,151,54,203,5,391,804
+over 70,97,26,152,0,209,484
+over 80,20,16,66,0,38,140
+
+
+Table 5. Number of packages by percentage of discovered license brackets and by type
 label,gem,maven,npm,nuget,pypi,total
 0,806,336,768,939,466,3315
 1 to 9,109,43,59,20,196,427
