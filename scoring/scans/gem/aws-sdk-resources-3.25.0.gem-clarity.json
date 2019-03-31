@@ -1,0 +1,1740 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T002359.535379",
+      "end_timestamp": "2019-03-31T002402.791585",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 7
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153544.937660",
+      "end_timestamp": "2019-03-31T153545.103639",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 7
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 45,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract",
+      "type": "directory",
+      "name": "aws-sdk-resources-3.25.0.gem-extract",
+      "base_name": "aws-sdk-resources-3.25.0.gem-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "gem",
+          "namespace": null,
+          "name": "aws-sdk-resources",
+          "version": "3.25.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Ruby",
+          "description": "AWS SDK for Ruby\nThe official AWS SDK for Ruby. Provides both resource oriented interfaces and API clients for AWS services.",
+          "release_date": "2018-08-28",
+          "parties": [
+            {
+              "type": null,
+              "role": "author",
+              "name": "Amazon Web Services",
+              "email": null,
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "http://github.com/aws/aws-sdk-ruby",
+          "download_url": "https://rubygems.org/downloads/aws-sdk-resources-3.25.0.gem",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": "https://github.com/aws/aws-sdk-ruby/tree/master/gems/aws-sdk-resources",
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": "apache-2.0",
+          "declared_license": "Apache-2.0",
+          "notice_text": null,
+          "manifest_path": "metadata.gz-extract/metadata.gz-extract",
+          "dependencies": [
+            {
+              "purl": "pkg:gem/aws-sdk-acm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-acmpca",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-apigateway",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-alexaforbusiness",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-appstream",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-appsync",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-applicationautoscaling",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-applicationdiscoveryservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-athena",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-autoscaling",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-autoscalingplans",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-batch",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-budgets",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloud9",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-clouddirectory",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudformation",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudfront",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudhsm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudhsmv2",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudsearch",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudsearchdomain",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudtrail",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudwatch",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudwatchevents",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cloudwatchlogs",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-codebuild",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-codecommit",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-codedeploy",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-codepipeline",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-codestar",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cognitoidentity",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cognitoidentityprovider",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-cognitosync",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-comprehend",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-configservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-connect",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-costexplorer",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-costandusagereportservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-dax",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-dlm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-datapipeline",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-databasemigrationservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-devicefarm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-directconnect",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-directoryservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-dynamodb",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-dynamodbstreams",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-ec2",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-ecr",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-ecs",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-efs",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-eks",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-emr",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elasticache",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elasticbeanstalk",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elasticloadbalancing",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elasticloadbalancingv2",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elastictranscoder",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-elasticsearchservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-fms",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-firehose",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-gamelift",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-glacier",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-glue",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-greengrass",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-guardduty",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-health",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iam",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-importexport",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-inspector",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iot",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iot1clickdevicesservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iot1clickprojects",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iotanalytics",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iotdataplane",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-iotjobsdataplane",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kms",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kinesis",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kinesisanalytics",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kinesisvideo",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kinesisvideoarchivedmedia",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-kinesisvideomedia",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-lambda",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-lambdapreview",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-lex",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-lexmodelbuildingservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-lightsail",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mq",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mturk",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-machinelearning",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-macie",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-marketplacecommerceanalytics",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-marketplaceentitlementservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-marketplacemetering",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mediaconvert",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-medialive",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mediapackage",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mediastore",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mediastoredata",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mediatailor",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-migrationhub",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-mobile",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-neptune",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-opsworks",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-opsworkscm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-organizations",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-pi",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-pinpoint",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-polly",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-pricing",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-rds",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-redshift",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-rekognition",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-resourcegroups",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-resourcegroupstaggingapi",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-route53",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-route53domains",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-s3",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-ses",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-sms",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-sns",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-sqs",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-ssm",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-swf",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-sagemaker",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-sagemakerruntime",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-secretsmanager",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-serverlessapplicationrepository",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-servicecatalog",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-servicediscovery",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-shield",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-signer",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-simpledb",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-snowball",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-states",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-storagegateway",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-support",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-transcribeservice",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-translate",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-waf",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-wafregional",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-workdocs",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-workmail",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-workspaces",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/aws-sdk-xray",
+              "requirement": "~> 1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:gem/aws-sdk-resources@3.25.0",
+          "repository_homepage_url": "https://rubygems.org/gems/aws-sdk-resources/versions/3.25.0",
+          "repository_download_url": "https://rubygems.org/downloads/aws-sdk-resources-3.25.0.gem",
+          "api_data_url": "https://rubygems.org/api/v2/rubygems/aws-sdk-resources/versions/3.25.0.json"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 7,
+      "dirs_count": 5,
+      "size_count": 71690,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/checksums.yaml.gz",
+      "type": "file",
+      "name": "checksums.yaml.gz",
+      "base_name": "checksums.yaml",
+      "extension": ".gz",
+      "size": 269,
+      "date": "2018-08-28",
+      "sha1": "06a14649071ce266ba34dda2f9b6eed29f85391b",
+      "md5": "be96d64d97a063b134fb17c0de6e7958",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Tue Aug 28 19:53:00 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz",
+      "type": "file",
+      "name": "data.tar.gz",
+      "base_name": "data",
+      "extension": ".tar.gz",
+      "size": 3435,
+      "date": "2018-08-28",
+      "sha1": "633ced75d81763c6bc75c10312113fbeb9aa2cd7",
+      "md5": "c207fa791e8121d029bbbfb988e2a8d6",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Tue Aug 28 19:53:00 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/metadata.gz",
+      "type": "file",
+      "name": "metadata.gz",
+      "base_name": "metadata",
+      "extension": ".gz",
+      "size": 1822,
+      "date": "2018-08-28",
+      "sha1": "9f6dd0fce12ad78a40c13c9d45583ba1dbdceffd",
+      "md5": "ca6e270a36f9a0a6b05c445d35fb84d8",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Tue Aug 28 19:53:00 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/checksums.yaml.gz-extract",
+      "type": "directory",
+      "name": "checksums.yaml.gz-extract",
+      "base_name": "checksums.yaml.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 418,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/checksums.yaml.gz-extract/checksums.yaml.gz-extract",
+      "type": "file",
+      "name": "checksums.yaml.gz-extract",
+      "base_name": "checksums.yaml",
+      "extension": ".gz-extract",
+      "size": 418,
+      "date": "2019-01-21",
+      "sha1": "eed6f3bf12b8bc697a5972f6e1323ffa29aec05e",
+      "md5": "bcb82453066f9f7ab5fcc3fd588a491c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz-extract",
+      "type": "directory",
+      "name": "data.tar.gz-extract",
+      "base_name": "data.tar.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 11323,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz-extract/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 4463,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz-extract/bin/aws-v3.rb",
+      "type": "file",
+      "name": "aws-v3.rb",
+      "base_name": "aws-v3",
+      "extension": ".rb",
+      "size": 4463,
+      "date": "2018-08-28",
+      "sha1": "22c3c7a2b4ee998122a652ebf63ad219cfc5f88a",
+      "md5": "4136ae7710acdb34fba571334ff1af9d",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz-extract/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 6860,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/data.tar.gz-extract/lib/aws-sdk-resources.rb",
+      "type": "file",
+      "name": "aws-sdk-resources.rb",
+      "base_name": "aws-sdk-resources",
+      "extension": ".rb",
+      "size": 6860,
+      "date": "2018-08-28",
+      "sha1": "eef73001edfe2d2ced8f514f770edf25976f726c",
+      "md5": "87cab9fcca0fcea858d9087afa8c3943",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/metadata.gz-extract",
+      "type": "directory",
+      "name": "metadata.gz-extract",
+      "base_name": "metadata.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 54423,
+      "scan_errors": []
+    },
+    {
+      "path": "aws-sdk-resources-3.25.0.gem-extract/metadata.gz-extract/metadata.gz-extract",
+      "type": "file",
+      "name": "metadata.gz-extract",
+      "base_name": "metadata",
+      "extension": ".gz-extract",
+      "size": 54423,
+      "date": "2019-01-21",
+      "sha1": "487b07fd779a6304b31bfe258b665ec16c55eac9",
+      "md5": "3aac522cedb17ddd89c570fba8c62f88",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 50.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 2056,
+          "end_line": 2056,
+          "matched_rule": {
+            "identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 50.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

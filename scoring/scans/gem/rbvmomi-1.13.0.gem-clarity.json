@@ -1,0 +1,6322 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T001756.795509",
+      "end_timestamp": "2019-03-31T001835.377667",
+      "message": null,
+      "errors": [
+        "Path: rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/vmodl.db"
+      ],
+      "extra_data": {
+        "files_count": 76
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153538.346125",
+      "end_timestamp": "2019-03-31T153538.945876",
+      "message": null,
+      "errors": [
+        "Path: rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/vmodl.db"
+      ],
+      "extra_data": {
+        "files_count": 76
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 96,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.86,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.86,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "rbvmomi-1.13.0.gem-extract",
+      "type": "directory",
+      "name": "rbvmomi-1.13.0.gem-extract",
+      "base_name": "rbvmomi-1.13.0.gem-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "gem",
+          "namespace": null,
+          "name": "rbvmomi",
+          "version": "1.13.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Ruby",
+          "description": "Ruby interface to the VMware vSphere API",
+          "release_date": "2018-06-20",
+          "parties": [
+            {
+              "type": null,
+              "role": "author",
+              "name": "Rich Lane",
+              "email": null,
+              "url": null
+            },
+            {
+              "type": null,
+              "role": "author",
+              "name": "Christian Dickmann",
+              "email": null,
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "https://github.com/vmware/rbvmomi",
+          "download_url": "https://rubygems.org/downloads/rbvmomi-1.13.0.gem",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "metadata.gz-extract/metadata.gz-extract",
+          "dependencies": [
+            {
+              "purl": "pkg:gem/builder",
+              "requirement": "~> 3.0",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/json",
+              "requirement": ">= 1.8",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/nokogiri",
+              "requirement": "~> 1.5",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/trollop",
+              "requirement": "~> 2.1",
+              "scope": "runtime",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/rake",
+              "requirement": "~> 10.5",
+              "scope": "development",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/simplecov",
+              "requirement": "~> 0.12.0",
+              "scope": "development",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/yard",
+              "requirement": "~> 0.9.5",
+              "scope": "development",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:gem/test-unit",
+              "requirement": ">= 2.5",
+              "scope": "development",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:gem/rbvmomi@1.13.0",
+          "repository_homepage_url": "https://rubygems.org/gems/rbvmomi/versions/1.13.0",
+          "repository_download_url": "https://rubygems.org/downloads/rbvmomi-1.13.0.gem",
+          "api_data_url": "https://rubygems.org/api/v2/rubygems/rbvmomi/versions/1.13.0.json"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 76,
+      "dirs_count": 11,
+      "size_count": 2179461,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/checksums.yaml.gz",
+      "type": "file",
+      "name": "checksums.yaml.gz",
+      "base_name": "checksums.yaml",
+      "extension": ".gz",
+      "size": 295,
+      "date": "2018-06-20",
+      "sha1": "98efb4600251116fc5b65a9cb17eedf6863dd11d",
+      "md5": "c8bef0fc1c13d95d9a87507698b2706f",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Wed Jun 20 14:42:03 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz",
+      "type": "file",
+      "name": "data.tar.gz",
+      "base_name": "data",
+      "extension": ".tar.gz",
+      "size": 221184,
+      "date": "2018-06-20",
+      "sha1": "85b6800f1a073901f64394c374ec2c41dbaf7851",
+      "md5": "5b76af542c16bf6195fc6b15965dc30a",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Wed Jun 20 14:42:03 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/metadata.gz",
+      "type": "file",
+      "name": "metadata.gz",
+      "base_name": "metadata",
+      "extension": ".gz",
+      "size": 1287,
+      "date": "2018-06-20",
+      "sha1": "4c88649ab39bf55f9b1f1c2e875a56c1b3930e1c",
+      "md5": "80086ed65b12acbc23990f007dae888e",
+      "mime_type": "application/x-gzip",
+      "file_type": "gzip compressed data, last modified: Wed Jun 20 14:42:03 2018, max compression, from Unix",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": true,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/checksums.yaml.gz-extract",
+      "type": "directory",
+      "name": "checksums.yaml.gz-extract",
+      "base_name": "checksums.yaml.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 468,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/checksums.yaml.gz-extract/checksums.yaml.gz-extract",
+      "type": "file",
+      "name": "checksums.yaml.gz-extract",
+      "base_name": "checksums.yaml",
+      "extension": ".gz-extract",
+      "size": 468,
+      "date": "2019-01-21",
+      "sha1": "98c7c5ce14d6418ce65e020949958bd00fffbfd8",
+      "md5": "aed297757863507aa87222ab7561845f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract",
+      "type": "directory",
+      "name": "data.tar.gz-extract",
+      "base_name": "data.tar.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 71,
+      "dirs_count": 8,
+      "size_count": 1950438,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/.travis.yml",
+      "type": "file",
+      "name": ".travis.yml",
+      "base_name": ".travis",
+      "extension": ".yml",
+      "size": 145,
+      "date": "2018-06-20",
+      "sha1": "d3e9d9bbeb7c42a77797174e1555a92cad29ebbc",
+      "md5": "3dcc6a45af1a5783e111b0481823f6e9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "ActionScript 3",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/.yardopts",
+      "type": "file",
+      "name": ".yardopts",
+      "base_name": ".yardopts",
+      "extension": "",
+      "size": 151,
+      "date": "2018-06-20",
+      "sha1": "d8b130e4e14cfed753937824ea9f75a16ef98133",
+      "md5": "8a233b674de2ceb32c370f5b9c097466",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/CONTRIBUTORS.md",
+      "type": "file",
+      "name": "CONTRIBUTORS.md",
+      "base_name": "CONTRIBUTORS",
+      "extension": ".md",
+      "size": 1712,
+      "date": "2018-06-20",
+      "sha1": "d5776ab6b7e4f2cc74d97aa0b1380490e0bd3348",
+      "md5": "8c90b0763efa3a53b5fafb0c6b73e69e",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/Gemfile",
+      "type": "file",
+      "name": "Gemfile",
+      "base_name": "Gemfile",
+      "extension": "",
+      "size": 307,
+      "date": "2018-06-20",
+      "sha1": "1d9d42938af55e08c845e4d047b0c1e05787473d",
+      "md5": "d1243e22ad1e78fd0d9420add5824108",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2016-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1083,
+      "date": "2018-06-20",
+      "sha1": "99716c99f36a2d6c93b126d059d4e9e3f49b6ab8",
+      "md5": "8f6730e65e9d6044f0a1ba32c20df2e8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3,
+          "end_line": 19,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/Rakefile",
+      "type": "file",
+      "name": "Rakefile",
+      "base_name": "Rakefile",
+      "extension": "",
+      "size": 326,
+      "date": "2018-06-20",
+      "sha1": "7c634e7ef79fe3c92110f25356ea7ebdf51a2700",
+      "md5": "855465e22d85cc232a153ede85be0d00",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/rbvmomi.gemspec",
+      "type": "file",
+      "name": "rbvmomi.gemspec",
+      "base_name": "rbvmomi",
+      "extension": ".gemspec",
+      "size": 1113,
+      "date": "2018-06-20",
+      "sha1": "9f3086d839062202e96b68a7cdd92555501a6698",
+      "md5": "c89fd9836485aee39c35cbb1a41c87ad",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 16,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2016-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 4664,
+      "date": "2018-06-20",
+      "sha1": "0bacf3e56e1f718193b52a4e7cda235f456cb5e0",
+      "md5": "debe199c1555d7c5d3500c0f2c0de5ed",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/vmodl.db",
+      "type": "file",
+      "name": "vmodl.db",
+      "base_name": "vmodl",
+      "extension": ".db",
+      "size": 1749436,
+      "date": "2018-06-20",
+      "sha1": "851ed0add3174a22dba20c6681ea5c252d6bcd15",
+      "md5": "06bd5afb3e90750777602c0ba55c0ce7",
+      "mime_type": "application/octet-stream",
+      "file_type": "data",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds.",
+        "ERROR: for scanner: copyrights:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel",
+      "type": "directory",
+      "name": "devel",
+      "base_name": "devel",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 0,
+      "size_count": 14030,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/analyze-vim-declarations.rb",
+      "type": "file",
+      "name": "analyze-vim-declarations.rb",
+      "base_name": "analyze-vim-declarations",
+      "extension": ".rb",
+      "size": 6185,
+      "date": "2018-06-20",
+      "sha1": "00df9ba2b8baac6dacfca3d69893bae414328040",
+      "md5": "c54c483f65de7e552e70d961db765046",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/analyze-xml.rb",
+      "type": "file",
+      "name": "analyze-xml.rb",
+      "base_name": "analyze-xml",
+      "extension": ".rb",
+      "size": 1467,
+      "date": "2018-06-20",
+      "sha1": "49ec339ec4ca429be48366a6b296de316d72245f",
+      "md5": "42964757d5b08b253103d639122171ac",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/benchmark.rb",
+      "type": "file",
+      "name": "benchmark.rb",
+      "base_name": "benchmark",
+      "extension": ".rb",
+      "size": 2847,
+      "date": "2018-06-20",
+      "sha1": "ccc2af61812970b52adc2b5f8086abb188d211ff",
+      "md5": "852b0bd7e9161156039ba0f2dcb21cf9",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/collisions.rb",
+      "type": "file",
+      "name": "collisions.rb",
+      "base_name": "collisions",
+      "extension": ".rb",
+      "size": 707,
+      "date": "2018-06-20",
+      "sha1": "0cc73ccc2522ec8ad9a4bba16c35701c0773ed7a",
+      "md5": "fb65ffc6d4d1fa96b31677ecf587e536",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/merge-internal-vmodl.rb",
+      "type": "file",
+      "name": "merge-internal-vmodl.rb",
+      "base_name": "merge-internal-vmodl",
+      "extension": ".rb",
+      "size": 1915,
+      "date": "2018-06-20",
+      "sha1": "a1805e75770435ff228126fa513c31f790996121",
+      "md5": "4b9d6212aa3ca6ea6da5ee7d5a41cc3d",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/devel/merge-manual-vmodl.rb",
+      "type": "file",
+      "name": "merge-manual-vmodl.rb",
+      "base_name": "merge-manual-vmodl",
+      "extension": ".rb",
+      "size": 909,
+      "date": "2018-06-20",
+      "sha1": "58bc00b044eed92e59acad0f617f7f38037907c8",
+      "md5": "e9ca95c0f7ca5d6e38f840c64a31645a",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples",
+      "type": "directory",
+      "name": "examples",
+      "base_name": "examples",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 17,
+      "dirs_count": 0,
+      "size_count": 30189,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/annotate.rb",
+      "type": "file",
+      "name": "annotate.rb",
+      "base_name": "annotate",
+      "extension": ".rb",
+      "size": 1149,
+      "date": "2018-06-20",
+      "sha1": "ef2db88d31fb7d489831cb61291924b810e064ea",
+      "md5": "4d580e52ab431a1c7b6e709dc732f597",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/cached_ovf_deploy.rb",
+      "type": "file",
+      "name": "cached_ovf_deploy.rb",
+      "base_name": "cached_ovf_deploy",
+      "extension": ".rb",
+      "size": 3342,
+      "date": "2018-06-20",
+      "sha1": "4e5dfee5cb76387cf8cb184fd66ca639379303a9",
+      "md5": "577cbe278a5649866bf6468cc67e645a",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/clone_vm.rb",
+      "type": "file",
+      "name": "clone_vm.rb",
+      "base_name": "clone_vm",
+      "extension": ".rb",
+      "size": 2381,
+      "date": "2018-06-20",
+      "sha1": "975f1ea3722a504feeb7ed90e3079cad02be8704",
+      "md5": "dc99351ca56f26570eb6c431aa5a5c5c",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/create_vm-1.9.rb",
+      "type": "file",
+      "name": "create_vm-1.9.rb",
+      "base_name": "create_vm-1.9",
+      "extension": ".rb",
+      "size": 1946,
+      "date": "2018-06-20",
+      "sha1": "ae6033b89cf2a288c66c79a92a4d7450e5fa6ff1",
+      "md5": "b174104f42c4eb14c683a5feac5855dd",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/create_vm.rb",
+      "type": "file",
+      "name": "create_vm.rb",
+      "base_name": "create_vm",
+      "extension": ".rb",
+      "size": 2042,
+      "date": "2018-06-20",
+      "sha1": "b6148fe09dc2334e1991055da0646561bdbebfdb",
+      "md5": "11ed1a065a0c189363ac89a55361e9ac",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/extraConfig.rb",
+      "type": "file",
+      "name": "extraConfig.rb",
+      "base_name": "extraConfig",
+      "extension": ".rb",
+      "size": 1282,
+      "date": "2018-06-20",
+      "sha1": "273507d565c835d1c8d024ae5e4dfaa5a9c5235b",
+      "md5": "6e5c97d3acc8aae6a862693685da8569",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/lease_tool.rb",
+      "type": "file",
+      "name": "lease_tool.rb",
+      "base_name": "lease_tool",
+      "extension": ".rb",
+      "size": 3124,
+      "date": "2018-06-20",
+      "sha1": "7170ce709cc551050e9a8efe73152eb9b3753455",
+      "md5": "f5c18d6b8b93ece816b2b1dad8b8f8d7",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/logbundle.rb",
+      "type": "file",
+      "name": "logbundle.rb",
+      "base_name": "logbundle",
+      "extension": ".rb",
+      "size": 1510,
+      "date": "2018-06-20",
+      "sha1": "839ce95d6457c6865041a11b93262dab59676f5c",
+      "md5": "7bee36fc286efeaf34339a9bfa302c44",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/logtail.rb",
+      "type": "file",
+      "name": "logtail.rb",
+      "base_name": "logtail",
+      "extension": ".rb",
+      "size": 1369,
+      "date": "2018-06-20",
+      "sha1": "80cb04660dc402491874d7956a25ac7c28e24559",
+      "md5": "bbf8dd999b07403559e2e9fb9484a5fc",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/nfs_datastore.rb",
+      "type": "file",
+      "name": "nfs_datastore.rb",
+      "base_name": "nfs_datastore",
+      "extension": ".rb",
+      "size": 2481,
+      "date": "2018-06-20",
+      "sha1": "d42b45a8986d0906afb0a70e259d1faa55c44dd7",
+      "md5": "4e05091222f9da16a0e020744b48066b",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/power.rb",
+      "type": "file",
+      "name": "power.rb",
+      "base_name": "power",
+      "extension": ".rb",
+      "size": 1233,
+      "date": "2018-06-20",
+      "sha1": "18aec79f32f5314460b64fccf3263d3905ee69a3",
+      "md5": "e48e258f9d76fc1011ce610d2cd5d6e0",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/readme-1.rb",
+      "type": "file",
+      "name": "readme-1.rb",
+      "base_name": "readme-1",
+      "extension": ".rb",
+      "size": 757,
+      "date": "2018-06-20",
+      "sha1": "9bb6bb8c8683d0c1a54d9d607e222e15a8022cfd",
+      "md5": "6d37233d91ce3440ce59bf495e521569",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/readme-2.rb",
+      "type": "file",
+      "name": "readme-2.rb",
+      "base_name": "readme-2",
+      "extension": ".rb",
+      "size": 1378,
+      "date": "2018-06-20",
+      "sha1": "5918b59246da3cdd183bd13042ef42107d0cceff",
+      "md5": "cd5688735e9852acb544e48fab3b62c1",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/run.sh",
+      "type": "file",
+      "name": "run.sh",
+      "base_name": "run",
+      "extension": ".sh",
+      "size": 968,
+      "date": "2018-06-20",
+      "sha1": "40164683c2d71edd22464bcf8bbd5022f4d7a1f7",
+      "md5": "da5aac4af98aabd0ce73636162121400",
+      "mime_type": "text/x-shellscript",
+      "file_type": "Bourne-Again shell script, ASCII text executable",
+      "programming_language": "Bash",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/screenshot.rb",
+      "type": "file",
+      "name": "screenshot.rb",
+      "base_name": "screenshot",
+      "extension": ".rb",
+      "size": 1180,
+      "date": "2018-06-20",
+      "sha1": "cc9b5632f126f07ffc3429b9cba8877f51530bb1",
+      "md5": "e9150a760b5d1e41d4003a1523e3d202",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/vdf.rb",
+      "type": "file",
+      "name": "vdf.rb",
+      "base_name": "vdf",
+      "extension": ".rb",
+      "size": 2022,
+      "date": "2018-06-20",
+      "sha1": "ed1802134921c1c0259729d10d16262cd6f7256b",
+      "md5": "fc5356eeb576c9c0f3b9995125074d88",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/examples/vm_drs_behavior.rb",
+      "type": "file",
+      "name": "vm_drs_behavior.rb",
+      "base_name": "vm_drs_behavior",
+      "extension": ".rb",
+      "size": 2025,
+      "date": "2018-06-20",
+      "sha1": "1a194133c424c069e5acb20a4fe66c09f2983510",
+      "md5": "d0b546d4d6b7da6432a50376e1105d0e",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/exe",
+      "type": "directory",
+      "name": "exe",
+      "base_name": "exe",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 3018,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/exe/rbvmomish",
+      "type": "file",
+      "name": "rbvmomish",
+      "base_name": "rbvmomish",
+      "extension": "",
+      "size": 3018,
+      "date": "2018-06-20",
+      "sha1": "bb3cddbea87a15b5d61411d146af0c624d998e91",
+      "md5": "e6f87eb6ecdb5597b38e41d75a93003c",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby script, ASCII text executable",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 38,
+      "dirs_count": 4,
+      "size_count": 144264,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi.rb",
+      "type": "file",
+      "name": "rbvmomi.rb",
+      "base_name": "rbvmomi",
+      "extension": ".rb",
+      "size": 263,
+      "date": "2018-06-20",
+      "sha1": "c4b0a4221a413dcd27bc5ace11560c46d08477e0",
+      "md5": "086d378a1e6cb18d09fc829c05582055",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi",
+      "type": "directory",
+      "name": "rbvmomi",
+      "base_name": "rbvmomi",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 37,
+      "dirs_count": 3,
+      "size_count": 144001,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/basic_types.rb",
+      "type": "file",
+      "name": "basic_types.rb",
+      "base_name": "basic_types",
+      "extension": ".rb",
+      "size": 7103,
+      "date": "2018-06-20",
+      "sha1": "a4742be03dbe11fac6291b52201d667d561c52ef",
+      "md5": "ee4918f6c6f3d116e4e5555bc21c92f4",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/connection.rb",
+      "type": "file",
+      "name": "connection.rb",
+      "base_name": "connection",
+      "extension": ".rb",
+      "size": 8418,
+      "date": "2018-06-20",
+      "sha1": "2fda3272032a2a27a967dc74844570b76c53ebf1",
+      "md5": "037e3c3d551ff11f5b13c5a0aea556fa",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/deserialization.rb",
+      "type": "file",
+      "name": "deserialization.rb",
+      "base_name": "deserialization",
+      "extension": ".rb",
+      "size": 6248,
+      "date": "2018-06-20",
+      "sha1": "973536b37a087d24bb86caef5bb7cc83f824c2fb",
+      "md5": "480ad77abb3a6756e656c51cccd2b5c2",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/fault.rb",
+      "type": "file",
+      "name": "fault.rb",
+      "base_name": "fault",
+      "extension": ".rb",
+      "size": 317,
+      "date": "2018-06-20",
+      "sha1": "5e46aded524122e390d597285abf090722e629b5",
+      "md5": "b58bc9941de67f2d56b956d40ccb70ff",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/pbm.rb",
+      "type": "file",
+      "name": "pbm.rb",
+      "base_name": "pbm",
+      "extension": ".rb",
+      "size": 2051,
+      "date": "2018-06-20",
+      "sha1": "bb55768fd80bdf31dc3a0f1a15b429299e4bbc4f",
+      "md5": "80ec6e458341f7c305c0d04f2360eb9b",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/sms.rb",
+      "type": "file",
+      "name": "sms.rb",
+      "base_name": "sms",
+      "extension": ".rb",
+      "size": 1861,
+      "date": "2018-06-20",
+      "sha1": "1f3a544b6fc85b0dd6c34751e8f5b5a4d6ff5a42",
+      "md5": "682aaed873377ff992e8c90a52882141",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/trivial_soap.rb",
+      "type": "file",
+      "name": "trivial_soap.rb",
+      "base_name": "trivial_soap",
+      "extension": ".rb",
+      "size": 3161,
+      "date": "2018-06-20",
+      "sha1": "1ec327b4d7a4f3f9e6b8e46613b3dcaee6354fea",
+      "md5": "4e3c0c45a4c9447b2b2c2dc5b81b3f49",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/trollop.rb",
+      "type": "file",
+      "name": "trollop.rb",
+      "base_name": "trollop",
+      "extension": ".rb",
+      "size": 2717,
+      "date": "2018-06-20",
+      "sha1": "0a98cf1037479cf27577cfedfb68298f59d89e48",
+      "md5": "a101587f62645cb51d70b3f0fbc84b51",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/type_loader.rb",
+      "type": "file",
+      "name": "type_loader.rb",
+      "base_name": "type_loader",
+      "extension": ".rb",
+      "size": 3536,
+      "date": "2018-06-20",
+      "sha1": "f24e7471ae1ea583f4ca778e6ae5e14e43531d1d",
+      "md5": "8ed53f8df23a9249e7b54646c8a766db",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/version.rb",
+      "type": "file",
+      "name": "version.rb",
+      "base_name": "version",
+      "extension": ".rb",
+      "size": 140,
+      "date": "2018-06-20",
+      "sha1": "c210235744fd98cecb609d7d8cda2600f2ba8131",
+      "md5": "8b2ebf74afdecf46f0bad5f0d82ea00e",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2016-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim.rb",
+      "type": "file",
+      "name": "vim.rb",
+      "base_name": "vim",
+      "extension": ".rb",
+      "size": 4788,
+      "date": "2018-06-20",
+      "sha1": "2d460aa79b7c764b96213c4507e9562f9d0f6499",
+      "md5": "b5f6db6313db4cbf524d26ac57e597ff",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/sms",
+      "type": "directory",
+      "name": "sms",
+      "base_name": "sms",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 230,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/sms/SmsStorageManager.rb",
+      "type": "file",
+      "name": "SmsStorageManager.rb",
+      "base_name": "SmsStorageManager",
+      "extension": ".rb",
+      "size": 230,
+      "date": "2018-06-20",
+      "sha1": "72a5a6e3ee0a86e316645079f7fc06fbc189d420",
+      "md5": "76c2f30acef1fab9dfb82bb4edfc3a0a",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/utils",
+      "type": "directory",
+      "name": "utils",
+      "base_name": "utils",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 55112,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/utils/admission_control.rb",
+      "type": "file",
+      "name": "admission_control.rb",
+      "base_name": "admission_control",
+      "extension": ".rb",
+      "size": 14844,
+      "date": "2018-06-20",
+      "sha1": "dde309d03f2b17b360a0c32e6783fdb382042e4b",
+      "md5": "17aeb0e688e688aa9a8fd2aa2a5c59f4",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/utils/deploy.rb",
+      "type": "file",
+      "name": "deploy.rb",
+      "base_name": "deploy",
+      "extension": ".rb",
+      "size": 13400,
+      "date": "2018-06-20",
+      "sha1": "4d338bc1735d7ade194c080f99f977c4500c3d64",
+      "md5": "41eda2b82b2b763c634e73a15ab8d17d",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/utils/leases.rb",
+      "type": "file",
+      "name": "leases.rb",
+      "base_name": "leases",
+      "extension": ".rb",
+      "size": 5863,
+      "date": "2018-06-20",
+      "sha1": "cc85d2c86e8d44411ab0f624e573a560c4d26750",
+      "md5": "b5dd0889704434eff84db3870d21fe9b",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/utils/perfdump.rb",
+      "type": "file",
+      "name": "perfdump.rb",
+      "base_name": "perfdump",
+      "extension": ".rb",
+      "size": 21005,
+      "date": "2018-06-20",
+      "sha1": "04810142b4165805b6900a9efa00389f444eef72",
+      "md5": "38067b1d01f5e107b019afa10871c18f",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim",
+      "type": "directory",
+      "name": "vim",
+      "base_name": "vim",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 21,
+      "dirs_count": 0,
+      "size_count": 48319,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ComputeResource.rb",
+      "type": "file",
+      "name": "ComputeResource.rb",
+      "base_name": "ComputeResource",
+      "extension": ".rb",
+      "size": 1684,
+      "date": "2018-06-20",
+      "sha1": "43ea6548116cdc5bc11b178351f394de556f29a4",
+      "md5": "54c00d90441e7d6e4f25d7f0150057f0",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/Datacenter.rb",
+      "type": "file",
+      "name": "Datacenter.rb",
+      "base_name": "Datacenter",
+      "extension": ".rb",
+      "size": 702,
+      "date": "2018-06-20",
+      "sha1": "f92bd460e478a05ab58244507d0a17706ed075c9",
+      "md5": "120bbea602b350037f6e6347028204fc",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/Datastore.rb",
+      "type": "file",
+      "name": "Datastore.rb",
+      "base_name": "Datastore",
+      "extension": ".rb",
+      "size": 2480,
+      "date": "2018-06-20",
+      "sha1": "5e0d00c8e68c3ce4f926e5c63838ee0749ec39f8",
+      "md5": "4e608a42957a5389c307a61f288118ef",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/DynamicTypeMgrAllTypeInfo.rb",
+      "type": "file",
+      "name": "DynamicTypeMgrAllTypeInfo.rb",
+      "base_name": "DynamicTypeMgrAllTypeInfo",
+      "extension": ".rb",
+      "size": 2266,
+      "date": "2018-06-20",
+      "sha1": "d120e873a710c8f5e23286ab7784227a4a1521d0",
+      "md5": "92c4ce925a81e8e60477a4577adb590a",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/DynamicTypeMgrDataTypeInfo.rb",
+      "type": "file",
+      "name": "DynamicTypeMgrDataTypeInfo.rb",
+      "base_name": "DynamicTypeMgrDataTypeInfo",
+      "extension": ".rb",
+      "size": 695,
+      "date": "2018-06-20",
+      "sha1": "7b6c9da5d0f52ecc91e316d93565fb24fa3b24f1",
+      "md5": "c42193e04e581568c7d45564fad9d1d3",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/DynamicTypeMgrManagedTypeInfo.rb",
+      "type": "file",
+      "name": "DynamicTypeMgrManagedTypeInfo.rb",
+      "base_name": "DynamicTypeMgrManagedTypeInfo",
+      "extension": ".rb",
+      "size": 1859,
+      "date": "2018-06-20",
+      "sha1": "c22a6fa2d09cf7bb1fd978113bfa004e16ed4ca7",
+      "md5": "9e0e2eb8e57d3622f196f2b5e5cb5f88",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/Folder.rb",
+      "type": "file",
+      "name": "Folder.rb",
+      "base_name": "Folder",
+      "extension": ".rb",
+      "size": 7477,
+      "date": "2018-06-20",
+      "sha1": "79028ceb5e4362b5baa9598fa96c84a695d2a3e5",
+      "md5": "da59b0914f0c4a360fe840d1f8310ae5",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/HostSystem.rb",
+      "type": "file",
+      "name": "HostSystem.rb",
+      "base_name": "HostSystem",
+      "extension": ".rb",
+      "size": 4527,
+      "date": "2018-06-20",
+      "sha1": "efb0bdb665eacbc91b6fc40d7e41e0194faf4f3c",
+      "md5": "02d62fffce5c16496fbd2346b6e9b1c8",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ManagedEntity.rb",
+      "type": "file",
+      "name": "ManagedEntity.rb",
+      "base_name": "ManagedEntity",
+      "extension": ".rb",
+      "size": 1644,
+      "date": "2018-06-20",
+      "sha1": "9eebdd8c21056477379ef65a2aad69abd6acb28d",
+      "md5": "cd7c0d39d2aa0957becc7a3162e754cd",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ManagedObject.rb",
+      "type": "file",
+      "name": "ManagedObject.rb",
+      "base_name": "ManagedObject",
+      "extension": ".rb",
+      "size": 1927,
+      "date": "2018-06-20",
+      "sha1": "f132600dcbc1c388c2d1dc39134152f6ac0190e1",
+      "md5": "be6e25fd9276a633b473fd25288927ed",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ObjectContent.rb",
+      "type": "file",
+      "name": "ObjectContent.rb",
+      "base_name": "ObjectContent",
+      "extension": ".rb",
+      "size": 497,
+      "date": "2018-06-20",
+      "sha1": "1a6224ec7e0c0d3c5f51f8d7800e1667bc8c21a8",
+      "md5": "d44d3f1d5144a9f2b9ff609eedbe7df7",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ObjectUpdate.rb",
+      "type": "file",
+      "name": "ObjectUpdate.rb",
+      "base_name": "ObjectUpdate",
+      "extension": ".rb",
+      "size": 497,
+      "date": "2018-06-20",
+      "sha1": "b450d7dde906dda531cb7ead7eadc769fcd6b281",
+      "md5": "9ef27136791b2ec7e0253fa753751820",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/OvfManager.rb",
+      "type": "file",
+      "name": "OvfManager.rb",
+      "base_name": "OvfManager",
+      "extension": ".rb",
+      "size": 7730,
+      "date": "2018-06-20",
+      "sha1": "7464bcea9013c580f819b8cab860025d751ab239",
+      "md5": "f723154f3e1dfec5dad5e6b96c711faf",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/PerfCounterInfo.rb",
+      "type": "file",
+      "name": "PerfCounterInfo.rb",
+      "base_name": "PerfCounterInfo",
+      "extension": ".rb",
+      "size": 1251,
+      "date": "2018-06-20",
+      "sha1": "eaa6761064293195a12c6f88e7bbb5049b36c3d0",
+      "md5": "a080dde6ea1addec6f0dbff9aabd36e1",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/PerformanceManager.rb",
+      "type": "file",
+      "name": "PerformanceManager.rb",
+      "base_name": "PerformanceManager",
+      "extension": ".rb",
+      "size": 3172,
+      "date": "2018-06-20",
+      "sha1": "6d45229f9c9eaf057a8d3ec1de12b5efdb2d8931",
+      "md5": "1769e80ea965c48bfed6807f069bf882",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/PropertyCollector.rb",
+      "type": "file",
+      "name": "PropertyCollector.rb",
+      "base_name": "PropertyCollector",
+      "extension": ".rb",
+      "size": 661,
+      "date": "2018-06-20",
+      "sha1": "7ddfc474df40a8fbc3ebec4c55c571d89673b642",
+      "md5": "29a97d2768465eced6ef4eeca91ae74c",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ReflectManagedMethodExecuter.rb",
+      "type": "file",
+      "name": "ReflectManagedMethodExecuter.rb",
+      "base_name": "ReflectManagedMethodExecuter",
+      "extension": ".rb",
+      "size": 950,
+      "date": "2018-06-20",
+      "sha1": "aba0e3df9a267b3b2a515a8ebc4aea9b3007d472",
+      "md5": "5a61c697a0756ce40b0ff3cb42ddde40",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ResourcePool.rb",
+      "type": "file",
+      "name": "ResourcePool.rb",
+      "base_name": "ResourcePool",
+      "extension": ".rb",
+      "size": 1600,
+      "date": "2018-06-20",
+      "sha1": "8a40b080acff42915a19baf483b1a2506109c94d",
+      "md5": "05ad26028717075cbe92cac6aaa6a237",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/ServiceInstance.rb",
+      "type": "file",
+      "name": "ServiceInstance.rb",
+      "base_name": "ServiceInstance",
+      "extension": ".rb",
+      "size": 1974,
+      "date": "2018-06-20",
+      "sha1": "3363025f06674f72c14ef36e36932704a88ca80a",
+      "md5": "0cfc77d68b54e9f0cef6322498b29f46",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/Task.rb",
+      "type": "file",
+      "name": "Task.rb",
+      "base_name": "Task",
+      "extension": ".rb",
+      "size": 1942,
+      "date": "2018-06-20",
+      "sha1": "4e3a0c6495c0ed2fdd61e26038994e08d8c07f6d",
+      "md5": "e558c66a33db1bedd9b755434ba1e785",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/data.tar.gz-extract/lib/rbvmomi/vim/VirtualMachine.rb",
+      "type": "file",
+      "name": "VirtualMachine.rb",
+      "base_name": "VirtualMachine",
+      "extension": ".rb",
+      "size": 2784,
+      "date": "2018-06-20",
+      "sha1": "b196e8bc45a8deb01184fc5aaeb5b6d2f3fd4dec",
+      "md5": "e223789067f717ae92a955a3540c6f39",
+      "mime_type": "text/x-ruby",
+      "file_type": "Ruby module source, ASCII text",
+      "programming_language": "Ruby",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 2,
+          "matched_rule": {
+            "identifier": "spdx-license-identifier: mit",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "4-spdx-id",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2017 VMware, Inc.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/metadata.gz-extract",
+      "type": "directory",
+      "name": "metadata.gz-extract",
+      "base_name": "metadata.gz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 5789,
+      "scan_errors": []
+    },
+    {
+      "path": "rbvmomi-1.13.0.gem-extract/metadata.gz-extract/metadata.gz-extract",
+      "type": "file",
+      "name": "metadata.gz-extract",
+      "base_name": "metadata",
+      "extension": ".gz-extract",
+      "size": 5789,
+      "date": "2019-01-21",
+      "sha1": "9a935e3d8a44bd22854e20085f91f6673bc1ed76",
+      "md5": "8f9a3616516d8c738f4e77ccf6f651cf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
