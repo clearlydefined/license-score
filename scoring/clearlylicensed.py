@@ -4,16 +4,22 @@ from __future__ import print_function
 from __future__ import unicode_literals
 from __future__ import division
 
-
 import cgi
+from collections import Counter
 from collections import namedtuple
 from collections import OrderedDict
 import csv
+
+try:
+    from itertools import imap
+except:
+    imap = map
+
 import json
 import os
+from os import path
 from subprocess import call
 import traceback
-from collections import Counter
 
 try:
     from urllib.parse import urlparse
@@ -22,9 +28,10 @@ except ImportError:
 
 import attr  # NOQA
 import requests
+from scancode.pool import get_pool
 
 
-current_dir = os.path.abspath(os.path.dirname(__file__))
+current_dir = path.abspath(path.dirname(__file__))
 
 """
 Process a list of popular software packages to compute a license clarity score.
@@ -65,131 +72,125 @@ def compute_license_score(
         types=()):
     """
     Read the package data in the CSV at `input_csv` and write a CSV at
-    `output_csv`. The `input_csv` must contain these columns: download_url and
+    `output_csv` with details data and another CSV at `aggregates_csv` with
+    aggreated data.
+
+    The `input_csv` must contain these columns: download_url, filename and
     package URL fields (type, namespace, name, version).
 
-    If `fetch` is True, fetch the Packages. Otherwise, assume Packages files are
-    in the "packages" directory.
-    If `scan` is True, scan the Packages. Otherwise, assume Packages scan files are
-    in the "scans" directory.
+    If `do_fetch` is True, fetch the Packages. Otherwise, assume Packages files
+    are in the "packages" directory.
+
+    If `do_extract` is True, extract the downloaded package archives. Otherwise,
+    assume archives are already extracted in the "extracts" directory.
+
+    If `do_scan` is True, scan the Packages. Otherwise, assume Packages scan
+    files are in the "scans" directory.
+
+    If `do_rescore` is True, re-process the Packages to recompute the score in
+    the "scans" directory.
 
     """
     downloads_dir = create_dir('downloads', base_dir=base_dir)
     extracts_dir = create_dir('extracts', base_dir=base_dir)
     scans_dir = create_dir('scans', base_dir=base_dir)
 
-    # list of mappings
+    packages_data = list(get_packages_data(csv_loc=input_csv))
+
+    ############################################################################
+    # uncomment for testing on a smaller subset
+#     import random
+#     random.shuffle(packages_data)
+#     packages_data = packages_data[:4]
+    ############################################################################
+
+    if types:
+        packages_data = [p for p in packages_data if p.get('type') in types]
+
+    ############################################################################
+    # fetch
+    ############################################################################
+    if do_fetch or do_extract:
+        for i, package in enumerate(packages_data):
+            pkg_type = package.get('type')
+            download_url = package.get('download_url')
+            pkg_name = package.get('name')
+            print('===========================================================')
+            print(i, 'Fetching/extracting: ', download_url)
+
+            archive_filename = package.get('filename')
+            downloaded_archive_loc = path.join(downloads_dir, pkg_type, archive_filename)
+            archive_extract_dir = archive_filename + '-extract'
+            extracted_archive_loc = path.join(downloads_dir, pkg_type, archive_extract_dir)
+            target_extracted_archive_loc = path.join(extracts_dir, pkg_type, archive_extract_dir)
+
+            if do_fetch:
+                fetch_file = do_fetch
+                # filename MUST be present in CSV, otherwise the packages are fetched
+                if archive_filename:
+                    if not path.exists(downloaded_archive_loc):
+                        fetch_file = True
+                else:
+                    fetch_file = True
+
+                if fetch_file:
+                    try:
+                        archive_filename = fetch_package(download_url, pkg_type, pkg_name, downloads_dir)
+                    except Exception:
+                        # package['scan_results_file'] = 'FAILED DOWNLOAD URL:\n{}'.traceback.format_exc()
+                        # results.append(package)
+                        continue
+
+            if not path.exists(downloaded_archive_loc):
+                # things did not download alright
+                continue
+
+            if do_extract:
+                extract(downloaded_archive_loc)
+            # move the extracts to an extract dir
+            if path.exists(extracted_archive_loc):
+                os.rename(extracted_archive_loc, target_extracted_archive_loc)
+
+    ############################################################################
+    # scan
+    ############################################################################
+    if do_scan:
+        scan_kwargs = []
+        for package in packages_data:
+            jsl = get_json_scan_loc(package, scans_dir)
+            eal = get_extracted_archive_loc(package, extracts_dir)
+            if path.exists(eal) and not path.exists(jsl):
+                scan_kwargs.append(get_initial_scan_kwargs(eal, jsl))
+        run_scans(scan_kwargs, processes=10)
+
+
+    ############################################################################
+    # rescore
+    ############################################################################
+    if do_rescore:
+        rescore_kwargs = []
+        for package in packages_data:
+            jsl = get_json_scan_loc(package, scans_dir)
+            print('rescore: {}'.format(jsl))
+            if path.exists(jsl):
+                rescore_kwargs.append(get_recompute_score_kwargs(jsl))
+        run_scans(rescore_kwargs, processes=10)
+
+    ############################################################################
+    # Load JSON scan results, save details
+    ############################################################################
+    # list of mappings, one per package of {
     results = []
 
-    package_data = get_packages_data(csv_loc=input_csv)
-
-    # uncomment for testing on a smaller subset
-    #     package_data = list(package_data)
-    #     import random
-    #     random.shuffle(package_data)
-    #     package_data = package_data[:30]
-
-    for i, package in enumerate(package_data):
+    for i, package in enumerate(packages_data):
         pkg_type = package.get('type')
-        if types and pkg_type not in types:
-            continue
         download_url = package.get('download_url')
-        pkg_name = package.get('name')
-        print('===========================================================')
-        print(i, 'Processing: ', download_url)
-
-        archive_filename = package.get('filename')
-        downloaded_archive_loc = os.path.join(downloads_dir, pkg_type, archive_filename)
-        archive_extract_dir = archive_filename + '-extract'
-        extracted_archive_loc = os.path.join(downloads_dir, pkg_type, archive_extract_dir)
-        target_extracted_archive_loc = os.path.join(extracts_dir, pkg_type, archive_extract_dir)
-
-        if do_fetch:
-            fetch_file = do_fetch
-            # filename MUST be present in CSV, otherwise the packages are fetched
-            if archive_filename:
-                if not os.path.exists(downloaded_archive_loc):
-                    fetch_file = True
-            else:
-                fetch_file = True
-
-            if fetch_file:
-                try:
-                    archive_filename = fetch_package(download_url, pkg_type, pkg_name, downloads_dir)
-                except Exception:
-                    package['scan_results_file'] = 'FAILED DOWNLOAD URL:\n{}'.traceback.format_exc()
-                    results.append(package)
-                    continue
-
-        if not os.path.exists(downloaded_archive_loc):
-            # things did not download alright
+        print(i, 'Loading scan for: ', download_url)
+        json_scan_loc = get_json_scan_loc(package, scans_dir)
+        if not path.exists(json_scan_loc):
             continue
-
-        if do_extract:
-            extract(downloaded_archive_loc)
-
-        # move the extracts to an extract dir
-        if os.path.exists(extracted_archive_loc):
-            os.rename(extracted_archive_loc, target_extracted_archive_loc)
-
-        json_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.json')
-        csv_scan_loc = os.path.join(scans_dir, pkg_type, archive_filename + '-clarity.csv')
-
-        if do_rescore and os.path.exists(json_scan_loc) and not do_scan:
-            try:
-                recompute_score(json_scan_loc, csv_scan_loc)
-            except KeyboardInterrupt:
-                break
-            except Exception:
-                pass
-
-        if do_scan and not os.path.exists(json_scan_loc):
-            try:
-                scan(target_extracted_archive_loc, json_scan_loc, csv_scan_loc)
-            except KeyboardInterrupt:
-                break
-            except Exception:
-                pass
-
-        scan_result = {}
-        if os.path.exists(json_scan_loc):
-            with open(json_scan_loc, 'rb') as scanned:
-                scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
-
-        license_score = scan_result.get('license_clarity_score', {})
-        if license_score:
-            renamed = 'score', 'declared', 'discovered', 'consistency', 'spdx', 'full_text'
-            kvs = zip(renamed, license_score.values())
-            license_score = OrderedDict(kvs)
-
-            # convert booleans to 0/1
-            decl = license_score['declared']
-            license_score['declared'] = 1 if decl else 0
-            cons = license_score['consistency']
-            license_score['consistency'] = 1 if cons else 0
-            spdx = license_score['spdx']
-            license_score['spdx'] = 1 if spdx else 0
-            full_text = license_score['full_text']
-            license_score['full_text'] = 1 if full_text else 0
-
-            # compute brackets
-            score = int(license_score['score'])
-            score_bracket = int(round(score / 10, 1)) * 10
-            if score_bracket == 0:
-                if score != 0:
-                    score_bracket = 1
-            license_score['score_bracket'] = score_bracket
-
-            # compute brackets
-            disco = float(license_score['discovered'])
-            discovered_bracket = int(round(disco * 10, 1)) * 10
-            if discovered_bracket == 0:
-                if disco != 0:
-                    discovered_bracket = 1
-            license_score['discovered_bracket'] = discovered_bracket
-
-            package.update(license_score)
-
+        lscore = get_license_score(json_scan_loc)
+        package.update(lscore)
         results.append(package)
 
     headers = results[0].keys()
@@ -197,6 +198,10 @@ def compute_license_score(
         dict_writer = csv.DictWriter(outfile, headers)
         dict_writer.writeheader()
         dict_writer.writerows(results)
+
+    ############################################################################
+    # compute and save aggregates
+    ############################################################################
 
     aggregate_tables = compute_aggregates(results)
 
@@ -212,6 +217,69 @@ def compute_license_score(
             dict_writer.writeheader()
             dict_writer.writerows(aggregated)
             aggfile.write('\n\n')
+
+
+def get_json_scan_loc(package, scans_dir):
+    """
+    Return a JSON scan file location given a package mapping.
+    """
+    return path.join(
+        scans_dir,
+        package.get('type'),
+        package.get('filename') + '-clarity.json'
+    )
+
+
+def get_extracted_archive_loc(package, extracts_dir):
+        return path.join(
+            extracts_dir,
+            package.get('type'),
+            package.get('filename') + '-extract'
+        )
+
+
+def get_license_score(json_scan_loc):
+    """
+    Return the clarity score data from a single package JSON scan file location.
+    """
+    if not path.exists(json_scan_loc):
+        return {}
+
+    with open(json_scan_loc, 'rb') as scanned:
+        scan_result = json.load(scanned, object_pairs_hook=OrderedDict)
+
+    license_score = scan_result['license_clarity_score'] or {}
+    renamed = 'score', 'declared', 'discovered', 'consistency', 'spdx', 'full_text'
+    kvs = zip(renamed, license_score.values())
+    license_score = OrderedDict(kvs)
+
+    # convert booleans to 0/1
+    decl = license_score['declared']
+    license_score['declared'] = 1 if decl else 0
+    cons = license_score['consistency']
+    license_score['consistency'] = 1 if cons else 0
+    spdx = license_score['spdx']
+    license_score['spdx'] = 1 if spdx else 0
+    full_text = license_score['full_text']
+    license_score['full_text'] = 1 if full_text else 0
+
+    # compute brackets
+    score = int(license_score['score'])
+    score_bracket = int(round(score / 10, 1)) * 10
+    if score_bracket == 0:
+        if score != 0:
+            score_bracket = 1
+    license_score['score_bracket'] = score_bracket
+
+    # compute brackets
+    disco = float(license_score['discovered'])
+    discovered_bracket = int(round(disco * 10, 1)) * 10
+    if discovered_bracket == 0:
+        if disco != 0:
+            discovered_bracket = 1
+    license_score['discovered_bracket'] = discovered_bracket
+
+    return license_score
 
 
 _dp_fields = [
@@ -335,14 +403,18 @@ def compute_aggregates(results):
             # compute a ratio between 0 and 100
             for a in Aggregate.ptypes:
                 value = getattr(tally, a)
-                setattr(tally, a, round(value / package_counts[a], 1))
+                pcounts = package_counts[a]
+                if pcounts:
+                    setattr(tally, a, round(value / pcounts, 1))
             tally.label = 'score average'
 
         if tally.label == 'discovered':
             # compute a ratio between 0 and 100
             for a in Aggregate.ptypes:
                 value = getattr(tally, a)
-                setattr(tally, a, round((value / package_counts[a]) * 100, 1))
+                pcounts = package_counts[a]
+                if pcounts:
+                    setattr(tally, a, round((value / pcounts) * 100, 1))
             tally.label = 'discovered average'
 
 
@@ -363,21 +435,27 @@ def compute_aggregates(results):
             # compute a ratio between 0 and 100
             for a in Aggregate.ptypes:
                 value = getattr(percent, a)
-                setattr(percent, a, round((value / package_counts[a]) * 100, 1))
+                pcounts = package_counts[a]
+                if pcounts:
+                    setattr(percent, a, round((value / pcounts) * 100, 1))
             percent.label = 'percentage with {}'.format(percent.label)
 
         if percent.label == 'score':
             # compute a ratio between 0 and 100
             for a in Aggregate.ptypes:
                 value = getattr(percent, a)
-                setattr(percent, a, round(value / package_counts[a], 1))
+                pcounts = package_counts[a]
+                if pcounts:
+                    setattr(percent, a, round(value / pcounts, 1))
             percent.label = 'score average'
 
         if percent.label == 'discovered':
             # compute a ratio between 0 and 100
             for a in Aggregate.ptypes:
                 value = getattr(percent, a)
-                setattr(percent, a, round((value / package_counts[a]) * 100, 1))
+                pcounts = package_counts[a]
+                if pcounts:
+                    setattr(percent, a, round((value / pcounts) * 100, 1))
             percent.label = 'discovered average'
 
 
@@ -432,7 +510,7 @@ def compute_aggregates(results):
 
 
     ############################################################################
-    # aggregate_name= 'Table 4. Number of packages by type above a license score threshold'
+    # aggregate_name= 'Table 6. Number of packages by type above a license score threshold'
     ############################################################################
 
     return aggregate_tables
@@ -447,7 +525,7 @@ def fetch_package(url, download_dir):
 
     for i in range(MAX_RETRIES):
         response = requests.get(url, timeout=20)
-        print('response.status_code:', response.status_code,)
+        print('Response.status_code:', response.status_code,)
         if response.status_code == 200:
             success = True
             break
@@ -468,7 +546,7 @@ def fetch_package(url, download_dir):
         # will be more accurate in case of HTTP redirect.
         filename = os.path.basename(urlparse(response.url).path)
 
-    filepath = os.path.join(download_dir, filename)
+    filepath = path.join(download_dir, filename)
 
     with open(filepath, 'wb') as out:
         out.write(response.content)
@@ -482,48 +560,6 @@ def extract(archive_loc):
 def extract_shallow(archive_loc):
     call(' '.join(['extractcode', '--shallow', str(archive_loc)]), shell=True)
 
-
-def scan(extracted_archive_loc, json_scan_loc, csv_scan_loc):
-    call(' '.join([
-        'scancode',
-        '--package',
-        '--copyright',
-        '--license',
-        '--license-text',
-        '--license-diag',
-        '--info',
-         '-n', '3',
-        '--json-pp', json_scan_loc,
-        '--csv', csv_scan_loc,
-
-        '--timeout', '10',
-        '--max-in-memory', '0',
-
-        '--classify',
-        '--license-clarity-score',
-
-         extracted_archive_loc
-         ]),
-        shell=True
-    )
-
-
-def recompute_score(json_scan_loc, csv_scan_loc):
-    call(' '.join([
-        'scancode',
-        '--from-json',
-        json_scan_loc,
-
-        '--json-pp', json_scan_loc,
-        '--csv', csv_scan_loc,
-
-        '--classify',
-        '--license-clarity-score',
-
-        '--max-in-memory', '0',
-        ]),
-        shell=True
-    )
 
 def get_packages_data(csv_loc='clearlylicensed.csv'):
     """
@@ -540,13 +576,101 @@ def get_packages_data(csv_loc='clearlylicensed.csv'):
 
 
 def create_dir(name, base_dir=current_dir):
-    d = os.path.join(base_dir, name)
+    d = path.join(base_dir, name)
     try:
         os.makedirs(d)
     except OSError:
         if not os.path.isdir(d):
             raise
     return d
+
+
+def echo_func(*args, **kwargs):
+    print (*args)
+
+
+def get_initial_scan_kwargs(extracted_archive_loc, json_scan_loc):
+
+        return dict(
+            input=extracted_archive_loc,
+            output_json_pp=json_scan_loc,
+            package=True,
+            copyright=True,
+            license=True,
+            license_diag=True,
+            info=True,
+            classify=True,
+            license_clarity_score=True,
+            processes=0,
+            timeout=10,
+
+            max_in_memory=0,
+            return_results=False,
+
+            # quiet=False,
+            # verbose=True,
+            # echo_func=echo_func,
+        )
+
+
+def get_recompute_score_kwargs(json_scan_loc):
+
+        return dict(
+            input=json_scan_loc,
+            from_json=True,
+            output_json_pp=json_scan_loc,
+            classify=True,
+            license_clarity_score=True,
+            max_in_memory=0,
+            return_results=False,
+            # quiet=False,
+            # verbose=True,
+            # echo_func=echo_func,
+        )
+
+
+def run_scan(scan_kwargs):
+    from scancode import cli
+    print('Running scan for: {}'.format(scan_kwargs.get('input', '')))
+    success, _results = cli.run_scan(**scan_kwargs)
+    return success
+
+
+def run_scans(scan_kwargs, processes=1):
+    """
+    Run a scan with the scancode.cli.run_scan function using the `scan_kwargs`
+    mapping of keyword arguments across `processes` processes.
+    """
+    success = True
+    pool = None
+    scans = None
+    completed = 0
+    try:
+        if processes >= 1:
+            pool = get_pool(processes=processes, maxtasksperchild=10000)
+            scans = pool.imap_unordered(run_scan, scan_kwargs, chunksize=1)
+            pool.close()
+        else:
+            scans = imap(run_scan, scan_kwargs)
+
+        while True:
+            try:
+                _scan_success = scans.next()
+                completed += 1
+                print(completed)
+            except StopIteration:
+                break
+            except KeyboardInterrupt:
+                success = False
+                if pool:
+                    pool.terminate()
+                break
+    finally:
+        if pool:
+            # ensure the pool is really dead to work around a Python 2.7.3 bug:
+            # http://bugs.python.org/issue15101
+            pool.terminate()
+    return success
 
 
 if __name__ == '__main__':
