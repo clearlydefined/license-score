@@ -1,0 +1,2660 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T040125.011761",
+      "end_timestamp": "2019-03-31T040146.575149",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 33
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T154057.273298",
+      "end_timestamp": "2019-03-31T154057.519812",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 33
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 61,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.67,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.67,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract",
+      "type": "directory",
+      "name": "azure-servicemanagement-legacy-0.20.6.zip-extract",
+      "base_name": "azure-servicemanagement-legacy-0.20.6.zip-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 33,
+      "dirs_count": 5,
+      "size_count": 421752,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6",
+      "type": "directory",
+      "name": "azure-servicemanagement-legacy-0.20.6",
+      "base_name": "azure-servicemanagement-legacy-0.20.6",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 33,
+      "dirs_count": 4,
+      "size_count": 421752,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_bdist_wheel.py",
+      "type": "file",
+      "name": "azure_bdist_wheel.py",
+      "base_name": "azure_bdist_wheel",
+      "extension": ".py",
+      "size": 21096,
+      "date": "2017-04-27",
+      "sha1": "7859ca57206a047d07139219b4c56dd7de1ab42f",
+      "md5": "74e7cea3bb8eef721c79d609175ccedc",
+      "mime_type": "text/plain",
+      "file_type": "Python script, ASCII text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "mit_template.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 164,
+            "matched_length": 164,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 486,
+          "end_line": 487,
+          "matched_rule": {
+            "identifier": "mit_187.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 15,
+            "matched_length": 15,
+            "match_coverage": 100.0,
+            "rule_relevance": 100.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Daniel Holth and contributors.",
+          "start_line": 2,
+          "end_line": 3
+        },
+        {
+          "value": "Microsoft Corporation.",
+          "start_line": 485,
+          "end_line": 485
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright (c) 2012-2017 Daniel Holth <dholth@fastmail.fm> and contributors.",
+          "start_line": 2,
+          "end_line": 3
+        },
+        {
+          "value": "Copyright (c) Microsoft Corporation.",
+          "start_line": 485,
+          "end_line": 485
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/HISTORY.rst",
+      "type": "file",
+      "name": "HISTORY.rst",
+      "base_name": "HISTORY",
+      "extension": ".rst",
+      "size": 1367,
+      "date": "2017-04-27",
+      "sha1": "bb5bed8c9dc28e380cf1bdc995ac02ebebc54d0b",
+      "md5": "bcdfb6d8b37b526a84e207e3767bff78",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/MANIFEST.in",
+      "type": "file",
+      "name": "MANIFEST.in",
+      "base_name": "MANIFEST",
+      "extension": ".in",
+      "size": 42,
+      "date": "2017-04-27",
+      "sha1": "1990135111fa6513b23bfb571253f7c55d393d9c",
+      "md5": "b8b38c51dac6260255e4374e33f89a87",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/PKG-INFO",
+      "type": "file",
+      "name": "PKG-INFO",
+      "base_name": "PKG-INFO",
+      "extension": "",
+      "size": 10002,
+      "date": "2017-04-27",
+      "sha1": "d0a0a481cc27d85ac1cd708c2b0f2d39fd091278",
+      "md5": "9205e0da486612df43a7605f17edcfd1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 27.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 8,
+          "end_line": 8,
+          "matched_rule": {
+            "identifier": "apache-2.0_10.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 27
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 33.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 276,
+          "end_line": 276,
+          "matched_rule": {
+            "identifier": "pypi_apache_software_license.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 6,
+            "matched_length": 6,
+            "match_coverage": 100.0,
+            "rule_relevance": 33
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0",
+        "apache-2.0"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Microsoft Corporation",
+          "start_line": 6,
+          "end_line": 9
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/README.rst",
+      "type": "file",
+      "name": "README.rst",
+      "base_name": "README",
+      "extension": ".rst",
+      "size": 7123,
+      "date": "2017-04-27",
+      "sha1": "67775adb6ff70c5aaea739180c890389e277f4c0",
+      "md5": "5d4884b3cee81634af85d1b528f178f9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/setup.cfg",
+      "type": "file",
+      "name": "setup.cfg",
+      "base_name": "setup",
+      "extension": ".cfg",
+      "size": 105,
+      "date": "2017-04-27",
+      "sha1": "eb8050d995b55f4d6225bef0ce4e8874f6f64500",
+      "md5": "39b503b4e67abe7e86682a62e6bdfb50",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "base_name": "setup",
+      "extension": ".py",
+      "size": 2639,
+      "date": "2017-04-27",
+      "sha1": "04c8bc5e5922226fbbc72f49a13394fe26922bad",
+      "md5": "4d7b58b08af417eb9271db282e923555",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, ASCII text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 27.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 46,
+          "end_line": 46,
+          "matched_rule": {
+            "identifier": "apache-2.0_10.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 27
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 33.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 60,
+          "end_line": 60,
+          "matched_rule": {
+            "identifier": "pypi_apache_software_license.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 6,
+            "matched_length": 6,
+            "match_coverage": 100.0,
+            "rule_relevance": 33
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0",
+        "apache-2.0",
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure",
+      "type": "directory",
+      "name": "azure",
+      "base_name": "azure",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 20,
+      "dirs_count": 2,
+      "size_count": 368009,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "base_name": "__init__",
+      "extension": ".py",
+      "size": 59,
+      "date": "2017-04-27",
+      "sha1": "bc4834ed4a3b9ded17c42e9216b6354670c85fdf",
+      "md5": "08fefb7e3cc26d88a30cbcdd6f63585f",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode (with BOM) text",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement",
+      "type": "directory",
+      "name": "servicemanagement",
+      "base_name": "servicemanagement",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 19,
+      "dirs_count": 1,
+      "size_count": 367950,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "base_name": "__init__",
+      "extension": ".py",
+      "size": 1402,
+      "date": "2017-04-27",
+      "sha1": "c473e08758683487222806c20b9a6adf815eb6e7",
+      "md5": "0f5ed1d527b36c8918a7672e4732731c",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_common_conversion.py",
+      "type": "file",
+      "name": "_common_conversion.py",
+      "base_name": "_common_conversion",
+      "extension": ".py",
+      "size": 1896,
+      "date": "2017-04-27",
+      "sha1": "81815a2787be1f614b85ee6a7f42dfe815d788b8",
+      "md5": "e3d3321635890d751b357b245a678c18",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_common_error.py",
+      "type": "file",
+      "name": "_common_error.py",
+      "base_name": "_common_error",
+      "extension": ".py",
+      "size": 1505,
+      "date": "2017-04-27",
+      "sha1": "26c53a0cf4f051fe8f470dc199fe6ccc054ad43f",
+      "md5": "29b011158004c228a95036a52263c68e",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_common_models.py",
+      "type": "file",
+      "name": "_common_models.py",
+      "base_name": "_common_models",
+      "extension": ".py",
+      "size": 2845,
+      "date": "2017-04-27",
+      "sha1": "42eaa6b660ff2179cbd897cc27e54bc063d4ddeb",
+      "md5": "51476f29afb4116ae1c8e15afc041444",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, UTF-8 Unicode (with BOM) text",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_common_serialization.py",
+      "type": "file",
+      "name": "_common_serialization.py",
+      "base_name": "_common_serialization",
+      "extension": ".py",
+      "size": 6340,
+      "date": "2017-04-27",
+      "sha1": "50b7a39bac1ac998a602fa4ed0d431000be39f15",
+      "md5": "6a94ecf7058fc38ace42674999991df3",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_serialization.py",
+      "type": "file",
+      "name": "_serialization.py",
+      "base_name": "_serialization",
+      "extension": ".py",
+      "size": 67533,
+      "date": "2017-04-27",
+      "sha1": "91ae1a8b7a2e2ce0c641aa6d3f54ab47df378c6a",
+      "md5": "4dc871857c3e8c306ec51a13eac11af3",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/constants.py",
+      "type": "file",
+      "name": "constants.py",
+      "base_name": "constants",
+      "extension": ".py",
+      "size": 1337,
+      "date": "2017-04-27",
+      "sha1": "a83d86c166a0108271e9eeb25ef09299532ef05d",
+      "md5": "1e6d2a09ad7457920e1b8b1ffce047ec",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Microsoft Corp. <ptvshelp@microsoft.com>",
+          "start_line": 16,
+          "end_line": 17
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/models.py",
+      "type": "file",
+      "name": "models.py",
+      "base_name": "models",
+      "extension": ".py",
+      "size": 51458,
+      "date": "2017-04-27",
+      "sha1": "2baba56c4e01f788b11faefe838c7b5109a4a700",
+      "md5": "c845e12b005239244a8fb300a0f67541",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/publishsettings.py",
+      "type": "file",
+      "name": "publishsettings.py",
+      "base_name": "publishsettings",
+      "extension": ".py",
+      "size": 3314,
+      "date": "2017-04-27",
+      "sha1": "8a7b12f5f30247181756111d1253f55a79c0bc1c",
+      "md5": "9c9fefd45093e668650d6a450c3bd608",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/schedulermanagementservice.py",
+      "type": "file",
+      "name": "schedulermanagementservice.py",
+      "base_name": "schedulermanagementservice",
+      "extension": ".py",
+      "size": 12381,
+      "date": "2017-04-27",
+      "sha1": "da108833f3a6f9328bd4da6033d5e3f3be0fdc05",
+      "md5": "7784e9080cb22e8bb38590a21fce386c",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/servicebusmanagementservice.py",
+      "type": "file",
+      "name": "servicebusmanagementservice.py",
+      "base_name": "servicebusmanagementservice",
+      "extension": ".py",
+      "size": 22695,
+      "date": "2017-04-27",
+      "sha1": "0e6ee3fe59ba702795f9c551e3954d6f011f0a93",
+      "md5": "b296af15b5fcdfaff0a44cea172c7808",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/servicemanagementclient.py",
+      "type": "file",
+      "name": "servicemanagementclient.py",
+      "base_name": "servicemanagementclient",
+      "extension": ".py",
+      "size": 15770,
+      "date": "2017-04-27",
+      "sha1": "012b860a3987b24d8c32c8142bacc62751214eb2",
+      "md5": "85a0e31139ac1c503e5ce86a9b512c5e",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/servicemanagementservice.py",
+      "type": "file",
+      "name": "servicemanagementservice.py",
+      "base_name": "servicemanagementservice",
+      "extension": ".py",
+      "size": 120913,
+      "date": "2017-04-27",
+      "sha1": "91bf7a094dd8b0ce2c68d76de59aaa64837e42ad",
+      "md5": "47fac2a405fce1fedcdef0d71fc8b22c",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/sqldatabasemanagementservice.py",
+      "type": "file",
+      "name": "sqldatabasemanagementservice.py",
+      "base_name": "sqldatabasemanagementservice",
+      "extension": ".py",
+      "size": 17431,
+      "date": "2017-04-27",
+      "sha1": "eb0b587b8a05db619edef0515e070008114c198c",
+      "md5": "d8c182b35a9019818c3e0c63bbbe451d",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/websitemanagementservice.py",
+      "type": "file",
+      "name": "websitemanagementservice.py",
+      "base_name": "websitemanagementservice",
+      "extension": ".py",
+      "size": 12178,
+      "date": "2017-04-27",
+      "sha1": "b0cba32aacf4da20e1ccd825dd9ac7386c0aacb9",
+      "md5": "87894fc00ee50e7075bf8880ed111058",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_http",
+      "type": "directory",
+      "name": "_http",
+      "base_name": "_http",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 28952,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_http/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "base_name": "__init__",
+      "extension": ".py",
+      "size": 2555,
+      "date": "2017-04-27",
+      "sha1": "fafa9dd1ed420bfd9bfb8e43e7c42a82262812ab",
+      "md5": "88b2ec77597b5eb3213366e0f40b8f92",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, UTF-8 Unicode (with BOM) text",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_http/httpclient.py",
+      "type": "file",
+      "name": "httpclient.py",
+      "base_name": "httpclient",
+      "extension": ".py",
+      "size": 8281,
+      "date": "2017-04-27",
+      "sha1": "8c4cc26717e0dc60c0417facecc7db1074e8c0b2",
+      "md5": "665d49ea0b49d54efbcbcf394436df38",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_http/requestsclient.py",
+      "type": "file",
+      "name": "requestsclient.py",
+      "base_name": "requestsclient",
+      "extension": ".py",
+      "size": 2926,
+      "date": "2017-04-27",
+      "sha1": "f6da0a43887dd02cc1226115da92f4bfd48ef3bb",
+      "md5": "3a30a31cb3a6c3cc50d3cb1e614b3679",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, UTF-8 Unicode (with BOM) text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure/servicemanagement/_http/winhttp.py",
+      "type": "file",
+      "name": "winhttp.py",
+      "base_name": "winhttp",
+      "extension": ".py",
+      "size": 15190,
+      "date": "2017-04-27",
+      "sha1": "49eb8f3b2a9426e9690a4f25789aae843138be6d",
+      "md5": "f0734575727766b1788cf0244e11e380",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, ASCII text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info",
+      "type": "directory",
+      "name": "azure_servicemanagement_legacy.egg-info",
+      "base_name": "azure_servicemanagement_legacy.egg-info",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 0,
+      "size_count": 11369,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/dependency_links.txt",
+      "type": "file",
+      "name": "dependency_links.txt",
+      "base_name": "dependency_links",
+      "extension": ".txt",
+      "size": 1,
+      "date": "2017-04-27",
+      "sha1": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "md5": "68b329da9893e34099c7d8ad5cb9c940",
+      "mime_type": "application/octet-stream",
+      "file_type": "very short file (no magic)",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/not-zip-safe",
+      "type": "file",
+      "name": "not-zip-safe",
+      "base_name": "not-zip-safe",
+      "extension": "",
+      "size": 1,
+      "date": "2017-04-27",
+      "sha1": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "md5": "68b329da9893e34099c7d8ad5cb9c940",
+      "mime_type": "application/octet-stream",
+      "file_type": "very short file (no magic)",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/PKG-INFO",
+      "type": "file",
+      "name": "PKG-INFO",
+      "base_name": "PKG-INFO",
+      "extension": "",
+      "size": 10002,
+      "date": "2017-04-27",
+      "sha1": "d0a0a481cc27d85ac1cd708c2b0f2d39fd091278",
+      "md5": "9205e0da486612df43a7605f17edcfd1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 27.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 8,
+          "end_line": 8,
+          "matched_rule": {
+            "identifier": "apache-2.0_10.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 27
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 33.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 276,
+          "end_line": 276,
+          "matched_rule": {
+            "identifier": "pypi_apache_software_license.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 6,
+            "matched_length": 6,
+            "match_coverage": 100.0,
+            "rule_relevance": 33
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0",
+        "apache-2.0"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Microsoft Corporation",
+          "start_line": 6,
+          "end_line": 9
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/requires.txt",
+      "type": "file",
+      "name": "requires.txt",
+      "base_name": "requires",
+      "extension": ".txt",
+      "size": 80,
+      "date": "2017-04-27",
+      "sha1": "7c59e8ac88ede3f33aa1bac2c26b4c2316dfa768",
+      "md5": "55314d35b8d79274298e9054a183cfc3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/SOURCES.txt",
+      "type": "file",
+      "name": "SOURCES.txt",
+      "base_name": "SOURCES",
+      "extension": ".txt",
+      "size": 1279,
+      "date": "2017-04-27",
+      "sha1": "d55f6197463d814ec821aea1a0ca682c10c09483",
+      "md5": "854d916d8878430a3b4087803533a5f4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "azure-servicemanagement-legacy-0.20.6.zip-extract/azure-servicemanagement-legacy-0.20.6/azure_servicemanagement_legacy.egg-info/top_level.txt",
+      "type": "file",
+      "name": "top_level.txt",
+      "base_name": "top_level",
+      "extension": ".txt",
+      "size": 6,
+      "date": "2017-04-27",
+      "sha1": "61c537af9346236a4ead7e1c2e22b1bfba6af292",
+      "md5": "18b6d2860a7dc281e43f25209bc6edfd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
