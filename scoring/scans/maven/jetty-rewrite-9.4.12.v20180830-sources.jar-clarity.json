@@ -1,0 +1,3576 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T010625.707084",
+      "end_timestamp": "2019-03-31T010636.086042",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 28
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153640.524129",
+      "end_timestamp": "2019-03-31T153640.813358",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 28
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 23,
+    "has_declared_license_in_key_files": false,
+    "file_level_license_and_copyright_coverage": 0.92,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": false,
+    "has_full_text_for_all_licenses": false,
+    "declared": false,
+    "discovered": 0.92,
+    "consistency": false,
+    "spdx": false,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract",
+      "type": "directory",
+      "name": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract",
+      "base_name": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "org.eclipse.jetty",
+          "name": "jetty-rewrite",
+          "version": "9.4.12.v20180830",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "Jetty :: Rewrite Handler\nJetty Rewrite Handler",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": "http://www.eclipse.org/jetty",
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/org.eclipse.jetty/jetty-rewrite/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+              "requirement": "9.4.12.v20180830",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.eclipse.jetty/jetty-http",
+              "requirement": "9.4.12.v20180830",
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/org.eclipse.jetty/jetty-rewrite@9.4.12.v20180830?classifier=sources"
+          ],
+          "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite@9.4.12.v20180830",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/9.4.12.v20180830/",
+          "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/9.4.12.v20180830/jetty-rewrite-9.4.12.v20180830.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-rewrite/9.4.12.v20180830/jetty-rewrite-9.4.12.v20180830.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 28,
+      "dirs_count": 9,
+      "size_count": 92643,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/about.html",
+      "type": "file",
+      "name": "about.html",
+      "base_name": "about",
+      "extension": ".html",
+      "size": 2052,
+      "date": "2018-08-30",
+      "sha1": "a86509b60cc92b943c1b7569f5dc761ee5c8f56e",
+      "md5": "aaf620f907422af5a63697cc7f90e0ed",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text, with very long lines",
+      "programming_language": "HTML",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 91.19,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 12,
+          "end_line": 17,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0_1.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 176,
+            "matched_length": 176,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 91.19,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 12,
+          "end_line": 17,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0_1.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 176,
+            "matched_length": 176,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "epl-1.0",
+          "score": 44.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 15,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0.RULE",
+            "license_expression": "epl-1.0",
+            "licenses": [
+              "epl-1.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 8,
+            "matched_length": 8,
+            "match_coverage": 100.0,
+            "rule_relevance": 44
+          }
+        },
+        {
+          "key": "apache-1.1",
+          "score": 73.68,
+          "name": "Apache License 1.1",
+          "short_name": "Apache 1.1",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://apache.org/licenses/LICENSE-1.1",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-1.1",
+          "spdx_license_key": "Apache-1.1",
+          "spdx_url": "https://spdx.org/licenses/Apache-1.1",
+          "start_line": 15,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-1.1_37_1.RULE",
+            "license_expression": "apache-1.1",
+            "licenses": [
+              "apache-1.1"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "3-seq",
+            "rule_length": 19,
+            "matched_length": 14,
+            "match_coverage": 73.68,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "other-permissive",
+          "score": 100.0,
+          "name": "Other Permissive Licenses",
+          "short_name": "Other Permissive Licenses",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "nexB",
+          "homepage_url": null,
+          "text_url": "",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:other-permissive",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 22,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "other-permissive_26.RULE",
+            "license_expression": "other-permissive",
+            "licenses": [
+              "other-permissive"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 28,
+            "matched_length": 28,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0",
+        "epl-1.0",
+        "apache-1.1",
+        "other-permissive"
+      ],
+      "holders": [
+        {
+          "value": "Aki Yoshida",
+          "start_line": 20,
+          "end_line": 24
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 1996 Aki Yoshida",
+          "start_line": 20,
+          "end_line": 24
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 2168,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 373,
+      "date": "2018-08-30",
+      "sha1": "afed79b4271ea63210dc16fe9a5835a1f8333086",
+      "md5": "cfc4743b5e0dd4549f9c1ad1a96b67aa",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 1795,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/maven/org.eclipse.jetty",
+      "type": "directory",
+      "name": "org.eclipse.jetty",
+      "base_name": "org.eclipse.jetty",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 1795,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/maven/org.eclipse.jetty/jetty-rewrite",
+      "type": "directory",
+      "name": "jetty-rewrite",
+      "base_name": "jetty-rewrite",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 1795,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/maven/org.eclipse.jetty/jetty-rewrite/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 107,
+      "date": "2018-08-30",
+      "sha1": "1f71f3854b13365d80dcf914b005bff614648e10",
+      "md5": "4b7c4e2a5ed4a28f3b8e344fddf9b02a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/META-INF/maven/org.eclipse.jetty/jetty-rewrite/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 1688,
+      "date": "2018-08-30",
+      "sha1": "b12e66c920fab736098eb5ce1648c92d1c97f79f",
+      "md5": "3a518308c736a93738427a7d3d1c1954",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org",
+      "type": "directory",
+      "name": "org",
+      "base_name": "org",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 4,
+      "size_count": 88423,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse",
+      "type": "directory",
+      "name": "eclipse",
+      "base_name": "eclipse",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 3,
+      "size_count": 88423,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty",
+      "type": "directory",
+      "name": "jetty",
+      "base_name": "jetty",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 2,
+      "size_count": 88423,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite",
+      "type": "directory",
+      "name": "rewrite",
+      "base_name": "rewrite",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 1,
+      "size_count": 88423,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/RewriteCustomizer.java",
+      "type": "file",
+      "name": "RewriteCustomizer.java",
+      "base_name": "RewriteCustomizer",
+      "extension": ".java",
+      "size": 1574,
+      "date": "2018-04-13",
+      "sha1": "15b9627f47b29b6f955e8acfb7bc93f11f75b850",
+      "md5": "71ac5614db767bbb9066e26ca33c5fc4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler",
+      "type": "directory",
+      "name": "handler",
+      "base_name": "handler",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 23,
+      "dirs_count": 0,
+      "size_count": 86849,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/CompactPathRule.java",
+      "type": "file",
+      "name": "CompactPathRule.java",
+      "base_name": "CompactPathRule",
+      "extension": ".java",
+      "size": 1804,
+      "date": "2018-04-13",
+      "sha1": "9f9aee74ca6d8fb7bcfd962b6a0c7118a0802a6d",
+      "md5": "39161eef9a60b18611d94a3ed9c87212",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/CookiePatternRule.java",
+      "type": "file",
+      "name": "CookiePatternRule.java",
+      "base_name": "CookiePatternRule",
+      "extension": ".java",
+      "size": 3401,
+      "date": "2018-04-13",
+      "sha1": "0939a288667c9251e52825e8ff0a088f9ebb7bb8",
+      "md5": "3dac805fd0e2c79a389245dba71e4c07",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/ForwardedSchemeHeaderRule.java",
+      "type": "file",
+      "name": "ForwardedSchemeHeaderRule.java",
+      "base_name": "ForwardedSchemeHeaderRule",
+      "extension": ".java",
+      "size": 1802,
+      "date": "2018-04-13",
+      "sha1": "b9819f3d4fe37b4153b736672f7dc233254f5d86",
+      "md5": "bb6757e56fe5a581a744cf77a5c32713",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/HeaderPatternRule.java",
+      "type": "file",
+      "name": "HeaderPatternRule.java",
+      "base_name": "HeaderPatternRule",
+      "extension": ".java",
+      "size": 4220,
+      "date": "2018-04-13",
+      "sha1": "7e9cca40cbc14b5daccbf843689852e2c339f0b3",
+      "md5": "2709617c2f8b9677083728823ea0cb6e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/HeaderRegexRule.java",
+      "type": "file",
+      "name": "HeaderRegexRule.java",
+      "base_name": "HeaderRegexRule",
+      "extension": ".java",
+      "size": 3897,
+      "date": "2018-04-13",
+      "sha1": "1ebdcca7513a6d1fd255c60c8afe58ce94332cdf",
+      "md5": "2f985ffe7548626ff42a5b2b5c49d47c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/HeaderRule.java",
+      "type": "file",
+      "name": "HeaderRule.java",
+      "base_name": "HeaderRule",
+      "extension": ".java",
+      "size": 3453,
+      "date": "2018-04-13",
+      "sha1": "f0d34d43430f65612bf2b28f2e09ad1f036a15e5",
+      "md5": "4ba95a5e84a1eb1ef1338c915acad557",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/MsieSslRule.java",
+      "type": "file",
+      "name": "MsieSslRule.java",
+      "base_name": "MsieSslRule",
+      "extension": ".java",
+      "size": 3469,
+      "date": "2018-04-13",
+      "sha1": "d8d0e5cf4748a838d592207ac8fd30749ede2927",
+      "md5": "7fe5d3860757e4404a335db79205f0e7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 902,
+      "date": "2018-04-13",
+      "sha1": "d181b242f7e42b8b72139b3f3b2b755ff98f115e",
+      "md5": "83e3675dd61bd04428d796c1c6aab257",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/PatternRule.java",
+      "type": "file",
+      "name": "PatternRule.java",
+      "base_name": "PatternRule",
+      "extension": ".java",
+      "size": 3094,
+      "date": "2018-04-13",
+      "sha1": "308188b675a9dace8939de73a3bdebe65ec37bc6",
+      "md5": "1cf22190f704255de9e5f21cd815ed25",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RedirectPatternRule.java",
+      "type": "file",
+      "name": "RedirectPatternRule.java",
+      "base_name": "RedirectPatternRule",
+      "extension": ".java",
+      "size": 3296,
+      "date": "2018-04-13",
+      "sha1": "90e9780bedb0ea46b151b651b2b4806c490d131d",
+      "md5": "1efd29003735929e93e32ff8e5ac71d7",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RedirectRegexRule.java",
+      "type": "file",
+      "name": "RedirectRegexRule.java",
+      "base_name": "RedirectRegexRule",
+      "extension": ".java",
+      "size": 3670,
+      "date": "2018-04-13",
+      "sha1": "3f36eb04671e060126f864b4ed93c5209ea1090e",
+      "md5": "0a6429df43218f78773d52e7c62ad334",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RedirectUtil.java",
+      "type": "file",
+      "name": "RedirectUtil.java",
+      "base_name": "RedirectUtil",
+      "extension": ".java",
+      "size": 2641,
+      "date": "2018-04-13",
+      "sha1": "9f35a43b623a87f8661e0f6319777a80fda524f6",
+      "md5": "c823580f6f114be61ebccc6af9ae098d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RegexRule.java",
+      "type": "file",
+      "name": "RegexRule.java",
+      "base_name": "RegexRule",
+      "extension": ".java",
+      "size": 3453,
+      "date": "2018-04-13",
+      "sha1": "24395a4bef928621acfb30eb71793c91b143276b",
+      "md5": "df9a53b35b616f941ce4ffdd912d3203",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/ResponsePatternRule.java",
+      "type": "file",
+      "name": "ResponsePatternRule.java",
+      "base_name": "ResponsePatternRule",
+      "extension": ".java",
+      "size": 3167,
+      "date": "2018-04-13",
+      "sha1": "b17c3dd786e9b970a4289aff9049de2b7c1bc259",
+      "md5": "44f34a556aef359af6d2fdb61aa56931",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RewriteHandler.java",
+      "type": "file",
+      "name": "RewriteHandler.java",
+      "base_name": "RewriteHandler",
+      "extension": ".java",
+      "size": 13072,
+      "date": "2018-04-13",
+      "sha1": "91d1e9c5af525a2be97d2fc3eaec6e112f3e8e51",
+      "md5": "5763c76172dab03d4584327f68a01221",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RewritePatternRule.java",
+      "type": "file",
+      "name": "RewritePatternRule.java",
+      "base_name": "RewritePatternRule",
+      "extension": ".java",
+      "size": 4246,
+      "date": "2018-04-13",
+      "sha1": "e54d330c2ec52a11d5123d76f1cf99ff11646dac",
+      "md5": "8c8ad5dd5fd32bc557c1ecb6b943dfea",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RewriteRegexRule.java",
+      "type": "file",
+      "name": "RewriteRegexRule.java",
+      "base_name": "RewriteRegexRule",
+      "extension": ".java",
+      "size": 4805,
+      "date": "2018-04-13",
+      "sha1": "c3cbf6c665928e034201200ed7423381a5f357d0",
+      "md5": "33217bf726e05b9a2549d8d3ec27fc22",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/Rule.java",
+      "type": "file",
+      "name": "Rule.java",
+      "base_name": "Rule",
+      "extension": ".java",
+      "size": 3209,
+      "date": "2018-04-13",
+      "sha1": "373a24dfddb0b30bf1a11be490b752839994e6df",
+      "md5": "030260f6231bfc6a9c05a3685868f3a3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/RuleContainer.java",
+      "type": "file",
+      "name": "RuleContainer.java",
+      "base_name": "RuleContainer",
+      "extension": ".java",
+      "size": 7424,
+      "date": "2018-04-13",
+      "sha1": "c8d4f275250f2610a820fe8494d0007dec58343b",
+      "md5": "3a664e937e28502a177244b4f9d72b7a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/TerminatingPatternRule.java",
+      "type": "file",
+      "name": "TerminatingPatternRule.java",
+      "base_name": "TerminatingPatternRule",
+      "extension": ".java",
+      "size": 1790,
+      "date": "2018-04-13",
+      "sha1": "4a2c4af9c4aa351b38cfd663d9c4fdff402ce80e",
+      "md5": "949a435353f8a760258e8cdcc22236df",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/TerminatingRegexRule.java",
+      "type": "file",
+      "name": "TerminatingRegexRule.java",
+      "base_name": "TerminatingRegexRule",
+      "extension": ".java",
+      "size": 1885,
+      "date": "2018-04-13",
+      "sha1": "0dbc148f5d206fe24a7414487ba0754fe33b2f54",
+      "md5": "defeca18e88d27216a407d59a00584d2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/ValidUrlRule.java",
+      "type": "file",
+      "name": "ValidUrlRule.java",
+      "base_name": "ValidUrlRule",
+      "extension": ".java",
+      "size": 3975,
+      "date": "2018-04-13",
+      "sha1": "14e95aefa716c3ddb8879de5ae9dc24470735256",
+      "md5": "37a93d6c0ec4f3fa6715ed5f9060f0e7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jetty-rewrite-9.4.12.v20180830-sources.jar-extract/org/eclipse/jetty/rewrite/handler/VirtualHostRuleContainer.java",
+      "type": "file",
+      "name": "VirtualHostRuleContainer.java",
+      "base_name": "VirtualHostRuleContainer",
+      "extension": ".java",
+      "size": 4174,
+      "date": "2018-04-13",
+      "sha1": "ba19eed6935764676fcaef12c8e3030853091384",
+      "md5": "45945d492898473e181f3330b603b4f7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "epl-1.0",
+          "score": 100.0,
+          "name": "Eclipse Public License 1.0",
+          "short_name": "EPL 1.0",
+          "category": "Copyleft Limited",
+          "is_exception": false,
+          "owner": "Eclipse Foundation",
+          "homepage_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "text_url": "http://www.eclipse.org/legal/epl-v10.html",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:epl-1.0",
+          "spdx_license_key": "EPL-1.0",
+          "spdx_url": "https://spdx.org/licenses/EPL-1.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "epl-1.0_or_apache-2.0.RULE",
+            "license_expression": "epl-1.0 OR apache-2.0",
+            "licenses": [
+              "epl-1.0",
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 71,
+            "matched_length": 71,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "epl-1.0 OR apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 1995-2018 Mort Bay Consulting Pty. Ltd.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

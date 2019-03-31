@@ -1,0 +1,1807 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T012008.746165",
+      "end_timestamp": "2019-03-31T012017.050117",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 18
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153705.552488",
+      "end_timestamp": "2019-03-31T153705.836286",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 18
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 78,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.75,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.75,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract",
+      "type": "directory",
+      "name": "dependency-check-utils-3.3.2-sources.jar-extract",
+      "base_name": "dependency-check-utils-3.3.2-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "org.owasp",
+          "name": "dependency-check-utils",
+          "version": "3.3.2",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "Dependency-Check Utils\ndependency-check-utils is a collection of common utility classes used within dependency-check that might be useful in other projects.",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": "https://github.com/jeremylong/DependencyCheck/utils",
+          "vcs_url": "git+https://github.com/jeremylong/DependencyCheck.git",
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/org.owasp/dependency-check-utils/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/commons-io/commons-io",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.commons/commons-lang3",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/com.google.code.gson/gson",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.slf4j/slf4j-api",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/ch.qos.logback/logback-core",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/ch.qos.logback/logback-classic",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/org.owasp/dependency-check-utils@3.3.2?classifier=sources"
+          ],
+          "purl": "pkg:maven/org.owasp/dependency-check-utils@3.3.2",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/org/owasp/dependency-check-utils/3.3.2/",
+          "repository_download_url": "https://repo1.maven.org/maven2/org/owasp/dependency-check-utils/3.3.2/dependency-check-utils-3.3.2.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/org/owasp/dependency-check-utils/3.3.2/dependency-check-utils-3.3.2.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 18,
+      "dirs_count": 9,
+      "size_count": 116471,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 2894,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 97,
+      "date": "2018-09-16",
+      "sha1": "d135a28c7cad4f30d69dd4138b8c968c982d28a3",
+      "md5": "b71b9df78f02595a3b3a871e2b0803f4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 2797,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/maven/org.owasp",
+      "type": "directory",
+      "name": "org.owasp",
+      "base_name": "org.owasp",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 2797,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/maven/org.owasp/dependency-check-utils",
+      "type": "directory",
+      "name": "dependency-check-utils",
+      "base_name": "dependency-check-utils",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 2797,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/maven/org.owasp/dependency-check-utils/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 97,
+      "date": "2018-09-16",
+      "sha1": "4f25de6dee044072710f3bc4d1ca86ddf06d9e17",
+      "md5": "a933b65a878fce784448b0830df1ac9e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/META-INF/maven/org.owasp/dependency-check-utils/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 2700,
+      "date": "2018-09-15",
+      "sha1": "d72e08223fecb212ce12d934bbe16fa491722989",
+      "md5": "d5128504c8bbd3f6b85506ec481b16aa",
+      "mime_type": "text/plain",
+      "file_type": "exported SGML document, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 - Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org",
+      "type": "directory",
+      "name": "org",
+      "base_name": "org",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 15,
+      "dirs_count": 4,
+      "size_count": 113577,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp",
+      "type": "directory",
+      "name": "owasp",
+      "base_name": "owasp",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 15,
+      "dirs_count": 3,
+      "size_count": 113577,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck",
+      "type": "directory",
+      "name": "dependencycheck",
+      "base_name": "dependencycheck",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 15,
+      "dirs_count": 2,
+      "size_count": 113577,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils",
+      "type": "directory",
+      "name": "utils",
+      "base_name": "utils",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 15,
+      "dirs_count": 1,
+      "size_count": 113577,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/Checksum.java",
+      "type": "file",
+      "name": "Checksum.java",
+      "base_name": "Checksum",
+      "extension": ".java",
+      "size": 7813,
+      "date": "2018-07-06",
+      "sha1": "3d32c9d8afd44c15367fc87a603bc3f9a0f9e069",
+      "md5": "e3c6534b3c9bcebab8d4e9e8c508e6d2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 36,
+          "end_line": 36
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/Downloader.java",
+      "type": "file",
+      "name": "Downloader.java",
+      "base_name": "Downloader",
+      "extension": ".java",
+      "size": 15456,
+      "date": "2018-05-29",
+      "sha1": "fb17a702df9b0de775d64a53c8420b0ab5ad2674",
+      "md5": "dca15277dd162c0763d41a822e66093f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 40,
+          "end_line": 40
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/DownloadFailedException.java",
+      "type": "file",
+      "name": "DownloadFailedException.java",
+      "base_name": "DownloadFailedException",
+      "extension": ".java",
+      "size": 1759,
+      "date": "2018-02-18",
+      "sha1": "56e404dba2695324f20fdfd42a4d06f4f5ff5494",
+      "md5": "4e93ed85799658bdccfed6ba3258bac4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/ExpectedObjectInputStream.java",
+      "type": "file",
+      "name": "ExpectedObjectInputStream.java",
+      "base_name": "ExpectedObjectInputStream",
+      "extension": ".java",
+      "size": 2832,
+      "date": "2018-02-18",
+      "sha1": "7bd519b26d58e04431429527babb5c85bee08415",
+      "md5": "e404c527fbc0cc225aeda4c548548014",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2016 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/ExtractionException.java",
+      "type": "file",
+      "name": "ExtractionException.java",
+      "base_name": "ExtractionException",
+      "extension": ".java",
+      "size": 1739,
+      "date": "2018-02-18",
+      "sha1": "72e30fbff083f99d9eb5965288aa96ef34bc97ed",
+      "md5": "7268884cce00575cd8874847ba038ed6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/FileUtils.java",
+      "type": "file",
+      "name": "FileUtils.java",
+      "base_name": "FileUtils",
+      "extension": ".java",
+      "size": 4611,
+      "date": "2018-02-18",
+      "sha1": "b514d97d2697ae69f7518c523cb27000427c9c41",
+      "md5": "ef35b744db6605a84a56f976d28e3671",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/InvalidSettingException.java",
+      "type": "file",
+      "name": "InvalidSettingException.java",
+      "base_name": "InvalidSettingException",
+      "extension": ".java",
+      "size": 1778,
+      "date": "2018-02-18",
+      "sha1": "7b97a350b4fd9220bb211f614241f912d9bf42c5",
+      "md5": "b4ba0cf0d60d658bc2822701fd6787cb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 153,
+      "date": "2018-02-18",
+      "sha1": "7d3d1ee44b85ef52a6c0f2182d73a9127812abd9",
+      "md5": "6f149945493e0383842319a43c91861f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/Settings.java",
+      "type": "file",
+      "name": "Settings.java",
+      "base_name": "Settings",
+      "extension": ".java",
+      "size": 45972,
+      "date": "2018-08-14",
+      "sha1": "0c025770991241bcbb35812775b97ef8bade305b",
+      "md5": "c102b644ff4721c1fb8aca8422d90924",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/SSLSocketFactoryEx.java",
+      "type": "file",
+      "name": "SSLSocketFactoryEx.java",
+      "base_name": "SSLSocketFactoryEx",
+      "extension": ".java",
+      "size": 10078,
+      "date": "2018-05-29",
+      "sha1": "24c999775b08eca270816241eddc91f30e66f66c",
+      "md5": "01fe14d46b65cdbd0e032b6e8572825a",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "<a href http://stackoverflow.com/users/608639/jww'>",
+          "start_line": 28,
+          "end_line": 28
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/URLConnectionFactory.java",
+      "type": "file",
+      "name": "URLConnectionFactory.java",
+      "base_name": "URLConnectionFactory",
+      "extension": ".java",
+      "size": 9541,
+      "date": "2018-06-30",
+      "sha1": "50693acea2df8612a604de023eac8aa6081565e4",
+      "md5": "bdf34088f9b7e332d773a103b3c92514",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/URLConnectionFailureException.java",
+      "type": "file",
+      "name": "URLConnectionFailureException.java",
+      "base_name": "URLConnectionFailureException",
+      "extension": ".java",
+      "size": 1835,
+      "date": "2018-02-18",
+      "sha1": "91e4fd7e0062cdcf471af6549c52e5661f64b8b2",
+      "md5": "9455f35ed673d3fb54b0cde74c586289",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/XmlUtils.java",
+      "type": "file",
+      "name": "XmlUtils.java",
+      "base_name": "XmlUtils",
+      "extension": ".java",
+      "size": 7092,
+      "date": "2018-07-06",
+      "sha1": "fe8cc0b689c00fc92a8296b0bc5c99eeca7990dc",
+      "md5": "565a66a019ce8c56922023490621a3ad",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2016 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/search",
+      "type": "directory",
+      "name": "search",
+      "base_name": "search",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 2918,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/search/FileContentSearch.java",
+      "type": "file",
+      "name": "FileContentSearch.java",
+      "base_name": "FileContentSearch",
+      "extension": ".java",
+      "size": 2793,
+      "date": "2018-06-27",
+      "sha1": "158a23f041457d9d32d0f10c160c11a170403b5f",
+      "md5": "b0a58400c7c5359c1b0b51b0645f7702",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2018 Jeremy Long.",
+          "start_line": 16,
+          "end_line": 16
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jeremy Long",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "dependency-check-utils-3.3.2-sources.jar-extract/org/owasp/dependencycheck/utils/search/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 125,
+      "date": "2018-06-27",
+      "sha1": "775df195733a5fb2a15160bcbfab2559af6edff4",
+      "md5": "2cbfbb0b8aa621e91297f7688e81964b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

@@ -1,0 +1,1643 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T013639.964592",
+      "end_timestamp": "2019-03-31T013645.356448",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 14
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153731.174061",
+      "end_timestamp": "2019-03-31T153731.563264",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 14
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 82,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.92,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.92,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract",
+      "type": "directory",
+      "name": "axon-amqp-4.0-M2-sources.jar-extract",
+      "base_name": "axon-amqp-4.0-M2-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "org.axonframework",
+          "name": "axon-amqp",
+          "version": "4.0-M2",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "Axon AMQP\nThis module contains implementations of several components, connecting them to an AMQP compatible\n        message broker.",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/org.axonframework/axon-amqp/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/org.axonframework/axon-core",
+              "requirement": "4.0-M2",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/com.rabbitmq/amqp-client",
+              "requirement": "${rabbitmq.version}",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.springframework.amqp/spring-rabbit",
+              "requirement": "1.7.4.RELEASE",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.springframework/spring-context-support",
+              "requirement": "${spring.version}",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.powermock/powermock-api-mockito2",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.powermock/powermock-module-junit4",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/org.axonframework/axon-amqp@4.0-M2?classifier=sources"
+          ],
+          "purl": "pkg:maven/org.axonframework/axon-amqp@4.0-M2",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/org/axonframework/axon-amqp/4.0-M2/",
+          "repository_download_url": "https://repo1.maven.org/maven2/org/axonframework/axon-amqp/4.0-M2/axon-amqp-4.0-M2.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/org/axonframework/axon-amqp/4.0-M2/axon-amqp-4.0-M2.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 14,
+      "dirs_count": 10,
+      "size_count": 59750,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 4685,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 97,
+      "date": "2018-09-20",
+      "sha1": "10a9664804110079604690cb65ad1a21b17b31e1",
+      "md5": "401e7fd9233278d5332cfb2b90debb3e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 4588,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/maven/org.axonframework",
+      "type": "directory",
+      "name": "org.axonframework",
+      "base_name": "org.axonframework",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 4588,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/maven/org.axonframework/axon-amqp",
+      "type": "directory",
+      "name": "axon-amqp",
+      "base_name": "axon-amqp",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 4588,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/maven/org.axonframework/axon-amqp/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 97,
+      "date": "2018-09-20",
+      "sha1": "88e9eb8db43aa1e32dd9449b67882e2eeca993a0",
+      "md5": "7df9d48e2c290d41f3fcb245b6f94344",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/META-INF/maven/org.axonframework/axon-amqp/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 4491,
+      "date": "2018-09-20",
+      "sha1": "181382e55c215a24e2c3ee312c6c243b4bddc147",
+      "md5": "63149b5d770c3319121209bc13b30f97",
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017. Axon Framework",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org",
+      "type": "directory",
+      "name": "org",
+      "base_name": "org",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 5,
+      "size_count": 55065,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework",
+      "type": "directory",
+      "name": "axonframework",
+      "base_name": "axonframework",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 4,
+      "size_count": 55065,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp",
+      "type": "directory",
+      "name": "amqp",
+      "base_name": "amqp",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 3,
+      "size_count": 55065,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling",
+      "type": "directory",
+      "name": "eventhandling",
+      "base_name": "eventhandling",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 2,
+      "size_count": 55065,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/AMQPMessage.java",
+      "type": "file",
+      "name": "AMQPMessage.java",
+      "base_name": "AMQPMessage",
+      "extension": ".java",
+      "size": 3594,
+      "date": "2018-09-20",
+      "sha1": "1e1a57a93305d8f778dcc480de7d5ba300941105",
+      "md5": "43464c40e977d685ed777695355a6a42",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 25,
+          "end_line": 26
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/AMQPMessageConverter.java",
+      "type": "file",
+      "name": "AMQPMessageConverter.java",
+      "base_name": "AMQPMessageConverter",
+      "extension": ".java",
+      "size": 1844,
+      "date": "2018-09-20",
+      "sha1": "371d3814e7c94656a8bc0d9c44c70a8dd15790af",
+      "md5": "66f33e654b61bd3cdce7f1d3dc870631",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 27,
+          "end_line": 28
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/DefaultAMQPMessageConverter.java",
+      "type": "file",
+      "name": "DefaultAMQPMessageConverter.java",
+      "base_name": "DefaultAMQPMessageConverter",
+      "extension": ".java",
+      "size": 9703,
+      "date": "2018-09-20",
+      "sha1": "318e7dab96b13e87dbbb682eac985c7e7bf055ad",
+      "md5": "d3da2dfd9ce7b9eb29ac1673e15e7cab",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017. Axon Framework",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 48,
+          "end_line": 48
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/PackageRoutingKeyResolver.java",
+      "type": "file",
+      "name": "PackageRoutingKeyResolver.java",
+      "base_name": "PackageRoutingKeyResolver",
+      "extension": ".java",
+      "size": 1082,
+      "date": "2018-09-20",
+      "sha1": "a8c88b2fc06563f8fee2e855404d5be836efd05d",
+      "md5": "95a0631394b2855ef7b3866d035be1b7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 24,
+          "end_line": 25
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/RoutingKeyResolver.java",
+      "type": "file",
+      "name": "RoutingKeyResolver.java",
+      "base_name": "RoutingKeyResolver",
+      "extension": ".java",
+      "size": 1374,
+      "date": "2018-09-20",
+      "sha1": "62490b7e146787c1acbd2f0b1a5baa644c8e3188",
+      "md5": "b1d2ab262fc67338d996161503f96f1d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 25,
+          "end_line": 26
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/legacy",
+      "type": "directory",
+      "name": "legacy",
+      "base_name": "legacy",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 16177,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/legacy/EventMessageReader.java",
+      "type": "file",
+      "name": "EventMessageReader.java",
+      "base_name": "EventMessageReader",
+      "extension": ".java",
+      "size": 5181,
+      "date": "2018-09-20",
+      "sha1": "b5d9da7ce09dcd7a44a1dd8f27b0db30e11b305f",
+      "md5": "9d32a2cf079e035eba43e47335f3b0c0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 3,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2017. Axon Framework",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 35,
+          "end_line": 36
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/legacy/EventMessageType.java",
+      "type": "file",
+      "name": "EventMessageType.java",
+      "base_name": "EventMessageType",
+      "extension": ".java",
+      "size": 2709,
+      "date": "2018-09-20",
+      "sha1": "447a8be4d66b3c3425aee702adf2978c628a6e04",
+      "md5": "5a5a6baffae1eb4906faa87806df2920",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 25,
+          "end_line": 26
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/legacy/EventMessageWriter.java",
+      "type": "file",
+      "name": "EventMessageWriter.java",
+      "base_name": "EventMessageWriter",
+      "extension": ".java",
+      "size": 3580,
+      "date": "2018-09-20",
+      "sha1": "bcc24827d31401a881e7397270c784433a5c59d7",
+      "md5": "3d86caa9fbd6444982d1197eac03bea2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 36,
+          "end_line": 37
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/legacy/JavaSerializationAMQPMessageConverter.java",
+      "type": "file",
+      "name": "JavaSerializationAMQPMessageConverter.java",
+      "base_name": "JavaSerializationAMQPMessageConverter",
+      "extension": ".java",
+      "size": 4707,
+      "date": "2018-09-20",
+      "sha1": "d9cb79e4c1bf45db9157a862a46f5c469c510c79",
+      "md5": "7dfdbf56d3ea9d11ec3dba4f015092ae",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2014. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/spring",
+      "type": "directory",
+      "name": "spring",
+      "base_name": "spring",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 21291,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/spring/SpringAMQPMessageSource.java",
+      "type": "file",
+      "name": "SpringAMQPMessageSource.java",
+      "base_name": "SpringAMQPMessageSource",
+      "extension": ".java",
+      "size": 4106,
+      "date": "2018-09-20",
+      "sha1": "06fe2e53c2ceb16a7627b9f65c2485784ea0ca85",
+      "md5": "c537cd04b7d0c39ea1c2658297f26e82",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2015. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 46,
+          "end_line": 47
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "axon-amqp-4.0-M2-sources.jar-extract/org/axonframework/amqp/eventhandling/spring/SpringAMQPPublisher.java",
+      "type": "file",
+      "name": "SpringAMQPPublisher.java",
+      "base_name": "SpringAMQPPublisher",
+      "extension": ".java",
+      "size": 17185,
+      "date": "2018-09-20",
+      "sha1": "e1001c0f787222369616ea3c97a40a53fd5975aa",
+      "md5": "b8521c13a981c25f6c6db19fc8dc5855",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2016. Axon Framework",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [
+        {
+          "value": "Allard Buijze",
+          "start_line": 55,
+          "end_line": 56
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

@@ -1,0 +1,2654 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T013055.180187",
+      "end_timestamp": "2019-03-31T013112.087049",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 27
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153722.211004",
+      "end_timestamp": "2019-03-31T153722.426607",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 27
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 84,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.96,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.96,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract",
+      "type": "directory",
+      "name": "netty-resolver-dns-2.0.39-sources.jar-extract",
+      "base_name": "netty-resolver-dns-2.0.39-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "org.asynchttpclient",
+          "name": "netty-resolver-dns",
+          "version": "2.0.39",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "Netty/Resolver/DNS",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/org.asynchttpclient/netty-resolver-dns/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/org.asynchttpclient/netty-resolver",
+              "requirement": "2.0.39",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.asynchttpclient/netty-codec-dns",
+              "requirement": "2.0.39",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/io.netty/netty-transport",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/org.asynchttpclient/netty-resolver-dns@2.0.39?classifier=sources"
+          ],
+          "purl": "pkg:maven/org.asynchttpclient/netty-resolver-dns@2.0.39",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver-dns/2.0.39/",
+          "repository_download_url": "https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver-dns/2.0.39/netty-resolver-dns-2.0.39.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver-dns/2.0.39/netty-resolver-dns-2.0.39.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 27,
+      "dirs_count": 11,
+      "size_count": 197906,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io",
+      "type": "directory",
+      "name": "io",
+      "base_name": "io",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 6,
+      "size_count": 196125,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty",
+      "type": "directory",
+      "name": "netty",
+      "base_name": "netty",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 24,
+      "dirs_count": 5,
+      "size_count": 196125,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/channel",
+      "type": "directory",
+      "name": "channel",
+      "base_name": "channel",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 1549,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/channel/ReflectiveChannelFactory.java",
+      "type": "file",
+      "name": "ReflectiveChannelFactory.java",
+      "base_name": "ReflectiveChannelFactory",
+      "extension": ".java",
+      "size": 1549,
+      "date": "2018-02-27",
+      "sha1": "60df5cbd4e4f335e79d25b689f46d4c2d2a2596b",
+      "md5": "b48c385fa4cd36c84f7c2690cb15a247",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver",
+      "type": "directory",
+      "name": "resolver",
+      "base_name": "resolver",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 20,
+      "dirs_count": 1,
+      "size_count": 146539,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns",
+      "type": "directory",
+      "name": "dns",
+      "base_name": "dns",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 20,
+      "dirs_count": 0,
+      "size_count": 146539,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DefaultDnsCache.java",
+      "type": "file",
+      "name": "DefaultDnsCache.java",
+      "base_name": "DefaultDnsCache",
+      "extension": ".java",
+      "size": 8058,
+      "date": "2018-02-27",
+      "sha1": "cf500017a33cae0d91d55a35bb246b13b107ea37",
+      "md5": "66d77ae850f8d409de26cbf4aeceb0b9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DefaultDnsServerAddresses.java",
+      "type": "file",
+      "name": "DefaultDnsServerAddresses.java",
+      "base_name": "DefaultDnsServerAddresses",
+      "extension": ".java",
+      "size": 1389,
+      "date": "2018-02-27",
+      "sha1": "da183c5bb979204f033736d58c248737567c5b53",
+      "md5": "737178a717240137d67363c02bf8cb96",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsAddressResolverGroup.java",
+      "type": "file",
+      "name": "DnsAddressResolverGroup.java",
+      "base_name": "DnsAddressResolverGroup",
+      "extension": ".java",
+      "size": 4326,
+      "date": "2018-02-27",
+      "sha1": "41d6b1d498e646961fbf660d54273d051994548e",
+      "md5": "da09a09bd299da7c35457195f0c8b95c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsCache.java",
+      "type": "file",
+      "name": "DnsCache.java",
+      "base_name": "DnsCache",
+      "extension": ".java",
+      "size": 2465,
+      "date": "2018-02-27",
+      "sha1": "81fedbe5c0639738eebdac51934f1ed0ef25940e",
+      "md5": "0432b5d9290181c97d8e74f96311bc8e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsCacheEntry.java",
+      "type": "file",
+      "name": "DnsCacheEntry.java",
+      "base_name": "DnsCacheEntry",
+      "extension": ".java",
+      "size": 2354,
+      "date": "2018-02-27",
+      "sha1": "89c60427f9911310676dcf5a9f3535f48d8f0115",
+      "md5": "6f47e3f5183c19f6b644a68f5402b5fb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsNameResolver.java",
+      "type": "file",
+      "name": "DnsNameResolver.java",
+      "base_name": "DnsNameResolver",
+      "extension": ".java",
+      "size": 39285,
+      "date": "2018-02-27",
+      "sha1": "8aafb13cd7f62bcf5e9cfb94ec04090ef4b3ba8a",
+      "md5": "c48167bac47b56ec7f36884680b7dc17",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsNameResolverBuilder.java",
+      "type": "file",
+      "name": "DnsNameResolverBuilder.java",
+      "base_name": "DnsNameResolverBuilder",
+      "extension": ".java",
+      "size": 13972,
+      "date": "2018-02-27",
+      "sha1": "6b286a43da22c3da932cb7bc7d2c88eb4f8ee953",
+      "md5": "5f19e2cb5d43648a697263183459a853",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsNameResolverContext.java",
+      "type": "file",
+      "name": "DnsNameResolverContext.java",
+      "base_name": "DnsNameResolverContext",
+      "extension": ".java",
+      "size": 32411,
+      "date": "2018-02-27",
+      "sha1": "db76a6962a84350a284bad7ddbb236808e87fbc2",
+      "md5": "1f5585176e59307941374e1a135147fc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsNameResolverException.java",
+      "type": "file",
+      "name": "DnsNameResolverException.java",
+      "base_name": "DnsNameResolverException",
+      "extension": ".java",
+      "size": 2529,
+      "date": "2018-02-27",
+      "sha1": "99659166c7ee65192449be279c4c76f38dd26c1e",
+      "md5": "b834221a3991ef16eca4d6934b4d5200",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsQueryContext.java",
+      "type": "file",
+      "name": "DnsQueryContext.java",
+      "base_name": "DnsQueryContext",
+      "extension": ".java",
+      "size": 8176,
+      "date": "2018-02-27",
+      "sha1": "2765480d8061709bce9ea1b15f5ba0114a6d53c9",
+      "md5": "51b7561f705938f60a03be12609bf009",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsQueryContextManager.java",
+      "type": "file",
+      "name": "DnsQueryContextManager.java",
+      "base_name": "DnsQueryContextManager",
+      "extension": ".java",
+      "size": 5283,
+      "date": "2018-02-27",
+      "sha1": "9825a0b78ac5f3109cd29cdbaf9ddeeff23ece51",
+      "md5": "8fb9a2210b8475c28ce588b86cd5a485",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsServerAddresses.java",
+      "type": "file",
+      "name": "DnsServerAddresses.java",
+      "base_name": "DnsServerAddresses",
+      "extension": ".java",
+      "size": 10605,
+      "date": "2018-02-27",
+      "sha1": "7d853d2fa53077c25cd342238200d4ab72fbe985",
+      "md5": "894dbbb9fd7cbb75a2951d58517cba0b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/DnsServerAddressStream.java",
+      "type": "file",
+      "name": "DnsServerAddressStream.java",
+      "base_name": "DnsServerAddressStream",
+      "extension": ".java",
+      "size": 911,
+      "date": "2018-02-27",
+      "sha1": "00bf686d8708bf5a05f9875c7bc7abc20d9bbd0d",
+      "md5": "4c5efee0ecb0d927ada5a8132eccf59f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/InflightNameResolver.java",
+      "type": "file",
+      "name": "InflightNameResolver.java",
+      "base_name": "InflightNameResolver",
+      "extension": ".java",
+      "size": 4851,
+      "date": "2018-02-27",
+      "sha1": "38865af1117e2549973c03da05d6502e98da331d",
+      "md5": "1bf901326991270bd1072837e40fe327",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/NoopDnsCache.java",
+      "type": "file",
+      "name": "NoopDnsCache.java",
+      "base_name": "NoopDnsCache",
+      "extension": ".java",
+      "size": 1826,
+      "date": "2018-02-27",
+      "sha1": "b6c54f3c0d178e8607c5cfc9735735dcf44fd055",
+      "md5": "975f0000f8797108f345ac548ab56f85",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 856,
+      "date": "2018-02-27",
+      "sha1": "e6d6dd6fa24c153f1c39d96d0ef0d9858c48fc9c",
+      "md5": "58b08510804ec76eec4da02e9e333d29",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/RotationalDnsServerAddresses.java",
+      "type": "file",
+      "name": "RotationalDnsServerAddresses.java",
+      "base_name": "RotationalDnsServerAddresses",
+      "extension": ".java",
+      "size": 1982,
+      "date": "2018-02-27",
+      "sha1": "ab23cb6b52b7adcef9f96e6b4bb965a703935a1b",
+      "md5": "801fbe81cdb1dd0d2a02dedb2c101855",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/SequentialDnsServerAddressStream.java",
+      "type": "file",
+      "name": "SequentialDnsServerAddressStream.java",
+      "base_name": "SequentialDnsServerAddressStream",
+      "extension": ".java",
+      "size": 1852,
+      "date": "2018-02-27",
+      "sha1": "b7082fd53bc897d5024b56875d40249b4670a54b",
+      "md5": "cffc3db0b83d9e9ca05fffc145f063fa",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/ShuffledDnsServerAddressStream.java",
+      "type": "file",
+      "name": "ShuffledDnsServerAddressStream.java",
+      "base_name": "ShuffledDnsServerAddressStream",
+      "extension": ".java",
+      "size": 1875,
+      "date": "2018-02-27",
+      "sha1": "e05d2ed1bdc879c8850e605313cb3c7736b15cf4",
+      "md5": "d8b3a7c1e0ad7d60a1b576998e9fb025",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/resolver/dns/SingletonDnsServerAddresses.java",
+      "type": "file",
+      "name": "SingletonDnsServerAddresses.java",
+      "base_name": "SingletonDnsServerAddresses",
+      "extension": ".java",
+      "size": 1533,
+      "date": "2018-02-27",
+      "sha1": "6cb1db67adf7646cd354ca0cf9ee5e32a62e926a",
+      "md5": "1ea943cfc0f356296c90677c79f640bc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/util",
+      "type": "directory",
+      "name": "util",
+      "base_name": "util",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 1,
+      "size_count": 48037,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/util/NetUtil2.java",
+      "type": "file",
+      "name": "NetUtil2.java",
+      "base_name": "NetUtil2",
+      "extension": ".java",
+      "size": 43551,
+      "date": "2018-02-27",
+      "sha1": "995b73174417b624be67d54218884638904cab9d",
+      "md5": "3591baf4ea33fc868c4cfac5ef819e43",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/util/internal",
+      "type": "directory",
+      "name": "internal",
+      "base_name": "internal",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 4486,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/util/internal/ObjectUtil2.java",
+      "type": "file",
+      "name": "ObjectUtil2.java",
+      "base_name": "ObjectUtil2",
+      "extension": ".java",
+      "size": 3326,
+      "date": "2018-02-27",
+      "sha1": "9349f7048019c5e0d6ae532f6c60a7a1f488d1a3",
+      "md5": "5982fc7a80078400b09b4799b399dd8f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 13,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/io/netty/util/internal/StringUtil2.java",
+      "type": "file",
+      "name": "StringUtil2.java",
+      "base_name": "StringUtil2",
+      "extension": ".java",
+      "size": 1160,
+      "date": "2018-02-27",
+      "sha1": "b1090e83792d5552203f277607795ef60cc0ff38",
+      "md5": "fe03d78bb4206814ab1fe1f01ea117b6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 The Netty Project",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 1781,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 100,
+      "date": "2018-02-27",
+      "sha1": "de6a72333f0cebddd1b87757b5eb7e7f40a45cd2",
+      "md5": "098b1f1a988ce44ad3cc6dfd842d5509",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 1681,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/maven/org.asynchttpclient",
+      "type": "directory",
+      "name": "org.asynchttpclient",
+      "base_name": "org.asynchttpclient",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 1681,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/maven/org.asynchttpclient/netty-resolver-dns",
+      "type": "directory",
+      "name": "netty-resolver-dns",
+      "base_name": "netty-resolver-dns",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 1681,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/maven/org.asynchttpclient/netty-resolver-dns/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 104,
+      "date": "2018-02-27",
+      "sha1": "ff7deae2365a591c404512a206e8ee7413f82786",
+      "md5": "91f377314d184c50ff1a194d704f51b5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "netty-resolver-dns-2.0.39-sources.jar-extract/META-INF/maven/org.asynchttpclient/netty-resolver-dns/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 1577,
+      "date": "2018-02-27",
+      "sha1": "2d3cd63b07d2e67968550786c4a58082b926bdab",
+      "md5": "76d8145a86d44fd9683f952bc624852c",
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 2,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "apache-2.0_36.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 89,
+            "matched_length": 89,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "The Netty Project ~ ~ The Netty Project",
+          "start_line": 2,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 The Netty Project ~ ~ The Netty Project",
+          "start_line": 2,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

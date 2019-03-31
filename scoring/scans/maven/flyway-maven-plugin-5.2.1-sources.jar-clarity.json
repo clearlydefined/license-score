@@ -1,0 +1,1441 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T011917.763964",
+      "end_timestamp": "2019-03-31T011924.696008",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 14
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153703.928927",
+      "end_timestamp": "2019-03-31T153704.055760",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 14
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 80,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.83,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.83,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract",
+      "type": "directory",
+      "name": "flyway-maven-plugin-5.2.1-sources.jar-extract",
+      "base_name": "flyway-maven-plugin-5.2.1-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "org.flywaydb",
+          "name": "flyway-maven-plugin",
+          "version": "5.2.1",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "flyway-maven-plugin",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/org.flywaydb/flyway-maven-plugin/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.maven/maven-artifact",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.maven/maven-model",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.maven/maven-core",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.sonatype.plexus/plexus-sec-dispatcher",
+              "requirement": "1.4",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+              "requirement": "1.5.15",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.flywaydb/flyway-core",
+              "requirement": "5.2.1",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations",
+              "requirement": "3.5",
+              "scope": "provided",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/org.flywaydb/flyway-maven-plugin@5.2.1?classifier=sources"
+          ],
+          "purl": "pkg:maven/org.flywaydb/flyway-maven-plugin@5.2.1",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/org/flywaydb/flyway-maven-plugin/5.2.1/",
+          "repository_download_url": "https://repo1.maven.org/maven2/org/flywaydb/flyway-maven-plugin/5.2.1/flyway-maven-plugin-5.2.1.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/org/flywaydb/flyway-maven-plugin/5.2.1/flyway-maven-plugin-5.2.1.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 14,
+      "dirs_count": 7,
+      "size_count": 77132,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 4694,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 88,
+      "date": "2018-10-24",
+      "sha1": "953d7462512025967b2674ecdc9455e23f503039",
+      "md5": "836727eb991edcfa3558e33cfed2c979",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 4606,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/maven/org.flywaydb",
+      "type": "directory",
+      "name": "org.flywaydb",
+      "base_name": "org.flywaydb",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 4606,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/maven/org.flywaydb/flyway-maven-plugin",
+      "type": "directory",
+      "name": "flyway-maven-plugin",
+      "base_name": "flyway-maven-plugin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 4606,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/maven/org.flywaydb/flyway-maven-plugin/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 101,
+      "date": "2018-10-24",
+      "sha1": "f91fe9f4cfc592039921930109ae8918d40e7373",
+      "md5": "98995c7bebbcbf923943dc9be4abf8f2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/META-INF/maven/org.flywaydb/flyway-maven-plugin/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 4505,
+      "date": "2018-10-24",
+      "sha1": "01af65198d1bf0a8387bc86763112905806192b1",
+      "md5": "c0863a9d3314577d506c281323a7e073",
+      "mime_type": "text/plain",
+      "file_type": "exported SGML document, ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 5,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org",
+      "type": "directory",
+      "name": "org",
+      "base_name": "org",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 2,
+      "size_count": 72438,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb",
+      "type": "directory",
+      "name": "flywaydb",
+      "base_name": "flywaydb",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 1,
+      "size_count": 72438,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 0,
+      "size_count": 72438,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/AbstractFlywayMojo.java",
+      "type": "file",
+      "name": "AbstractFlywayMojo.java",
+      "base_name": "AbstractFlywayMojo",
+      "extension": ".java",
+      "size": 43308,
+      "date": "2018-10-24",
+      "sha1": "63481d87dea6537935e9a1b39604af301901b57b",
+      "md5": "2ad526db2480cb65dd052df7ed8619e3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/BaselineMojo.java",
+      "type": "file",
+      "name": "BaselineMojo.java",
+      "base_name": "BaselineMojo",
+      "extension": ".java",
+      "size": 1283,
+      "date": "2018-10-24",
+      "sha1": "d1d26f72f41bb2e9d610651796a92bd09a17c997",
+      "md5": "236ae7a331401304db5a7e523e1ec1de",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/CleanMojo.java",
+      "type": "file",
+      "name": "CleanMojo.java",
+      "base_name": "CleanMojo",
+      "extension": ".java",
+      "size": 1414,
+      "date": "2018-10-24",
+      "sha1": "6dc25f5e05462653d5a6256b07892be54845d701",
+      "md5": "d42ace4f2cbfb77b58f781c945aab36c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/HelpMojo.java",
+      "type": "file",
+      "name": "HelpMojo.java",
+      "base_name": "HelpMojo",
+      "extension": ".java",
+      "size": 15228,
+      "date": "2018-10-24",
+      "sha1": "1d376b0f93d2c24c066f73bb583e286f0595322e",
+      "md5": "5e7c48214ee9aa7c0aecbf711d0a2454",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/InfoMojo.java",
+      "type": "file",
+      "name": "InfoMojo.java",
+      "base_name": "InfoMojo",
+      "extension": ".java",
+      "size": 1901,
+      "date": "2018-10-24",
+      "sha1": "136c0d483c988f7b37df77b86e6397dc45074d9f",
+      "md5": "336d4b2854f01411721e09e3f550c67a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/MavenLog.java",
+      "type": "file",
+      "name": "MavenLog.java",
+      "base_name": "MavenLog",
+      "extension": ".java",
+      "size": 1575,
+      "date": "2018-10-24",
+      "sha1": "f20c63645d3cf12110349b3400594092d48b1937",
+      "md5": "7526bea832413c8809cd986771196cfc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/MavenLogCreator.java",
+      "type": "file",
+      "name": "MavenLogCreator.java",
+      "base_name": "MavenLogCreator",
+      "extension": ".java",
+      "size": 1248,
+      "date": "2018-10-24",
+      "sha1": "4d5be663bb81e5457d48634f9085731c4e56efae",
+      "md5": "e9f375ed1b87b04942ca38d41b4124c4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/MigrateMojo.java",
+      "type": "file",
+      "name": "MigrateMojo.java",
+      "base_name": "MigrateMojo",
+      "extension": ".java",
+      "size": 1607,
+      "date": "2018-10-24",
+      "sha1": "ad6c66ca2e57cb75b380ce067f677563cea2bfed",
+      "md5": "9d97baeaa39ae51a67a9b5a5476f466a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/RepairMojo.java",
+      "type": "file",
+      "name": "RepairMojo.java",
+      "base_name": "RepairMojo",
+      "extension": ".java",
+      "size": 1600,
+      "date": "2018-10-24",
+      "sha1": "5aad602d4a0b5f386f875e0a200ea823f252a6f4",
+      "md5": "65dcdf4aa6b2f77a123a40325b23592a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/UndoMojo.java",
+      "type": "file",
+      "name": "UndoMojo.java",
+      "base_name": "UndoMojo",
+      "extension": ".java",
+      "size": 1481,
+      "date": "2018-10-24",
+      "sha1": "14cfa5c7de22361005d9dc2f286bbf0a3d7570bf",
+      "md5": "b05aea3b9416325760a95d40646e0525",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "flyway-maven-plugin-5.2.1-sources.jar-extract/org/flywaydb/maven/ValidateMojo.java",
+      "type": "file",
+      "name": "ValidateMojo.java",
+      "base_name": "ValidateMojo",
+      "extension": ".java",
+      "size": 1793,
+      "date": "2018-10-24",
+      "sha1": "0352cdd095f2599dcaf5568f446c016be077e6ae",
+      "md5": "76debc9ff42391bcbf65d49b828a52e0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 4,
+          "end_line": 14,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2010-2018 Boxfuse GmbH",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

@@ -1,0 +1,4657 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T013846.426510",
+      "end_timestamp": "2019-03-31T013908.571208",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 52
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153734.551658",
+      "end_timestamp": "2019-03-31T153735.204241",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 52
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 81,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.84,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.84,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract",
+      "type": "directory",
+      "name": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract",
+      "base_name": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "io.undertow",
+          "name": "undertow-websockets-jsr",
+          "version": "2.0.14.Final",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "Undertow WebSockets JSR356 implementations",
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": null,
+          "copyright": null,
+          "license_expression": null,
+          "declared_license": null,
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/io.undertow/undertow-websockets-jsr/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/io.undertow/undertow-core",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/io.undertow/undertow-servlet",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.jboss.spec.javax.websocket/jboss-websocket-api_1.1_spec",
+              "requirement": null,
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+              "requirement": null,
+              "scope": "provided",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.osgi/org.osgi.core",
+              "requirement": null,
+              "scope": "provided",
+              "is_runtime": true,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/io.undertow/undertow-core",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/io.undertow/undertow-servlet",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.jboss.xnio/xnio-nio",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/junit/junit",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/io.netty/netty-all",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+              "requirement": null,
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/org.wildfly.openssl/wildfly-openssl",
+              "requirement": "${version.org.wildfly.openssl}",
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/io.undertow/undertow-websockets-jsr@2.0.14.Final?classifier=sources"
+          ],
+          "purl": "pkg:maven/io.undertow/undertow-websockets-jsr@2.0.14.Final",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/io/undertow/undertow-websockets-jsr/2.0.14.Final/",
+          "repository_download_url": "https://repo1.maven.org/maven2/io/undertow/undertow-websockets-jsr/2.0.14.Final/undertow-websockets-jsr-2.0.14.Final.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/io/undertow/undertow-websockets-jsr/2.0.14.Final/undertow-websockets-jsr-2.0.14.Final.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 52,
+      "dirs_count": 13,
+      "size_count": 324768,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io",
+      "type": "directory",
+      "name": "io",
+      "base_name": "io",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 44,
+      "dirs_count": 7,
+      "size_count": 313254,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow",
+      "type": "directory",
+      "name": "undertow",
+      "base_name": "undertow",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 44,
+      "dirs_count": 6,
+      "size_count": 313254,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets",
+      "type": "directory",
+      "name": "websockets",
+      "base_name": "websockets",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 44,
+      "dirs_count": 5,
+      "size_count": 313254,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr",
+      "type": "directory",
+      "name": "jsr",
+      "base_name": "jsr",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 44,
+      "dirs_count": 4,
+      "size_count": 313254,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/Bootstrap.java",
+      "type": "file",
+      "name": "Bootstrap.java",
+      "base_name": "Bootstrap",
+      "extension": ".java",
+      "size": 6122,
+      "date": "2018-10-19",
+      "sha1": "2e6d5b0222f081cac3e1c4a74b32dceb3e90da88",
+      "md5": "312a6375577a5cab0c0d132f28843166",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 47,
+          "end_line": 47
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/ConfiguredClientEndpoint.java",
+      "type": "file",
+      "name": "ConfiguredClientEndpoint.java",
+      "base_name": "ConfiguredClientEndpoint",
+      "extension": ".java",
+      "size": 1998,
+      "date": "2018-08-28",
+      "sha1": "098550a387b82bffeecc65e9edce78ca220101dd",
+      "md5": "de1d506334f961423d3d8cf9a0e94c19",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/ConfiguredServerEndpoint.java",
+      "type": "file",
+      "name": "ConfiguredServerEndpoint.java",
+      "base_name": "ConfiguredServerEndpoint",
+      "extension": ".java",
+      "size": 3253,
+      "date": "2018-09-04",
+      "sha1": "e377a9ed03f7e1664cdece8cf79276864c8cf24f",
+      "md5": "552e2a2d6ea4614fd8699e892cbaabd0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 31,
+          "end_line": 31
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/DefaultContainerConfigurator.java",
+      "type": "file",
+      "name": "DefaultContainerConfigurator.java",
+      "base_name": "DefaultContainerConfigurator",
+      "extension": ".java",
+      "size": 3745,
+      "date": "2018-08-28",
+      "sha1": "121273efc31d64efb3a5fa44064492d5313d4f9c",
+      "md5": "dfcad3943483faff5aa093b68453f1c4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/DefaultPongMessage.java",
+      "type": "file",
+      "name": "DefaultPongMessage.java",
+      "base_name": "DefaultPongMessage",
+      "extension": ".java",
+      "size": 1610,
+      "date": "2018-08-28",
+      "sha1": "d75bf820e57062ec4e041bf0a19b415a18920e4a",
+      "md5": "ea8ed52bb7cb2b298899298eddc25a08",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/DefaultWebSocketClientSslProvider.java",
+      "type": "file",
+      "name": "DefaultWebSocketClientSslProvider.java",
+      "base_name": "DefaultWebSocketClientSslProvider",
+      "extension": ".java",
+      "size": 2925,
+      "date": "2018-08-28",
+      "sha1": "18edc15687087a41a6bcccac6152d329f55280c5",
+      "md5": "8c1be5ae64ba21ccb8feb11369dea369",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 40,
+          "end_line": 40
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/Encoding.java",
+      "type": "file",
+      "name": "Encoding.java",
+      "base_name": "Encoding",
+      "extension": ".java",
+      "size": 11964,
+      "date": "2018-08-28",
+      "sha1": "1042241f07ce86f2dc84312e490a6e22d6adbfb4",
+      "md5": "a75c20954f9115f5ae651301a8d3eb02",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/EncodingFactory.java",
+      "type": "file",
+      "name": "EncodingFactory.java",
+      "base_name": "EncodingFactory",
+      "extension": ".java",
+      "size": 17104,
+      "date": "2018-10-18",
+      "sha1": "09a92a4eb616ae3967abce8e571b5c8f90352337",
+      "md5": "3c6723f9f84943fdc909a2c3cfdf66f1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 51,
+          "end_line": 51
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/EndpointSessionHandler.java",
+      "type": "file",
+      "name": "EndpointSessionHandler.java",
+      "base_name": "EndpointSessionHandler",
+      "extension": ".java",
+      "size": 6557,
+      "date": "2018-08-28",
+      "sha1": "a43ad6c21b1c57fddff7a036cf775b22324b1967",
+      "md5": "9d8675f8be15ed7c975efcd5d001b38f",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text, with very long lines",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/ExtensionImpl.java",
+      "type": "file",
+      "name": "ExtensionImpl.java",
+      "base_name": "ExtensionImpl",
+      "extension": ".java",
+      "size": 2171,
+      "date": "2018-08-28",
+      "sha1": "d2e818cc6c5700c05a5b3b5ddcd72867f426ac04",
+      "md5": "630278991f0c0ac79496b762e3146c10",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 28,
+          "end_line": 28
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/FrameHandler.java",
+      "type": "file",
+      "name": "FrameHandler.java",
+      "base_name": "FrameHandler",
+      "extension": ".java",
+      "size": 22668,
+      "date": "2018-10-19",
+      "sha1": "907ffbfd348d7a4f4da6fc14b2be3f93ec69d0b4",
+      "md5": "24437d28e605c667c101f8ebd68a046a",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 54,
+          "end_line": 55
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketFilter.java",
+      "type": "file",
+      "name": "JsrWebSocketFilter.java",
+      "base_name": "JsrWebSocketFilter",
+      "extension": ".java",
+      "size": 9460,
+      "date": "2018-10-18",
+      "sha1": "4e90f80c20e80e7919a0ba758c307df8a48980df",
+      "md5": "9b252a763eb2fcb0b49fc897c8d7690a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 69,
+          "end_line": 69
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketLogger.java",
+      "type": "file",
+      "name": "JsrWebSocketLogger.java",
+      "base_name": "JsrWebSocketLogger",
+      "extension": ".java",
+      "size": 3952,
+      "date": "2018-08-28",
+      "sha1": "3e28417b69de349656121dcfbc81f04b683a4dd6",
+      "md5": "d28d9e0534c278549818889a56fc1e0e",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketLogger_$logger.java",
+      "type": "file",
+      "name": "JsrWebSocketLogger_$logger.java",
+      "base_name": "JsrWebSocketLogger_$logger",
+      "extension": ".java",
+      "size": 6767,
+      "date": "2018-10-19",
+      "sha1": "f202bddb3becb6e771b7d0452188f3cab0796a41",
+      "md5": "bc9c2c9b73ed555732dcd14da707e167",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketMessages.java",
+      "type": "file",
+      "name": "JsrWebSocketMessages.java",
+      "base_name": "JsrWebSocketMessages",
+      "extension": ".java",
+      "size": 7698,
+      "date": "2018-10-16",
+      "sha1": "9ee594071316559f82e9c6129b62f5f5ee6b5495",
+      "md5": "6e41f40159fafb8956666ddcb8f7a827",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketMessages_$bundle.java",
+      "type": "file",
+      "name": "JsrWebSocketMessages_$bundle.java",
+      "base_name": "JsrWebSocketMessages_$bundle",
+      "extension": ".java",
+      "size": 26250,
+      "date": "2018-10-19",
+      "sha1": "ee791b9b5fae4cc2a121c1fde400d22c60c20075",
+      "md5": "1ce9ca73c69e1d0a2a49d3152f6ab0ea",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/JsrWebSocketProtocolHandshakeHandler.java",
+      "type": "file",
+      "name": "JsrWebSocketProtocolHandshakeHandler.java",
+      "base_name": "JsrWebSocketProtocolHandshakeHandler",
+      "extension": ".java",
+      "size": 2126,
+      "date": "2018-08-28",
+      "sha1": "8006dbf24735ccc531eedabae7982f31a7479f27",
+      "md5": "a97b523ad5386cc7465d44d766fb5cc8",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/OrderedExecutor.java",
+      "type": "file",
+      "name": "OrderedExecutor.java",
+      "base_name": "OrderedExecutor",
+      "extension": ".java",
+      "size": 3164,
+      "date": "2018-08-28",
+      "sha1": "21d1997f92eb6db93f4a42d0d583aab02be47f4a",
+      "md5": "2a2bd06a9ba41b1ed4a712b0645977f6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/SecurityActions.java",
+      "type": "file",
+      "name": "SecurityActions.java",
+      "base_name": "SecurityActions",
+      "extension": ".java",
+      "size": 1973,
+      "date": "2018-08-28",
+      "sha1": "3c0f4de74b7d05617be118ecf4e7aca1ed28409d",
+      "md5": "a3abdd8429246aaa7ebf713defe306df",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/SendHandlerAdapter.java",
+      "type": "file",
+      "name": "SendHandlerAdapter.java",
+      "base_name": "SendHandlerAdapter",
+      "extension": ".java",
+      "size": 1853,
+      "date": "2018-08-28",
+      "sha1": "630c0b5affc8b2acf2d3862b076bd17b7cdc86ef",
+      "md5": "f530fb79f0bbb743fde49ee903519bc2",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/SendResultFuture.java",
+      "type": "file",
+      "name": "SendResultFuture.java",
+      "base_name": "SendResultFuture",
+      "extension": ".java",
+      "size": 4236,
+      "date": "2018-08-28",
+      "sha1": "86cd4c0b70668e833c16e06e3492bff5f984f360",
+      "md5": "f8e64ab290ce1d466c4719b060557eef",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/ServerEndpointConfigImpl.java",
+      "type": "file",
+      "name": "ServerEndpointConfigImpl.java",
+      "base_name": "ServerEndpointConfigImpl",
+      "extension": ".java",
+      "size": 2257,
+      "date": "2018-08-28",
+      "sha1": "1ce38ae2811cc398ee65e0471b58b83a44e3558a",
+      "md5": "b85151e54559f339dfb5144cd38a2986",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 31,
+          "end_line": 31
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/ServerWebSocketContainer.java",
+      "type": "file",
+      "name": "ServerWebSocketContainer.java",
+      "base_name": "ServerWebSocketContainer",
+      "extension": ".java",
+      "size": 46702,
+      "date": "2018-10-18",
+      "sha1": "367ca08b747f782c544ef225e34c433d1d8bde11",
+      "md5": "44855438e96a7addc33cb263505974cf",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text, with very long lines",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/SessionContainer.java",
+      "type": "file",
+      "name": "SessionContainer.java",
+      "base_name": "SessionContainer",
+      "extension": ".java",
+      "size": 2702,
+      "date": "2018-10-16",
+      "sha1": "26cbbf6a342c879c85a8d5b33c2669750287a141",
+      "md5": "6c89488b3c3a77e3f7ec63190f941b4d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/UndertowContainerProvider.java",
+      "type": "file",
+      "name": "UndertowContainerProvider.java",
+      "base_name": "UndertowContainerProvider",
+      "extension": ".java",
+      "size": 5682,
+      "date": "2018-09-04",
+      "sha1": "dfb8e50ed0ea72f03361c359a2c4b8a67b7e5d80",
+      "md5": "1f0aab609e1c510c6e02e07e4c017169",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/UndertowSession.java",
+      "type": "file",
+      "name": "UndertowSession.java",
+      "base_name": "UndertowSession",
+      "extension": ".java",
+      "size": 15930,
+      "date": "2018-10-16",
+      "sha1": "250a340d1da97eddea91afc7b5300653041fd198",
+      "md5": "dc5f56493033447a813b82167034c488",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/WebsocketClientSslProvider.java",
+      "type": "file",
+      "name": "WebsocketClientSslProvider.java",
+      "base_name": "WebsocketClientSslProvider",
+      "extension": ".java",
+      "size": 1394,
+      "date": "2018-08-28",
+      "sha1": "8b169ceb907484d5364465cb626004b452998c2a",
+      "md5": "dcdcb0ff87d80bd870765d3191056b03",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/WebSocketDeploymentInfo.java",
+      "type": "file",
+      "name": "WebSocketDeploymentInfo.java",
+      "base_name": "WebSocketDeploymentInfo",
+      "extension": ".java",
+      "size": 6318,
+      "date": "2018-10-19",
+      "sha1": "d25a90ede1d5b2cbac540af3287b03f632669a3c",
+      "md5": "7fd2cfc824513598a5c1abef12271e30",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 36,
+          "end_line": 36
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/WebSocketReconnectHandler.java",
+      "type": "file",
+      "name": "WebSocketReconnectHandler.java",
+      "base_name": "WebSocketReconnectHandler",
+      "extension": ".java",
+      "size": 1974,
+      "date": "2018-08-28",
+      "sha1": "f757321dbc0f763cf721b2506bc2a2b0c23da9ce",
+      "md5": "89ff70bd83e012bb3f46f5f159e8ba5d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/WebSocketSessionRemoteEndpoint.java",
+      "type": "file",
+      "name": "WebSocketSessionRemoteEndpoint.java",
+      "base_name": "WebSocketSessionRemoteEndpoint",
+      "extension": ".java",
+      "size": 15537,
+      "date": "2018-09-04",
+      "sha1": "bf623ff85d4e0d350a52795b7d5060d19fa395c0",
+      "md5": "19134d67ac7d9481821e85f40bbd749d",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated",
+      "type": "directory",
+      "name": "annotated",
+      "base_name": "annotated",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 0,
+      "size_count": 40403,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/AnnotatedEndpoint.java",
+      "type": "file",
+      "name": "AnnotatedEndpoint.java",
+      "base_name": "AnnotatedEndpoint",
+      "extension": ".java",
+      "size": 10412,
+      "date": "2018-09-04",
+      "sha1": "e0b5333da6e1b801b601a64e89f752cda5c29633",
+      "md5": "293854fa89d5e1406c247084648c7c5d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 39,
+          "end_line": 39
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/AnnotatedEndpointFactory.java",
+      "type": "file",
+      "name": "AnnotatedEndpointFactory.java",
+      "base_name": "AnnotatedEndpointFactory",
+      "extension": ".java",
+      "size": 20657,
+      "date": "2018-10-18",
+      "sha1": "4d7022bf93d81de739e0527d75740d1cccc27c78",
+      "md5": "507ea4c8756edaaefc9a42aa9ec215d5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 53,
+          "end_line": 53
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/BoundMethod.java",
+      "type": "file",
+      "name": "BoundMethod.java",
+      "base_name": "BoundMethod",
+      "extension": ".java",
+      "size": 5000,
+      "date": "2018-10-18",
+      "sha1": "fcaca56bef7c14f897de59f820022d49e5855a1d",
+      "md5": "25c6d8f49459a3db909b1c4e94d9eef6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/BoundParameter.java",
+      "type": "file",
+      "name": "BoundParameter.java",
+      "base_name": "BoundParameter",
+      "extension": ".java",
+      "size": 1072,
+      "date": "2018-08-28",
+      "sha1": "758988627db9f92ac11be553c7adfa04d9aceda9",
+      "md5": "7449923d466e33b17e41fd239e4ad1c3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/DecoderUtils.java",
+      "type": "file",
+      "name": "DecoderUtils.java",
+      "base_name": "DecoderUtils",
+      "extension": ".java",
+      "size": 1760,
+      "date": "2018-08-28",
+      "sha1": "307a4a5c1e46f4522aeb94baf19f980dbaaa88e2",
+      "md5": "eb052ff71f27db812b07272c78a6153a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/annotated/EmptyEndpointConfig.java",
+      "type": "file",
+      "name": "EmptyEndpointConfig.java",
+      "base_name": "EmptyEndpointConfig",
+      "extension": ".java",
+      "size": 1502,
+      "date": "2018-08-28",
+      "sha1": "80329ffae6934f5646dd8f757e511fc0e83c39ee",
+      "md5": "2d5b448649dbf08e892ef5b4860333cf",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Stuart Douglas",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake",
+      "type": "directory",
+      "name": "handshake",
+      "base_name": "handshake",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 0,
+      "size_count": 19089,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/ExchangeHandshakeRequest.java",
+      "type": "file",
+      "name": "ExchangeHandshakeRequest.java",
+      "base_name": "ExchangeHandshakeRequest",
+      "extension": ".java",
+      "size": 3246,
+      "date": "2018-08-28",
+      "sha1": "d0f013d027c48eb4e333c590af2127e5829fd927",
+      "md5": "0018d05e9e3dbfdb20b5a489050eb895",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/ExchangeHandshakeResponse.java",
+      "type": "file",
+      "name": "ExchangeHandshakeResponse.java",
+      "base_name": "ExchangeHandshakeResponse",
+      "extension": ".java",
+      "size": 2024,
+      "date": "2018-08-28",
+      "sha1": "56349fb97d079e5a9983b596999b88931022bdf4",
+      "md5": "2a035ea769a69797179afeadb30853bd",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/HandshakeUtil.java",
+      "type": "file",
+      "name": "HandshakeUtil.java",
+      "base_name": "HandshakeUtil",
+      "extension": ".java",
+      "size": 4245,
+      "date": "2018-09-04",
+      "sha1": "fed84d4ee903e0bd5bb401dc362dcdb33f2a613b",
+      "md5": "85d9f49b3b9efb75bb9b8cc9a18e238a",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/JsrHybi07Handshake.java",
+      "type": "file",
+      "name": "JsrHybi07Handshake.java",
+      "base_name": "JsrHybi07Handshake",
+      "extension": ".java",
+      "size": 2569,
+      "date": "2018-08-28",
+      "sha1": "ee1313066920c513a970e4d8ee4915bee3772431",
+      "md5": "7467a285dcca30ad6d6345046d94db1e",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/JsrHybi08Handshake.java",
+      "type": "file",
+      "name": "JsrHybi08Handshake.java",
+      "base_name": "JsrHybi08Handshake",
+      "extension": ".java",
+      "size": 2568,
+      "date": "2018-08-28",
+      "sha1": "054a98b197f528372673c13193ec736298595198",
+      "md5": "5a08c8947b06372046bd0827e616aa3b",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/handshake/JsrHybi13Handshake.java",
+      "type": "file",
+      "name": "JsrHybi13Handshake.java",
+      "base_name": "JsrHybi13Handshake",
+      "extension": ".java",
+      "size": 4437,
+      "date": "2018-08-28",
+      "sha1": "8d0ad29e0d957693f87e33b4a0e47aba79eb3f56",
+      "md5": "023aebf174c6f2471a9b8015e9a88051",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/osgi",
+      "type": "directory",
+      "name": "osgi",
+      "base_name": "osgi",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 1641,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/osgi/Activator.java",
+      "type": "file",
+      "name": "Activator.java",
+      "base_name": "Activator",
+      "extension": ".java",
+      "size": 1641,
+      "date": "2018-09-04",
+      "sha1": "66b0a6684a4deb26466d445d103c56a6062ff070",
+      "md5": "049a099b1fd784a6917ff31a836a4867",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/util",
+      "type": "directory",
+      "name": "util",
+      "base_name": "util",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 6029,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/io/undertow/websockets/jsr/util/ClassUtils.java",
+      "type": "file",
+      "name": "ClassUtils.java",
+      "base_name": "ClassUtils",
+      "extension": ".java",
+      "size": 6029,
+      "date": "2018-08-28",
+      "sha1": "35a42c0730027ecfebace99c1cbac01bd3790ca2",
+      "md5": "266e27935dae0834cb472677b32af766",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 6,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Red Hat, Inc., and individual contributors",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 8,
+      "dirs_count": 4,
+      "size_count": 11514,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/INDEX.LIST",
+      "type": "file",
+      "name": "INDEX.LIST",
+      "base_name": "INDEX",
+      "extension": ".LIST",
+      "size": 396,
+      "date": "2018-10-19",
+      "sha1": "ee3f620b7687914de21ac64ff16857d711d4db84",
+      "md5": "f36242a8f19fb3248e95d1167033519c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 835,
+      "date": "2018-10-19",
+      "sha1": "c6f510ac5d17015a116fb78d0f1c091575ad978e",
+      "md5": "f45fcea8070ff9c203918a2d71878f7e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 10076,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/maven/io.undertow",
+      "type": "directory",
+      "name": "io.undertow",
+      "base_name": "io.undertow",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 10076,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/maven/io.undertow/undertow-websockets-jsr",
+      "type": "directory",
+      "name": "undertow-websockets-jsr",
+      "base_name": "undertow-websockets-jsr",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 10076,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/maven/io.undertow/undertow-websockets-jsr/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 107,
+      "date": "2018-10-19",
+      "sha1": "4dabe5b9becd64e8785622696aa271d0e699b48b",
+      "md5": "bd94341fcce96c563692009c9ebdf3e3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Apache Maven",
+          "start_line": 1,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/maven/io.undertow/undertow-websockets-jsr/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 9969,
+      "date": "2018-10-19",
+      "sha1": "9251d4fb2b536c52563119786b695f714f0685e1",
+      "md5": "82a0ca27f6aab17b28e62e3f4743fec9",
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 7,
+          "end_line": 17,
+          "matched_rule": {
+            "identifier": "apache-2.0_7.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 85,
+            "matched_length": 85,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0"
+      ],
+      "holders": [
+        {
+          "value": "Red Hat, Inc., and individual contributors",
+          "start_line": 4,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 Red Hat, Inc., and individual contributors",
+          "start_line": 4,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/services",
+      "type": "directory",
+      "name": "services",
+      "base_name": "services",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 207,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/services/io.undertow.servlet.ServletExtension",
+      "type": "file",
+      "name": "io.undertow.servlet.ServletExtension",
+      "base_name": "io.undertow.servlet",
+      "extension": ".ServletExtension",
+      "size": 37,
+      "date": "2018-08-28",
+      "sha1": "9cecb906b0611b8e37e19e253af14e91755db224",
+      "md5": "6196891da89a00b8e366ec27896b7db1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/services/io.undertow.websockets.jsr.WebsocketClientSslProvider",
+      "type": "file",
+      "name": "io.undertow.websockets.jsr.WebsocketClientSslProvider",
+      "base_name": "io.undertow.websockets.jsr",
+      "extension": ".WebsocketClientSslProvider",
+      "size": 60,
+      "date": "2018-08-28",
+      "sha1": "9ee256d312f2f98b2e6dca21f98b95790c5c7359",
+      "md5": "253675209d739bb78fad9894a6d8e325",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with no line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/services/javax.websocket.ContainerProvider",
+      "type": "file",
+      "name": "javax.websocket.ContainerProvider",
+      "base_name": "javax.websocket",
+      "extension": ".ContainerProvider",
+      "size": 53,
+      "date": "2018-08-28",
+      "sha1": "235dd18230b28f31c43e0ebb26846255a67c2d71",
+      "md5": "d952ddb8d8b26078aa01fe1a34119374",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "undertow-websockets-jsr-2.0.14.Final-sources.jar-extract/META-INF/services/javax.websocket.server.ServerEndpointConfig$Configurator",
+      "type": "file",
+      "name": "javax.websocket.server.ServerEndpointConfig$Configurator",
+      "base_name": "javax.websocket.server",
+      "extension": ".ServerEndpointConfig$Configurator",
+      "size": 57,
+      "date": "2018-08-28",
+      "sha1": "1f8f5c4267686a387da991c93a97119e15b3e478",
+      "md5": "59627627b1d4ed1ee08eb011168944d3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

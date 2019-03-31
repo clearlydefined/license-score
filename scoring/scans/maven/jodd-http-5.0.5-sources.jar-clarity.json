@@ -1,0 +1,2750 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T005847.952152",
+      "end_timestamp": "2019-03-31T005907.465755",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 31
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153630.071848",
+      "end_timestamp": "2019-03-31T153630.264996",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 31
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 54,
+    "has_declared_license_in_key_files": false,
+    "file_level_license_and_copyright_coverage": 0.97,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": false,
+    "discovered": 0.97,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract",
+      "type": "directory",
+      "name": "jodd-http-5.0.5-sources.jar-extract",
+      "base_name": "jodd-http-5.0.5-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 31,
+      "dirs_count": 5,
+      "size_count": 173895,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd",
+      "type": "directory",
+      "name": "jodd",
+      "base_name": "jodd",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 3,
+      "size_count": 173870,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http",
+      "type": "directory",
+      "name": "http",
+      "base_name": "http",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 2,
+      "size_count": 173870,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/Buffer.java",
+      "type": "file",
+      "name": "Buffer.java",
+      "base_name": "Buffer",
+      "extension": ".java",
+      "size": 6583,
+      "date": "2018-06-17",
+      "sha1": "7bb98bd595637563ced4fa05051b3211279fda77",
+      "md5": "79688405c83e8feed38231b96e18a0a7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/Cookie.java",
+      "type": "file",
+      "name": "Cookie.java",
+      "base_name": "Cookie",
+      "extension": ".java",
+      "size": 9905,
+      "date": "2018-01-13",
+      "sha1": "1c41d114f6cfb08df3b8084b4382f14855662d31",
+      "md5": "aedd205e81104b00ae10adb0ff25f3da",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HeadersMultiMap.java",
+      "type": "file",
+      "name": "HeadersMultiMap.java",
+      "base_name": "HeadersMultiMap",
+      "extension": ".java",
+      "size": 2096,
+      "date": "2018-01-13",
+      "sha1": "ead3e874bbb7a3468a71a02e7a2351b757e2cae1",
+      "md5": "68fd1f2f8ce05f9e4759ed6b06c45d9d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpBase.java",
+      "type": "file",
+      "name": "HttpBase.java",
+      "base_name": "HttpBase",
+      "extension": ".java",
+      "size": 28008,
+      "date": "2018-06-17",
+      "sha1": "81462aca8ab702ed110a12f348ea38715c267cc1",
+      "md5": "39ab33d221afa1ed0b458a6030f0b01f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpBrowser.java",
+      "type": "file",
+      "name": "HttpBrowser.java",
+      "base_name": "HttpBrowser",
+      "extension": ".java",
+      "size": 7927,
+      "date": "2018-05-15",
+      "sha1": "52a0f48fa72c8c3b9d14a666656b76e83a26a911",
+      "md5": "98ece22bbc4a1c5863207a0e129a8f2c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpConnection.java",
+      "type": "file",
+      "name": "HttpConnection.java",
+      "base_name": "HttpConnection",
+      "extension": ".java",
+      "size": 2395,
+      "date": "2017-10-14",
+      "sha1": "a73af54f96836b8d7676da06a0edfe7572417ba7",
+      "md5": "48f7e2ee21ef46d0fa9a7147d40fab24",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpConnectionProvider.java",
+      "type": "file",
+      "name": "HttpConnectionProvider.java",
+      "base_name": "HttpConnectionProvider",
+      "extension": ".java",
+      "size": 2334,
+      "date": "2018-05-15",
+      "sha1": "9091b856b738f83da61a9a05142db21a463190bb",
+      "md5": "ab963f0b3dd2386e369f1ca6c4efde46",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpException.java",
+      "type": "file",
+      "name": "HttpException.java",
+      "base_name": "HttpException",
+      "extension": ".java",
+      "size": 2030,
+      "date": "2018-01-13",
+      "sha1": "17ebf3ca4a29c09ffe393bf52916e13f0d7fcba4",
+      "md5": "d40cc0287d78c73cabdd895f427bec4a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpMultiMap.java",
+      "type": "file",
+      "name": "HttpMultiMap.java",
+      "base_name": "HttpMultiMap",
+      "extension": ".java",
+      "size": 10588,
+      "date": "2018-01-13",
+      "sha1": "ea97d84347e45b4fe78a8685c53254e9adb48512",
+      "md5": "8de0bf7fa40858c6796a39fc34750f91",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpProgressListener.java",
+      "type": "file",
+      "name": "HttpProgressListener.java",
+      "base_name": "HttpProgressListener",
+      "extension": ".java",
+      "size": 2143,
+      "date": "2018-01-13",
+      "sha1": "4d9a69a3b0cf3675169e70e035a55ccc4499b6e0",
+      "md5": "8aa03e116b400f5bd9ccf47e0e8e11e0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpRequest.java",
+      "type": "file",
+      "name": "HttpRequest.java",
+      "base_name": "HttpRequest",
+      "extension": ".java",
+      "size": 25610,
+      "date": "2018-06-29",
+      "sha1": "67c07e503140dc3d525e5d31515bc1de942f0f45",
+      "md5": "3c8fd34fd757c4a4d167b973e225fb0b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpResponse.java",
+      "type": "file",
+      "name": "HttpResponse.java",
+      "base_name": "HttpResponse",
+      "extension": ".java",
+      "size": 7467,
+      "date": "2018-04-24",
+      "sha1": "419b68c389d2752a63339aa834469a3332b4b125",
+      "md5": "dc6bb497243647c9218de5712337620f",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpStatus.java",
+      "type": "file",
+      "name": "HttpStatus.java",
+      "base_name": "HttpStatus",
+      "extension": ".java",
+      "size": 6178,
+      "date": "2018-01-13",
+      "sha1": "688dabaf9fd03b7657ebd00408b7cad6f457d3c9",
+      "md5": "4c9d8a4a1302b9d6c227b75e4b91e4e1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpTunnel.java",
+      "type": "file",
+      "name": "HttpTunnel.java",
+      "base_name": "HttpTunnel",
+      "extension": ".java",
+      "size": 5920,
+      "date": "2018-01-29",
+      "sha1": "7d0d1b9c96ce6b03a320f53106f06990637894cc",
+      "md5": "c51b35d85a56c618d7a85980352934fc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/HttpUtil.java",
+      "type": "file",
+      "name": "HttpUtil.java",
+      "base_name": "HttpUtil",
+      "extension": ".java",
+      "size": 6055,
+      "date": "2018-06-17",
+      "sha1": "a2f06c2d28613b017ab19c0d54904c128f5936bb",
+      "md5": "9a3c79a55a5f4e535d1b9fdfbc8f187b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 1459,
+      "date": "2017-10-14",
+      "sha1": "8328712df0b1987dc6a0d3693e32e58e9038865e",
+      "md5": "8a8fd0a2da8596b987df40125156167b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/ProxyInfo.java",
+      "type": "file",
+      "name": "ProxyInfo.java",
+      "base_name": "ProxyInfo",
+      "extension": ".java",
+      "size": 3664,
+      "date": "2018-01-13",
+      "sha1": "b5b6ea89f88b50ef377e088d5bd6e7b62107f003",
+      "md5": "5934e7e337d0408b3d605deac242b3ba",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net",
+      "type": "directory",
+      "name": "net",
+      "base_name": "net",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 9,
+      "dirs_count": 0,
+      "size_count": 34554,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/HTTPProxySocketFactory.java",
+      "type": "file",
+      "name": "HTTPProxySocketFactory.java",
+      "base_name": "HTTPProxySocketFactory",
+      "extension": ".java",
+      "size": 5420,
+      "date": "2018-08-12",
+      "sha1": "779efb04e505cebe466465704843a527720ce897",
+      "md5": "38a861059b278b71fb1038e9318d7fb8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 1453,
+      "date": "2017-10-14",
+      "sha1": "dc01557affa80616dec33f01b2946ad43e9844cb",
+      "md5": "c3d18525c19893d7fc1f6b10b76b1289",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/SocketHttpConnection.java",
+      "type": "file",
+      "name": "SocketHttpConnection.java",
+      "base_name": "SocketHttpConnection",
+      "extension": ".java",
+      "size": 2490,
+      "date": "2018-01-13",
+      "sha1": "5593e441f866e82fb0a40eb0c47430103cee55b3",
+      "md5": "07481d93f92a80b635811dad7ee9f3f7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/SocketHttpConnectionProvider.java",
+      "type": "file",
+      "name": "SocketHttpConnectionProvider.java",
+      "base_name": "SocketHttpConnectionProvider",
+      "extension": ".java",
+      "size": 8050,
+      "date": "2018-08-12",
+      "sha1": "7ef74d4b9afa9e8f9b1e2f59b9aeab2a31f7edfc",
+      "md5": "0ab6d3ba3f2b8560b8a3b8701f8f974d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/SocketHttpSecureConnection.java",
+      "type": "file",
+      "name": "SocketHttpSecureConnection.java",
+      "base_name": "SocketHttpSecureConnection",
+      "extension": ".java",
+      "size": 1788,
+      "date": "2018-01-13",
+      "sha1": "a4a2b79c0ed88980c3e26a3e9822420c730c5609",
+      "md5": "e01c541829c525de23868ade4927076a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/Socks4ProxySocketFactory.java",
+      "type": "file",
+      "name": "Socks4ProxySocketFactory.java",
+      "base_name": "Socks4ProxySocketFactory",
+      "extension": ".java",
+      "size": 4629,
+      "date": "2018-03-23",
+      "sha1": "c8b964111f1e875d0fa8bfb3fef4d22cf3e4e1b7",
+      "md5": "3614032034476055dd25a86171a97816",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/Socks5ProxySocketFactory.java",
+      "type": "file",
+      "name": "Socks5ProxySocketFactory.java",
+      "base_name": "Socks5ProxySocketFactory",
+      "extension": ".java",
+      "size": 6012,
+      "date": "2018-03-23",
+      "sha1": "60543d519466dc7e70d423919ec0801d05000198",
+      "md5": "f2de3e097805d6eed97d0c02f9628a4c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/SSLSocketHttpConnectionProvider.java",
+      "type": "file",
+      "name": "SSLSocketHttpConnectionProvider.java",
+      "base_name": "SSLSocketHttpConnectionProvider",
+      "extension": ".java",
+      "size": 2035,
+      "date": "2018-03-23",
+      "sha1": "7447d4347b814f3ecd74849ee016885f733812fa",
+      "md5": "d9757e88eb77bf86b5bc7adbb61ea6ce",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/net/TrustManagers.java",
+      "type": "file",
+      "name": "TrustManagers.java",
+      "base_name": "TrustManagers",
+      "extension": ".java",
+      "size": 2677,
+      "date": "2018-03-23",
+      "sha1": "1cfcfb3683eb53c489c4e4ea2973865976c91a52",
+      "md5": "689116b00f544ce0f4af9a682735d9d7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/up",
+      "type": "directory",
+      "name": "up",
+      "base_name": "up",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 8954,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/up/ByteArrayUploadable.java",
+      "type": "file",
+      "name": "ByteArrayUploadable.java",
+      "base_name": "ByteArrayUploadable",
+      "extension": ".java",
+      "size": 2478,
+      "date": "2018-03-23",
+      "sha1": "79f25fa0ee7e7f016438dd2f9af322624af08670",
+      "md5": "cf0d213404ce41d695ccea9ee6844808",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/up/FileUploadable.java",
+      "type": "file",
+      "name": "FileUploadable.java",
+      "base_name": "FileUploadable",
+      "extension": ".java",
+      "size": 2624,
+      "date": "2018-01-13",
+      "sha1": "22ad14ab9f92a322f6d63b62b1f3e9933bcf6228",
+      "md5": "1057f366a38a6f34292dd2dda8479f4a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/up/package-info.java",
+      "type": "file",
+      "name": "package-info.java",
+      "base_name": "package-info",
+      "extension": ".java",
+      "size": 1459,
+      "date": "2017-10-14",
+      "sha1": "a91daf8e295b3fe44e28a0eea94de191a50e1856",
+      "md5": "c71c0107cc58490b8947c8f23a493639",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/jodd/http/up/Uploadable.java",
+      "type": "file",
+      "name": "Uploadable.java",
+      "base_name": "Uploadable",
+      "extension": ".java",
+      "size": 2393,
+      "date": "2017-10-14",
+      "sha1": "5fbf106b596927d87134890b591a4a5a01204236",
+      "md5": "eb8c80f8a4068e59497ddc5bdfc391cb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 4,
+          "end_line": 24,
+          "matched_rule": {
+            "identifier": "bsd-simplified_16.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 183,
+            "matched_length": 183,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Jodd Team",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2003-present, Jodd Team (http://jodd.org)",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 25,
+      "scan_errors": []
+    },
+    {
+      "path": "jodd-http-5.0.5-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 25,
+      "date": "2018-10-01",
+      "sha1": "79e33dd52ebdf615e6696ae69add91cb990d81e2",
+      "md5": "92d04d6bd8a0235843240bba30d2f091",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

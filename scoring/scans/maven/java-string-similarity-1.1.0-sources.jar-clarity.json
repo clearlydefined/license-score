@@ -1,0 +1,2622 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T011116.425498",
+      "end_timestamp": "2019-03-31T011129.372133",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 29
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153648.650856",
+      "end_timestamp": "2019-03-31T153649.088457",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 29
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 92,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.7,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.7,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract",
+      "type": "directory",
+      "name": "java-string-similarity-1.1.0-sources.jar-extract",
+      "base_name": "java-string-similarity-1.1.0-sources.jar-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "maven",
+          "namespace": "info.debatty",
+          "name": "java-string-similarity",
+          "version": "1.1.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "Java",
+          "description": "java-string-similarity\nImplementation of various string similarity and distance algorithms: Levenshtein, Jaro-winkler, n-Gram, Q-Gram, Jaccard index, Longest Common Subsequence edit distance, cosine similarity...",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "developper",
+              "name": "Thibault Debatty",
+              "email": "thibault@debatty.info",
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "https://github.com/tdebatty/java-string-similarity",
+          "download_url": null,
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": "https://github.com/tdebatty/java-string-similarity.git",
+          "vcs_url": "git+https://github.com/tdebatty/java-string-similarity.git",
+          "copyright": null,
+          "license_expression": "mit AND (mit AND unknown)",
+          "declared_license": [
+            {
+              "name": "MIT License",
+              "url": "http://www.opensource.org/licenses/mit-license.php",
+              "comments": null,
+              "distribution": null
+            }
+          ],
+          "notice_text": null,
+          "manifest_path": "META-INF/maven/info.debatty/java-string-similarity/pom.xml",
+          "dependencies": [
+            {
+              "purl": "pkg:maven/junit/junit",
+              "requirement": "4.12",
+              "scope": "test",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:maven/net.jcip/jcip-annotations",
+              "requirement": "1.0",
+              "scope": "compile",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [
+            "pkg:maven/info.debatty/java-string-similarity@1.1.0?classifier=sources"
+          ],
+          "purl": "pkg:maven/info.debatty/java-string-similarity@1.1.0",
+          "repository_homepage_url": "https://repo1.maven.org/maven2/info/debatty/java-string-similarity/1.1.0/",
+          "repository_download_url": "https://repo1.maven.org/maven2/info/debatty/java-string-similarity/1.1.0/java-string-similarity-1.1.0.jar",
+          "api_data_url": "https://repo1.maven.org/maven2/info/debatty/java-string-similarity/1.1.0/java-string-similarity-1.1.0.pom"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 29,
+      "dirs_count": 11,
+      "size_count": 96989,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info",
+      "type": "directory",
+      "name": "info",
+      "base_name": "info",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 26,
+      "dirs_count": 6,
+      "size_count": 89322,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty",
+      "type": "directory",
+      "name": "debatty",
+      "base_name": "debatty",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 26,
+      "dirs_count": 5,
+      "size_count": 89322,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java",
+      "type": "directory",
+      "name": "java",
+      "base_name": "java",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 26,
+      "dirs_count": 4,
+      "size_count": 89322,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity",
+      "type": "directory",
+      "name": "stringsimilarity",
+      "base_name": "stringsimilarity",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 26,
+      "dirs_count": 3,
+      "size_count": 89322,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/CharacterInsDelInterface.java",
+      "type": "file",
+      "name": "CharacterInsDelInterface.java",
+      "base_name": "CharacterInsDelInterface",
+      "extension": ".java",
+      "size": 639,
+      "date": "2018-03-14",
+      "sha1": "a136ddacec0ffe27dfcca61d97236fad97026318",
+      "md5": "9a14ecc2d7b9a24e2b5d2b9f3a1d7e4b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/CharacterSubstitutionInterface.java",
+      "type": "file",
+      "name": "CharacterSubstitutionInterface.java",
+      "base_name": "CharacterSubstitutionInterface",
+      "extension": ".java",
+      "size": 1831,
+      "date": "2018-03-14",
+      "sha1": "1ad2b3478035172d88b86c9ecbd51bc69cc4a929",
+      "md5": "cd10aa5c7d9d0338db19967d68adf3bd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/Cosine.java",
+      "type": "file",
+      "name": "Cosine.java",
+      "base_name": "Cosine",
+      "extension": ".java",
+      "size": 5336,
+      "date": "2018-03-14",
+      "sha1": "d877a1ebfaf096aa476294ff89ba6bf28459c117",
+      "md5": "60dabdba741931109aa5937836c6050c",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/Damerau.java",
+      "type": "file",
+      "name": "Damerau.java",
+      "base_name": "Damerau",
+      "extension": ".java",
+      "size": 4751,
+      "date": "2018-03-14",
+      "sha1": "fae78092ff011b27820982369825a505c73c47f9",
+      "md5": "e7a5cfa48e4cdbe97627444cfecb9046",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/Jaccard.java",
+      "type": "file",
+      "name": "Jaccard.java",
+      "base_name": "Jaccard",
+      "extension": ".java",
+      "size": 4111,
+      "date": "2018-03-14",
+      "sha1": "9d289cbdcc71d07847333a31075b19c8880e7fb7",
+      "md5": "99ea018959cf1ffda76e237be94d893f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 44,
+          "end_line": 44
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/JaroWinkler.java",
+      "type": "file",
+      "name": "JaroWinkler.java",
+      "base_name": "JaroWinkler",
+      "extension": ".java",
+      "size": 5110,
+      "date": "2018-03-14",
+      "sha1": "dbb3d1ebba4afbd1faa99685977ab5f6c5f1f485",
+      "md5": "fbf36159559ca2b69630f34667b949e1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 15,
+          "end_line": 18
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/Levenshtein.java",
+      "type": "file",
+      "name": "Levenshtein.java",
+      "base_name": "Levenshtein",
+      "extension": ".java",
+      "size": 3702,
+      "date": "2018-03-14",
+      "sha1": "0f449e1165adf2aec1f14145cb151545ba75bb5a",
+      "md5": "8ea4f47c9a3e31d34bff498cf6e6cd56",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 11,
+          "end_line": 11
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java",
+      "type": "file",
+      "name": "LongestCommonSubsequence.java",
+      "base_name": "LongestCommonSubsequence",
+      "extension": ".java",
+      "size": 3443,
+      "date": "2018-03-14",
+      "sha1": "a38c60bcba5b4caee77a7b36f7d3e0eeaa868826",
+      "md5": "859c1c8912493f2720edcd42aa9793d2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/MetricLCS.java",
+      "type": "file",
+      "name": "MetricLCS.java",
+      "base_name": "MetricLCS",
+      "extension": ".java",
+      "size": 2610,
+      "date": "2018-03-14",
+      "sha1": "86e4891b0dd89ece37772686413fa73d7c15b8a1",
+      "md5": "0c0a42f44eda1269da1a4d5dbaec8652",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 35,
+          "end_line": 35
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/NGram.java",
+      "type": "file",
+      "name": "NGram.java",
+      "base_name": "NGram",
+      "extension": ".java",
+      "size": 4424,
+      "date": "2018-03-14",
+      "sha1": "882c0219a4524d0ac54b42045b05e7a06aa02423",
+      "md5": "619cd211776cbb0b44646b5193f120fd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/NormalizedLevenshtein.java",
+      "type": "file",
+      "name": "NormalizedLevenshtein.java",
+      "base_name": "NormalizedLevenshtein",
+      "extension": ".java",
+      "size": 3000,
+      "date": "2018-03-14",
+      "sha1": "bb18aa2c6714b53d39a1f216175e2b2c899546cf",
+      "md5": "9ab5e255149a178cf7d516aae318d6a8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 36,
+          "end_line": 36
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/OptimalStringAlignment.java",
+      "type": "file",
+      "name": "OptimalStringAlignment.java",
+      "base_name": "OptimalStringAlignment",
+      "extension": ".java",
+      "size": 4351,
+      "date": "2018-03-14",
+      "sha1": "df490787d6f2fc4352411388277a2fe72df7c8f2",
+      "md5": "07d958e3d1f8ce9c63178eba78ea4b57",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Michail Bogdanos",
+          "start_line": 38,
+          "end_line": 38
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/QGram.java",
+      "type": "file",
+      "name": "QGram.java",
+      "base_name": "QGram",
+      "extension": ".java",
+      "size": 3648,
+      "date": "2018-03-14",
+      "sha1": "91c78e0892f7775f87a6ee355b6a4407586b98de",
+      "md5": "77ea7114869e43b0470d6eac639bfae1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/ShingleBased.java",
+      "type": "file",
+      "name": "ShingleBased.java",
+      "base_name": "ShingleBased",
+      "extension": ".java",
+      "size": 4235,
+      "date": "2018-03-14",
+      "sha1": "7549b986916792d8fbee5d6fa2522ecabb1fc8dc",
+      "md5": "90fa7859309219272a13aaa514f953cd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 51,
+          "end_line": 51
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/SorensenDice.java",
+      "type": "file",
+      "name": "SorensenDice.java",
+      "base_name": "SorensenDice",
+      "extension": ".java",
+      "size": 4297,
+      "date": "2018-03-14",
+      "sha1": "2ccbc92b0ce924622e8590ba0796ecd7032e73ae",
+      "md5": "87db697ed5f4233c06f048833624facd",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 38,
+          "end_line": 38
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/WeightedLevenshtein.java",
+      "type": "file",
+      "name": "WeightedLevenshtein.java",
+      "base_name": "WeightedLevenshtein",
+      "extension": ".java",
+      "size": 5505,
+      "date": "2018-03-14",
+      "sha1": "594dc69643c8bb5ed63a6a77593ef8a05fe80973",
+      "md5": "37368b2fffa811a4f92b64fefffa00ef",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/examples",
+      "type": "directory",
+      "name": "examples",
+      "base_name": "examples",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 15247,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/examples/Examples.java",
+      "type": "file",
+      "name": "Examples.java",
+      "base_name": "Examples",
+      "extension": ".java",
+      "size": 7827,
+      "date": "2018-03-14",
+      "sha1": "55e4669db014c8851eaaaf8664d370557145af0e",
+      "md5": "2c0644675dcf6f9df3dd15b63029a408",
+      "mime_type": "text/x-c",
+      "file_type": "C source, UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/examples/MetricLCS.java",
+      "type": "file",
+      "name": "MetricLCS.java",
+      "base_name": "MetricLCS",
+      "extension": ".java",
+      "size": 1862,
+      "date": "2018-03-14",
+      "sha1": "e3f5d571e0aeeb91894cac507b24982e2d387f2b",
+      "md5": "efe68347abc99d85d8448932698c138f",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/examples/nischay21.java",
+      "type": "file",
+      "name": "nischay21.java",
+      "base_name": "nischay21",
+      "extension": ".java",
+      "size": 3586,
+      "date": "2018-03-14",
+      "sha1": "81f7ed4d64a94b734bb8f7cdda4e51e535401fab",
+      "md5": "8b3ca3676bce011a2e59eb2ef0ae491c",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2017 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 39,
+          "end_line": 39
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/examples/PrecomputedCosine.java",
+      "type": "file",
+      "name": "PrecomputedCosine.java",
+      "base_name": "PrecomputedCosine",
+      "extension": ".java",
+      "size": 1972,
+      "date": "2018-03-14",
+      "sha1": "ebe55d24357b1cacd87bfcaf59234ef92c18df39",
+      "md5": "f5a44158342e0e3c748b34e97a31a10e",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/experimental",
+      "type": "directory",
+      "name": "experimental",
+      "base_name": "experimental",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 6713,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/experimental/Sift4.java",
+      "type": "file",
+      "name": "Sift4.java",
+      "base_name": "Sift4",
+      "extension": ".java",
+      "size": 6713,
+      "date": "2018-03-14",
+      "sha1": "8adb61b828efd0f63ed8eb74e6a25877b7f0326c",
+      "md5": "82a73b453cf06c8ac60f661cb02a7fd1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2016 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 36,
+          "end_line": 36
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces",
+      "type": "directory",
+      "name": "interfaces",
+      "base_name": "interfaces",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 6369,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces/MetricStringDistance.java",
+      "type": "file",
+      "name": "MetricStringDistance.java",
+      "base_name": "MetricStringDistance",
+      "extension": ".java",
+      "size": 1754,
+      "date": "2018-03-14",
+      "sha1": "61da051ac1555b0667e26e5d1a7fc4990f200b4b",
+      "md5": "ad4be2b8a01357384ee537a7330c66d8",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java",
+      "type": "file",
+      "name": "NormalizedStringDistance.java",
+      "base_name": "NormalizedStringDistance",
+      "extension": ".java",
+      "size": 1380,
+      "date": "2018-03-14",
+      "sha1": "46d9e01f5d85fbc58e71d67c7087a8f04bbff99d",
+      "md5": "1690e95b7dca14f614ae65af3e34b1ac",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 29,
+          "end_line": 29
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java",
+      "type": "file",
+      "name": "NormalizedStringSimilarity.java",
+      "base_name": "NormalizedStringSimilarity",
+      "extension": ".java",
+      "size": 1309,
+      "date": "2018-03-14",
+      "sha1": "196f7945e7766a86a1fbca2ca0cd8fc59920167e",
+      "md5": "d5d7e824580fddb25eec5378c102465a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 28,
+          "end_line": 28
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces/StringDistance.java",
+      "type": "file",
+      "name": "StringDistance.java",
+      "base_name": "StringDistance",
+      "extension": ".java",
+      "size": 1504,
+      "date": "2018-03-14",
+      "sha1": "d61e88162bf8e6c7589fc8b9dd2c1722b70a86ad",
+      "md5": "5a13d4cbe437569535cc1dddf4d3f266",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.4,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2015 Thibault Debatty.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java",
+      "type": "file",
+      "name": "StringSimilarity.java",
+      "base_name": "StringSimilarity",
+      "extension": ".java",
+      "size": 422,
+      "date": "2018-03-14",
+      "sha1": "102a68724752941d0a86eb3f2bdf770d2d7a9de4",
+      "md5": "4075dc0a27350994ef9c3449abd5c4b0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Java",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [
+        {
+          "value": "Thibault Debatty",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF",
+      "type": "directory",
+      "name": "META-INF",
+      "base_name": "META-INF",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 3,
+      "size_count": 7667,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/MANIFEST.MF",
+      "type": "file",
+      "name": "MANIFEST.MF",
+      "base_name": "MANIFEST",
+      "extension": ".MF",
+      "size": 95,
+      "date": "2018-03-14",
+      "sha1": "b1cb8fe8b0fb1eccdec5aaed58d40616501589d4",
+      "md5": "5cd6c670e65a67dd10c43dfa45936c71",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with CRLF line terminators",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/maven",
+      "type": "directory",
+      "name": "maven",
+      "base_name": "maven",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 2,
+      "size_count": 7572,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/maven/info.debatty",
+      "type": "directory",
+      "name": "info.debatty",
+      "base_name": "info.debatty",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 1,
+      "size_count": 7572,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/maven/info.debatty/java-string-similarity",
+      "type": "directory",
+      "name": "java-string-similarity",
+      "base_name": "java-string-similarity",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 7572,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/maven/info.debatty/java-string-similarity/pom.properties",
+      "type": "file",
+      "name": "pom.properties",
+      "base_name": "pom",
+      "extension": ".properties",
+      "size": 119,
+      "date": "2018-03-14",
+      "sha1": "131b49431479c79e09eb9f5a1e39042bf8d6d93a",
+      "md5": "ce529e491241ecfd94c7bf6fa1837141",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "java-string-similarity-1.1.0-sources.jar-extract/META-INF/maven/info.debatty/java-string-similarity/pom.xml",
+      "type": "file",
+      "name": "pom.xml",
+      "base_name": "pom",
+      "extension": ".xml",
+      "size": 7453,
+      "date": "2018-03-14",
+      "sha1": "80e290e005c101690828f83786b2349002eeced7",
+      "md5": "d00638be0825c0d05dfc51871b9763df",
+      "mime_type": "application/xml",
+      "file_type": "XML document text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 75.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 21,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_121.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 10,
+            "matched_length": 10,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
