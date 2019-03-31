@@ -1,0 +1,1192 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T014847.286434",
+      "end_timestamp": "2019-03-31T014851.156132",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 10
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153748.127954",
+      "end_timestamp": "2019-03-31T153748.272405",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 10
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "body-parser-1.18.3.tgz-extract",
+      "type": "directory",
+      "name": "body-parser-1.18.3.tgz-extract",
+      "base_name": "body-parser-1.18.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 10,
+      "dirs_count": 3,
+      "size_count": 55897,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "body-parser",
+          "version": "1.18.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Node.js body parsing middleware",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Douglas Christopher Wilson",
+              "email": "doug@somethingdoug.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Ong",
+              "email": "me@jongleberry.com",
+              "url": "http://jongleberry.com"
+            }
+          ],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "https://github.com/expressjs/body-parser",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/bytes",
+              "requirement": "3.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/content-type",
+              "requirement": "~1.0.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/debug",
+              "requirement": "2.6.9",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/depd",
+              "requirement": "~1.1.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/http-errors",
+              "requirement": "~1.6.3",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/iconv-lite",
+              "requirement": "0.4.23",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/on-finished",
+              "requirement": "~2.3.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/qs",
+              "requirement": "6.5.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/raw-body",
+              "requirement": "2.3.3",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/type-is",
+              "requirement": "~1.6.16",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "4.19.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-standard",
+              "requirement": "11.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-import",
+              "requirement": "2.11.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-markdown",
+              "requirement": "1.0.0-beta.6",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-node",
+              "requirement": "6.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-promise",
+              "requirement": "3.7.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-standard",
+              "requirement": "3.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul",
+              "requirement": "0.4.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/methods",
+              "requirement": "1.1.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "2.5.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/safe-buffer",
+              "requirement": "5.1.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/supertest",
+              "requirement": "1.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/body-parser@1.18.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/body-parser",
+          "repository_download_url": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/body-parser/1.18.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 10,
+      "dirs_count": 2,
+      "size_count": 55897,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/HISTORY.md",
+      "type": "file",
+      "name": "HISTORY.md",
+      "base_name": "HISTORY",
+      "extension": ".md",
+      "size": 14541,
+      "date": "2018-05-14",
+      "sha1": "e6c76ed1022a88da047b8242c149ba7fe4f806b0",
+      "md5": "807999921d8e072cc5a45279f1ac369d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 2656,
+      "date": "2017-08-09",
+      "sha1": "1d17c3e4b7723f0af50892c025eab3fc6ccf11f7",
+      "md5": "7b203b1ba7da7e9e3824e8c0c1708ea8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1172,
+      "date": "2017-08-09",
+      "sha1": "6a4ed3b5e9cff68af7593dfcb8be3c1cbea837d0",
+      "md5": "0afd201e48c7d095454eed4ac1184e40",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 92.18,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Jonathan Ong",
+          "start_line": 3,
+          "end_line": 4
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>",
+          "start_line": 3,
+          "end_line": 4
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1564,
+      "date": "2018-05-14",
+      "sha1": "d1b0b2a36890111197ef5463664ca863f9a28b4f",
+      "md5": "92cd9ba96e0eefd4cc91934f579d7e4b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 9,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 17188,
+      "date": "2018-01-09",
+      "sha1": "2e5b5b9d6afc6b20c910da648941b0f65a861fe6",
+      "md5": "4b44c885e59f0ecc2f43df66665ee112",
+      "mime_type": "text/plain",
+      "file_type": "exported SGML document, ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 434,
+          "end_line": 436,
+          "matched_rule": {
+            "identifier": "mit_100.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 100.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 1,
+      "size_count": 18776,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/read.js",
+      "type": "file",
+      "name": "read.js",
+      "base_name": "read",
+      "extension": ".js",
+      "size": 3894,
+      "date": "2017-10-19",
+      "sha1": "24039fd819e2e4451a7725efa655af639e617d8c",
+      "md5": "046366a27279a7d65e7ae694823e76bc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/types",
+      "type": "directory",
+      "name": "types",
+      "base_name": "types",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 14882,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/types/json.js",
+      "type": "file",
+      "name": "json.js",
+      "base_name": "json",
+      "extension": ".js",
+      "size": 4918,
+      "date": "2018-05-08",
+      "sha1": "53d0fb1f5a71f01e8df7171cbd8c96710770deaa",
+      "md5": "ef0d64e8db843813870c15cd5eb1efb3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Jonathan Ong",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jonathan Ong",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/types/raw.js",
+      "type": "file",
+      "name": "raw.js",
+      "base_name": "raw",
+      "extension": ".js",
+      "size": 1884,
+      "date": "2017-08-09",
+      "sha1": "ea7411ff5a71df8d426322d07103e5894630e29b",
+      "md5": "acb38e4fe575afaf8d1a257e47c6e362",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/types/text.js",
+      "type": "file",
+      "name": "text.js",
+      "base_name": "text",
+      "extension": ".js",
+      "size": 2285,
+      "date": "2017-08-09",
+      "sha1": "eda9bc036c9d10f1400cd2e4a8832949671cadc7",
+      "md5": "beb4ada09306f8d6435566d9e88076d3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "body-parser-1.18.3.tgz-extract/package/lib/types/urlencoded.js",
+      "type": "file",
+      "name": "urlencoded.js",
+      "base_name": "urlencoded",
+      "extension": ".js",
+      "size": 5795,
+      "date": "2017-09-08",
+      "sha1": "7431365b9904c7e891eda6fed1f544bb9e7c2a92",
+      "md5": "29c2b8ed1e4c059daecd002a266e404c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Jonathan Ong",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 Jonathan Ong",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2014-2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

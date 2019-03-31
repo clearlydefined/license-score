@@ -1,0 +1,2275 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021652.925381",
+      "end_timestamp": "2019-03-31T021709.541456",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 19
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153839.798094",
+      "end_timestamp": "2019-03-31T153839.933069",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 19
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 75,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.63,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.63,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "source-map-0.7.3.tgz-extract",
+      "type": "directory",
+      "name": "source-map-0.7.3.tgz-extract",
+      "base_name": "source-map-0.7.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 19,
+      "dirs_count": 3,
+      "size_count": 311689,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "source-map",
+          "version": "0.7.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Generates and consumes source maps",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Nick Fitzgerald",
+              "email": "nfitzgerald@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tobias Koppers",
+              "email": "tobias.koppers@googlemail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Duncan Beevers",
+              "email": "duncan@dweebd.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Stephen Crane",
+              "email": "scrane@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ryan Seddon",
+              "email": "seddon.ryan@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Miles Elam",
+              "email": "miles.elam@deem.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mihai Bazon",
+              "email": "mihai.bazon@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Ficarra",
+              "email": "github.public.email@michael.ficarra.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Todd Wolfson",
+              "email": "todd@twolfson.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Alexander Solovyov",
+              "email": "alexander@solovyov.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Felix Gnass",
+              "email": "fgnass@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Conrad Irwin",
+              "email": "conrad.irwin@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "usrbincc",
+              "email": "usrbincc@yahoo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David Glasser",
+              "email": "glasser@davidglasser.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chase Douglas",
+              "email": "chase@newrelic.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Evan Wallace",
+              "email": "evan.exe@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Heather Arthur",
+              "email": "fayearthur@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Hugh Kennedy",
+              "email": "hughskennedy@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David Glasser",
+              "email": "glasser@davidglasser.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Simon Lydell",
+              "email": "simon.lydell@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jmeas Smith",
+              "email": "jellyes2@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Z Goddard",
+              "email": "mzgoddard@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "azu",
+              "email": "azu@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "John Gozde",
+              "email": "john@gozde.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Adam Kirkton",
+              "email": "akirkton@truefitinnovation.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chris Montgomery",
+              "email": "christopher.montgomery@dowjones.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "J. Ryan Stinnett",
+              "email": "jryans@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jack Herrington",
+              "email": "jherrington@walmartlabs.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chris Truter",
+              "email": "jeffpalentine@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Daniel Espeset",
+              "email": "daniel@danielespeset.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jamie Wong",
+              "email": "jamie.lf.wong@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Eddy Bru\u00ebl",
+              "email": "ejpbruel@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Hawken Rives",
+              "email": "hawkrives@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gilad Peleg",
+              "email": "giladp007@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "djchie",
+              "email": "djchie.dev@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gary Ye",
+              "email": "garysye@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nicolas Laleve\u0301e",
+              "email": "nicolas.lalevee@hibnet.org",
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "https://github.com/mozilla/source-map",
+          "download_url": "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "git+http://github.com/mozilla/source-map.git",
+          "copyright": null,
+          "license_expression": "bsd-new",
+          "declared_license": "BSD-3-Clause",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/doctoc",
+              "requirement": "^0.15.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^4.19.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/live-server",
+              "requirement": "^1.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/npm-run-all",
+              "requirement": "^4.1.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/nyc",
+              "requirement": "^11.7.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/watch",
+              "requirement": "^1.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/webpack",
+              "requirement": "^3.10",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/source-map@0.7.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/source-map",
+          "repository_download_url": "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/source-map/0.7.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 19,
+      "dirs_count": 2,
+      "size_count": 311689,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/CHANGELOG.md",
+      "type": "file",
+      "name": "CHANGELOG.md",
+      "base_name": "CHANGELOG",
+      "extension": ".md",
+      "size": 9568,
+      "date": "2018-05-16",
+      "sha1": "450777af546c125a7e0a8adddf153145b124d1f1",
+      "md5": "3198331a9348c689ab2f4b69fb715502",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1526,
+      "date": "2018-05-16",
+      "sha1": "914d42b13ad394be4aa75b4d93fde94b1e79cbbd",
+      "md5": "b1ca6dbc0075d56cbd9931a75566cd44",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 96.21,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 5,
+          "end_line": 28,
+          "matched_rule": {
+            "identifier": "bsd-new_206.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 211,
+            "matched_length": 203,
+            "match_coverage": 96.21,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2009-2011, Mozilla Foundation and contributors",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 3187,
+      "date": "2018-05-16",
+      "sha1": "28fca758c706fcce81fee3fe22721ed5d9ad9d79",
+      "md5": "0e3813240e19931350f41f34a56d3ad1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 22.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 60,
+          "end_line": 60,
+          "matched_rule": {
+            "identifier": "bsd-new_195.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 22
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 26720,
+      "date": "2018-05-16",
+      "sha1": "58929e93cd10466cca885d19dfca9f7ee928943d",
+      "md5": "22c2d7dc6199f193f822f7dac2301c46",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/source-map.d.ts",
+      "type": "file",
+      "name": "source-map.d.ts",
+      "base_name": "source-map.d",
+      "extension": ".ts",
+      "size": 13289,
+      "date": "2018-05-16",
+      "sha1": "0b60c2f7f5c3a648d1d9d29291a2b373c099036a",
+      "md5": "77cb3c21575736d952f992944cc46465",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/source-map.js",
+      "type": "file",
+      "name": "source-map.js",
+      "base_name": "source-map",
+      "extension": ".js",
+      "size": 405,
+      "date": "2018-05-16",
+      "sha1": "abdb2074911c310c6082ffa27ea135892a2c097f",
+      "md5": "cad97dda938f5708a4697a35a1487c75",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 82.94,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 3,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 15,
+            "match_coverage": 88.24,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2009-2011 Mozilla Foundation and contributors",
+          "start_line": 2,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/dist",
+      "type": "directory",
+      "name": "dist",
+      "base_name": "dist",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 106413,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/dist/source-map.js",
+      "type": "file",
+      "name": "source-map.js",
+      "base_name": "source-map",
+      "extension": ".js",
+      "size": 106413,
+      "date": "2018-05-16",
+      "sha1": "f92e793f9a5e0de6cfd86fafde2fc8f3f339a604",
+      "md5": "19494a2e7d136a93cf31e20eceade140",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 83,
+          "end_line": 84,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 635,
+          "end_line": 636,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1054,
+          "end_line": 1055,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 99.53,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1054,
+          "end_line": 1085,
+          "matched_rule": {
+            "identifier": "bsd-new_31.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 212,
+            "matched_length": 211,
+            "match_coverage": 99.53,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1171,
+          "end_line": 1172,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 82.94,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1323,
+          "end_line": 1324,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 15,
+            "match_coverage": 88.24,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1338,
+          "end_line": 1339,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1362,
+          "end_line": 1363,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1448,
+          "end_line": 1449,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 2708,
+          "end_line": 2709,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 2946,
+          "end_line": 2947,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new",
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 82,
+          "end_line": 84
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 634,
+          "end_line": 636
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1053,
+          "end_line": 1055
+        },
+        {
+          "value": "The Closure Compiler",
+          "start_line": 1060,
+          "end_line": 1060
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1170,
+          "end_line": 1172
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1322,
+          "end_line": 1324
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1337,
+          "end_line": 1339
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1361,
+          "end_line": 1363
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 1447,
+          "end_line": 1449
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 2707,
+          "end_line": 2709
+        },
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 2945,
+          "end_line": 2947
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 82,
+          "end_line": 84
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 634,
+          "end_line": 636
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 1053,
+          "end_line": 1055
+        },
+        {
+          "value": "Copyright 2011 The Closure Compiler",
+          "start_line": 1060,
+          "end_line": 1060
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 1170,
+          "end_line": 1172
+        },
+        {
+          "value": "Copyright 2009-2011 Mozilla Foundation and contributors",
+          "start_line": 1322,
+          "end_line": 1324
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 1337,
+          "end_line": 1339
+        },
+        {
+          "value": "Copyright 2014 Mozilla Foundation and contributors",
+          "start_line": 1361,
+          "end_line": 1363
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 1447,
+          "end_line": 1449
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 2707,
+          "end_line": 2709
+        },
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 2945,
+          "end_line": 2947
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 12,
+      "dirs_count": 0,
+      "size_count": 150581,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/array-set.js",
+      "type": "file",
+      "name": "array-set.js",
+      "base_name": "array-set",
+      "extension": ".js",
+      "size": 2398,
+      "date": "2018-05-16",
+      "sha1": "6d9371e8c44f57031ec85b0d4dfaddefee9d41d7",
+      "md5": "75229f9a18c01c4c94f2590c2fb0f854",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/base64-vlq.js",
+      "type": "file",
+      "name": "base64-vlq.js",
+      "base_name": "base64-vlq",
+      "extension": ".js",
+      "size": 3945,
+      "date": "2018-05-16",
+      "sha1": "7385e36f430ba9fa0663f1566646bf90981863ae",
+      "md5": "37573030381933fdb686c36831970469",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 99.07,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 35,
+          "matched_rule": {
+            "identifier": "bsd-new_50.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 214,
+            "matched_length": 212,
+            "match_coverage": 99.07,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 38.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_226.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 7,
+            "matched_length": 7,
+            "match_coverage": 100.0,
+            "rule_relevance": 38
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "The Closure Compiler",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright 2011 The Closure Compiler",
+          "start_line": 10,
+          "end_line": 10
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/base64.js",
+      "type": "file",
+      "name": "base64.js",
+      "base_name": "base64",
+      "extension": ".js",
+      "size": 579,
+      "date": "2018-05-16",
+      "sha1": "f36bd924ed7f3a2cc66a5e4b5eae62ec10daea26",
+      "md5": "c884630e81eac4f045b99baf0868dc5c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/binary-search.js",
+      "type": "file",
+      "name": "binary-search.js",
+      "base_name": "binary-search",
+      "extension": ".js",
+      "size": 4189,
+      "date": "2018-05-16",
+      "sha1": "41adfe773958b376db323f7cee8364e9c0f67d9c",
+      "md5": "d6695a2072928ee9e66c34cae540c2e2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/mapping-list.js",
+      "type": "file",
+      "name": "mapping-list.js",
+      "base_name": "mapping-list",
+      "extension": ".js",
+      "size": 2288,
+      "date": "2018-05-16",
+      "sha1": "0e136b51f171decfbcefaeeb085849ee26fbd252",
+      "md5": "f2d2dae264137445bf816413d4acbcd3",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/mappings.wasm",
+      "type": "file",
+      "name": "mappings.wasm",
+      "base_name": "mappings",
+      "extension": ".wasm",
+      "size": 48693,
+      "date": "2018-05-16",
+      "sha1": "2e73490af149a14d5a7a3a30c37a78feb986c7d9",
+      "md5": "25c1919e10360dd8c4165d67b4a167a2",
+      "mime_type": "application/octet-stream",
+      "file_type": "data",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/read-wasm.js",
+      "type": "file",
+      "name": "read-wasm.js",
+      "base_name": "read-wasm",
+      "extension": ".js",
+      "size": 1194,
+      "date": "2018-05-16",
+      "sha1": "eb4b7e1c02f94841f408b6517c51b6e369353089",
+      "md5": "50b193050358028eb68bfca2f2dbdd39",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/source-map-consumer.js",
+      "type": "file",
+      "name": "source-map-consumer.js",
+      "base_name": "source-map-consumer",
+      "extension": ".js",
+      "size": 42243,
+      "date": "2018-05-16",
+      "sha1": "e13643e33521bedd5dce90f940bbdc66b81f6e31",
+      "md5": "77488d09c444c9b26891adb006b1ddbd",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/source-map-generator.js",
+      "type": "file",
+      "name": "source-map-generator.js",
+      "base_name": "source-map-generator",
+      "extension": ".js",
+      "size": 13791,
+      "date": "2018-05-16",
+      "sha1": "80ca63474f2366b24dde85cd79b95a4e80e22759",
+      "md5": "6ee3604552bf2dd9440273f21d5ad1c3",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/source-node.js",
+      "type": "file",
+      "name": "source-node.js",
+      "base_name": "source-node",
+      "extension": ".js",
+      "size": 13730,
+      "date": "2018-05-16",
+      "sha1": "3fc7ffae034c82bd21ddb8f4c4ab0025ea0d7dd7",
+      "md5": "1f306c8dbcdef140a79f9c789d551ba4",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/util.js",
+      "type": "file",
+      "name": "util.js",
+      "base_name": "util",
+      "extension": ".js",
+      "size": 14214,
+      "date": "2018-05-16",
+      "sha1": "7a48da698da816709f36abab7bb802979b31ea3e",
+      "md5": "16b9faa731d6a1a50da355a7fee0a646",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 88.47,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-new_127.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 17,
+            "matched_length": 16,
+            "match_coverage": 94.12,
+            "rule_relevance": 94
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2011 Mozilla Foundation and contributors",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "source-map-0.7.3.tgz-extract/package/lib/wasm.js",
+      "type": "file",
+      "name": "wasm.js",
+      "base_name": "wasm",
+      "extension": ".js",
+      "size": 3317,
+      "date": "2018-05-16",
+      "sha1": "24828945a9981369854a2d6e93b8c48b1cc874c7",
+      "md5": "d815900419f0ac3948baef2f2d42c1df",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

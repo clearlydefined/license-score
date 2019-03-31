@@ -1,0 +1,569 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T015043.868031",
+      "end_timestamp": "2019-03-31T015045.108319",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 5
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153750.122856",
+      "end_timestamp": "2019-03-31T153750.165262",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 5
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract",
+      "type": "directory",
+      "name": "cookie-parser-1.4.3.tgz-extract",
+      "base_name": "cookie-parser-1.4.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 1,
+      "size_count": 10778,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "cookie-parser",
+          "version": "1.4.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "cookie parsing with signatures",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "TJ Holowaychuk",
+              "email": "tj@vision-media.ca",
+              "url": "http://tjholowaychuk.com"
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Douglas Christopher Wilson",
+              "email": "doug@somethingdoug.com",
+              "url": null
+            }
+          ],
+          "keywords": [
+            "cookie",
+            "middleware"
+          ],
+          "homepage_url": null,
+          "download_url": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "https://github.com/expressjs/cookie-parser",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/cookie",
+              "requirement": "0.3.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/cookie-signature",
+              "requirement": "1.0.6",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul",
+              "requirement": "0.4.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "2.5.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/supertest",
+              "requirement": "1.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/cookie-parser@1.4.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/cookie-parser",
+          "repository_download_url": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/cookie-parser/1.4.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 10778,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package/HISTORY.md",
+      "type": "file",
+      "name": "HISTORY.md",
+      "base_name": "HISTORY",
+      "extension": ".md",
+      "size": 1653,
+      "date": "2016-05-27",
+      "sha1": "db286c35de30f6ba7cca3e5f7874310194079be8",
+      "md5": "11b8e2e8f9392abcad45347e5033b433",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 3444,
+      "date": "2016-01-07",
+      "sha1": "fc8c4c86710f9363ed697bc448d6bf3d31da5e4c",
+      "md5": "49bba7319ba3b89ee964e4bd12355a8c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 5
+        },
+        {
+          "value": "Copyright (c) 2015 Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 5
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1169,
+      "date": "2015-09-18",
+      "sha1": "9f03492ff201e49450d6f80cb7470f601dec4dfc",
+      "md5": "720bd7b9472a2297cd6820c73c71cf3e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 93.22,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3,
+          "end_line": 4
+        },
+        {
+          "value": "Douglas Christopher Wilson",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3,
+          "end_line": 4
+        },
+        {
+          "value": "Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 977,
+      "date": "2016-05-27",
+      "sha1": "d4b67703dbe9707e20235399678ffb74e0d0ae65",
+      "md5": "49d7dd4f16e9583609656e494dce6ff9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 9,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "cookie-parser-1.4.3.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 3535,
+      "date": "2016-05-20",
+      "sha1": "628f38d1fb0e57c1252b214784c151f3545fbf5b",
+      "md5": "fba407f33f6076a8235ffee00faf3092",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 74,
+          "end_line": 74,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

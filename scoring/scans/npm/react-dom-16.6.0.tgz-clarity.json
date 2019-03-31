@@ -1,0 +1,2340 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021645.834367",
+      "end_timestamp": "2019-03-31T021818.041661",
+      "message": null,
+      "errors": [
+        "Path: react-dom-16.6.0.tgz-extract/package/cjs/react-dom.development.js",
+        "Path: react-dom-16.6.0.tgz-extract/package/umd/react-dom.development.js"
+      ],
+      "extra_data": {
+        "files_count": 30
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153839.398499",
+      "end_timestamp": "2019-03-31T153839.579527",
+      "message": null,
+      "errors": [
+        "Path: react-dom-16.6.0.tgz-extract/package/cjs/react-dom.development.js",
+        "Path: react-dom-16.6.0.tgz-extract/package/umd/react-dom.development.js"
+      ],
+      "extra_data": {
+        "files_count": 30
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 91,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.67,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.67,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "react-dom-16.6.0.tgz-extract",
+      "type": "directory",
+      "name": "react-dom-16.6.0.tgz-extract",
+      "base_name": "react-dom-16.6.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 3,
+      "size_count": 2440257,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "react-dom",
+          "version": "16.6.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "React package for working with the DOM.",
+          "release_date": null,
+          "parties": [],
+          "keywords": [
+            "react"
+          ],
+          "homepage_url": "https://reactjs.org/",
+          "download_url": "https://registry.npmjs.org/react-dom/-/react-dom-16.6.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/facebook/react/issues",
+          "code_view_url": null,
+          "vcs_url": "https://github.com/facebook/react",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/loose-envify",
+              "requirement": "^1.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/object-assign",
+              "requirement": "^4.1.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prop-types",
+              "requirement": "^15.6.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/scheduler",
+              "requirement": "^0.10.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/react",
+              "requirement": "^16.0.0",
+              "scope": "peerDependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/react-dom@16.6.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/react-dom",
+          "repository_download_url": "https://registry.npmjs.org/react-dom/-/react-dom-16.6.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/react-dom/16.6.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 2,
+      "size_count": 2440257,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 1363,
+      "date": "1985-10-26",
+      "sha1": "dc3011a0ee823c91a565237d17cbc3c0856de8a6",
+      "md5": "1b34dc1665b437d380d7ad1e40491d7e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1086,
+      "date": "1985-10-26",
+      "sha1": "1506731a652bba9abdf804ba3c95651ec5a68bdc",
+      "md5": "901f6cd9846257b3a9c69dbd0a49caf1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.39,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 164,
+            "match_coverage": 99.39,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 884,
+      "date": "1985-10-26",
+      "sha1": "9a95e0cabbf7258cdeae5028558004f8dde23990",
+      "md5": "c69e74831f594e9ad48fb098ab60b056",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 10,
+          "end_line": 10,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/profiling.js",
+      "type": "file",
+      "name": "profiling.js",
+      "base_name": "profiling",
+      "extension": ".js",
+      "size": 1362,
+      "date": "1985-10-26",
+      "sha1": "b7f83486a025fd12229683caac252ec3b909eebf",
+      "md5": "c93d001ea93a1617b0c337be47634a77",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 904,
+      "date": "1985-10-26",
+      "sha1": "852ab4db24b08ae310d7968a3a4f748b0d74a025",
+      "md5": "514a7554273543a3bdcb1d385ab86fad",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/server.browser.js",
+      "type": "file",
+      "name": "server.browser.js",
+      "base_name": "server.browser",
+      "extension": ".js",
+      "size": 228,
+      "date": "1985-10-26",
+      "sha1": "0cfe39d8ff3db88ebc4feed5877259d37963fbd3",
+      "md5": "a915516ba3742d55b76ba377a8e5b9c2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/server.js",
+      "type": "file",
+      "name": "server.js",
+      "base_name": "server",
+      "extension": ".js",
+      "size": 58,
+      "date": "1985-10-26",
+      "sha1": "ded1b566c12d4d1b0ca084e30015509fd5999503",
+      "md5": "0cf749c95652f96a52685ef80339714a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/server.node.js",
+      "type": "file",
+      "name": "server.node.js",
+      "base_name": "server.node",
+      "extension": ".js",
+      "size": 222,
+      "date": "1985-10-26",
+      "sha1": "7c74cca0f2886c6f37bfdb149844decdcfe32377",
+      "md5": "1316d4e8cc13b70a394db8fef7c8620b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/test-utils.js",
+      "type": "file",
+      "name": "test-utils.js",
+      "base_name": "test-utils",
+      "extension": ".js",
+      "size": 220,
+      "date": "1985-10-26",
+      "sha1": "86737a117223ecb5573980f74ff40204142028d8",
+      "md5": "58cb1102d49428d856762073d2ed210c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/unstable-native-dependencies.js",
+      "type": "file",
+      "name": "unstable-native-dependencies.js",
+      "base_name": "unstable-native-dependencies",
+      "extension": ".js",
+      "size": 256,
+      "date": "1985-10-26",
+      "sha1": "19109f647496050fa19b08d3088ed680cd4ecfbc",
+      "md5": "9bc744e895faa9fe0facdd5b344e8689",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs",
+      "type": "directory",
+      "name": "cjs",
+      "base_name": "cjs",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 0,
+      "size_count": 1274803,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-server.browser.development.js",
+      "type": "file",
+      "name": "react-dom-server.browser.development.js",
+      "base_name": "react-dom-server.browser.development",
+      "extension": ".js",
+      "size": 106846,
+      "date": "1985-10-26",
+      "sha1": "d06c729783754384495b55cabd032eac77a429c6",
+      "md5": "3f51a89eb52d13b7a03733afdf9c97fd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-server.browser.production.min.js",
+      "type": "file",
+      "name": "react-dom-server.browser.production.min.js",
+      "base_name": "react-dom-server.browser.production.min",
+      "extension": ".js",
+      "size": 16156,
+      "date": "1985-10-26",
+      "sha1": "86980653f9313a546f0c5c95c7ed9596edb4ddfa",
+      "md5": "c798e0ac5109bf41886a19d4f8d74cc0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-server.node.development.js",
+      "type": "file",
+      "name": "react-dom-server.node.development.js",
+      "base_name": "react-dom-server.node.development",
+      "extension": ".js",
+      "size": 108814,
+      "date": "1985-10-26",
+      "sha1": "6d5e189664a8be1a9a5d98c0d6bf066d756d29b5",
+      "md5": "7d0d03174ae39aed947d3833778f438b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-server.node.production.min.js",
+      "type": "file",
+      "name": "react-dom-server.node.production.min.js",
+      "base_name": "react-dom-server.node.production.min",
+      "extension": ".js",
+      "size": 16981,
+      "date": "1985-10-26",
+      "sha1": "92be56198252da39d6ab7be252668330492f1399",
+      "md5": "a316ab3644aa463c95b278896d7805b9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-test-utils.development.js",
+      "type": "file",
+      "name": "react-dom-test-utils.development.js",
+      "base_name": "react-dom-test-utils.development",
+      "extension": ".js",
+      "size": 46629,
+      "date": "1985-10-26",
+      "sha1": "0892450fa0bffc05ec910c143730ed326e71fd2f",
+      "md5": "310659c25deb9bce7cc63b6901b70551",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-test-utils.production.min.js",
+      "type": "file",
+      "name": "react-dom-test-utils.production.min.js",
+      "base_name": "react-dom-test-utils.production.min",
+      "extension": ".js",
+      "size": 9972,
+      "date": "1985-10-26",
+      "sha1": "e23169196315ee99c9383e532f6ae204c58a4fdd",
+      "md5": "49b1af8a4ca3ba7a3b28ca479470f871",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-unstable-native-dependencies.development.js",
+      "type": "file",
+      "name": "react-dom-unstable-native-dependencies.development.js",
+      "base_name": "react-dom-unstable-native-dependencies.development",
+      "extension": ".js",
+      "size": 62706,
+      "date": "1985-10-26",
+      "sha1": "7ca90b367feb2a6b5ff30a43485a922ef9d90efe",
+      "md5": "8372994e986789a88bc0706b5b81d1ec",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom-unstable-native-dependencies.production.min.js",
+      "type": "file",
+      "name": "react-dom-unstable-native-dependencies.production.min.js",
+      "base_name": "react-dom-unstable-native-dependencies.production.min",
+      "extension": ".js",
+      "size": 10998,
+      "date": "1985-10-26",
+      "sha1": "1626d96759e0ba52804247d3ac1a14ab3fc05553",
+      "md5": "f755ed5f1ef3021cdca1fbf1d203e244",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom.development.js",
+      "type": "file",
+      "name": "react-dom.development.js",
+      "base_name": "react-dom.development",
+      "extension": ".js",
+      "size": 692458,
+      "date": "1985-10-26",
+      "sha1": "8e09717847a6cc91c9aad0fb4564626b7ccc7253",
+      "md5": "6e21b4905f9d878cce911cfd53fc1813",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds.",
+        "ERROR: for scanner: copyrights:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom.production.min.js",
+      "type": "file",
+      "name": "react-dom.production.min.js",
+      "base_name": "react-dom.production.min",
+      "extension": ".js",
+      "size": 100389,
+      "date": "1985-10-26",
+      "sha1": "ff9de31b9fb88c5a3e250e5781ed338615731fe8",
+      "md5": "fb0144a12158d1596969c84ef4ab43f8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/cjs/react-dom.profiling.min.js",
+      "type": "file",
+      "name": "react-dom.profiling.min.js",
+      "base_name": "react-dom.profiling.min",
+      "extension": ".js",
+      "size": 102854,
+      "date": "1985-10-26",
+      "sha1": "2ccd70201eba787889f1a72b4d9089079fc908df",
+      "md5": "6cbc15d301c8dac83cbbef9a4c235a00",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd",
+      "type": "directory",
+      "name": "umd",
+      "base_name": "umd",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 9,
+      "dirs_count": 0,
+      "size_count": 1158871,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-server.browser.development.js",
+      "type": "file",
+      "name": "react-dom-server.browser.development.js",
+      "base_name": "react-dom-server.browser.development",
+      "extension": ".js",
+      "size": 110808,
+      "date": "1985-10-26",
+      "sha1": "54544667f028a160840c72cdb768ea5168bb522f",
+      "md5": "e7af928c495acca720fa85dddd703c7f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 328,
+          "end_line": 329,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 341,
+          "end_line": 342,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 326,
+          "end_line": 326
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 339,
+          "end_line": 339
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 326,
+          "end_line": 326
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 339,
+          "end_line": 339
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-server.browser.production.min.js",
+      "type": "file",
+      "name": "react-dom-server.browser.production.min.js",
+      "base_name": "react-dom-server.browser.production.min",
+      "extension": ".js",
+      "size": 16261,
+      "date": "1985-10-26",
+      "sha1": "cac30712538d11f68ed64c4936dea4305ae4228e",
+      "md5": "7a230fa7d116fa6b2b126e9f8ea671de",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-test-utils.development.js",
+      "type": "file",
+      "name": "react-dom-test-utils.development.js",
+      "base_name": "react-dom-test-utils.development",
+      "extension": ".js",
+      "size": 46915,
+      "date": "1985-10-26",
+      "sha1": "50b40475e9d757a42bd829c39e63faf521d03621",
+      "md5": "e8802c292511b105855757c3cf8f3b76",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-test-utils.production.min.js",
+      "type": "file",
+      "name": "react-dom-test-utils.production.min.js",
+      "base_name": "react-dom-test-utils.production.min",
+      "extension": ".js",
+      "size": 10202,
+      "date": "1985-10-26",
+      "sha1": "ebd50109591c4095ebd33835ec6e965d46c2b3e0",
+      "md5": "8d72016fa6b60687d2103172e702acc7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-unstable-native-dependencies.development.js",
+      "type": "file",
+      "name": "react-dom-unstable-native-dependencies.development.js",
+      "base_name": "react-dom-unstable-native-dependencies.development",
+      "extension": ".js",
+      "size": 63042,
+      "date": "1985-10-26",
+      "sha1": "7aec20f5791d7d42e3af0aaaeb2e729ae8b6c85e",
+      "md5": "c9a8aeca794d7963a98f079f3e11f134",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom-unstable-native-dependencies.production.min.js",
+      "type": "file",
+      "name": "react-dom-unstable-native-dependencies.production.min.js",
+      "base_name": "react-dom-unstable-native-dependencies.production.min",
+      "extension": ".js",
+      "size": 11263,
+      "date": "1985-10-26",
+      "sha1": "9c8b8702ddbd2aa537d19cb4ade91a72381812c8",
+      "md5": "e7c959c7ed1f1ad1b0f21d7a7735bf7d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom.development.js",
+      "type": "file",
+      "name": "react-dom.development.js",
+      "base_name": "react-dom.development",
+      "extension": ".js",
+      "size": 697227,
+      "date": "1985-10-26",
+      "sha1": "2026493509a356b694eed14ada7a420c2623ca8e",
+      "md5": "d977d72789f44e10c0fdc9372b14fda5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds.",
+        "ERROR: for scanner: copyrights:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom.production.min.js",
+      "type": "file",
+      "name": "react-dom.production.min.js",
+      "base_name": "react-dom.production.min",
+      "extension": ".js",
+      "size": 100367,
+      "date": "1985-10-26",
+      "sha1": "16a50d468c25565d8c7bced08934e50ebe58f6c4",
+      "md5": "73ec01997e6fc1daa33ba534ce888ba1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "react-dom-16.6.0.tgz-extract/package/umd/react-dom.profiling.min.js",
+      "type": "file",
+      "name": "react-dom.profiling.min.js",
+      "base_name": "react-dom.profiling.min",
+      "extension": ".js",
+      "size": 102786,
+      "date": "1985-10-26",
+      "sha1": "fc7237fbba25bb3af86dc17f6b823d5d9ccd79e1",
+      "md5": "011a6ebe0c8db59e13bd5d9d18831f27",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 7,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Facebook, Inc. and its affiliates.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

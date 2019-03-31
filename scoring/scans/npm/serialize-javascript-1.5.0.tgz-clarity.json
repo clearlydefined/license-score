@@ -1,0 +1,502 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021724.133239",
+      "end_timestamp": "2019-03-31T021725.373511",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 4
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153840.696439",
+      "end_timestamp": "2019-03-31T153840.733132",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 4
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 85,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 1.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 1.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract",
+      "type": "directory",
+      "name": "serialize-javascript-1.5.0.tgz-extract",
+      "base_name": "serialize-javascript-1.5.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 1,
+      "size_count": 11497,
+      "scan_errors": []
+    },
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "serialize-javascript",
+          "version": "1.5.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Serialize JavaScript to a superset of JSON that includes regular expressions and functions.",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Eric Ferraiuolo",
+              "email": "edf@ericf.me",
+              "url": null
+            }
+          ],
+          "keywords": [
+            "serialize",
+            "serialization",
+            "javascript",
+            "js",
+            "json"
+          ],
+          "homepage_url": "https://github.com/yahoo/serialize-javascript",
+          "download_url": "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-1.5.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/yahoo/serialize-javascript/issues",
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/yahoo/serialize-javascript.git",
+          "copyright": null,
+          "license_expression": "bsd-new",
+          "declared_license": "BSD-3-Clause",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/benchmark",
+              "requirement": "^2.1.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chai",
+              "requirement": "^4.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul",
+              "requirement": "^0.4.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "^3.4.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/serialize-javascript@1.5.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/serialize-javascript",
+          "repository_download_url": "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-1.5.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/serialize-javascript/1.5.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 11497,
+      "scan_errors": []
+    },
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 3928,
+      "date": "1985-10-26",
+      "sha1": "0c992d51bec67d5f49ecca7305fe901cf7e9096e",
+      "md5": "6ceb9ea8acd99490dd200179f012e986",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 77.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 3,
+          "end_line": 4,
+          "matched_rule": {
+            "identifier": "bsd-new_196.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 14,
+            "matched_length": 14,
+            "match_coverage": 100.0,
+            "rule_relevance": 77
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Yahoo! Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014, Yahoo! Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1486,
+      "date": "1985-10-26",
+      "sha1": "105c81101fa61a16b7548976666dc188a4995cc1",
+      "md5": "88ca0f627a04462a0ac7effbc69ae1c7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 98.56,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 4,
+          "end_line": 27,
+          "matched_rule": {
+            "identifier": "bsd-new_150.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 208,
+            "matched_length": 205,
+            "match_coverage": 98.56,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [
+        {
+          "value": "Yahoo! Inc.",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2014 Yahoo! Inc.",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 921,
+      "date": "1985-10-26",
+      "sha1": "b872e4d65814b8cf2a2ec37134fa03f3457d5415",
+      "md5": "aa854c22d29aa8b9c54ec161e23ab9fa",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 22.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 22,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "bsd-new_195.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 22
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "serialize-javascript-1.5.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 5162,
+      "date": "1985-10-26",
+      "sha1": "4ceeddf987f0bfe7910e7620e865f28da211c6ac",
+      "md5": "28ddea9e0af126142d172df99a3d6948",
+      "mime_type": "text/html",
+      "file_type": "HTML document, UTF-8 Unicode text, with very long lines",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 99.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 119,
+          "end_line": 119,
+          "matched_rule": {
+            "identifier": "bsd-new_26.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

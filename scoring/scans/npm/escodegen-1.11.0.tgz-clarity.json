@@ -1,0 +1,918 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021713.089213",
+      "end_timestamp": "2019-03-31T021718.694405",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 6
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153840.384331",
+      "end_timestamp": "2019-03-31T153840.436277",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 6
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 70,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 1.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 1.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "escodegen-1.11.0.tgz-extract",
+      "type": "directory",
+      "name": "escodegen-1.11.0.tgz-extract",
+      "base_name": "escodegen-1.11.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 2,
+      "size_count": 106127,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "escodegen",
+          "version": "1.11.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "ECMAScript code generator",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "maintainer",
+              "name": "Yusuke Suzuki",
+              "email": "utatane.tea@gmail.com",
+              "url": null
+            }
+          ],
+          "keywords": [],
+          "homepage_url": "http://github.com/estools/escodegen",
+          "download_url": "https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "git+http://github.com/estools/escodegen.git",
+          "copyright": null,
+          "license_expression": "bsd-simplified",
+          "declared_license": "BSD-2-Clause",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/estraverse",
+              "requirement": "^4.2.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/esutils",
+              "requirement": "^2.0.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/esprima",
+              "requirement": "^3.1.3",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/optionator",
+              "requirement": "^0.8.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/acorn",
+              "requirement": "^4.0.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/bluebird",
+              "requirement": "^3.4.7",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/bower-registry-client",
+              "requirement": "^1.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chai",
+              "requirement": "^3.5.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/commonjs-everywhere",
+              "requirement": "^0.9.7",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/gulp",
+              "requirement": "^3.8.10",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/gulp-eslint",
+              "requirement": "^3.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/gulp-mocha",
+              "requirement": "^3.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/semver",
+              "requirement": "^5.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/source-map",
+              "requirement": "~0.6.1",
+              "scope": "optionalDependencies",
+              "is_runtime": true,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/escodegen@1.11.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/escodegen",
+          "repository_download_url": "https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/escodegen/1.11.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 1,
+      "size_count": 106127,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/escodegen.js",
+      "type": "file",
+      "name": "escodegen.js",
+      "base_name": "escodegen",
+      "extension": ".js",
+      "size": 94789,
+      "date": "1985-10-26",
+      "sha1": "6b66808d2f3d78a5977d77973112ea0a0d4b9485",
+      "md5": "349877f6e24422b1be38ce5a5e03ad43",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 15,
+          "end_line": 33,
+          "matched_rule": {
+            "identifier": "bsd-simplified_18.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 178,
+            "matched_length": 178,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Ingvar Stepanyan",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Ivan Nikulin",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Michael Ficarra",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Mathias Bynens",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Irakli Gozalishvili",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Robert Gust-Bardon",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "John Freeman",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Ariya Hidayat",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Joost-Wim Boekesteijn",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Kris Kowal",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Arpad Borsos",
+          "start_line": 2,
+          "end_line": 13
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012-2014 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2015 Ingvar Stepanyan <me@rreverser.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2014 Ivan Nikulin <ifaaan@gmail.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012-2013 Michael Ficarra <escodegen.copyright@michael.ficarra.me>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012-2013 Mathias Bynens <mathias@qiwi.be>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2013 Irakli Gozalishvili <rfobic@gmail.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012 Robert Gust-Bardon <donate@robert.gust-bardon.org>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012 John Freeman <jfreeman08@gmail.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2011-2012 Ariya Hidayat <ariya.hidayat@gmail.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012 Joost-Wim Boekesteijn <joost-wim@boekesteijn.nl>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012 Kris Kowal <kris.kowal@cixar.com>",
+          "start_line": 2,
+          "end_line": 13
+        },
+        {
+          "value": "Copyright (c) 2012 Arpad Borsos <arpad.borsos@googlemail.com>",
+          "start_line": 2,
+          "end_line": 13
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/LICENSE.BSD",
+      "type": "file",
+      "name": "LICENSE.BSD",
+      "base_name": "LICENSE",
+      "extension": ".BSD",
+      "size": 1231,
+      "date": "1985-10-26",
+      "sha1": "e74ff75ee8a455b69f308ecaeef9804e6c9c8fd8",
+      "md5": "e74cede38e957fe3e525b0e53a510bcf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 1,
+          "end_line": 19,
+          "matched_rule": {
+            "identifier": "bsd-simplified_18.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "1-hash",
+            "rule_length": 178,
+            "matched_length": 178,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1695,
+      "date": "1985-10-26",
+      "sha1": "dab279a2f989c432f787fc297a11aae1cbe55199",
+      "md5": "9073031fa6c396de2927a79f8c8746f2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 11.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 11,
+          "end_line": 11,
+          "matched_rule": {
+            "identifier": "bsd-new_89.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 16.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 52,
+          "end_line": 52,
+          "matched_rule": {
+            "identifier": "bsd-simplified_53.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 16
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 3287,
+      "date": "1985-10-26",
+      "sha1": "9e1a4d32be20da5764956042ea921e6365c0efcd",
+      "md5": "8414b25ea6efb009b83ed1637e6f982f",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 65,
+          "end_line": 84,
+          "matched_rule": {
+            "identifier": "bsd-simplified_18.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 178,
+            "matched_length": 178,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 62,
+          "end_line": 63
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Yusuke Suzuki (http://github.com/Constellation)",
+          "start_line": 62,
+          "end_line": 63
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 5125,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/bin/escodegen.js",
+      "type": "file",
+      "name": "escodegen.js",
+      "base_name": "escodegen",
+      "extension": ".js",
+      "size": 2710,
+      "date": "1985-10-26",
+      "sha1": "ea70dd92f7321b01fd3aea944059dfc7ab7ff82e",
+      "md5": "9460cb0229ffc69da3906620b587953f",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 5,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "bsd-simplified_18.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 178,
+            "matched_length": 178,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "escodegen-1.11.0.tgz-extract/package/bin/esgenerate.js",
+      "type": "file",
+      "name": "esgenerate.js",
+      "base_name": "esgenerate",
+      "extension": ".js",
+      "size": 2415,
+      "date": "1985-10-26",
+      "sha1": "00b8be70a2983d1dffae6c1395a70ea39f0f3a53",
+      "md5": "01d4aedaf1bcad3dc022a49228835347",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 100.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 5,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "bsd-simplified_18.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 178,
+            "matched_length": 178,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2012 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

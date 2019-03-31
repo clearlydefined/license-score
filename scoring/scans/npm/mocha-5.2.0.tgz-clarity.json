@@ -1,0 +1,5784 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T015559.104474",
+      "end_timestamp": "2019-03-31T015633.573846",
+      "message": null,
+      "errors": [
+        "Path: mocha-5.2.0.tgz-extract/package/mocha.js"
+      ],
+      "extra_data": {
+        "files_count": 49
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153802.625415",
+      "end_timestamp": "2019-03-31T153803.010346",
+      "message": null,
+      "errors": [
+        "Path: mocha-5.2.0.tgz-extract/package/mocha.js"
+      ],
+      "extra_data": {
+        "files_count": 49
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "mocha-5.2.0.tgz-extract",
+      "type": "directory",
+      "name": "mocha-5.2.0.tgz-extract",
+      "base_name": "mocha-5.2.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 49,
+      "dirs_count": 6,
+      "size_count": 798159,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "mocha",
+          "version": "5.2.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "simple, flexible, fun test framework",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "TJ Holowaychuk",
+              "email": "tj@vision-media.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "38elements",
+              "email": "mh19820223@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Aaron Brady",
+              "email": "aaron@mori.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Aaron Hamid",
+              "email": "aaron.hamid@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Aaron Heckmann",
+              "email": "aaron.heckmann+github@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Aaron Krause",
+              "email": "aaronjkrause@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Aaron Petcoff",
+              "email": "hello@aaronpetcoff.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "abrkn",
+              "email": "a@abrkn.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Adam Crabtree",
+              "email": "adam.crabtree@redrobotlabs.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Adam Gruber",
+              "email": "talknmime@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Adrian Ludwig",
+              "email": "me@adrianludwig.pl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ahmad Bamieh",
+              "email": "ahmadbamieh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "airportyh",
+              "email": "airportyh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ajay Kodali",
+              "email": "ajay.kodali@citrix.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Al Scott",
+              "email": "al.scott@atomicobject.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Alex Bainter",
+              "email": "metalex9@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Alexander Early",
+              "email": "alexander.early@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Alexander Shepelin",
+              "email": "Brightcor@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Alhadis",
+              "email": "gardnerjohng@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "amsul",
+              "email": "reach@amsul.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Anders Olsen Sandvik",
+              "email": "Andersos@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andreas Brekken",
+              "email": "andreas@opuno.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andreas Lind Petersen",
+              "email": "andreas@one.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andrew Krawchyk",
+              "email": "903716+akrawchyk@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andrew Nesbitt",
+              "email": "andrewnez@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andrey Popp",
+              "email": "8mayday@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Andrii Shumada",
+              "email": "eagleeyes91@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "andy matthews",
+              "email": "andy@commadelimited.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Angelica Valenta",
+              "email": "angelicavalenta@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Anis Safine",
+              "email": "anis.safine.ext@francetv.fr",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Anish Karandikar",
+              "email": "anishkny@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Anthony",
+              "email": "keppi@o2.pl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Anton",
+              "email": "anton.redfox@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "anton",
+              "email": "anton.valickij@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "APerson",
+              "email": "danielhglus@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Arian Stolwijk",
+              "email": "arian@aryweb.nl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ariel Mashraki",
+              "email": "ariel@mashraki.co.il",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Arnaud Brousseau",
+              "email": "arnaud.brousseau@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Artem Govorov",
+              "email": "artem.govorov@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Atsuya Takagi",
+              "email": "asoftonight@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Attila Domokos",
+              "email": "adomokos@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Austin Birch",
+              "email": "mraustinbirch@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Avi Vahl",
+              "email": "avi.vahl@wix.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "badunk",
+              "email": "baduncaduncan@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Bamieh",
+              "email": "ahmadbamieh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Bradley",
+              "email": "ben@bradleyit.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Harris",
+              "email": "benhdev@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Hutchison",
+              "email": "ben@aldaviva.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Lindsey",
+              "email": "ben.lindsey@vungle.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Noordhuis",
+              "email": "info@bnoordhuis.nl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ben Vinegar",
+              "email": "ben@benv.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Benjamin Eidelman",
+              "email": "beneidel@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Benjie Gillam",
+              "email": "benjie@jemjie.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Benoit Larroque",
+              "email": "zeta.ben@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Beno\u00eet Zugmeyer",
+              "email": "bzugmeyer@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Benson Trent",
+              "email": "bensontrent@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Berker Peksag",
+              "email": "berker.peksag@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "berni",
+              "email": "berni@extensa.pl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Bj\u00f8rge N\u00e6ss",
+              "email": "bjoerge@origo.no",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Brendan Nee",
+              "email": "brendan.nee@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Brian Beck",
+              "email": "exogen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Brian Lalor",
+              "email": "blalor@bravo5.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Brian M. Carlson",
+              "email": "brian.m.carlson@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Brian Moore",
+              "email": "guardbionic-github@yahoo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Bryan Donovan",
+              "email": "bdondo@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Buck Doyle",
+              "email": "b@chromatin.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "C. Scott Ananian",
+              "email": "cscott@cscott.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Callum Macrae",
+              "email": "callum@macr.ae",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Can Oztokmak",
+              "email": "can@zeplin.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Capacitor Set",
+              "email": "CapacitorSet@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Casey Foster",
+              "email": "casey@caseywebdev.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Charles Lowell",
+              "email": "cowboyd@frontside.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Charles Merriam",
+              "email": "charles.merriam@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Charlie Rudolph",
+              "email": "charles.w.rudolph@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chris",
+              "email": "chrisleck@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chris Buckley",
+              "email": "chris@cmbuckley.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Chris Lamb",
+              "email": "chris@chris-lamb.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Christian",
+              "email": "me@rndm.de",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Christoffer Hallas",
+              "email": "christoffer.hallas@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Christoph Neuroth",
+              "email": "christoph.neuroth@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Christopher Hiller",
+              "email": "boneskull@boneskull.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "ChrisWren",
+              "email": "cthewren@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "claudyus",
+              "email": "claudyus@HEX.(none)",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Connor Dunn",
+              "email": "connorhd@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Corey Butler",
+              "email": "corey@coreybutler.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Cory Thomas",
+              "email": "cory.thomas@bazaarvoice.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Craig Taub",
+              "email": "craigtaub@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Cube",
+              "email": "maty21@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Daniel Ruf",
+              "email": "daniel@daniel-ruf.de",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Daniel St. Jules",
+              "email": "danielst.jules@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Daniel Stockman",
+              "email": "daniel.stockman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Darryl Pogue",
+              "email": "dvpdiner2@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dave McKenna",
+              "email": "davemckenna01@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David da Silva Cont\u00edn",
+              "email": "dasilvacontin@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David Henderson",
+              "email": "david.henderson@triggeredmessaging.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David M. Lee",
+              "email": "leedm777@yahoo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "David Neubauer",
+              "email": "davidneub@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "DavNej",
+              "email": "davnej.dev@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Denis Bardadym",
+              "email": "bardadymchik@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Devin Weaver",
+              "email": "suki@tritarget.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "dfberry",
+              "email": "dinaberry@outlook.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Di Wu",
+              "email": "dwu@palantir.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dina Berry",
+              "email": "dfberry@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Diogo Monteiro",
+              "email": "diogo.gmt@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dmitriy Simushev",
+              "email": "simushevds@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dmitry Shirokov",
+              "email": "deadrunk@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dmitry Sorin",
+              "email": "info@staypositive.ru",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Domenic Denicola",
+              "email": "domenic@domenicdenicola.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dominic Barnes",
+              "email": "dominic@dbarnes.info",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Dominique Quatravaux",
+              "email": "dominique@quatravaux.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Douglas Christopher Wilson",
+              "email": "doug@somethingdoug.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Duncan Beevers",
+              "email": "duncan@dweebd.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "eiji.ienaga",
+              "email": "eiji.ienaga@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "elergy",
+              "email": "elergy@yandex-team.ru",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Eli Skeggs",
+              "email": "skeggse@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "ELLIOTTCABLE",
+              "email": "me@ell.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Emanuele",
+              "email": "my.burning@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Enric Pallerols",
+              "email": "enric@pallerols.cat",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Erik Eng",
+              "email": "mail@ptz0n.se",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Eugene Tiutiunnyk",
+              "email": "eugene.tiutiunnyk@lookout.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fabio M. Costa",
+              "email": "fabiomcosta@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fagner Brack",
+              "email": "github3@fagnermartins.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "FARKAS M\u00e1t\u00e9",
+              "email": "mate.farkas@virtual-call-center.eu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "fcrisci",
+              "email": "fabio.crisci@amadeus.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fede Ramirez",
+              "email": "i@2fd.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fedor Indutny",
+              "email": "fedor.indutny@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "fengmk2",
+              "email": "fengmk2@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Florian Margaine",
+              "email": "florian@margaine.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "FND",
+              "email": "FND@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "fool2fish",
+              "email": "fool2fish@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Forbes Lindesay",
+              "email": "forbes@lindesay.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Frank Leon Rose",
+              "email": "frankleonrose@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Frederico Silva",
+              "email": "frederico.silva@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fredrik Enestad",
+              "email": "fredrik@devloop.se",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fredrik Lindin",
+              "email": "fredriklindin@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Fumiaki MATSUSHIMA",
+              "email": "mtsmfm@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gabriel Silk",
+              "email": "gabesilk@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gareth Aye",
+              "email": "gaye@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gareth Murphy",
+              "email": "gareth.cpm@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gavin Mogan",
+              "email": "GavinM@airg.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "gaye",
+              "email": "gaye@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "gigadude",
+              "email": "gigadude@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Giovanni Bassi",
+              "email": "giggio@giggio.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Glen Huang",
+              "email": "curvedmark@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Glen Mailer",
+              "email": "glenjamin@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "grasGendarme",
+              "email": "me@grasgendar.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Greg Perkins",
+              "email": "gregperkins@alum.mit.edu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Guangcong Luo",
+              "email": "guangcongluo@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Guillermo Rauch",
+              "email": "rauchg@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Guy Arye",
+              "email": "arye.guy@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Gyandeep Singh",
+              "email": "gyandeeps@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Harish",
+              "email": "hyeluri@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Harry Brundage",
+              "email": "harry.brundage@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Harry Sarson",
+              "email": "harry.sarson@hotmail.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Harry Wolff",
+              "email": "hswolff@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Herman Junge",
+              "email": "herman@geekli.st",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "hokaccha",
+              "email": "k.hokamura@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Honza Javorek",
+              "email": "mail@honzajavorek.cz",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Hugo Giraudel",
+              "email": "hugo.giraudel@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ian Storm Taylor",
+              "email": "ian@ianstormtaylor.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ian W. Remmel",
+              "email": "design@ianwremmel.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ian Young",
+              "email": "ian.greenleaf@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ian Zamojc",
+              "email": "ian@thesecretlocation.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Igwe Kalu",
+              "email": "igwe.kalu@live.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "ImgBot",
+              "email": "31427850+ImgBotApp@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "inxorable",
+              "email": "inxorable@codewren.ch",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ivan",
+              "email": "ivan@kinvey.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jaakko Salonen",
+              "email": "jaakko.salonen@iki.fi",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jacob Wejendorp",
+              "email": "jacob@wejendorp.dk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jake Craige",
+              "email": "james.craige@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jake Marsh",
+              "email": "jakemmarsh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jakob Krigovsky",
+              "email": "jakob@krigovsky.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jakub Nes\u030cetr\u030cil",
+              "email": "jakub@apiary.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "James Bowes",
+              "email": "jbowes@repl.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "James Carr",
+              "email": "james.r.carr@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "James G. Kim",
+              "email": "jgkim@jayg.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "James Lal",
+              "email": "james@lightsofapollo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "James Nylen",
+              "email": "jnylen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jan Kopriva",
+              "email": "jan.kopriva@gooddata.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jan Krems",
+              "email": "jan.krems@groupon.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jan Lehnardt",
+              "email": "jan@apache.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jason Barry",
+              "email": "jay@jcbarry.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jason Lai",
+              "email": "jason@getpebble.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jason Leyba",
+              "email": "jmleyba@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Javier Aranda",
+              "email": "javierav@javierav.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jean Ponchon",
+              "email": "gelule@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jeff Kunkle",
+              "email": "jeff.kunkle@nearinfinity.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jeff Schilling",
+              "email": "jeff.schilling@q2ebanking.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "JeongHoon Byun (aka Outsider) <outsideris@gmail.com>",
+              "email": null,
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "J\u00e9r\u00e9mie Astori",
+              "email": "jeremie@astori.fr",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jeremy Martin",
+              "email": "jmar777@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jerry Muzsik",
+              "email": "jerrymuzsik@icloud.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jesse Dailey",
+              "email": "jesse.dailey@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "jimenglish81",
+              "email": "jimenglish81@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jimmy Cuadra",
+              "email": "jimmy@jimmycuadra.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jo Liss",
+              "email": "joliss42@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joao Moreno",
+              "email": "mail@joaomoreno.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joel Kemp",
+              "email": "mrjoelkemp@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joey Cozza",
+              "email": "joey@grow.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "John Doty",
+              "email": "jrhdoty@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "John Firebaugh",
+              "email": "john.firebaugh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "John Reeves",
+              "email": "github@jonnyreeves.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Johnathon Sanders",
+              "email": "outdooricon@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jon Surrell",
+              "email": "jon.surrell@automattic.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonas Dohse",
+              "email": "jonas@mbr-targeting.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonas Westerlund",
+              "email": "jonas.westerlund@me.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Creamer",
+              "email": "matrixhasyou2k4@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Delgado",
+              "email": "jdelgado@rewip.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Kim",
+              "email": "jkimbo@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Ong",
+              "email": "jonathanrichardong@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Park",
+              "email": "jpark@daptiv.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jonathan Rajavuori",
+              "email": "jrajav@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jordan Sexton",
+              "email": "jordan@jordansexton.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joseph Lin",
+              "email": "josephlin55555@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Josh Eversmann",
+              "email": "josh.eversmann@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Josh Lory",
+              "email": "josh.lory@code.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Josh Soref",
+              "email": "jsoref@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joshua Appelman",
+              "email": "jappelman@xebia.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Joshua Krall",
+              "email": "joshuakrall@pobox.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "JP Bochi",
+              "email": "jpbochi@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "jsdevel",
+              "email": "js.developer.undefined@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Julien Wajsberg",
+              "email": "felash@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jupp M\u00fcller",
+              "email": "jupp0r@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Jussi Virtanen",
+              "email": "jussi.k.virtanen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Justin DuJardin",
+              "email": "justin.dujardin@sococo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Juzer Ali",
+              "email": "er.juzerali@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Katie Gengler",
+              "email": "katiegengler@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "kavun",
+              "email": "kevin.a.reed@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kazuhito Hokamura",
+              "email": "k.hokamura@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Keith Cirkel",
+              "email": "github@keithcirkel.co.uk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kelong Wang",
+              "email": "buaawkl@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kent C. Dodds",
+              "email": "kent+github@doddsfamily.us",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kevin Burke",
+              "email": "kev@inburke.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kevin Conway",
+              "email": "kevinjacobconway@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kevin Kirsche",
+              "email": "Kev.Kirsche+GitHub@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kevin Partington",
+              "email": "platinum.azure@kernelpanicstudios.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kevin Wang",
+              "email": "kevin@fossa.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kirill Korolyov",
+              "email": "kirill.korolyov@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "klaemo",
+              "email": "klaemo@fastmail.fm",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Koen Punt",
+              "email": "koen@koenpunt.nl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Konstantin Ka\u0308fer",
+              "email": "github@kkaefer.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kris Rasmussen",
+              "email": "kristopher.rasmussen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kunal Nagpal",
+              "email": "kunagpal@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Kyle Mitchell",
+              "email": "kyle@kemitchell.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "lakmeer",
+              "email": "lakmeerkravid@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Lane Kelly",
+              "email": "lanekelly16@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "L\u00e1szl\u00f3 B\u00e1csi",
+              "email": "lackac@lackac.hu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Laurence Rowe",
+              "email": "lrowe@netflix.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Liam Newman",
+              "email": "bitwiseman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Linus Unneb\u00e4ck",
+              "email": "linus@folkdatorn.se",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "lodr",
+              "email": "salva@unoyunodiez.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Long Ho",
+              "email": "longlho@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Maciej Ma\u0142ecki",
+              "email": "maciej.malecki@notimplemented.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mal Graty",
+              "email": "mal.graty@googlemail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Marais Rossouw",
+              "email": "me@maraisr.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Marc Kuo",
+              "email": "kuomarc2@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Marcello Bastea-Forte",
+              "email": "marcello@cellosoft.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mark Banner",
+              "email": "standard8@mozilla.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Markus Tacker",
+              "email": "m@coderbyheart.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Martin Marko",
+              "email": "marcus@gratex.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mathieu Desv\u00e9",
+              "email": "mathieudesve@MacBook-Pro-de-Mathieu.local",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matija Marohni\u0107",
+              "email": "matija.marohnic@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matt Bierner",
+              "email": "mattbierner@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matt Giles",
+              "email": "matt.giles@cerner.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matt Robenolt",
+              "email": "matt@ydekproductions.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matt Smith",
+              "email": "matthewgarysmith@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Matthew Shanley",
+              "email": "matthewshanley@littlesecretsrecords.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mattias Tidlund",
+              "email": "mattias.tidlund@learningwell.se",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Max Goodman",
+              "email": "c@chromakode.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Maximilian Antoni",
+              "email": "mail@maxantoni.de",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Merrick Christensen",
+              "email": "merrick.christensen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Demmer",
+              "email": "demmer@jut.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Jackson",
+              "email": "mjijackson@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Olson",
+              "email": "mwolson@member.fsf.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Riley",
+              "email": "michael.riley@autodesk.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michael Schoonmaker",
+              "email": "michael.r.schoonmaker@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michal Charemza",
+              "email": "michalcharemza@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Michiel de Jong",
+              "email": "michiel@unhosted.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mick Brooks",
+              "email": "mick.brooks@sinking.in",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mike Pennisi",
+              "email": "mike@mikepennisi.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Mislav Marohni\u0107",
+              "email": "mislav.marohnic@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "monowerker",
+              "email": "monowerker@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Moshe Kolodny",
+              "email": "mkolodny@integralads.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "mrShturman",
+              "email": "mrshturman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nathan Alderson",
+              "email": "nathan.alderson@adtran.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nathan Black",
+              "email": "nathan@nathanblack.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nathan Bowser",
+              "email": "nathan.bowser@spiderstrategies.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nathan Houle",
+              "email": "nathan@nathanhoule.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nathan Rajlich",
+              "email": "nathan@tootallnate.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "nexdrew",
+              "email": "andrew.goode@nextraq.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nick Fitzgerald",
+              "email": "fitzgen@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nicolas Girault",
+              "email": "nic.girault@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nicolo Taddei",
+              "email": "taddei.uk@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nik Nyby",
+              "email": "nnyby@columbia.edu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Nikolaos Georgiou",
+              "email": "Nikolaos.Georgiou@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "nishigori",
+              "email": "Takuya_Nishigori@voyagegroup.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Noshir Patel",
+              "email": "nosh@blackpiano.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "not-an-aardvark",
+              "email": "not-an-aardvark@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "OlegTsyba",
+              "email": "oleg.tsyba.ua@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "olsonpm",
+              "email": "olsonpm@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "omardelarosa",
+              "email": "thedelarosa@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Oscar Godson",
+              "email": "oscargodson@outlook.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Outsider",
+              "email": "outsideris@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "oveddan",
+              "email": "stangogh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Panu Horsmalahti",
+              "email": "panu.horsmalahti@iki.fi",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Parker Moore",
+              "email": "parkrmoore@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Pat Finnigan",
+              "email": "patrick.k.finnigan@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Paul Armstrong",
+              "email": "paul@paularmstrongdesigns.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Paul Miller",
+              "email": "paul@paulmillr.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Pavel Zubkou",
+              "email": "pavel.zubkou@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Pete Hawkins",
+              "email": "pete@petes-imac.frontinternal.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Peter M\u00fcller",
+              "email": "munter@fumle.dk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Peter Rust",
+              "email": "peter@cornerstonenw.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Phil Sung",
+              "email": "psung@dnanexus.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Philip M. White",
+              "email": "philip@mailworks.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "PoppinL",
+              "email": "poppinlp@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Popr\u00e1di \u00c1rp\u00e1d",
+              "email": "popradi.arpad11@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Prayag Verma",
+              "email": "prayag.verma@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "qiuzuhui",
+              "email": "qiuzuhui@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Quang Van",
+              "email": "quangvvv@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Quanlong He",
+              "email": "kyan.ql.he@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "R56",
+              "email": "rviskus@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Raynos",
+              "email": "raynos2@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Refael Ackermann",
+              "email": "refael@empeeric.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rich Trott",
+              "email": "rtrott@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Richard Dingwall",
+              "email": "rdingwall@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Richard Knop",
+              "email": "RichardKnop@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rico Sta. Cruz",
+              "email": "rstacruz@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "rmacklin",
+              "email": "richard.github@nrm.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rob Loach",
+              "email": "robloach@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rob Raux",
+              "email": "rraux@peachworks.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rob Wu",
+              "email": "rob@robwu.nl",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Robert Rossmann",
+              "email": "rr.rossmann@me.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Romain Prieto",
+              "email": "romain.prieto@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Roman Neuhauser",
+              "email": "rneuhauser@suse.cz",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Roman Shtylman",
+              "email": "shtylman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ross Warren",
+              "email": "rosswarren4@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "rotemdan",
+              "email": "rotemdan@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Russ Bradberry",
+              "email": "devdazed@me.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Russell Munson",
+              "email": "rmunson@github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Rustem Mustafin",
+              "email": "mustafin.rustem@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ryan Hubbard",
+              "email": "ryanmhubbard@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ryan Shaw",
+              "email": "ryan.shaw@min.vc",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ryan Tablada",
+              "email": "ryan.tablada@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ryunosuke SATO",
+              "email": "tricknotes.rs@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "ryym",
+              "email": "ryym.64@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Salehen Shovon Rahman",
+              "email": "salehen.rahman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sam Mussell",
+              "email": "smussell@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "samuel goldszmidt",
+              "email": "samuel.goldszmidt@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "sarehag",
+              "email": "joakim.sarehag@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sasha Koss",
+              "email": "koss@nocorp.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Scott Kao",
+              "email": "Scottkao85@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Scott Santucci",
+              "email": "ScottFreeCode@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "ScottFreeCode",
+              "email": "ScottFreeCode@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sean Lang",
+              "email": "slang800@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sebastian Van Sande",
+              "email": "sebastian@vansande.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "sebv",
+              "email": "seb.vincent@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Seiya Konno",
+              "email": "nulltask@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sergey Simonchik",
+              "email": "sergey.simonchik@jetbrains.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sergio Santoro",
+              "email": "santoro.srg@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Shaine Hatch",
+              "email": "shaine@squidtree.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Shawn Krisman",
+              "email": "telaviv@github",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Shinnosuke Watanabe",
+              "email": "snnskwtnb@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "silentcloud",
+              "email": "rjmuqiang@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Silvio Massari",
+              "email": "silvio.massari@auth0.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Simon Gaeremynck",
+              "email": "gaeremyncks@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Simon Goumaz",
+              "email": "simon@attentif.ch",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "simov",
+              "email": "simeonvelichkov@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sindre Sorhus",
+              "email": "sindresorhus@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Slobodan Mi\u0161kovi\u0107",
+              "email": "slobodan@miskovic.ca",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "slyg",
+              "email": "syl.faucherand@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Soel",
+              "email": "shachar.soel@sap.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "solodynamo",
+              "email": "bittuf3@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sorin Iclanzan",
+              "email": "sorin@iclanzan.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Standa Opichal",
+              "email": "opichals@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "startswithaj",
+              "email": "jake.mc@icloud.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Stephen Mathieson",
+              "email": "smath23@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Steve Mason",
+              "email": "stevem@brandwatch.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Stewart Taylor",
+              "email": "stewart.taylor1@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Stone",
+              "email": "baoshi.li@adleida.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sulabh Bista",
+              "email": "sul4bh@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Sune Simonsen",
+              "email": "sune@we-knowhow.dk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tapiwa Kelvin",
+              "email": "tapiwa@munzwa.tk",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ted Yavuzkurt",
+              "email": "hello@TedY.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Teddy Zeenny",
+              "email": "teddyzeenny@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "tgautier@yahoo.com",
+              "email": "tgautier@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Thedark1337",
+              "email": "thedark1337@thedark1337.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Thomas Broadley",
+              "email": "buriedunderbooks@hotmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Thomas Grainger",
+              "email": "tagrain@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Thomas Vantuycom",
+              "email": "thomasvantuycom@protonmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tim Ehat",
+              "email": "timehat@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Timo Tijhof",
+              "email": "krinklemail@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Timothy Gu",
+              "email": "timothygu99@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tingan Ho",
+              "email": "tingan87@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "tmont",
+              "email": "tommy.mont@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tobias Bieniek",
+              "email": "tobias.bieniek@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Todd Agulnick",
+              "email": "tagulnick@onjack.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tom Coquereau",
+              "email": "tom@thau.me",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tom Hughes",
+              "email": "tom@compton.nu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tomer Eskenazi",
+              "email": "tomer.eskenazi@ironsrc.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "traleig1",
+              "email": "darkphoenix739@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Travis Jeffery",
+              "email": "tj@travisjeffery.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "tripu",
+              "email": "t@tripu.info",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Tyson Tate",
+              "email": "tyson@tysontate.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Vadim Nikitin",
+              "email": "vnikiti@ncsu.edu",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Valentin Agachi",
+              "email": "github-com@agachi.name",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Valeri Karpov",
+              "email": "val@karpov.io",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Victor",
+              "email": "victor@turo.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Victor Costan",
+              "email": "costan@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Ville Saukkonen",
+              "email": "villesau@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Vivek Ganesan",
+              "email": "caliberoviv@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "vlad",
+              "email": "iamvlad@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Vlad Magdalin",
+              "email": "vlad@webflow.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Volker Buzek",
+              "email": "volker.buzek@sap.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Wil Moore III",
+              "email": "wil.moore@wilmoore.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Will Langstroth",
+              "email": "will@langstroth.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "wsw",
+              "email": "wsw0108@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Xavier Antoviaque",
+              "email": "xavier@antoviaque.org",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Xavier Damman",
+              "email": "xdamman@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "XhmikosR",
+              "email": "xhmikosr@users.sourceforge.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Yanis Wang",
+              "email": "yanis.wang@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "yehiyam",
+              "email": "yehiyam@users.noreply.github.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Yoshiya Hinosawa",
+              "email": "hinosawa@waku-2.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Yuest Wang",
+              "email": "yuestwang@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "yuitest",
+              "email": "yuitest@cjhat.net",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "zhiyelee",
+              "email": "zhiyelee@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Zsolt Tak\u00e1cs",
+              "email": "zsolt@takacs.cc",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "\u73b0\u5145",
+              "email": "qixiang.cqx@alibaba-inc.com",
+              "url": null
+            }
+          ],
+          "keywords": [
+            "mocha",
+            "test",
+            "bdd",
+            "tdd",
+            "tap"
+          ],
+          "homepage_url": "https://mochajs.org",
+          "download_url": "https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/mochajs/mocha.git",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/browser-stdout",
+              "requirement": "1.3.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/commander",
+              "requirement": "2.15.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/debug",
+              "requirement": "3.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/diff",
+              "requirement": "3.5.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/escape-string-regexp",
+              "requirement": "1.0.5",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/glob",
+              "requirement": "7.1.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/growl",
+              "requirement": "1.10.5",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/he",
+              "requirement": "1.1.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/minimatch",
+              "requirement": "3.0.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mkdirp",
+              "requirement": "0.5.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/supports-color",
+              "requirement": "5.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40mocha/docdash",
+              "requirement": "^1.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/assetgraph-builder",
+              "requirement": "^6.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/browserify",
+              "requirement": "^16.2.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chai",
+              "requirement": "^4.1.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/coffee-script",
+              "requirement": "^1.10.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/coveralls",
+              "requirement": "^3.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/cross-spawn",
+              "requirement": "^6.0.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^4.19.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-prettier",
+              "requirement": "^2.9.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-semistandard",
+              "requirement": "^12.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-standard",
+              "requirement": "^11.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-import",
+              "requirement": "^2.11.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-node",
+              "requirement": "^6.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-prettier",
+              "requirement": "^2.6.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-promise",
+              "requirement": "^3.7.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-standard",
+              "requirement": "^3.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/husky",
+              "requirement": "^0.14.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jsdoc",
+              "requirement": "^3.5.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma",
+              "requirement": "^2.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma-browserify",
+              "requirement": "^5.0.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma-chrome-launcher",
+              "requirement": "^2.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma-mocha",
+              "requirement": "^1.3.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma-mocha-reporter",
+              "requirement": "^2.2.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/karma-sauce-launcher",
+              "requirement": "^1.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/lint-staged",
+              "requirement": "^7.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/markdown-toc",
+              "requirement": "^1.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/markdownlint-cli",
+              "requirement": "^0.8.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/nps",
+              "requirement": "^5.7.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/nyc",
+              "requirement": "^11.7.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prettier-eslint-cli",
+              "requirement": "^4.7.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rimraf",
+              "requirement": "^2.5.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/svgo",
+              "requirement": "^1.0.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/through2",
+              "requirement": "^2.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/unexpected",
+              "requirement": "^10.37.7",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/watchify",
+              "requirement": "^3.7.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/mocha@5.2.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/mocha",
+          "repository_download_url": "https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/mocha/5.2.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 49,
+      "dirs_count": 5,
+      "size_count": 798159,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/browser-entry.js",
+      "type": "file",
+      "name": "browser-entry.js",
+      "base_name": "browser-entry",
+      "extension": ".js",
+      "size": 4276,
+      "date": "1985-10-26",
+      "sha1": "6405e1ce67050658f550e03c7a097e4509db426b",
+      "md5": "babfb8e6ab684e3870ade0a073e67a46",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/CHANGELOG.md",
+      "type": "file",
+      "name": "CHANGELOG.md",
+      "base_name": "CHANGELOG",
+      "extension": ".md",
+      "size": 80662,
+      "date": "1985-10-26",
+      "sha1": "ba595a36bcd0b8c1ed0d2ca79c865caac9108943",
+      "md5": "f4383fcecf6ef52c4576890831cb2005",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 631,
+          "end_line": 631,
+          "matched_rule": {
+            "identifier": "mit_12.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        },
+        {
+          "key": "mit",
+          "score": 80.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1800,
+          "end_line": 1800,
+          "matched_rule": {
+            "identifier": "mit_14.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 80.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 56,
+      "date": "1985-10-26",
+      "sha1": "788cd4653ba3001a22ac3d765d726afa32bee5ec",
+      "md5": "41b84f678cb21c9a918112ab5fb6b414",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1121,
+      "date": "1985-10-26",
+      "sha1": "11598a66deb185190b9548ac15de1ebfbafb40dc",
+      "md5": "d6892e4dcbec58a781271eb12fee79a3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 94.29,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "JS Foundation",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011-2018 JS Foundation",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/mocha.css",
+      "type": "file",
+      "name": "mocha.css",
+      "base_name": "mocha",
+      "extension": ".css",
+      "size": 5616,
+      "date": "1985-10-26",
+      "sha1": "68699fe2e12cd4578e48892d46c27fe84ee09b09",
+      "md5": "dfdabe1fbeac4eb51512e39781627dec",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "CSS",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/mocha.js",
+      "type": "file",
+      "name": "mocha.js",
+      "base_name": "mocha",
+      "extension": ".js",
+      "size": 502026,
+      "date": "1985-10-26",
+      "sha1": "840d4fbbcc65a16cec39f9e25af2ea6d2cff68ea",
+      "md5": "b75b01bd7920eb9bace83bcc12993a6e",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1045,
+          "end_line": 1046
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 8712,
+          "end_line": 8712
+        },
+        {
+          "value": "Kevin Decker",
+          "start_line": 9254,
+          "end_line": 9254
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 11105,
+          "end_line": 11105
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 12604,
+          "end_line": 12604
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 12736,
+          "end_line": 12736
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 12785,
+          "end_line": 12785
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 13806,
+          "end_line": 13806
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 14022,
+          "end_line": 14022
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 14951,
+          "end_line": 14951
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 15080,
+          "end_line": 15080
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 15458,
+          "end_line": 15458
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1045,
+          "end_line": 1046
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 8712,
+          "end_line": 8712
+        },
+        {
+          "value": "Copyright (c) 2009-2015, Kevin Decker <kpdecker@gmail.com>",
+          "start_line": 9254,
+          "end_line": 9254
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 11105,
+          "end_line": 11105
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 12604,
+          "end_line": 12604
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 12736,
+          "end_line": 12736
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 12785,
+          "end_line": 12785
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 13806,
+          "end_line": 13806
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 14022,
+          "end_line": 14022
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 14951,
+          "end_line": 14951
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 15080,
+          "end_line": 15080
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 15458,
+          "end_line": 15458
+        }
+      ],
+      "authors": [
+        {
+          "value": "Feross Aboukhadijeh <https://feross.org>",
+          "start_line": 6976,
+          "end_line": 6977
+        },
+        {
+          "value": "Feross Aboukhadijeh <https://feross.org>",
+          "start_line": 12084,
+          "end_line": 12085
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 21469,
+      "date": "1985-10-26",
+      "sha1": "4ae9553e0e3c51b0486d8db58c792a971c47a454",
+      "md5": "642b83e38bf93a10e9f8f95131de3328",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 442,
+          "end_line": 442,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 10000,
+      "date": "1985-10-26",
+      "sha1": "50e3e3eb2ba62f0798ecb2351531d40970cc10b8",
+      "md5": "55d9598452c5325c49d415ff8e40f98b",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text, with very long lines",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 100,
+          "end_line": 102,
+          "matched_rule": {
+            "identifier": "mit_100.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 100.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 17765,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/bin/_mocha",
+      "type": "file",
+      "name": "_mocha",
+      "base_name": "_mocha",
+      "extension": "",
+      "size": 14619,
+      "date": "1985-10-26",
+      "sha1": "6d45da3b51f7bbdcb5081abed00e49bf6a75994c",
+      "md5": "e630f92b95d910d42f53e562658f5d14",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/bin/mocha",
+      "type": "file",
+      "name": "mocha",
+      "base_name": "mocha",
+      "extension": "",
+      "size": 2249,
+      "date": "1985-10-26",
+      "sha1": "c9f9f3e3fae1eb2db148ac69f7cccf8a64b53d1f",
+      "md5": "59ddd0419c0496a0ea4381af1f6e3130",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/bin/options.js",
+      "type": "file",
+      "name": "options.js",
+      "base_name": "options",
+      "extension": ".js",
+      "size": 897,
+      "date": "1985-10-26",
+      "sha1": "992824979158f641ed859cbc487427e8bb9ef97b",
+      "md5": "a7df139acbda47c5e03e756448549bcf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 38,
+      "dirs_count": 3,
+      "size_count": 155168,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/context.js",
+      "type": "file",
+      "name": "context.js",
+      "base_name": "context",
+      "extension": ".js",
+      "size": 1764,
+      "date": "1985-10-26",
+      "sha1": "ef526743af96d12e29e4b200af08201218c120c3",
+      "md5": "70375c99da67fdb47cfb40afa5f71df4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/hook.js",
+      "type": "file",
+      "name": "hook.js",
+      "base_name": "hook",
+      "extension": ".js",
+      "size": 736,
+      "date": "1985-10-26",
+      "sha1": "ea7fc6ededc6ea31b0654d6990a7c65efd80c114",
+      "md5": "e85d9523e62da796d4d2d25a305568d4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/mocha.js",
+      "type": "file",
+      "name": "mocha.js",
+      "base_name": "mocha",
+      "extension": ".js",
+      "size": 13922,
+      "date": "1985-10-26",
+      "sha1": "f1ddfb0c3109d44e2a8cfda1db7783dedd88d0b6",
+      "md5": "58bdb648c08ee2a89d26631ec6b9b1e2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/ms.js",
+      "type": "file",
+      "name": "ms.js",
+      "base_name": "ms",
+      "extension": ".js",
+      "size": 1589,
+      "date": "1985-10-26",
+      "sha1": "3293a7a111337a56b22f42bbc3e0c474a78e2b95",
+      "md5": "5aeb8dffb3222b1573df0662c5e951d0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/pending.js",
+      "type": "file",
+      "name": "pending.js",
+      "base_name": "pending",
+      "extension": ".js",
+      "size": 196,
+      "date": "1985-10-26",
+      "sha1": "7634951160dad8b053985c8ece210663d9decf9e",
+      "md5": "88f9d7cb96f930e6f2639efc2eb7b1bf",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/runnable.js",
+      "type": "file",
+      "name": "runnable.js",
+      "base_name": "runnable",
+      "extension": ".js",
+      "size": 9489,
+      "date": "1985-10-26",
+      "sha1": "becc8e91ed7ba86aba88ffe0b378c994c327c704",
+      "md5": "5db955e147f9fe97cac816aeba5e104f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/runner.js",
+      "type": "file",
+      "name": "runner.js",
+      "base_name": "runner",
+      "extension": ".js",
+      "size": 23302,
+      "date": "1985-10-26",
+      "sha1": "dad81444a6f5b2a31e26afc6b58dd6b79b0c67d2",
+      "md5": "b9e945a3c968283be21eb4ee6d780951",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/suite.js",
+      "type": "file",
+      "name": "suite.js",
+      "base_name": "suite",
+      "extension": ".js",
+      "size": 9095,
+      "date": "1985-10-26",
+      "sha1": "e7aa0395f5d79f160f1d3ef21d37872da95e9eab",
+      "md5": "0439f10b09f9183146226edefd3f8d59",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/template.html",
+      "type": "file",
+      "name": "template.html",
+      "base_name": "template",
+      "extension": ".html",
+      "size": 476,
+      "date": "1985-10-26",
+      "sha1": "9c067e84896522a28a4146dfc34d7486a64178c6",
+      "md5": "e02ccf9c2825cce7e3d21c2b78a123d9",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "HTML",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/test.js",
+      "type": "file",
+      "name": "test.js",
+      "base_name": "test",
+      "extension": ".js",
+      "size": 1034,
+      "date": "1985-10-26",
+      "sha1": "8954ba2a147bea62073469da4d0aae5dbe72c8b3",
+      "md5": "083929c641e9aa6fb327d89b4d40a21d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/utils.js",
+      "type": "file",
+      "name": "utils.js",
+      "base_name": "utils",
+      "extension": ".js",
+      "size": 16435,
+      "date": "1985-10-26",
+      "sha1": "15753c7829e0354bbe952515037102f342e6f67b",
+      "md5": "7505f2dbd02b2154c02e005f96b2508c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/browser",
+      "type": "directory",
+      "name": "browser",
+      "base_name": "browser",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 2619,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/browser/growl.js",
+      "type": "file",
+      "name": "growl.js",
+      "base_name": "growl",
+      "extension": ".js",
+      "size": 82,
+      "date": "1985-10-26",
+      "sha1": "f3d6d91de7074e89906d8192921dc3add1538f32",
+      "md5": "6c42419e3d4659753c4826e4e5c0f036",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/browser/progress.js",
+      "type": "file",
+      "name": "progress.js",
+      "base_name": "progress",
+      "extension": ".js",
+      "size": 2247,
+      "date": "1985-10-26",
+      "sha1": "4af15826fdbe33912fe84d8083d3000f92bc5ad6",
+      "md5": "e92e92477fede52a59de2474cbf6f6c8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/browser/tty.js",
+      "type": "file",
+      "name": "tty.js",
+      "base_name": "tty",
+      "extension": ".js",
+      "size": 290,
+      "date": "1985-10-26",
+      "sha1": "bce041a82f677bb93827cd5e8fa00ca57fae19a8",
+      "md5": "f22d853d049bf53be17cddf5974a49c6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces",
+      "type": "directory",
+      "name": "interfaces",
+      "base_name": "interfaces",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 6,
+      "dirs_count": 0,
+      "size_count": 12180,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/bdd.js",
+      "type": "file",
+      "name": "bdd.js",
+      "base_name": "bdd",
+      "extension": ".js",
+      "size": 2471,
+      "date": "1985-10-26",
+      "sha1": "951cb152b27502ef6c764b0563a425fd494d9ce3",
+      "md5": "206193f33a20a3f3829f789c35d44b86",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/common.js",
+      "type": "file",
+      "name": "common.js",
+      "base_name": "common",
+      "extension": ".js",
+      "size": 3910,
+      "date": "1985-10-26",
+      "sha1": "b6d81694215fe3a0e435037a9f5a3cfac4e9dd45",
+      "md5": "626f8ea85cb07fc5cb72904f09076da8",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/exports.js",
+      "type": "file",
+      "name": "exports.js",
+      "base_name": "exports",
+      "extension": ".js",
+      "size": 1336,
+      "date": "1985-10-26",
+      "sha1": "c1c6613884c065957a894993ddb300273610b6b8",
+      "md5": "87fcc780f5b95542ba3983e95d647a8e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 155,
+      "date": "1985-10-26",
+      "sha1": "ca31b23a933acd040fb3e9ed83bd1b7eefaaea1a",
+      "md5": "e36186834900d343eabdd18cb12f1fa9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/qunit.js",
+      "type": "file",
+      "name": "qunit.js",
+      "base_name": "qunit",
+      "extension": ".js",
+      "size": 2065,
+      "date": "1985-10-26",
+      "sha1": "381c0330f12fc677f0c1ef35b1ca8113e68078ff",
+      "md5": "4021e2cc881e37fced336236014e42fd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/interfaces/tdd.js",
+      "type": "file",
+      "name": "tdd.js",
+      "base_name": "tdd",
+      "extension": ".js",
+      "size": 2243,
+      "date": "1985-10-26",
+      "sha1": "fb8a2f7561e229020b48fcdb83154c281d43efab",
+      "md5": "64baef8664eda380442c0bb03da05138",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters",
+      "type": "directory",
+      "name": "reporters",
+      "base_name": "reporters",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 18,
+      "dirs_count": 0,
+      "size_count": 62331,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/base.js",
+      "type": "file",
+      "name": "base.js",
+      "base_name": "base",
+      "extension": ".js",
+      "size": 11025,
+      "date": "1985-10-26",
+      "sha1": "1988152433d2b76e8a2b2c53bb07dfa86cf8a227",
+      "md5": "d738195384f4b1bbbbdef37a0daf9130",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/base.js.orig",
+      "type": "file",
+      "name": "base.js.orig",
+      "base_name": "base.js",
+      "extension": ".orig",
+      "size": 10613,
+      "date": "1985-10-26",
+      "sha1": "b4746fa08ba51dbf7af0704bc2e703762a162791",
+      "md5": "a77881c078bdd8c236089d68a6be8246",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/doc.js",
+      "type": "file",
+      "name": "doc.js",
+      "base_name": "doc",
+      "extension": ".js",
+      "size": 1622,
+      "date": "1985-10-26",
+      "sha1": "95d7335f9029333003ce5e1ce83315e258ca8881",
+      "md5": "55fcd2fb3fac3ec52a176a8c55da100d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/dot.js",
+      "type": "file",
+      "name": "dot.js",
+      "base_name": "dot",
+      "extension": ".js",
+      "size": 1413,
+      "date": "1985-10-26",
+      "sha1": "caa2e7f9a275fe48c2ecba68d293de50bf3a0978",
+      "md5": "c9d99bd66b81ffdb8fc0f7d7db8a7d3a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/html.js",
+      "type": "file",
+      "name": "html.js",
+      "base_name": "html",
+      "extension": ".js",
+      "size": 9355,
+      "date": "1985-10-26",
+      "sha1": "58742e576543c50081315476e8d65d875c2b8b00",
+      "md5": "7a9bc2ea0d5de809b3b74cd4fda2b000",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 946,
+      "date": "1985-10-26",
+      "sha1": "002511bb9fab9415894a0a46ae437192442c98fc",
+      "md5": "eeb39a44243e7533cc61727b93056f76",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/json-stream.js",
+      "type": "file",
+      "name": "json-stream.js",
+      "base_name": "json-stream",
+      "extension": ".js",
+      "size": 1295,
+      "date": "1985-10-26",
+      "sha1": "37fadad41caca95368415a09b011c69bb83d481e",
+      "md5": "3aa96d88215fc69c67f2b5521dbe768c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/json.js",
+      "type": "file",
+      "name": "json.js",
+      "base_name": "json",
+      "extension": ".js",
+      "size": 2340,
+      "date": "1985-10-26",
+      "sha1": "28a1736a27c9fb1318e3d77ad20d8034078c56ff",
+      "md5": "700685029852cccc5e086a104a1188e5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/json.js.orig",
+      "type": "file",
+      "name": "json.js.orig",
+      "base_name": "json.js",
+      "extension": ".orig",
+      "size": 3211,
+      "date": "1985-10-26",
+      "sha1": "8d88ccb3e22eae04429eb0bbd566ab6cb26ee773",
+      "md5": "a552cfef48e3127291462c05d86d58ba",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/landing.js",
+      "type": "file",
+      "name": "landing.js",
+      "base_name": "landing",
+      "extension": ".js",
+      "size": 1864,
+      "date": "1985-10-26",
+      "sha1": "bb6303dfb29a5e0d100d428e78e519c4d3f5c914",
+      "md5": "5db32c0725d4b5657c2745f6f4ea3110",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/list.js",
+      "type": "file",
+      "name": "list.js",
+      "base_name": "list",
+      "extension": ".js",
+      "size": 1341,
+      "date": "1985-10-26",
+      "sha1": "ca2701b6e07a51781008d3c10f96d790498c5f65",
+      "md5": "0693490d4bfb575c149c022f24551a50",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/markdown.js",
+      "type": "file",
+      "name": "markdown.js",
+      "base_name": "markdown",
+      "extension": ".js",
+      "size": 2013,
+      "date": "1985-10-26",
+      "sha1": "ff00fdb04f2de7fe6f7067471674e45f594451ce",
+      "md5": "4d1e43cf428da5cfbeaeb59198403504",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/min.js",
+      "type": "file",
+      "name": "min.js",
+      "base_name": "min",
+      "extension": ".js",
+      "size": 747,
+      "date": "1985-10-26",
+      "sha1": "50b98aa213368c7331048dd23043a40aabebfe6a",
+      "md5": "32c216b04afd985fb6eeee7b5b60fceb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/nyan.js",
+      "type": "file",
+      "name": "nyan.js",
+      "base_name": "nyan",
+      "extension": ".js",
+      "size": 4950,
+      "date": "1985-10-26",
+      "sha1": "b28d88eddf6ea0ac660211f4df47d56a4128db7f",
+      "md5": "89b938ef712be665bfce57c79687baa1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/progress.js",
+      "type": "file",
+      "name": "progress.js",
+      "base_name": "progress",
+      "extension": ".js",
+      "size": 2188,
+      "date": "1985-10-26",
+      "sha1": "d8620d91fa913f9bbb7eec9bdc42111dd61e370e",
+      "md5": "810ea84d1be6b4e29c16ce7a77057908",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/spec.js",
+      "type": "file",
+      "name": "spec.js",
+      "base_name": "spec",
+      "extension": ".js",
+      "size": 1703,
+      "date": "1985-10-26",
+      "sha1": "0d4d6cc232f72d1f82bb69f9bf02cb4bd2109a00",
+      "md5": "72708d458a28fbb72ea8de5f35220717",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/tap.js",
+      "type": "file",
+      "name": "tap.js",
+      "base_name": "tap",
+      "extension": ".js",
+      "size": 1357,
+      "date": "1985-10-26",
+      "sha1": "d84a739342734686ea5aee984bd5aa153ebfd6d1",
+      "md5": "668eb854a5ca09ce126eea28c8d2758c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mocha-5.2.0.tgz-extract/package/lib/reporters/xunit.js",
+      "type": "file",
+      "name": "xunit.js",
+      "base_name": "xunit",
+      "extension": ".js",
+      "size": 4348,
+      "date": "1985-10-26",
+      "sha1": "0a9db09e24034be1726b00358e7cd8050f26a55b",
+      "md5": "566b893a7b0b488adb2b5c225f00edeb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

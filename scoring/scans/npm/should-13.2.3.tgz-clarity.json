@@ -1,0 +1,4671 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021327.820674",
+      "end_timestamp": "2019-03-31T021345.458108",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 10
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153834.993758",
+      "end_timestamp": "2019-03-31T153835.086523",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 10
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "should-13.2.3.tgz-extract",
+      "type": "directory",
+      "name": "should-13.2.3.tgz-extract",
+      "base_name": "should-13.2.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 10,
+      "dirs_count": 3,
+      "size_count": 407749,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "should",
+          "version": "13.2.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "test framework agnostic BDD-style assertions",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "TJ Holowaychuk <tj@vision-media.ca>, Denis Bardadym <bardadymchik@gmail.com>",
+              "email": null,
+              "url": null
+            }
+          ],
+          "keywords": [
+            "test",
+            "bdd",
+            "assert",
+            "should"
+          ],
+          "homepage_url": "https://github.com/shouldjs/should.js",
+          "download_url": "https://registry.npmjs.org/should/-/should-13.2.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/shouldjs/should.js.git",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/should-equal",
+              "requirement": "^2.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/should-format",
+              "requirement": "^3.0.3",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/should-type",
+              "requirement": "^1.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/should-type-adaptors",
+              "requirement": "^1.0.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/should-util",
+              "requirement": "^1.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/bluebird",
+              "requirement": "^3.5.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^3.19.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-shouldjs",
+              "requirement": "^1.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "^4.0.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha-better-spec-reporter",
+              "requirement": "latest",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prettier",
+              "requirement": "^1.7.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup",
+              "requirement": "^0.53.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-node-resolve",
+              "requirement": "^3.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/tslint",
+              "requirement": "^5.8.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/typescript",
+              "requirement": "^2.5.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/zuul",
+              "requirement": "latest",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/should@13.2.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/should",
+          "repository_download_url": "https://registry.npmjs.org/should/-/should-13.2.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/should/13.2.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 10,
+      "dirs_count": 2,
+      "size_count": 407749,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/as-function.js",
+      "type": "file",
+      "name": "as-function.js",
+      "base_name": "as-function",
+      "extension": ".js",
+      "size": 83507,
+      "date": "1985-10-26",
+      "sha1": "bf23f82588401b9cf76921bb5ce72a9d9ac9cd25",
+      "md5": "e32369b501d4e0f9e65bcaf800d29fd7",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 15,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 41,
+          "end_line": 41,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 65,
+          "end_line": 65,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 165,
+          "end_line": 165,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 494,
+          "end_line": 509,
+          "matched_rule": {
+            "identifier": "mit_74.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 158,
+            "matched_length": 158,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 778,
+          "end_line": 778,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 848,
+          "end_line": 848,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 895,
+          "end_line": 895,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 967,
+          "end_line": 967,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1148,
+          "end_line": 1148,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1403,
+          "end_line": 1403,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1545,
+          "end_line": 1545,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1853,
+          "end_line": 1853,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1902,
+          "end_line": 1902,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2083,
+          "end_line": 2083,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2429,
+          "end_line": 2429,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2547,
+          "end_line": 2547,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2779,
+          "end_line": 2779,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Thomas Robinson",
+          "start_line": 492,
+          "end_line": 492
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2777,
+          "end_line": 2779
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2777,
+          "end_line": 2779
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Copyright (c) 2009 Thomas Robinson <280north.com>",
+          "start_line": 492,
+          "end_line": 492
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2777,
+          "end_line": 2779
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2777,
+          "end_line": 2779
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/CONTRIBUTING.md",
+      "type": "file",
+      "name": "CONTRIBUTING.md",
+      "base_name": "CONTRIBUTING",
+      "extension": ".md",
+      "size": 1199,
+      "date": "1985-10-26",
+      "sha1": "b4cc889ed2db68cbb7a743ac7d489bdfe1f22ce1",
+      "md5": "383a012b0517ebf75630a19b9d575d95",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/History.md",
+      "type": "file",
+      "name": "History.md",
+      "base_name": "History",
+      "extension": ".md",
+      "size": 14052,
+      "date": "1985-10-26",
+      "sha1": "8c605cb1d107951e52646c499b4266919700e7a6",
+      "md5": "cbb508ff0ff5a30ac1dc4c6f0ca0719e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1146,
+      "date": "1985-10-26",
+      "sha1": "497397dbeb39abf83bcb4d0a5df77b2d0d66370f",
+      "md5": "f623b23bfa4e6df5d05de8639b8fc05b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1,
+          "end_line": 2
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1,
+          "end_line": 2
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1955,
+      "date": "1985-10-26",
+      "sha1": "363ebc112fc14aa98a3dd45fee5880263d45e3ef",
+      "md5": "efa34e15eadf210aae41cde182452a35",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 42,
+          "end_line": 42,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/Readme.md",
+      "type": "file",
+      "name": "Readme.md",
+      "base_name": "Readme",
+      "extension": ".md",
+      "size": 7809,
+      "date": "1985-10-26",
+      "sha1": "0ab70498e8950fecb3059ffda95d46a8962ab8f9",
+      "md5": "9beec5b0b3e49f630687d8e4b89aced2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 221,
+          "end_line": 223,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/should.d.ts",
+      "type": "file",
+      "name": "should.d.ts",
+      "base_name": "should.d",
+      "extension": ".ts",
+      "size": 7761,
+      "date": "1985-10-26",
+      "sha1": "a359457e2e48b146b0e95928c6bc244be7e21628",
+      "md5": "b0b32cb3969277aa7eceef64f647e15b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/should.js",
+      "type": "file",
+      "name": "should.js",
+      "base_name": "should",
+      "extension": ".js",
+      "size": 122471,
+      "date": "1985-10-26",
+      "sha1": "1aa5493eba423eb3fbfa86274d47aff5d2defc34",
+      "md5": "6c532f52effdcfd1acfa42aab71c01b1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1416,
+          "end_line": 1416,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1442,
+          "end_line": 1442,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1466,
+          "end_line": 1466,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1566,
+          "end_line": 1566,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1895,
+          "end_line": 1910,
+          "matched_rule": {
+            "identifier": "mit_74.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 158,
+            "matched_length": 158,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2179,
+          "end_line": 2179,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2249,
+          "end_line": 2249,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2296,
+          "end_line": 2296,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2368,
+          "end_line": 2368,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2549,
+          "end_line": 2549,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2804,
+          "end_line": 2804,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2946,
+          "end_line": 2946,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3254,
+          "end_line": 3254,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3303,
+          "end_line": 3303,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3484,
+          "end_line": 3484,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3830,
+          "end_line": 3830,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 3948,
+          "end_line": 3948,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4180,
+          "end_line": 4180,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1414,
+          "end_line": 1416
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1414,
+          "end_line": 1416
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1440,
+          "end_line": 1442
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1440,
+          "end_line": 1442
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1464,
+          "end_line": 1466
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1464,
+          "end_line": 1466
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1564,
+          "end_line": 1566
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1564,
+          "end_line": 1566
+        },
+        {
+          "value": "Thomas Robinson",
+          "start_line": 1893,
+          "end_line": 1893
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2177,
+          "end_line": 2179
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2177,
+          "end_line": 2179
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2247,
+          "end_line": 2249
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2247,
+          "end_line": 2249
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2294,
+          "end_line": 2296
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2294,
+          "end_line": 2296
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2366,
+          "end_line": 2368
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2366,
+          "end_line": 2368
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2547,
+          "end_line": 2549
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2547,
+          "end_line": 2549
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2802,
+          "end_line": 2804
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2802,
+          "end_line": 2804
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2944,
+          "end_line": 2946
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2944,
+          "end_line": 2946
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3252,
+          "end_line": 3254
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 3252,
+          "end_line": 3254
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3301,
+          "end_line": 3303
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 3301,
+          "end_line": 3303
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3482,
+          "end_line": 3484
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 3482,
+          "end_line": 3484
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3828,
+          "end_line": 3830
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 3828,
+          "end_line": 3830
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 3946,
+          "end_line": 3948
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 3946,
+          "end_line": 3948
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 4178,
+          "end_line": 4180
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 4178,
+          "end_line": 4180
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1414,
+          "end_line": 1416
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1414,
+          "end_line": 1416
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1440,
+          "end_line": 1442
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1440,
+          "end_line": 1442
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1464,
+          "end_line": 1466
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1464,
+          "end_line": 1466
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1564,
+          "end_line": 1566
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1564,
+          "end_line": 1566
+        },
+        {
+          "value": "Copyright (c) 2009 Thomas Robinson <280north.com>",
+          "start_line": 1893,
+          "end_line": 1893
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2177,
+          "end_line": 2179
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2177,
+          "end_line": 2179
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2247,
+          "end_line": 2249
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2247,
+          "end_line": 2249
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2294,
+          "end_line": 2296
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2294,
+          "end_line": 2296
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2366,
+          "end_line": 2368
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2366,
+          "end_line": 2368
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2547,
+          "end_line": 2549
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2547,
+          "end_line": 2549
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2802,
+          "end_line": 2804
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2802,
+          "end_line": 2804
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2944,
+          "end_line": 2946
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2944,
+          "end_line": 2946
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3252,
+          "end_line": 3254
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 3252,
+          "end_line": 3254
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3301,
+          "end_line": 3303
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 3301,
+          "end_line": 3303
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3482,
+          "end_line": 3484
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 3482,
+          "end_line": 3484
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3828,
+          "end_line": 3830
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 3828,
+          "end_line": 3830
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 3946,
+          "end_line": 3948
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 3946,
+          "end_line": 3948
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 4178,
+          "end_line": 4180
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 4178,
+          "end_line": 4180
+        }
+      ],
+      "authors": [
+        {
+          "value": "TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 4,
+          "end_line": 6
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/cjs",
+      "type": "directory",
+      "name": "cjs",
+      "base_name": "cjs",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 84234,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/cjs/should.js",
+      "type": "file",
+      "name": "should.js",
+      "base_name": "should",
+      "extension": ".js",
+      "size": 84234,
+      "date": "1985-10-26",
+      "sha1": "35c976bc8f0f9cb63283c51eda7090546a1c0734",
+      "md5": "809729eee346e4ef7a37faf5fd2a47f6",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 15,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 41,
+          "end_line": 41,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 65,
+          "end_line": 65,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 165,
+          "end_line": 165,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 494,
+          "end_line": 509,
+          "matched_rule": {
+            "identifier": "mit_74.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 158,
+            "matched_length": 158,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 778,
+          "end_line": 778,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 848,
+          "end_line": 848,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 895,
+          "end_line": 895,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 967,
+          "end_line": 967,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1148,
+          "end_line": 1148,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1403,
+          "end_line": 1403,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1545,
+          "end_line": 1545,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1853,
+          "end_line": 1853,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1902,
+          "end_line": 1902,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2083,
+          "end_line": 2083,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2429,
+          "end_line": 2429,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2547,
+          "end_line": 2547,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2779,
+          "end_line": 2779,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Thomas Robinson",
+          "start_line": 492,
+          "end_line": 492
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2777,
+          "end_line": 2779
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2777,
+          "end_line": 2779
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 13,
+          "end_line": 15
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 63,
+          "end_line": 65
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 163,
+          "end_line": 165
+        },
+        {
+          "value": "Copyright (c) 2009 Thomas Robinson <280north.com>",
+          "start_line": 492,
+          "end_line": 492
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 776,
+          "end_line": 778
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 846,
+          "end_line": 848
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 893,
+          "end_line": 895
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 965,
+          "end_line": 967
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1146,
+          "end_line": 1148
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1401,
+          "end_line": 1403
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1543,
+          "end_line": 1545
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1851,
+          "end_line": 1853
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1900,
+          "end_line": 1902
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2081,
+          "end_line": 2083
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2427,
+          "end_line": 2429
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2545,
+          "end_line": 2547
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2777,
+          "end_line": 2779
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2777,
+          "end_line": 2779
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/es6",
+      "type": "directory",
+      "name": "es6",
+      "base_name": "es6",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 83615,
+      "scan_errors": []
+    },
+    {
+      "path": "should-13.2.3.tgz-extract/package/es6/should.js",
+      "type": "file",
+      "name": "should.js",
+      "base_name": "should",
+      "extension": ".js",
+      "size": 83615,
+      "date": "1985-10-26",
+      "sha1": "bc003464ce308aadf0f6c3dbff8855a2d2cf49ef",
+      "md5": "9d46852d76cfa1a48e6cc3aee2461615",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 11,
+          "end_line": 11,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 37,
+          "end_line": 37,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 61,
+          "end_line": 61,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 161,
+          "end_line": 161,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 490,
+          "end_line": 505,
+          "matched_rule": {
+            "identifier": "mit_74.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 158,
+            "matched_length": 158,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 774,
+          "end_line": 774,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 844,
+          "end_line": 844,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 891,
+          "end_line": 891,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 963,
+          "end_line": 963,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1144,
+          "end_line": 1144,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1399,
+          "end_line": 1399,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1541,
+          "end_line": 1541,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1849,
+          "end_line": 1849,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1898,
+          "end_line": 1898,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2079,
+          "end_line": 2079,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2425,
+          "end_line": 2425,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2543,
+          "end_line": 2543,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        },
+        {
+          "key": "mit",
+          "score": 11.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 2775,
+          "end_line": 2775,
+          "matched_rule": {
+            "identifier": "mit_126.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 11
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 9,
+          "end_line": 11
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 9,
+          "end_line": 11
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 35,
+          "end_line": 37
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 35,
+          "end_line": 37
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 59,
+          "end_line": 61
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 59,
+          "end_line": 61
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 159,
+          "end_line": 161
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 159,
+          "end_line": 161
+        },
+        {
+          "value": "Thomas Robinson",
+          "start_line": 488,
+          "end_line": 488
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 772,
+          "end_line": 774
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 772,
+          "end_line": 774
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 842,
+          "end_line": 844
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 842,
+          "end_line": 844
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 889,
+          "end_line": 891
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 889,
+          "end_line": 891
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 961,
+          "end_line": 963
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 961,
+          "end_line": 963
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1142,
+          "end_line": 1144
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1142,
+          "end_line": 1144
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1397,
+          "end_line": 1399
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1397,
+          "end_line": 1399
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1539,
+          "end_line": 1541
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1539,
+          "end_line": 1541
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1847,
+          "end_line": 1849
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1847,
+          "end_line": 1849
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 1896,
+          "end_line": 1898
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 1896,
+          "end_line": 1898
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2077,
+          "end_line": 2079
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2077,
+          "end_line": 2079
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2423,
+          "end_line": 2425
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2423,
+          "end_line": 2425
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2541,
+          "end_line": 2543
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2541,
+          "end_line": 2543
+        },
+        {
+          "value": "TJ Holowaychuk",
+          "start_line": 2773,
+          "end_line": 2775
+        },
+        {
+          "value": "Denis Bardadym",
+          "start_line": 2773,
+          "end_line": 2775
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 9,
+          "end_line": 11
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 9,
+          "end_line": 11
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 35,
+          "end_line": 37
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 35,
+          "end_line": 37
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 59,
+          "end_line": 61
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 59,
+          "end_line": 61
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 159,
+          "end_line": 161
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 159,
+          "end_line": 161
+        },
+        {
+          "value": "Copyright (c) 2009 Thomas Robinson <280north.com>",
+          "start_line": 488,
+          "end_line": 488
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 772,
+          "end_line": 774
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 772,
+          "end_line": 774
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 842,
+          "end_line": 844
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 842,
+          "end_line": 844
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 889,
+          "end_line": 891
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 889,
+          "end_line": 891
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 961,
+          "end_line": 963
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 961,
+          "end_line": 963
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1142,
+          "end_line": 1144
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1142,
+          "end_line": 1144
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1397,
+          "end_line": 1399
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1397,
+          "end_line": 1399
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1539,
+          "end_line": 1541
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1539,
+          "end_line": 1541
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1847,
+          "end_line": 1849
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1847,
+          "end_line": 1849
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 1896,
+          "end_line": 1898
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 1896,
+          "end_line": 1898
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2077,
+          "end_line": 2079
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2077,
+          "end_line": 2079
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2423,
+          "end_line": 2425
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2423,
+          "end_line": 2425
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2541,
+          "end_line": 2543
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2541,
+          "end_line": 2543
+        },
+        {
+          "value": "Copyright (c) 2010-2013 TJ Holowaychuk <tj@vision-media.ca>",
+          "start_line": 2773,
+          "end_line": 2775
+        },
+        {
+          "value": "Copyright (c) 2013-2017 Denis Bardadym <bardadymchik@gmail.com>",
+          "start_line": 2773,
+          "end_line": 2775
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

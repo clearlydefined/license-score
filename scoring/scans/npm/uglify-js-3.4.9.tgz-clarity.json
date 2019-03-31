@@ -1,0 +1,2009 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T021434.441846",
+      "end_timestamp": "2019-03-31T021507.291905",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 20
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153836.474780",
+      "end_timestamp": "2019-03-31T153836.654959",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 20
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 59,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.59,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.59,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "uglify-js-3.4.9.tgz-extract",
+      "type": "directory",
+      "name": "uglify-js-3.4.9.tgz-extract",
+      "base_name": "uglify-js-3.4.9.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 20,
+      "dirs_count": 4,
+      "size_count": 686843,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "uglify-js",
+          "version": "3.4.9",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "JavaScript parser, mangler/compressor and beautifier toolkit",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Mihai Bazon",
+              "email": "mihai.bazon@gmail.com",
+              "url": "http://lisperator.net/"
+            },
+            {
+              "type": "person",
+              "role": "maintainer",
+              "name": "Alex Lam",
+              "email": "alexlamsl@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "maintainer",
+              "name": "Mihai Bazon",
+              "email": "mihai.bazon@gmail.com",
+              "url": "http://lisperator.net/"
+            }
+          ],
+          "keywords": [
+            "cli",
+            "compress",
+            "compressor",
+            "ecma",
+            "ecmascript",
+            "es",
+            "es5",
+            "javascript",
+            "js",
+            "jsmin",
+            "min",
+            "minification",
+            "minifier",
+            "minify",
+            "optimize",
+            "optimizer",
+            "pack",
+            "packer",
+            "parse",
+            "parser",
+            "uglifier",
+            "uglify"
+          ],
+          "homepage_url": null,
+          "download_url": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "https://github.com/mishoo/UglifyJS2",
+          "copyright": null,
+          "license_expression": "bsd-simplified",
+          "declared_license": "BSD-2-Clause",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/commander",
+              "requirement": "~2.17.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/source-map",
+              "requirement": "~0.6.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/acorn",
+              "requirement": "~5.7.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/semver",
+              "requirement": "~5.5.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/uglify-js@3.4.9",
+          "repository_homepage_url": "https://www.npmjs.com/package/uglify-js",
+          "repository_download_url": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz",
+          "api_data_url": "https://registry.npmjs.org/uglify-js/3.4.9"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 20,
+      "dirs_count": 3,
+      "size_count": 686843,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1348,
+      "date": "1985-10-26",
+      "sha1": "7c3706d9c55ec1ee83da9152d32ead55f0e232b5",
+      "md5": "6ba5f3348d0210d542779e31509d88b4",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1,
+          "end_line": 1,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 1,
+          "end_line": 29,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1127,
+      "date": "1985-10-26",
+      "sha1": "301dd96a480f9ae749d8e91201515425d3f73a81",
+      "md5": "7a42108fa931f1119bfde2f001f6a29d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-simplified",
+          "score": 16.0,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 5,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "bsd-simplified_53.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 16
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-simplified"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 45577,
+      "date": "1985-10-26",
+      "sha1": "5c925da96df4ea67432f88d6ed4e04e09eb15a5f",
+      "md5": "dc319b040d3fa6d32f6c60d481161fbb",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 14914,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/bin/uglifyjs",
+      "type": "file",
+      "name": "uglifyjs",
+      "base_name": "uglifyjs",
+      "extension": "",
+      "size": 14914,
+      "date": "1985-10-26",
+      "sha1": "6ae3cb5f1717ceb9b7596c584a3f1417e388a684",
+      "md5": "db3255ea6e93ff9091936b63f97fd6fb",
+      "mime_type": "text/plain",
+      "file_type": "a /usr/bin/env node script, UTF-8 Unicode text executable",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 0,
+      "size_count": 498986,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/ast.js",
+      "type": "file",
+      "name": "ast.js",
+      "base_name": "ast",
+      "extension": ".js",
+      "size": 31555,
+      "date": "1985-10-26",
+      "sha1": "1d1b9abf0d20a5cba3a0b02f32a9be980bf7c5d6",
+      "md5": "6713f36324a6ae0608995f533f6ebcb0",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/compress.js",
+      "type": "file",
+      "name": "compress.js",
+      "base_name": "compress",
+      "extension": ".js",
+      "size": 277008,
+      "date": "1985-10-26",
+      "sha1": "11deeb23fccd1ca4838845b33541896f3ab62c77",
+      "md5": "03a25c207455a5bd631b663eb1df4fcf",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/minify.js",
+      "type": "file",
+      "name": "minify.js",
+      "base_name": "minify",
+      "extension": ".js",
+      "size": 9519,
+      "date": "1985-10-26",
+      "sha1": "d176077878e12582e8410716f752a95a8fa74293",
+      "md5": "7b8ca7cd48c53263d184dbbba00e9b12",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/mozilla-ast.js",
+      "type": "file",
+      "name": "mozilla-ast.js",
+      "base_name": "mozilla-ast",
+      "extension": ".js",
+      "size": 23055,
+      "date": "1985-10-26",
+      "sha1": "3d8db75fc977757468e6b53bc64ecc0f65c6a1b3",
+      "md5": "c68d5259f123dfd356f6f7ffad94bdc8",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/output.js",
+      "type": "file",
+      "name": "output.js",
+      "base_name": "output",
+      "extension": ".js",
+      "size": 50996,
+      "date": "1985-10-26",
+      "sha1": "63b787921245f26f9c647493e8654890a1202668",
+      "md5": "f5ced590f34ddc685da913a2d4c96f04",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/parse.js",
+      "type": "file",
+      "name": "parse.js",
+      "base_name": "parse",
+      "extension": ".js",
+      "size": 59503,
+      "date": "1985-10-26",
+      "sha1": "cc7ee8ff6d08954d80bfa3756d8c46096d719c39",
+      "md5": "d1711a73de5e7523ab4ad25811732813",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 41,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 15
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 15
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/propmangle.js",
+      "type": "file",
+      "name": "propmangle.js",
+      "base_name": "propmangle",
+      "extension": ".js",
+      "size": 8037,
+      "date": "1985-10-26",
+      "sha1": "3f1095236d74b391b93ea20ff7e246bc1b096d19",
+      "md5": "b22e01a9d2ccecb44a63e49d8787c683",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/scope.js",
+      "type": "file",
+      "name": "scope.js",
+      "base_name": "scope",
+      "extension": ".js",
+      "size": 20024,
+      "date": "1985-10-26",
+      "sha1": "9eb1df6d733422e11b56f6d8d46a08e53f707afb",
+      "md5": "dda052b98113f8c5100eee093bbc01bf",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 98.88,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 16,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_33.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 179,
+            "matched_length": 177,
+            "match_coverage": 98.88,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/sourcemap.js",
+      "type": "file",
+      "name": "sourcemap.js",
+      "base_name": "sourcemap",
+      "extension": ".js",
+      "size": 3919,
+      "date": "1985-10-26",
+      "sha1": "ad6346da3b3abfdd725673f73c5c0522107f9db3",
+      "md5": "8346d9a5204b79f733e221bc9d163c7a",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/transform.js",
+      "type": "file",
+      "name": "transform.js",
+      "base_name": "transform",
+      "extension": ".js",
+      "size": 6888,
+      "date": "1985-10-26",
+      "sha1": "e8557faffc6b328cb8a78c9c887096557761d50c",
+      "md5": "faa53406ad42108f9737979f20804a83",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/lib/utils.js",
+      "type": "file",
+      "name": "utils.js",
+      "base_name": "utils",
+      "extension": ".js",
+      "size": 8482,
+      "date": "1985-10-26",
+      "sha1": "ff15cc614a131f74324e24040bf3fe1442767176",
+      "md5": "c58f7777a1f148341e44a0b34eb8e915",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 90.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 12,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "bsd-new_282.RULE",
+            "license_expression": "bsd-new",
+            "licenses": [
+              "bsd-new"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 4,
+            "matched_length": 4,
+            "match_coverage": 100.0,
+            "rule_relevance": 90.0
+          }
+        },
+        {
+          "key": "bsd-simplified",
+          "score": 96.72,
+          "name": "BSD-2-Clause",
+          "short_name": "BSD-2-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-2-Clause",
+          "text_url": "http://opensource.org/licenses/bsd-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-simplified",
+          "spdx_license_key": "BSD-2-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-2-Clause",
+          "start_line": 12,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "bsd-simplified_43.RULE",
+            "license_expression": "bsd-simplified",
+            "licenses": [
+              "bsd-simplified"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 183,
+            "matched_length": 177,
+            "match_coverage": 96.72,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new",
+        "bsd-simplified"
+      ],
+      "holders": [
+        {
+          "value": "Mihai Bazon",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>",
+          "start_line": 14,
+          "end_line": 14
+        }
+      ],
+      "authors": [
+        {
+          "value": "Mihai Bazon <mihai.bazon@gmail.com> http://mihai.bazon.net/blog",
+          "start_line": 8,
+          "end_line": 10
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools",
+      "type": "directory",
+      "name": "tools",
+      "base_name": "tools",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 124891,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools/domprops.json",
+      "type": "file",
+      "name": "domprops.json",
+      "base_name": "domprops",
+      "extension": ".json",
+      "size": 120421,
+      "date": "1985-10-26",
+      "sha1": "d6522be16442a4c1a21284ca24b1e359a6ba5fd4",
+      "md5": "13de1dca4dd34fbcbe106201b183dcc7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools/exit.js",
+      "type": "file",
+      "name": "exit.js",
+      "base_name": "exit",
+      "extension": ".js",
+      "size": 469,
+      "date": "1985-10-26",
+      "sha1": "84518298dca6719201a595196278707eab11dc6a",
+      "md5": "dfb2593981f339eb740134758c4b095a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools/exports.js",
+      "type": "file",
+      "name": "exports.js",
+      "base_name": "exports",
+      "extension": ".js",
+      "size": 206,
+      "date": "1985-10-26",
+      "sha1": "2238e66b2c5beb33f19b73b2ad3b33ffb7a2b1f5",
+      "md5": "1cc01005b4d6a4672875cf9a36f8029e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools/node.js",
+      "type": "file",
+      "name": "node.js",
+      "base_name": "node",
+      "extension": ".js",
+      "size": 2155,
+      "date": "1985-10-26",
+      "sha1": "2263f04d15406d6e217257aa63d7847319128c69",
+      "md5": "07b31955462e921feb4f1bc08a4b717a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "uglify-js-3.4.9.tgz-extract/package/tools/props.html",
+      "type": "file",
+      "name": "props.html",
+      "base_name": "props",
+      "extension": ".html",
+      "size": 1640,
+      "date": "1985-10-26",
+      "sha1": "814fc08fd814441964077b4f3708737aac9722c1",
+      "md5": "3d2296edf2b290065052d13607789002",
+      "mime_type": "text/html",
+      "file_type": "HTML document, ASCII text",
+      "programming_language": "HTML",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

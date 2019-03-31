@@ -1,0 +1,2155 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T015751.758223",
+      "end_timestamp": "2019-03-31T015759.398435",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 30
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153805.765140",
+      "end_timestamp": "2019-03-31T153806.069042",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 30
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract",
+      "type": "directory",
+      "name": "npm-run-all-4.1.3.tgz-extract",
+      "base_name": "npm-run-all-4.1.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 8,
+      "size_count": 92534,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "npm-run-all",
+          "version": "4.1.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "A CLI tool to run multiple npm-scripts in parallel or sequential.",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Toru Nagashima",
+              "email": null,
+              "url": null
+            }
+          ],
+          "keywords": [
+            "cli",
+            "command",
+            "commandline",
+            "tool",
+            "npm",
+            "npm-scripts",
+            "run",
+            "sequential",
+            "serial",
+            "parallel",
+            "task"
+          ],
+          "homepage_url": "https://github.com/mysticatea/npm-run-all",
+          "download_url": "https://registry.npmjs.org/npm-run-all/-/npm-run-all-4.1.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/mysticatea/npm-run-all/issues",
+          "code_view_url": null,
+          "vcs_url": "https://github.com/mysticatea/npm-run-all",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/ansi-styles",
+              "requirement": "^3.2.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chalk",
+              "requirement": "^2.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/cross-spawn",
+              "requirement": "^6.0.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/memorystream",
+              "requirement": "^0.3.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/minimatch",
+              "requirement": "^3.0.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/ps-tree",
+              "requirement": "^1.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/read-pkg",
+              "requirement": "^3.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/shell-quote",
+              "requirement": "^1.6.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/string.prototype.padend",
+              "requirement": "^3.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/node",
+              "requirement": "^4.2.20",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/babel-plugin-transform-async-to-generator",
+              "requirement": "^6.24.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/babel-preset-power-assert",
+              "requirement": "^1.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/babel-register",
+              "requirement": "^6.26.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/codecov",
+              "requirement": "^2.3.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^4.5.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-config-mysticatea",
+              "requirement": "^12.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/fs-extra",
+              "requirement": "^4.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jsdoc",
+              "requirement": "^3.5.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "^3.5.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/nyc",
+              "requirement": "^11.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/p-queue",
+              "requirement": "^2.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/power-assert",
+              "requirement": "^1.4.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rimraf",
+              "requirement": "^2.6.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/yarn",
+              "requirement": "^1.2.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/npm-run-all@4.1.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/npm-run-all",
+          "repository_download_url": "https://registry.npmjs.org/npm-run-all/-/npm-run-all-4.1.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/npm-run-all/4.1.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 30,
+      "dirs_count": 7,
+      "size_count": 92534,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1082,
+      "date": "1985-10-26",
+      "sha1": "6a7be93b3f668b81483528d48effb0762e9afdb0",
+      "md5": "893385a31dda2493704bc7f39bc976a0",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 98.21,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2015 Toru Nagashima",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 2128,
+      "date": "1985-10-26",
+      "sha1": "c268770bc12f34aecfed9b198f07628b91987e0e",
+      "md5": "8c4f265ef0fcd7eab5366822f3c51131",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 74,
+          "end_line": 74,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 3065,
+      "date": "1985-10-26",
+      "sha1": "68698b19dcd166a80e32b802742ce5199be7ee10",
+      "md5": "360a5962035730f59cc36989ab4e83e3",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 12,
+      "dirs_count": 4,
+      "size_count": 25865,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/common",
+      "type": "directory",
+      "name": "common",
+      "base_name": "common",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 9446,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/common/bootstrap.js",
+      "type": "file",
+      "name": "bootstrap.js",
+      "base_name": "bootstrap",
+      "extension": ".js",
+      "size": 1482,
+      "date": "1985-10-26",
+      "sha1": "d6d8d9ae5ffbd13764086cee3359f6fc98b45f9d",
+      "md5": "028f605e6f64e623938a000a1e89aa49",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/common/parse-cli-args.js",
+      "type": "file",
+      "name": "parse-cli-args.js",
+      "base_name": "parse-cli-args",
+      "extension": ".js",
+      "size": 7280,
+      "date": "1985-10-26",
+      "sha1": "57be2144558ec22b7f07f129801a4ae244e86ec8",
+      "md5": "dd2dd68f54563e1b11d95c6121a04225",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/common/version.js",
+      "type": "file",
+      "name": "version.js",
+      "base_name": "version",
+      "extension": ".js",
+      "size": 684,
+      "date": "1985-10-26",
+      "sha1": "8c6b709cb356d133f0d34317080aa279df418df2",
+      "md5": "bd50f26d94e9262e299d64e8a030be60",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/npm-run-all",
+      "type": "directory",
+      "name": "npm-run-all",
+      "base_name": "npm-run-all",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 6232,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/npm-run-all/help.js",
+      "type": "file",
+      "name": "help.js",
+      "base_name": "help",
+      "extension": ".js",
+      "size": 3180,
+      "date": "1985-10-26",
+      "sha1": "e550c919de3e8b801d4c10da076881b1b12a48ee",
+      "md5": "96199b26987d5758a551a4006388062d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/npm-run-all/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 397,
+      "date": "1985-10-26",
+      "sha1": "e4a9328705e83f9c417ea9bb5e3d662d15038b70",
+      "md5": "dcc93283ab448fb60140593a9952ab7c",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/npm-run-all/main.js",
+      "type": "file",
+      "name": "main.js",
+      "base_name": "main",
+      "extension": ".js",
+      "size": 2655,
+      "date": "1985-10-26",
+      "sha1": "512dc40f6f2aecebb10f20f1f543da8eab335bea",
+      "md5": "9933bf0cb085b4a65316e6fa421f0460",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-p",
+      "type": "directory",
+      "name": "run-p",
+      "base_name": "run-p",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 5369,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-p/help.js",
+      "type": "file",
+      "name": "help.js",
+      "base_name": "help",
+      "extension": ".js",
+      "size": 2609,
+      "date": "1985-10-26",
+      "sha1": "2b886593a7a7353b73877183021080175d200377",
+      "md5": "1254e444f015a8b0b1b026ca2a62bf43",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-p/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 391,
+      "date": "1985-10-26",
+      "sha1": "1384a2a29bae99d0ddd5bfe4d5863f0ace963cf7",
+      "md5": "9910dd422f7e127564dcec7f502184d5",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-p/main.js",
+      "type": "file",
+      "name": "main.js",
+      "base_name": "main",
+      "extension": ".js",
+      "size": 2369,
+      "date": "1985-10-26",
+      "sha1": "952d0609b1666e6a6c137fb41674dee308efd0c0",
+      "md5": "b1453ac9bc5940aff5de4569c6b6e1ec",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-s",
+      "type": "directory",
+      "name": "run-s",
+      "base_name": "run-s",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 3,
+      "dirs_count": 0,
+      "size_count": 4818,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-s/help.js",
+      "type": "file",
+      "name": "help.js",
+      "base_name": "help",
+      "extension": ".js",
+      "size": 2192,
+      "date": "1985-10-26",
+      "sha1": "99c12c7df7e284ac453b313aa49f949ba45eb7f1",
+      "md5": "f4b5153b6ef3ce1bf53fa3d48b98b390",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-s/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 391,
+      "date": "1985-10-26",
+      "sha1": "06d25c38f7a908021008f7a53f3706f694c0dfe5",
+      "md5": "f52682b082eb0bb135db8eb6eb09cbff",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/bin/run-s/main.js",
+      "type": "file",
+      "name": "main.js",
+      "base_name": "main",
+      "extension": ".js",
+      "size": 2235,
+      "date": "1985-10-26",
+      "sha1": "abf51fd6824564b714123d595b58cf6722110f7f",
+      "md5": "38e61688d638720f56977391e36220aa",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 2,
+          "end_line": 3
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/docs",
+      "type": "directory",
+      "name": "docs",
+      "base_name": "docs",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 22512,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/docs/node-api.md",
+      "type": "file",
+      "name": "node-api.md",
+      "base_name": "node-api",
+      "extension": ".md",
+      "size": 5062,
+      "date": "1985-10-26",
+      "sha1": "06b831f95a6762687886825c1e8d78ad39aa5fd6",
+      "md5": "6f34fdbbcab10eb4fa5638a3a9abe281",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/docs/npm-run-all.md",
+      "type": "file",
+      "name": "npm-run-all.md",
+      "base_name": "npm-run-all",
+      "extension": ".md",
+      "size": 7064,
+      "date": "1985-10-26",
+      "sha1": "37a29834fefbad46199ed34bd492ff215e57c0d6",
+      "md5": "b8116df52f5738eb4e8f0db9387a72a3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/docs/run-p.md",
+      "type": "file",
+      "name": "run-p.md",
+      "base_name": "run-p",
+      "extension": ".md",
+      "size": 5504,
+      "date": "1985-10-26",
+      "sha1": "9e2f4b32c6bae6f47ae5b9bd9cfcfef8c624a99a",
+      "md5": "fa2b5b6c955153ac4e16a9379bb9776c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/docs/run-s.md",
+      "type": "file",
+      "name": "run-s.md",
+      "base_name": "run-s",
+      "extension": ".md",
+      "size": 4882,
+      "date": "1985-10-26",
+      "sha1": "9bcf502b0c288cb0a78feb588d35db75d388815e",
+      "md5": "4957947b264ff67dd50bc237b019b3a2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 11,
+      "dirs_count": 0,
+      "size_count": 37882,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/create-header.js",
+      "type": "file",
+      "name": "create-header.js",
+      "base_name": "create-header",
+      "extension": ".js",
+      "size": 1758,
+      "date": "1985-10-26",
+      "sha1": "11805077945f66e86381d7663e1fd4e6501f16a3",
+      "md5": "032ba36bd5dd4d7273556b0fb043d3bb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/create-prefix-transform-stream.js",
+      "type": "file",
+      "name": "create-prefix-transform-stream.js",
+      "base_name": "create-prefix-transform-stream",
+      "extension": ".js",
+      "size": 3205,
+      "date": "1985-10-26",
+      "sha1": "e746faf83072c89528262318e6bc805708b45645",
+      "md5": "c269e87dbb0ab713ca0b2b9e03d271dc",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 10015,
+      "date": "1985-10-26",
+      "sha1": "a2d3c839b2e83e711014262737ef8781fdeee3b1",
+      "md5": "dd5f7e24d45bbeb7aeca5ff86cf62c98",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/match-tasks.js",
+      "type": "file",
+      "name": "match-tasks.js",
+      "base_name": "match-tasks",
+      "extension": ".js",
+      "size": 4028,
+      "date": "1985-10-26",
+      "sha1": "732324420d226177c6ea6c8a544cb34943136c26",
+      "md5": "0b91c174e4703e40902eea485e418bd0",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/npm-run-all-error.js",
+      "type": "file",
+      "name": "npm-run-all-error.js",
+      "base_name": "npm-run-all-error",
+      "extension": ".js",
+      "size": 1419,
+      "date": "1985-10-26",
+      "sha1": "1b0d70ca6ac40c44726bfb1e62832115f711a57a",
+      "md5": "c3ea275ea2efabfac6d7fd136e7bcd90",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/read-package-json.js",
+      "type": "file",
+      "name": "read-package-json.js",
+      "base_name": "read-package-json",
+      "extension": ".js",
+      "size": 980,
+      "date": "1985-10-26",
+      "sha1": "f5bc0a46e6327736d37ba9f05b67393b35f1dd60",
+      "md5": "529ddf10af2486952df89573b359733e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2016 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/run-task.js",
+      "type": "file",
+      "name": "run-task.js",
+      "base_name": "run-task",
+      "extension": ".js",
+      "size": 7330,
+      "date": "1985-10-26",
+      "sha1": "e38d77ec8c728cb30851766635896b26a45bbebd",
+      "md5": "51b417cec3a5c2ceff76591bf4857eb5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/run-tasks.js",
+      "type": "file",
+      "name": "run-tasks.js",
+      "base_name": "run-tasks",
+      "extension": ".js",
+      "size": 5131,
+      "date": "1985-10-26",
+      "sha1": "785b2f18a5aef50caaf3fdc4f2e217d87cf6bcb0",
+      "md5": "8ef45913cc2e9efae8bd6b40ade75525",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/spawn-posix.js",
+      "type": "file",
+      "name": "spawn-posix.js",
+      "base_name": "spawn-posix",
+      "extension": ".js",
+      "size": 1849,
+      "date": "1985-10-26",
+      "sha1": "798885e4bc1a07140ebf04bcae1f85f54a4a36f5",
+      "md5": "13c4970b7a9cbd3d37a38a18f28ff2e9",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/spawn-win32.js",
+      "type": "file",
+      "name": "spawn-win32.js",
+      "base_name": "spawn-win32",
+      "extension": ".js",
+      "size": 1564,
+      "date": "1985-10-26",
+      "sha1": "12e1c578408a77530ca01f86dee52a1d88220b88",
+      "md5": "963425d356b773e1169658934bb74dac",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "npm-run-all-4.1.3.tgz-extract/package/lib/spawn.js",
+      "type": "file",
+      "name": "spawn.js",
+      "base_name": "spawn",
+      "extension": ".js",
+      "size": 603,
+      "date": "1985-10-26",
+      "sha1": "cbf65bdec7ab4e2585a746beb7cd638dfd2a5772",
+      "md5": "8f477239b3ce568ede1285b656157155",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Toru Nagashima.",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "authors": [
+        {
+          "value": "Toru Nagashima",
+          "start_line": 3,
+          "end_line": 4
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

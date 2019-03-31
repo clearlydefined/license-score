@@ -1,0 +1,5346 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T020257.558121",
+      "end_timestamp": "2019-03-31T020316.248521",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 62
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153816.911328",
+      "end_timestamp": "2019-03-31T153817.406907",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 62
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 50,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.83,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": false,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.83,
+    "consistency": false,
+    "spdx": false,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "jest-cli-23.6.0.tgz-extract",
+      "type": "directory",
+      "name": "jest-cli-23.6.0.tgz-extract",
+      "base_name": "jest-cli-23.6.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 62,
+      "dirs_count": 9,
+      "size_count": 243813,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "jest-cli",
+          "version": "23.6.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Delightful JavaScript Testing.",
+          "release_date": null,
+          "parties": [],
+          "keywords": [
+            "ava",
+            "babel",
+            "coverage",
+            "easy",
+            "expect",
+            "facebook",
+            "immersive",
+            "instant",
+            "jasmine",
+            "jest",
+            "jsdom",
+            "mocha",
+            "mocking",
+            "painless",
+            "qunit",
+            "runner",
+            "sandboxed",
+            "snapshot",
+            "tap",
+            "tape",
+            "test",
+            "testing",
+            "typescript",
+            "watch"
+          ],
+          "homepage_url": "https://jestjs.io/",
+          "download_url": "https://registry.npmjs.org/jest-cli/-/jest-cli-23.6.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/facebook/jest/issues",
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/facebook/jest",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/ansi-escapes",
+              "requirement": "^3.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chalk",
+              "requirement": "^2.0.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/exit",
+              "requirement": "^0.1.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/glob",
+              "requirement": "^7.1.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/graceful-fs",
+              "requirement": "^4.1.11",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/import-local",
+              "requirement": "^1.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/is-ci",
+              "requirement": "^1.0.10",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul-api",
+              "requirement": "^1.3.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul-lib-coverage",
+              "requirement": "^1.2.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul-lib-instrument",
+              "requirement": "^1.10.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul-lib-source-maps",
+              "requirement": "^1.2.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-changed-files",
+              "requirement": "^23.4.2",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-config",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-environment-jsdom",
+              "requirement": "^23.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-get-type",
+              "requirement": "^22.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-haste-map",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-message-util",
+              "requirement": "^23.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-regex-util",
+              "requirement": "^23.3.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-resolve-dependencies",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-runner",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-runtime",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-snapshot",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-util",
+              "requirement": "^23.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-validate",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-watcher",
+              "requirement": "^23.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-worker",
+              "requirement": "^23.2.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/micromatch",
+              "requirement": "^2.3.11",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/node-notifier",
+              "requirement": "^5.2.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prompts",
+              "requirement": "^0.1.9",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/realpath-native",
+              "requirement": "^1.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rimraf",
+              "requirement": "^2.5.4",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/slash",
+              "requirement": "^1.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/string-length",
+              "requirement": "^2.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/strip-ansi",
+              "requirement": "^4.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/which",
+              "requirement": "^1.2.12",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/yargs",
+              "requirement": "^11.0.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/jest-cli@23.6.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/jest-cli",
+          "repository_download_url": "https://registry.npmjs.org/jest-cli/-/jest-cli-23.6.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/jest-cli/23.6.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 62,
+      "dirs_count": 8,
+      "size_count": 243813,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1913,
+      "date": "2018-09-10",
+      "sha1": "5ea423d7aa91a356d3ad4fda3d7c1b529217d141",
+      "md5": "08d87720f7b516a1aa39061a3c78269f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 58,
+          "end_line": 58,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 551,
+      "date": "2018-07-06",
+      "sha1": "c3078c27782bb239808aa44efcfb2bf2030b9b88",
+      "md5": "c69724893117d4d2de1d0c4037ac6cc1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 416,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/bin/jest.js",
+      "type": "file",
+      "name": "jest.js",
+      "base_name": "jest",
+      "extension": ".js",
+      "size": 416,
+      "date": "2018-07-13",
+      "sha1": "5f55695029f5b1a13ebccc493a76b9038859d1c7",
+      "md5": "d1dd315bfe4e7abfa200853482d06057",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, ASCII text executable",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 5,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build",
+      "type": "directory",
+      "name": "build",
+      "base_name": "build",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 59,
+      "dirs_count": 6,
+      "size_count": 240933,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/collectHandles.js",
+      "type": "file",
+      "name": "collectHandles.js",
+      "base_name": "collectHandles",
+      "extension": ".js",
+      "size": 3410,
+      "date": "2018-09-10",
+      "sha1": "8c9a548ca3abd88591cef29718b086c11c37eb8f",
+      "md5": "50e5e94d732a0e13c3317b4475740e2f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 52,
+          "end_line": 53,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 50,
+          "end_line": 50
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 50,
+          "end_line": 50
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/constants.js",
+      "type": "file",
+      "name": "constants.js",
+      "base_name": "constants",
+      "extension": ".js",
+      "size": 743,
+      "date": "2018-09-10",
+      "sha1": "ce3bb05637e0cd915f66cb19d538953dee74c422",
+      "md5": "bd2100209584f774855ccb7d58a1c308",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 10,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/coverage.template",
+      "type": "file",
+      "name": "coverage.template",
+      "base_name": "coverage",
+      "extension": ".template",
+      "size": 843,
+      "date": "2018-09-10",
+      "sha1": "68ed41ba835ea8d2b5e4dbc61074e5d01f56cca0",
+      "md5": "eb2d82962f63d8ba52036c82382e904b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "ERB",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Facebook.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright 2004-present Facebook.",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/FailedTestsCache.js",
+      "type": "file",
+      "name": "FailedTestsCache.js",
+      "base_name": "FailedTestsCache",
+      "extension": ".js",
+      "size": 1354,
+      "date": "2018-09-10",
+      "sha1": "9f81c1bf152a656f358bc30cb75398bf32358a73",
+      "md5": "b965cc9aa763e231a27c63ad2b3c393b",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 44,
+          "end_line": 45,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/generateEmptyCoverage.js",
+      "type": "file",
+      "name": "generateEmptyCoverage.js",
+      "base_name": "generateEmptyCoverage",
+      "extension": ".js",
+      "size": 1530,
+      "date": "2018-09-10",
+      "sha1": "c1833d922997b3785981a83ab69c09b3c84315cf",
+      "md5": "0bc969380568c0d0b3eb9f1efc4be048",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getChangedFilesPromise.js",
+      "type": "file",
+      "name": "getChangedFilesPromise.js",
+      "base_name": "getChangedFilesPromise",
+      "extension": ".js",
+      "size": 951,
+      "date": "2018-09-10",
+      "sha1": "0d8a22b6c795451a332152c95cdfa08ac75627e5",
+      "md5": "69557c7b469d06e0a65bed9b3dec4a16",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 35,
+          "end_line": 36,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 33,
+          "end_line": 33
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getNoTestFound.js",
+      "type": "file",
+      "name": "getNoTestFound.js",
+      "base_name": "getNoTestFound",
+      "extension": ".js",
+      "size": 1378,
+      "date": "2018-09-10",
+      "sha1": "bc671fb37ef0ea8419493f803553e5b7826f02b0",
+      "md5": "db7bc94c80b195be039e4062ae802d02",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getNoTestFoundFailed.js",
+      "type": "file",
+      "name": "getNoTestFoundFailed.js",
+      "base_name": "getNoTestFoundFailed",
+      "extension": ".js",
+      "size": 546,
+      "date": "2018-09-10",
+      "sha1": "eda1fe87eb41d8e36cab52f38737d6c98fcf2bc9",
+      "md5": "a5873fc81d186dafe3172b239560dc96",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getNoTestFoundRelatedToChangedFiles.js",
+      "type": "file",
+      "name": "getNoTestFoundRelatedToChangedFiles.js",
+      "base_name": "getNoTestFoundRelatedToChangedFiles",
+      "extension": ".js",
+      "size": 930,
+      "date": "2018-09-10",
+      "sha1": "e126104e3a09008f96a12ae7b84a9fe2f74a8f22",
+      "md5": "a62c13c95aa6a4eccc9f4d6a7ec14a85",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getNoTestFoundVerbose.js",
+      "type": "file",
+      "name": "getNoTestFoundVerbose.js",
+      "base_name": "getNoTestFoundVerbose",
+      "extension": ".js",
+      "size": 2273,
+      "date": "2018-09-10",
+      "sha1": "ecd2bc8166be0612bf562c05dde4cd30a206ffe8",
+      "md5": "756be43fc4fc2ef55889ba6f63cc34d3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/getNoTestsFoundMessage.js",
+      "type": "file",
+      "name": "getNoTestsFoundMessage.js",
+      "base_name": "getNoTestsFoundMessage",
+      "extension": ".js",
+      "size": 1627,
+      "date": "2018-09-10",
+      "sha1": "cdf91492c648785abc3826aa71e799abf5cac055",
+      "md5": "f7f38aca56743e10788fbd8893a2e6fb",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/jest.js",
+      "type": "file",
+      "name": "jest.js",
+      "base_name": "jest",
+      "extension": ".js",
+      "size": 1238,
+      "date": "2018-09-10",
+      "sha1": "02c64b39655646e583a2c29b99ff0820ff7ddd82",
+      "md5": "fee22513873b2bc6a9dd5fc08f74eb5f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 48,
+          "end_line": 49,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 46,
+          "end_line": 46
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 46,
+          "end_line": 46
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/pluralize.js",
+      "type": "file",
+      "name": "pluralize.js",
+      "base_name": "pluralize",
+      "extension": ".js",
+      "size": 210,
+      "date": "2018-09-10",
+      "sha1": "29e2c63f3afcb70cf3dd5db50896a7f719ffe769",
+      "md5": "dfb6db997f69ce02767be10faa5cf33c",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/preRunMessage.js",
+      "type": "file",
+      "name": "preRunMessage.js",
+      "base_name": "preRunMessage",
+      "extension": ".js",
+      "size": 1030,
+      "date": "2018-09-10",
+      "sha1": "9c99406f7951e77d0af1a053ad6e807278220324",
+      "md5": "52da5205f8b66dc36954df95b98e44d1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 27,
+          "end_line": 28,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 25,
+          "end_line": 25
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/ReporterDispatcher.js",
+      "type": "file",
+      "name": "ReporterDispatcher.js",
+      "base_name": "ReporterDispatcher",
+      "extension": ".js",
+      "size": 2658,
+      "date": "2018-09-10",
+      "sha1": "8a7136f2d19d88685f91d9588188aee29e40798a",
+      "md5": "e0e674aba556dcd8ec64e3e465df26fe",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 110,
+          "end_line": 111,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 108,
+          "end_line": 108
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 108,
+          "end_line": 108
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/runJest.js",
+      "type": "file",
+      "name": "runJest.js",
+      "base_name": "runJest",
+      "extension": ".js",
+      "size": 13034,
+      "date": "2018-09-10",
+      "sha1": "82609c2b6d81549cc7ed79fbb9c334c6586d3fac",
+      "md5": "5507e07cda7fda6102ea959730208a01",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 133,
+          "end_line": 134,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 131,
+          "end_line": 131
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 131,
+          "end_line": 131
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/SearchSource.js",
+      "type": "file",
+      "name": "SearchSource.js",
+      "base_name": "SearchSource",
+      "extension": ".js",
+      "size": 8925,
+      "date": "2018-09-10",
+      "sha1": "bb6b06321d6702b97322e74cc8903c65a0e4f2ed",
+      "md5": "2c5f8366d5e858e19be57adb5713bd1d",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 83,
+          "end_line": 84,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 81,
+          "end_line": 81
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 81,
+          "end_line": 81
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/SnapshotInteractiveMode.js",
+      "type": "file",
+      "name": "SnapshotInteractiveMode.js",
+      "base_name": "SnapshotInteractiveMode",
+      "extension": ".js",
+      "size": 8485,
+      "date": "2018-09-10",
+      "sha1": "f41bde28e7f269fce1a34291f59f049ff4f82b3f",
+      "md5": "e4e9969516d43f184cff63b19b3435cb",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "bsd-new",
+          "score": 100.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 44,
+          "end_line": 46,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "facebook-patent-rights-2",
+          "score": 100.0,
+          "name": "Facebook Additional Grant of Patent Rights Version 2",
+          "short_name": "Facebook Patent Rights 2",
+          "category": "Patent License",
+          "is_exception": false,
+          "owner": "Facebook",
+          "homepage_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "text_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:facebook-patent-rights-2",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 44,
+          "end_line": 46,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "bsd-new AND facebook-patent-rights-2"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 42,
+          "end_line": 42
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/TestNamePatternPrompt.js",
+      "type": "file",
+      "name": "TestNamePatternPrompt.js",
+      "base_name": "TestNamePatternPrompt",
+      "extension": ".js",
+      "size": 1701,
+      "date": "2018-09-10",
+      "sha1": "cff7fe2e68591c4a568ecfa03aa53a1fce6ad1fb",
+      "md5": "520a003418bc8fa589d73ae413dc5013",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 72,
+          "end_line": 73,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 70,
+          "end_line": 70
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 70,
+          "end_line": 70
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/TestPathPatternPrompt.js",
+      "type": "file",
+      "name": "TestPathPatternPrompt.js",
+      "base_name": "TestPathPatternPrompt",
+      "extension": ".js",
+      "size": 1510,
+      "date": "2018-09-10",
+      "sha1": "2f1ebeb54a064524b662f3af7a025e79f912556c",
+      "md5": "c229d16411224e00cceb2b8500bf2dc6",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 63,
+          "end_line": 64,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 61,
+          "end_line": 61
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 61,
+          "end_line": 61
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/testPathPatternToRegexp.js",
+      "type": "file",
+      "name": "testPathPatternToRegexp.js",
+      "base_name": "testPathPatternToRegexp",
+      "extension": ".js",
+      "size": 583,
+      "date": "2018-09-10",
+      "sha1": "46e2ea91faf2c2caecbd7c16bef19720e229079c",
+      "md5": "0b6879bbba74834d5c88212c2b49f169",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 10,
+          "end_line": 11,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 8,
+          "end_line": 8
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 8,
+          "end_line": 8
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/testResultHelpers.js",
+      "type": "file",
+      "name": "testResultHelpers.js",
+      "base_name": "testResultHelpers",
+      "extension": ".js",
+      "size": 3659,
+      "date": "2018-09-10",
+      "sha1": "f5641b65cc0888d65474d1bf536a32b97fbf69f4",
+      "md5": "29a248e20db20eb83c8be2f016c2ff62",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 41,
+          "end_line": 42,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 39,
+          "end_line": 39
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 39,
+          "end_line": 39
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/TestScheduler.js",
+      "type": "file",
+      "name": "TestScheduler.js",
+      "base_name": "TestScheduler",
+      "extension": ".js",
+      "size": 15678,
+      "date": "2018-09-10",
+      "sha1": "7bdba40cd0ac562afc9fde8da54ff84da2670e6c",
+      "md5": "703172a75bc4b81a8f26709d886004c5",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 173,
+          "end_line": 174,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 171,
+          "end_line": 171
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 171,
+          "end_line": 171
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/TestSequencer.js",
+      "type": "file",
+      "name": "TestSequencer.js",
+      "base_name": "TestSequencer",
+      "extension": ".js",
+      "size": 3851,
+      "date": "2018-09-10",
+      "sha1": "2ada91847b41526cc9b3f43d678e3a0d7928de66",
+      "md5": "35e718654f4012d6e2ae7adeb83a3b37",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 28,
+          "end_line": 29,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 26,
+          "end_line": 26
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 26,
+          "end_line": 26
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/TestWatcher.js",
+      "type": "file",
+      "name": "TestWatcher.js",
+      "base_name": "TestWatcher",
+      "extension": ".js",
+      "size": 961,
+      "date": "2018-09-10",
+      "sha1": "6d7a88ade1ce85144d659d1c458178c0d7aef3d1",
+      "md5": "6ea580956045b91f742f7a403d6a3c32",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 43,
+          "end_line": 44,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 41,
+          "end_line": 41
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/types.js",
+      "type": "file",
+      "name": "types.js",
+      "base_name": "types",
+      "extension": ".js",
+      "size": 14,
+      "date": "2018-09-10",
+      "sha1": "c84db234afc178eb3ef393b8a7aacc598131eb09",
+      "md5": "8c9ee196bb7080ae0b370c29c51f17c1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/watch.js",
+      "type": "file",
+      "name": "watch.js",
+      "base_name": "watch",
+      "extension": ".js",
+      "size": 22062,
+      "date": "2018-09-10",
+      "sha1": "d0ff8b1818d1bb2febc7da1985ecb3c68c0aa05e",
+      "md5": "738026e373ea1a034d13bc4c4cc4d24a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 188,
+          "end_line": 189,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 186,
+          "end_line": 186
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 186,
+          "end_line": 186
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/assets",
+      "type": "directory",
+      "name": "assets",
+      "base_name": "assets",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 3157,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/assets/jest_logo.png",
+      "type": "file",
+      "name": "jest_logo.png",
+      "base_name": "jest_logo",
+      "extension": ".png",
+      "size": 3157,
+      "date": "2018-09-10",
+      "sha1": "018cbee9f3e6ed6f694b26c7022bf86a34b2f64b",
+      "md5": "8c24bb3f69d4e7ae5262820a0fd309f6",
+      "mime_type": "image/png",
+      "file_type": "PNG image data, 70 x 70, 8-bit/color RGBA, non-interlaced",
+      "programming_language": null,
+      "is_binary": true,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": true,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/cli",
+      "type": "directory",
+      "name": "cli",
+      "base_name": "cli",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 2,
+      "dirs_count": 0,
+      "size_count": 39843,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/cli/args.js",
+      "type": "file",
+      "name": "args.js",
+      "base_name": "args",
+      "extension": ".js",
+      "size": 21122,
+      "date": "2018-09-10",
+      "sha1": "57f9ece1c4c435ac900217bf686b99a824b2e79d",
+      "md5": "4ae41e85ba2f43de63d3b0b2862f2d81",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 79,
+          "end_line": 80,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 77,
+          "end_line": 77
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 77,
+          "end_line": 77
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/cli/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 18721,
+      "date": "2018-09-10",
+      "sha1": "532caaeba753e48d9f328c5315c450b909913af9",
+      "md5": "f55ad8eb0637e1284c53f421e9d4c316",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 232,
+          "end_line": 233,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 230,
+          "end_line": 230
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 230,
+          "end_line": 230
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib",
+      "type": "directory",
+      "name": "lib",
+      "base_name": "lib",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 12,
+      "dirs_count": 1,
+      "size_count": 21102,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/active_filters_message.js",
+      "type": "file",
+      "name": "active_filters_message.js",
+      "base_name": "active_filters_message",
+      "extension": ".js",
+      "size": 1469,
+      "date": "2018-09-10",
+      "sha1": "7afa76d65298fa70bb522192b70ef44ce1ea88f8",
+      "md5": "c7dc9b1e3171b303e4ac312e094876b3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 20,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 18,
+          "end_line": 18
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 18,
+          "end_line": 18
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/create_context.js",
+      "type": "file",
+      "name": "create_context.js",
+      "base_name": "create_context",
+      "extension": ".js",
+      "size": 816,
+      "date": "2018-09-10",
+      "sha1": "023ef6e3df5df1c6c04bf9dc1c15389134602706",
+      "md5": "55a028207d7f7ff4a4460484f2e0ef36",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 20,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 18,
+          "end_line": 18
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 18,
+          "end_line": 18
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/handle_deprecation_warnings.js",
+      "type": "file",
+      "name": "handle_deprecation_warnings.js",
+      "base_name": "handle_deprecation_warnings",
+      "extension": ".js",
+      "size": 1899,
+      "date": "2018-09-10",
+      "sha1": "1c4ffc95c7fbe205b40baa4aa127bfb1ab662377",
+      "md5": "1fb54baf78b7ee1398c60ea88b9c7ae6",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 26,
+          "end_line": 27,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/is_valid_path.js",
+      "type": "file",
+      "name": "is_valid_path.js",
+      "base_name": "is_valid_path",
+      "extension": ".js",
+      "size": 863,
+      "date": "2018-09-10",
+      "sha1": "9d3a91f71365edbf1e9c4b8074c28fe7924910bd",
+      "md5": "a2b345a8e1614d1fc9450b3b16a59bf5",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 21,
+          "end_line": 22,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/log_debug_messages.js",
+      "type": "file",
+      "name": "log_debug_messages.js",
+      "base_name": "log_debug_messages",
+      "extension": ".js",
+      "size": 687,
+      "date": "2018-09-10",
+      "sha1": "190ce734f7aa03a2523237ddfc9c316b1107e3b1",
+      "md5": "8f960606544c075db68625a62d142018",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 17,
+          "end_line": 18,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/update_global_config.js",
+      "type": "file",
+      "name": "update_global_config.js",
+      "base_name": "update_global_config",
+      "extension": ".js",
+      "size": 2811,
+      "date": "2018-09-10",
+      "sha1": "c96553c7c2481c16e4cfbc8b250046f4c63b5c17",
+      "md5": "3790af7ec5c447dd4431ab790bd7c99e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 111,
+          "end_line": 112,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 109,
+          "end_line": 109
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 109,
+          "end_line": 109
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/watch_plugins_helpers.js",
+      "type": "file",
+      "name": "watch_plugins_helpers.js",
+      "base_name": "watch_plugins_helpers",
+      "extension": ".js",
+      "size": 1310,
+      "date": "2018-09-10",
+      "sha1": "8f2e8943cdbfe6cb27d8aba23f850e54f7b60f22",
+      "md5": "3014e14ec4ce7be8d0d659db67ef1d5b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 10,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init",
+      "type": "directory",
+      "name": "init",
+      "base_name": "init",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 11247,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init/errors.js",
+      "type": "file",
+      "name": "errors.js",
+      "base_name": "errors",
+      "extension": ".js",
+      "size": 931,
+      "date": "2018-09-10",
+      "sha1": "277c208e548cab7b995f184fd858b60f09501476",
+      "md5": "c974e55681051758cafd13755362fe8b",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 10,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init/generate_config_file.js",
+      "type": "file",
+      "name": "generate_config_file.js",
+      "base_name": "generate_config_file",
+      "extension": ".js",
+      "size": 2442,
+      "date": "2018-09-10",
+      "sha1": "5d34b3b0c9f253209d5f103150c4d361dc862533",
+      "md5": "19b355d11629aebef8246ba97f412b94",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 39,
+          "end_line": 40,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 37,
+          "end_line": 37
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 5784,
+      "date": "2018-09-10",
+      "sha1": "52fdff39b3eb64a10c812f2c68eb4965b7461402",
+      "md5": "7a2b299c0fffce05117d4fd03da0c595",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 107,
+          "end_line": 108,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 105,
+          "end_line": 105
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 105,
+          "end_line": 105
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init/modify_package_json.js",
+      "type": "file",
+      "name": "modify_package_json.js",
+      "base_name": "modify_package_json",
+      "extension": ".js",
+      "size": 784,
+      "date": "2018-09-10",
+      "sha1": "fd064f0a97c853c37b30413b592e4699c612542b",
+      "md5": "55f0dccfce846ec4de0acf24e200f2c4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 10,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7,
+          "end_line": 7
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/lib/init/questions.js",
+      "type": "file",
+      "name": "questions.js",
+      "base_name": "questions",
+      "extension": ".js",
+      "size": 1306,
+      "date": "2018-09-10",
+      "sha1": "de60c82c043798765cc7fc7697608f7d8ad14107",
+      "md5": "f68915b8c0b0e49d02ea3762609cb967",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 34,
+          "end_line": 35,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins",
+      "type": "directory",
+      "name": "plugins",
+      "base_name": "plugins",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 9578,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins/quit.js",
+      "type": "file",
+      "name": "quit.js",
+      "base_name": "quit",
+      "extension": ".js",
+      "size": 1618,
+      "date": "2018-09-10",
+      "sha1": "00e14291d0c453d7fa9d865d5450842383e67004",
+      "md5": "34575b107c9e2cd9cdde596accacd702",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 45,
+          "end_line": 46,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins/test_name_pattern.js",
+      "type": "file",
+      "name": "test_name_pattern.js",
+      "base_name": "test_name_pattern",
+      "extension": ".js",
+      "size": 1880,
+      "date": "2018-09-10",
+      "sha1": "b8573d4e228419ec7c6589515f3655f84bcce058",
+      "md5": "52e5af557b2cc5e5cde9544657f12e61",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 36,
+          "end_line": 37,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins/test_path_pattern.js",
+      "type": "file",
+      "name": "test_path_pattern.js",
+      "base_name": "test_path_pattern",
+      "extension": ".js",
+      "size": 1880,
+      "date": "2018-09-10",
+      "sha1": "99ef6814feb13c91c7db354f345f7727275efa4b",
+      "md5": "03975135cbba91ea91cd62f7341fb119",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 36,
+          "end_line": 37,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins/update_snapshots.js",
+      "type": "file",
+      "name": "update_snapshots.js",
+      "base_name": "update_snapshots",
+      "extension": ".js",
+      "size": 1052,
+      "date": "2018-09-10",
+      "sha1": "bbf0889e62727986f19addbb18f3f9f2c6128329",
+      "md5": "22589f440cd52b96c5777011c6885d8b",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 45,
+          "end_line": 46,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 43,
+          "end_line": 43
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/plugins/update_snapshots_interactive.js",
+      "type": "file",
+      "name": "update_snapshots_interactive.js",
+      "base_name": "update_snapshots_interactive",
+      "extension": ".js",
+      "size": 3148,
+      "date": "2018-09-10",
+      "sha1": "799ff07b27b4d8bca5e2245db387d24a33e9fb88",
+      "md5": "df9c34b7e02714666bd9456063aaf1ef",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 117,
+          "end_line": 118,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 115,
+          "end_line": 115
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 115,
+          "end_line": 115
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters",
+      "type": "directory",
+      "name": "reporters",
+      "base_name": "reporters",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 12,
+      "dirs_count": 0,
+      "size_count": 66069,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/base_reporter.js",
+      "type": "file",
+      "name": "base_reporter.js",
+      "base_name": "base_reporter",
+      "extension": ".js",
+      "size": 982,
+      "date": "2018-09-10",
+      "sha1": "8233424e473e0891a16e515a77e784c49c8175e7",
+      "md5": "60c7c4b67c06f1e2f85a13b82ec70013",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 42,
+          "end_line": 43,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 40,
+          "end_line": 40
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 40,
+          "end_line": 40
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/coverage_reporter.js",
+      "type": "file",
+      "name": "coverage_reporter.js",
+      "base_name": "coverage_reporter",
+      "extension": ".js",
+      "size": 14886,
+      "date": "2018-09-10",
+      "sha1": "2fe8ca44d3e4f24bffa651c784c6923e5e742960",
+      "md5": "89e9457f1555f346f910523abfa9d1ad",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 101,
+          "end_line": 102,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 99,
+          "end_line": 99
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 99,
+          "end_line": 99
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/coverage_worker.js",
+      "type": "file",
+      "name": "coverage_worker.js",
+      "base_name": "coverage_worker",
+      "extension": ".js",
+      "size": 1255,
+      "date": "2018-09-10",
+      "sha1": "616976c88da2e378c462d29e084087661e5a38e5",
+      "md5": "74e0df3ee328f88ca4fc2dfa652e58bd",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 36,
+          "end_line": 37,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 34,
+          "end_line": 34
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/default_reporter.js",
+      "type": "file",
+      "name": "default_reporter.js",
+      "base_name": "default_reporter",
+      "extension": ".js",
+      "size": 5853,
+      "date": "2018-09-10",
+      "sha1": "0355299c6b07df1aaa97e62c7d1d1e99451e2e26",
+      "md5": "49a1f6ac11b0e978e36cab3130b35dba",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 54,
+          "end_line": 55,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 52,
+          "end_line": 52
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 52,
+          "end_line": 52
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/get_result_header.js",
+      "type": "file",
+      "name": "get_result_header.js",
+      "base_name": "get_result_header",
+      "extension": ".js",
+      "size": 2107,
+      "date": "2018-09-10",
+      "sha1": "31cb429c01011c8b97a246c3c4e46e21f7b01bb7",
+      "md5": "7537d03be115faabfe4cf700944d5437",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 26,
+          "end_line": 27,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/get_snapshot_status.js",
+      "type": "file",
+      "name": "get_snapshot_status.js",
+      "base_name": "get_snapshot_status",
+      "extension": ".js",
+      "size": 1719,
+      "date": "2018-09-10",
+      "sha1": "27fc138c0767058ac6d9d3fa9d842190e531d2a8",
+      "md5": "a1ece15ae8706a8deda1f98ef270047a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 11,
+          "end_line": 12,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/get_snapshot_summary.js",
+      "type": "file",
+      "name": "get_snapshot_summary.js",
+      "base_name": "get_snapshot_summary",
+      "extension": ".js",
+      "size": 4751,
+      "date": "2018-09-10",
+      "sha1": "afb7d3b021deefaae3c15918be7e8f286451ae17",
+      "md5": "65446dcf4560000cbc05b19d1771c734",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 26,
+          "end_line": 27,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 24,
+          "end_line": 24
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/notify_reporter.js",
+      "type": "file",
+      "name": "notify_reporter.js",
+      "base_name": "notify_reporter",
+      "extension": ".js",
+      "size": 5843,
+      "date": "2018-09-10",
+      "sha1": "597af428853652371d85255a4d66b966cae86e57",
+      "md5": "dc22fd09b1e8585a12b7ecc0a0dd2e40",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 49,
+          "end_line": 50,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 47,
+          "end_line": 47
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 47,
+          "end_line": 47
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/Status.js",
+      "type": "file",
+      "name": "Status.js",
+      "base_name": "Status",
+      "extension": ".js",
+      "size": 4816,
+      "date": "2018-09-10",
+      "sha1": "312610aad7d708422ed4696abba6ba537f28bdc7",
+      "md5": "517030a447f8318447fd4b4bcce53391",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 32,
+          "end_line": 33,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 30,
+          "end_line": 30
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/summary_reporter.js",
+      "type": "file",
+      "name": "summary_reporter.js",
+      "base_name": "summary_reporter",
+      "extension": ".js",
+      "size": 7754,
+      "date": "2018-09-10",
+      "sha1": "79f661b9f0c896c5ec977d1e75f486cc5d62972f",
+      "md5": "75cc4d465ce75f1298d4de4d1b0f9412",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 56,
+          "end_line": 57,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/utils.js",
+      "type": "file",
+      "name": "utils.js",
+      "base_name": "utils",
+      "extension": ".js",
+      "size": 11756,
+      "date": "2018-09-10",
+      "sha1": "2acb1068fb29be63905c04d3658c736693996184",
+      "md5": "649bb07bd2baa6b104e0155fbf29ecd1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 50,
+          "end_line": 51,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 48,
+          "end_line": 48
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 48,
+          "end_line": 48
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "jest-cli-23.6.0.tgz-extract/package/build/reporters/verbose_reporter.js",
+      "type": "file",
+      "name": "verbose_reporter.js",
+      "base_name": "verbose_reporter",
+      "extension": ".js",
+      "size": 4347,
+      "date": "2018-09-10",
+      "sha1": "c3fb5b4cd0b78b778155bef545bdcc418ac9d034",
+      "md5": "7e210b23933892dc3d4095b9614eab12",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 34,
+          "end_line": 35,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 32,
+          "end_line": 32
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

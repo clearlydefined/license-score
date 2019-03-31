@@ -1,0 +1,1080 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T020436.246450",
+      "end_timestamp": "2019-03-31T020442.985086",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 7
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153819.366342",
+      "end_timestamp": "2019-03-31T153819.421445",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 7
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 48,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.75,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": false,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.75,
+    "consistency": false,
+    "spdx": false,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "create-react-class-15.6.3.tgz-extract",
+      "type": "directory",
+      "name": "create-react-class-15.6.3.tgz-extract",
+      "base_name": "create-react-class-15.6.3.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 7,
+      "dirs_count": 1,
+      "size_count": 81384,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "create-react-class",
+          "version": "15.6.3",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Legacy API for creating React components.",
+          "release_date": null,
+          "parties": [],
+          "keywords": [
+            "react"
+          ],
+          "homepage_url": "https://facebook.github.io/react/",
+          "download_url": "https://registry.npmjs.org/create-react-class/-/create-react-class-15.6.3.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/facebook/react/issues",
+          "code_view_url": null,
+          "vcs_url": "https://github.com/facebook/react",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/fbjs",
+              "requirement": "^0.8.9",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/loose-envify",
+              "requirement": "^1.3.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/object-assign",
+              "requirement": "^4.1.1",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest",
+              "requirement": "^19.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prop-types",
+              "requirement": "^15.5.10",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/react",
+              "requirement": "^15.5.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/react-dom",
+              "requirement": "^15.5.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/webpack",
+              "requirement": "^2.6.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/create-react-class@15.6.3",
+          "repository_homepage_url": "https://www.npmjs.com/package/create-react-class",
+          "repository_download_url": "https://registry.npmjs.org/create-react-class/-/create-react-class-15.6.3.tgz",
+          "api_data_url": "https://registry.npmjs.org/create-react-class/15.6.3"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 7,
+      "dirs_count": 0,
+      "size_count": 81384,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/create-react-class.js",
+      "type": "file",
+      "name": "create-react-class.js",
+      "base_name": "create-react-class",
+      "extension": ".js",
+      "size": 40938,
+      "date": "2018-01-30",
+      "sha1": "c3d21b53bfdee1a81428bc7c6641449ed0948a12",
+      "md5": "4a87362ba8399fbba0630ceaea64e6b3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 87,
+          "end_line": 88,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1026,
+          "end_line": 1027,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 100.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1064,
+          "end_line": 1066,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "facebook-patent-rights-2",
+          "score": 100.0,
+          "name": "Facebook Additional Grant of Patent Rights Version 2",
+          "short_name": "Facebook Patent Rights 2",
+          "category": "Patent License",
+          "is_exception": false,
+          "owner": "Facebook",
+          "homepage_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "text_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:facebook-patent-rights-2",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 1064,
+          "end_line": 1066,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 100.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1106,
+          "end_line": 1108,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "facebook-patent-rights-2",
+          "score": 100.0,
+          "name": "Facebook Additional Grant of Patent Rights Version 2",
+          "short_name": "Facebook Patent Rights 2",
+          "category": "Patent License",
+          "is_exception": false,
+          "owner": "Facebook",
+          "homepage_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "text_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:facebook-patent-rights-2",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 1106,
+          "end_line": 1108,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 100.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1131,
+          "end_line": 1133,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "facebook-patent-rights-2",
+          "score": 100.0,
+          "name": "Facebook Additional Grant of Patent Rights Version 2",
+          "short_name": "Facebook Patent Rights 2",
+          "category": "Patent License",
+          "is_exception": false,
+          "owner": "Facebook",
+          "homepage_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "text_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:facebook-patent-rights-2",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 1131,
+          "end_line": 1133,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "bsd-new",
+          "score": 100.0,
+          "name": "BSD-3-Clause",
+          "short_name": "BSD-3-Clause",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Regents of the University of California",
+          "homepage_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "text_url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:bsd-new",
+          "spdx_license_key": "BSD-3-Clause",
+          "spdx_url": "https://spdx.org/licenses/BSD-3-Clause",
+          "start_line": 1192,
+          "end_line": 1194,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "facebook-patent-rights-2",
+          "score": 100.0,
+          "name": "Facebook Additional Grant of Patent Rights Version 2",
+          "short_name": "Facebook Patent Rights 2",
+          "category": "Patent License",
+          "is_exception": false,
+          "owner": "Facebook",
+          "homepage_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "text_url": "https://github.com/facebook/osquery/blob/f1d6686735c4582c8ccbcbb3f7c8bc9825247965/PATENTS",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:facebook-patent-rights-2",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 1192,
+          "end_line": 1194,
+          "matched_rule": {
+            "identifier": "bsd-new_and_facebook-patent-rights-2_1.RULE",
+            "license_expression": "bsd-new AND facebook-patent-rights-2",
+            "licenses": [
+              "bsd-new",
+              "facebook-patent-rights-2"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 40,
+            "matched_length": 40,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1263,
+          "end_line": 1263,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit",
+        "mit",
+        "bsd-new AND facebook-patent-rights-2",
+        "bsd-new AND facebook-patent-rights-2",
+        "bsd-new AND facebook-patent-rights-2",
+        "bsd-new AND facebook-patent-rights-2",
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 85,
+          "end_line": 85
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 1024,
+          "end_line": 1024
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 1061,
+          "end_line": 1062
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 1103,
+          "end_line": 1104
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 1128,
+          "end_line": 1129
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 1189,
+          "end_line": 1190
+        },
+        {
+          "value": "Sindre Sorhus",
+          "start_line": 1262,
+          "end_line": 1263
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 85,
+          "end_line": 85
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 1024,
+          "end_line": 1024
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 1061,
+          "end_line": 1062
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 1103,
+          "end_line": 1104
+        },
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 1128,
+          "end_line": 1129
+        },
+        {
+          "value": "Copyright 2014-2015, Facebook, Inc.",
+          "start_line": 1189,
+          "end_line": 1190
+        },
+        {
+          "value": "(c) Sindre Sorhus",
+          "start_line": 1262,
+          "end_line": 1263
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/create-react-class.min.js",
+      "type": "file",
+      "name": "create-react-class.min.js",
+      "base_name": "create-react-class.min",
+      "extension": ".js",
+      "size": 7462,
+      "date": "2018-01-30",
+      "sha1": "ff84f7f0ec38343f3f439fefa8351696a28b4614",
+      "md5": "94feb9971ce6d26211729abc43f96cd2",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text, with very long lines, with no line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/factory.js",
+      "type": "file",
+      "name": "factory.js",
+      "base_name": "factory",
+      "extension": ".js",
+      "size": 29832,
+      "date": "2018-01-30",
+      "sha1": "464107f78fd09f8f8b23b79e2c02b43d86966f60",
+      "md5": "cf42e17ab64d839cf177d4fe3d577077",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 699,
+      "date": "2018-01-30",
+      "sha1": "a7020dbd19046ce80d5d792de4a772ebcb222749",
+      "md5": "2a7bbd6b1d74fca3d8b5d964841b3940",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 4,
+          "end_line": 5,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/LICENSE.txt",
+      "type": "file",
+      "name": "LICENSE.txt",
+      "base_name": "LICENSE",
+      "extension": ".txt",
+      "size": 1080,
+      "date": "2018-01-30",
+      "sha1": "87b0e4891924461043a2c240ea5ff70e761e04a1",
+      "md5": "94f0d486b3ba1dd568004dc5cccd32bc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.39,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_160.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 164,
+            "match_coverage": 99.39,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2013-present, Facebook, Inc.",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 1184,
+      "date": "2018-01-30",
+      "sha1": "e8e9a777ab7d503ff5ef1ffd90181c2b6fffcd67",
+      "md5": "932b5f38ae5ec29bf4e7e139796b79a7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 6,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "create-react-class-15.6.3.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 189,
+      "date": "2018-01-30",
+      "sha1": "26eceb161803002aaa10e09cf5eec0a3e38e844d",
+      "md5": "db36541e261a593b43d9de46c6963a1f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

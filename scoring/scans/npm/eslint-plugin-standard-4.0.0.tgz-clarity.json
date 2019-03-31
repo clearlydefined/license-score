@@ -1,0 +1,706 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T015221.044260",
+      "end_timestamp": "2019-03-31T015223.237757",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 8
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153752.465312",
+      "end_timestamp": "2019-03-31T153752.557162",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 8
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 60,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": false,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract",
+      "type": "directory",
+      "name": "eslint-plugin-standard-4.0.0.tgz-extract",
+      "base_name": "eslint-plugin-standard-4.0.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 8,
+      "dirs_count": 2,
+      "size_count": 27932,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "eslint-plugin-standard",
+          "version": "4.0.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "ESlint Plugin for the Standard Linter",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Jamund Ferguson",
+              "email": "jamund@gmail.com",
+              "url": null
+            }
+          ],
+          "keywords": [
+            "eslint",
+            "eslintplugin"
+          ],
+          "homepage_url": "https://github.com/standard/eslint-plugin-standard#readme",
+          "download_url": "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-4.0.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/standard/eslint-plugin-standard/issues",
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/standard/eslint-plugin-standard.git",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^5.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "^5.1.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/standard",
+              "requirement": "*",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": ">=5.0.0",
+              "scope": "peerDependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/eslint-plugin-standard@4.0.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/eslint-plugin-standard",
+          "repository_download_url": "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-4.0.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/eslint-plugin-standard/4.0.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 8,
+      "dirs_count": 1,
+      "size_count": 27932,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 542,
+      "date": "1985-10-26",
+      "sha1": "148abb84a9fef76517903f63b5ba6f2aec85e4ba",
+      "md5": "3388aaebd286cb3f817ce315a3b65190",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/LICENSE",
+      "type": "file",
+      "name": "LICENSE",
+      "base_name": "LICENSE",
+      "extension": "",
+      "size": 1083,
+      "date": "1985-10-26",
+      "sha1": "e4ccd9f619aeb55784ec4103be6fa56d8745c1a0",
+      "md5": "775a0e2f7c1351de15da279fe577da15",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 97.63,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Jamund Ferguson",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2015 Jamund Ferguson",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 771,
+      "date": "1985-10-26",
+      "sha1": "ed92d24c81262a9f3bd8d1955d3717a6bfbde4e2",
+      "md5": "ecf6aafc89f0ea454c0dcaec4dfd3760",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 20,
+          "end_line": 20,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 1860,
+      "date": "1985-10-26",
+      "sha1": "2248a0e8f86f5cdb6331e0939755513f111f2fdd",
+      "md5": "b0c2295fd7ce9b7b5d5b485770c6581f",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/rules",
+      "type": "directory",
+      "name": "rules",
+      "base_name": "rules",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 23676,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/rules/array-bracket-even-spacing.js",
+      "type": "file",
+      "name": "array-bracket-even-spacing.js",
+      "base_name": "array-bracket-even-spacing",
+      "extension": ".js",
+      "size": 6956,
+      "date": "1985-10-26",
+      "sha1": "d6303ba2b6d4bb55fb0dec6eac918bc77db7428a",
+      "md5": "2fca89019e952a3aa4f560f675fbd2c1",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Jamund Ferguson.",
+          "start_line": 5,
+          "end_line": 6
+        },
+        {
+          "value": "Brandyn Bennett.",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "value": "Michael Ficarra. No",
+          "start_line": 8,
+          "end_line": 8
+        },
+        {
+          "value": "Vignesh Anand.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Jamund Ferguson.",
+          "start_line": 5,
+          "end_line": 6
+        },
+        {
+          "value": "copyright 2014 Brandyn Bennett.",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "value": "copyright 2014 Michael Ficarra. No",
+          "start_line": 8,
+          "end_line": 8
+        },
+        {
+          "value": "copyright 2014 Vignesh Anand.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jamund Ferguson",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/rules/computed-property-even-spacing.js",
+      "type": "file",
+      "name": "computed-property-even-spacing.js",
+      "base_name": "computed-property-even-spacing",
+      "extension": ".js",
+      "size": 5519,
+      "date": "1985-10-26",
+      "sha1": "aad5a8897b84ad8cd9fef5994b1a461b1837f15f",
+      "md5": "39550118c190052732a7cafb62a89d22",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Jamund Ferguson.",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2015 Jamund Ferguson.",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jamund Ferguson",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/rules/no-callback-literal.js",
+      "type": "file",
+      "name": "no-callback-literal.js",
+      "base_name": "no-callback-literal",
+      "extension": ".js",
+      "size": 2096,
+      "date": "1985-10-26",
+      "sha1": "c6863479ce3cf72677dd7ff41d200a30e179bfc3",
+      "md5": "4e23a003a3101e0065ee2213a1bc93fc",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "eslint-plugin-standard-4.0.0.tgz-extract/package/rules/object-curly-even-spacing.js",
+      "type": "file",
+      "name": "object-curly-even-spacing.js",
+      "base_name": "object-curly-even-spacing",
+      "extension": ".js",
+      "size": 9105,
+      "date": "1985-10-26",
+      "sha1": "9387a84f4ce6cd4d938b44797f6550702ab54b14",
+      "md5": "1560635018a69cf058c3706932386754",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Brandyn Bennett.",
+          "start_line": 5,
+          "end_line": 6
+        },
+        {
+          "value": "Michael Ficarra. No",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "value": "Vignesh Anand.",
+          "start_line": 8,
+          "end_line": 8
+        },
+        {
+          "value": "Jamund Ferguson.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright 2014 Brandyn Bennett.",
+          "start_line": 5,
+          "end_line": 6
+        },
+        {
+          "value": "copyright 2014 Michael Ficarra. No",
+          "start_line": 7,
+          "end_line": 7
+        },
+        {
+          "value": "copyright 2014 Vignesh Anand.",
+          "start_line": 8,
+          "end_line": 8
+        },
+        {
+          "value": "copyright 2015 Jamund Ferguson.",
+          "start_line": 9,
+          "end_line": 9
+        }
+      ],
+      "authors": [
+        {
+          "value": "Jamund Ferguson",
+          "start_line": 5,
+          "end_line": 6
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}

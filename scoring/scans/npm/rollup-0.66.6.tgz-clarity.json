@@ -1,0 +1,1693 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T020324.694963",
+      "end_timestamp": "2019-03-31T020420.548580",
+      "message": null,
+      "errors": [
+        "Path: rollup-0.66.6.tgz-extract/package/dist/rollup.es.js",
+        "Path: rollup-0.66.6.tgz-extract/package/dist/rollup.js"
+      ],
+      "extra_data": {
+        "files_count": 9
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153819.048768",
+      "end_timestamp": "2019-03-31T153819.127495",
+      "message": null,
+      "errors": [
+        "Path: rollup-0.66.6.tgz-extract/package/dist/rollup.es.js",
+        "Path: rollup-0.66.6.tgz-extract/package/dist/rollup.js"
+      ],
+      "extra_data": {
+        "files_count": 9
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 30,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.0,
+    "has_consistent_key_and_file_level_licenses": false,
+    "is_using_only_spdx_licenses": false,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.0,
+    "consistency": false,
+    "spdx": false,
+    "license_texts": false
+  },
+  "files": [
+    {
+      "path": "rollup-0.66.6.tgz-extract",
+      "type": "directory",
+      "name": "rollup-0.66.6.tgz-extract",
+      "base_name": "rollup-0.66.6.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 9,
+      "dirs_count": 3,
+      "size_count": 2356994,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "rollup",
+          "version": "0.66.6",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": "Next-generation ES module bundler",
+          "release_date": null,
+          "parties": [
+            {
+              "type": "person",
+              "role": "author",
+              "name": "Rich Harris",
+              "email": null,
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Oskar Segersv\u00e4rd",
+              "email": "victorystick@gmail.com",
+              "url": null
+            },
+            {
+              "type": "person",
+              "role": "contributor",
+              "name": "Bogdan Chadkin",
+              "email": "trysound@yandex.ru",
+              "url": null
+            }
+          ],
+          "keywords": [
+            "modules",
+            "bundler",
+            "bundling",
+            "es6",
+            "optimizer"
+          ],
+          "homepage_url": "https://github.com/rollup/rollup",
+          "download_url": "https://registry.npmjs.org/rollup/-/rollup-0.66.6.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": "https://github.com/rollup/rollup/issues",
+          "code_view_url": null,
+          "vcs_url": "https://github.com/rollup/rollup",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/%40types/estree",
+              "requirement": "0.0.39",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/node",
+              "requirement": "*",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/acorn",
+              "requirement": "^4.0.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/chokidar",
+              "requirement": "^1.7.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/minimist",
+              "requirement": "^1.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/%40types/pretty-ms",
+              "requirement": "^3.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/acorn",
+              "requirement": "^5.7.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/acorn-dynamic-import",
+              "requirement": "^3.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/acorn-import-meta",
+              "requirement": "^0.2.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/ansi-escapes",
+              "requirement": "^3.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/buble",
+              "requirement": "^0.19.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/chokidar",
+              "requirement": "^2.0.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/console-group",
+              "requirement": "^0.3.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/date-time",
+              "requirement": "^2.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint",
+              "requirement": "^5.6.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/eslint-plugin-import",
+              "requirement": "^2.14.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/execa",
+              "requirement": "^1.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/fixturify",
+              "requirement": "^0.3.4",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/hash.js",
+              "requirement": "^1.1.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/husky",
+              "requirement": "^0.14.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/immutable",
+              "requirement": "^3.8.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/is-reference",
+              "requirement": "^1.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/istanbul",
+              "requirement": "^0.4.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/lint-staged",
+              "requirement": "^7.2.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/locate-character",
+              "requirement": "^2.0.5",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/magic-string",
+              "requirement": "^0.25.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/minimist",
+              "requirement": "^1.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/mocha",
+              "requirement": "^5.2.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/prettier",
+              "requirement": "^1.14.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/pretty-bytes",
+              "requirement": "^5.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/pretty-ms",
+              "requirement": "^4.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/remap-istanbul",
+              "requirement": "^0.12.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/require-relative",
+              "requirement": "^0.8.7",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup",
+              "requirement": "^0.66.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-buble",
+              "requirement": "^0.19.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-commonjs",
+              "requirement": "^9.1.8",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-json",
+              "requirement": "^3.1.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-node-resolve",
+              "requirement": "^3.4.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-replace",
+              "requirement": "^2.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-string",
+              "requirement": "^2.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-terser",
+              "requirement": "^2.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-plugin-typescript",
+              "requirement": "^1.0.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/rollup-pluginutils",
+              "requirement": "^2.3.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/sander",
+              "requirement": "^0.6.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/shx",
+              "requirement": "^0.3.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/signal-exit",
+              "requirement": "^3.0.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/source-map",
+              "requirement": "^0.6.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/source-map-support",
+              "requirement": "^0.5.9",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/sourcemap-codec",
+              "requirement": "^1.4.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/terser",
+              "requirement": "^3.8.2",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/tslib",
+              "requirement": "^1.9.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/tslint",
+              "requirement": "^5.11.0",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/turbocolor",
+              "requirement": "^2.6.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/typescript",
+              "requirement": "^3.1.1",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/url-parse",
+              "requirement": "^1.4.3",
+              "scope": "devDependencies",
+              "is_runtime": false,
+              "is_optional": true,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/rollup@0.66.6",
+          "repository_homepage_url": "https://www.npmjs.com/package/rollup",
+          "repository_download_url": "https://registry.npmjs.org/rollup/-/rollup-0.66.6.tgz",
+          "api_data_url": "https://registry.npmjs.org/rollup/0.66.6"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 9,
+      "dirs_count": 2,
+      "size_count": 2356994,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/CHANGELOG.md",
+      "type": "file",
+      "name": "CHANGELOG.md",
+      "base_name": "CHANGELOG",
+      "extension": ".md",
+      "size": 79933,
+      "date": "1985-10-26",
+      "sha1": "4fc4ec8bc792dec6a8082695a1cd8b158aea15e2",
+      "md5": "66e0b3d854c8357eb9002dd428c621f7",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/LICENSE.md",
+      "type": "file",
+      "name": "LICENSE.md",
+      "base_name": "LICENSE",
+      "extension": ".md",
+      "size": 1135,
+      "date": "1985-10-26",
+      "sha1": "50be1707abfe67e7af79537a2890e647ca70b078",
+      "md5": "424d4850e4dd228368a16fbb927b814d",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 94.29,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 1,
+          "end_line": 21,
+          "matched_rule": {
+            "identifier": "mit_26.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 165,
+            "matched_length": 165,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "these people",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2017 these people (https://github.com/rollup/rollup/graphs/contributors)",
+          "start_line": 3,
+          "end_line": 3
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 5240,
+      "date": "1985-10-26",
+      "sha1": "81d2f398771ec3fba9946d404860a5c74af98905",
+      "md5": "84e9c69c89e82007d104b5d7530f683a",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 54,
+          "end_line": 54,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 8512,
+      "date": "1985-10-26",
+      "sha1": "79852158ff24c7dab61965dfb0765137908669d1",
+      "md5": "a01fa7be25b65fab5f6cbac5be3c0543",
+      "mime_type": "text/html",
+      "file_type": "HTML document, UTF-8 Unicode text, with very long lines",
+      "programming_language": "Objective-C",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 142,
+          "end_line": 144,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/bin",
+      "type": "directory",
+      "name": "bin",
+      "base_name": "bin",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 70514,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/bin/rollup",
+      "type": "file",
+      "name": "rollup",
+      "base_name": "rollup",
+      "extension": "",
+      "size": 70514,
+      "date": "1985-10-26",
+      "sha1": "d7d5dc310cd0bf04b656a491e4dabc2101c7e8a8",
+      "md5": "9f3ab253ffad059713458c774239fc5c",
+      "mime_type": "application/javascript",
+      "file_type": "Node.js script, UTF-8 Unicode text executable, with very long lines, with CRLF, LF line terminators",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [
+        {
+          "key": "apache-2.0",
+          "score": 100.0,
+          "name": "Apache License 2.0",
+          "short_name": "Apache 2.0",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "Apache Software Foundation",
+          "homepage_url": "http://www.apache.org/licenses/",
+          "text_url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+          "spdx_license_key": "Apache-2.0",
+          "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+          "start_line": 258,
+          "end_line": 260,
+          "matched_rule": {
+            "identifier": "apache-2.0_23.RULE",
+            "license_expression": "apache-2.0",
+            "licenses": [
+              "apache-2.0"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 38,
+            "matched_length": 38,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        },
+        {
+          "key": "unknown",
+          "score": 16.0,
+          "name": "Unknown license detected but not recognized",
+          "short_name": "unknown",
+          "category": "Unstated License",
+          "is_exception": false,
+          "owner": "Unspecified",
+          "homepage_url": null,
+          "text_url": "",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:unknown",
+          "spdx_license_key": null,
+          "spdx_url": "",
+          "start_line": 268,
+          "end_line": 268,
+          "matched_rule": {
+            "identifier": "unknown_55.RULE",
+            "license_expression": "unknown",
+            "licenses": [
+              "unknown"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 3,
+            "matched_length": 3,
+            "match_coverage": 100.0,
+            "rule_relevance": 16
+          }
+        }
+      ],
+      "license_expressions": [
+        "apache-2.0",
+        "unknown"
+      ],
+      "holders": [
+        {
+          "value": "Microsoft Corporation.",
+          "start_line": 257,
+          "end_line": 257
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft Corporation.",
+          "start_line": 257,
+          "end_line": 257
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/dist",
+      "type": "directory",
+      "name": "dist",
+      "base_name": "dist",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 4,
+      "dirs_count": 0,
+      "size_count": 2191660,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/dist/rollup.browser.js",
+      "type": "file",
+      "name": "rollup.browser.js",
+      "base_name": "rollup.browser",
+      "extension": ".js",
+      "size": 366541,
+      "date": "1985-10-26",
+      "sha1": "2ba87d44cc47331a43050a5a5aa793335ae80c13",
+      "md5": "2c3934282e4b516b949be941e5f5211c",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 95.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 9,
+          "end_line": 9,
+          "matched_rule": {
+            "identifier": "mit_16.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 5,
+            "matched_length": 5,
+            "match_coverage": 100.0,
+            "rule_relevance": 95.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/dist/rollup.d.ts",
+      "type": "file",
+      "name": "rollup.d.ts",
+      "base_name": "rollup.d",
+      "extension": ".ts",
+      "size": 11252,
+      "date": "1985-10-26",
+      "sha1": "658411d1e5bb3ccf94d0caa0e4dc9c8054acdc2d",
+      "md5": "ca9ded9c0272fb639821ef43312a97a3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "TypeScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/dist/rollup.es.js",
+      "type": "file",
+      "name": "rollup.es.js",
+      "base_name": "rollup.es",
+      "extension": ".js",
+      "size": 906733,
+      "date": "1985-10-26",
+      "sha1": "d138880acd0c3da1f3eb2b8ab50bc9e4270adaa6",
+      "md5": "f2a7f3e8eeb4fb9b445ebb0188c551f0",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Microsoft Corporation.",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4022,
+          "end_line": 4022
+        },
+        {
+          "value": "Jon Schlinkert",
+          "start_line": 22755,
+          "end_line": 22756
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 22766,
+          "end_line": 22767
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 22836,
+          "end_line": 22837
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23020,
+          "end_line": 23021
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23264,
+          "end_line": 23265
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23333,
+          "end_line": 23334
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23777,
+          "end_line": 23778
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24226,
+          "end_line": 24227
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24390,
+          "end_line": 24391
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24572,
+          "end_line": 24573
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24721,
+          "end_line": 24722
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24741,
+          "end_line": 24742
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24753,
+          "end_line": 24754
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24807,
+          "end_line": 24808
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24819,
+          "end_line": 24820
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24834,
+          "end_line": 24835
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24846,
+          "end_line": 24847
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24906,
+          "end_line": 24907
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 25073,
+          "end_line": 25074
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft Corporation.",
+          "start_line": 19,
+          "end_line": 19
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4022,
+          "end_line": 4022
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert",
+          "start_line": 22755,
+          "end_line": 22756
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 22766,
+          "end_line": 22767
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 22836,
+          "end_line": 22837
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 23020,
+          "end_line": 23021
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 23264,
+          "end_line": 23265
+        },
+        {
+          "value": "Copyright (c) 2015-present, Jon Schlinkert.",
+          "start_line": 23333,
+          "end_line": 23334
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 23777,
+          "end_line": 23778
+        },
+        {
+          "value": "Copyright (c) 2015-2016, Jon Schlinkert.",
+          "start_line": 24226,
+          "end_line": 24227
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24390,
+          "end_line": 24391
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24572,
+          "end_line": 24573
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 24721,
+          "end_line": 24722
+        },
+        {
+          "value": "Copyright (c) 2015, Jon Schlinkert.",
+          "start_line": 24741,
+          "end_line": 24742
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 24753,
+          "end_line": 24754
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24807,
+          "end_line": 24808
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24819,
+          "end_line": 24820
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24834,
+          "end_line": 24835
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24846,
+          "end_line": 24847
+        },
+        {
+          "value": "Copyright (c) 2015-2017, Jon Schlinkert.",
+          "start_line": 24906,
+          "end_line": 24907
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 25073,
+          "end_line": 25074
+        }
+      ],
+      "authors": [
+        {
+          "value": "Marijn Haverbeke, Ingvar Stepanyan, and various contributors",
+          "start_line": 20173,
+          "end_line": 20174
+        },
+        {
+          "value": "Feross Aboukhadijeh <https://feross.org>",
+          "start_line": 22873,
+          "end_line": 22874
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    },
+    {
+      "path": "rollup-0.66.6.tgz-extract/package/dist/rollup.js",
+      "type": "file",
+      "name": "rollup.js",
+      "base_name": "rollup",
+      "extension": ".js",
+      "size": 907134,
+      "date": "1985-10-26",
+      "sha1": "3e00e7fd8f1a165f03dc1fd67f567e5a4d75e34e",
+      "md5": "7d3a6c9acef6ac685ad07be251f64ecb",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Microsoft Corporation.",
+          "start_line": 26,
+          "end_line": 26
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4029,
+          "end_line": 4029
+        },
+        {
+          "value": "Jon Schlinkert",
+          "start_line": 22762,
+          "end_line": 22763
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 22773,
+          "end_line": 22774
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 22843,
+          "end_line": 22844
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23027,
+          "end_line": 23028
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23271,
+          "end_line": 23272
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23340,
+          "end_line": 23341
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 23784,
+          "end_line": 23785
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24233,
+          "end_line": 24234
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24397,
+          "end_line": 24398
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24579,
+          "end_line": 24580
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24728,
+          "end_line": 24729
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24748,
+          "end_line": 24749
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24760,
+          "end_line": 24761
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24814,
+          "end_line": 24815
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24826,
+          "end_line": 24827
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24841,
+          "end_line": 24842
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24853,
+          "end_line": 24854
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 24913,
+          "end_line": 24914
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 25080,
+          "end_line": 25081
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) Microsoft Corporation.",
+          "start_line": 26,
+          "end_line": 26
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4029,
+          "end_line": 4029
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert",
+          "start_line": 22762,
+          "end_line": 22763
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 22773,
+          "end_line": 22774
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 22843,
+          "end_line": 22844
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 23027,
+          "end_line": 23028
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 23271,
+          "end_line": 23272
+        },
+        {
+          "value": "Copyright (c) 2015-present, Jon Schlinkert.",
+          "start_line": 23340,
+          "end_line": 23341
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 23784,
+          "end_line": 23785
+        },
+        {
+          "value": "Copyright (c) 2015-2016, Jon Schlinkert.",
+          "start_line": 24233,
+          "end_line": 24234
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24397,
+          "end_line": 24398
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24579,
+          "end_line": 24580
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 24728,
+          "end_line": 24729
+        },
+        {
+          "value": "Copyright (c) 2015, Jon Schlinkert.",
+          "start_line": 24748,
+          "end_line": 24749
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 24760,
+          "end_line": 24761
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24814,
+          "end_line": 24815
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24826,
+          "end_line": 24827
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24841,
+          "end_line": 24842
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 24853,
+          "end_line": 24854
+        },
+        {
+          "value": "Copyright (c) 2015-2017, Jon Schlinkert.",
+          "start_line": 24913,
+          "end_line": 24914
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 25080,
+          "end_line": 25081
+        }
+      ],
+      "authors": [
+        {
+          "value": "Marijn Haverbeke, Ingvar Stepanyan, and various contributors",
+          "start_line": 20180,
+          "end_line": 20181
+        },
+        {
+          "value": "Feross Aboukhadijeh <https://feross.org>",
+          "start_line": 22880,
+          "end_line": 22881
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    }
+  ]
+}

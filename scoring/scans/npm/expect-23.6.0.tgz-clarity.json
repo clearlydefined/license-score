@@ -1,0 +1,1679 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T020402.475785",
+      "end_timestamp": "2019-03-31T020421.271226",
+      "message": null,
+      "errors": [
+        "Path: expect-23.6.0.tgz-extract/package/build-es5/index.js"
+      ],
+      "extra_data": {
+        "files_count": 13
+      }
+    },
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.0.2.post488.5027c75",
+      "options": {},
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2019-03-31T153819.101228",
+      "end_timestamp": "2019-03-31T153819.266532",
+      "message": null,
+      "errors": [
+        "Path: expect-23.6.0.tgz-extract/package/build-es5/index.js"
+      ],
+      "extra_data": {
+        "files_count": 13
+      }
+    }
+  ],
+  "license_clarity_score": {
+    "score": 97,
+    "has_declared_license_in_key_files": true,
+    "file_level_license_and_copyright_coverage": 0.91,
+    "has_consistent_key_and_file_level_licenses": true,
+    "is_using_only_spdx_licenses": true,
+    "has_full_text_for_all_licenses": true,
+    "declared": true,
+    "discovered": 0.91,
+    "consistency": true,
+    "spdx": true,
+    "license_texts": true
+  },
+  "files": [
+    {
+      "path": "expect-23.6.0.tgz-extract",
+      "type": "directory",
+      "name": "expect-23.6.0.tgz-extract",
+      "base_name": "expect-23.6.0.tgz-extract",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 13,
+      "dirs_count": 3,
+      "size_count": 576227,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package",
+      "type": "directory",
+      "name": "package",
+      "base_name": "package",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [
+        {
+          "type": "npm",
+          "namespace": null,
+          "name": "expect",
+          "version": "23.6.0",
+          "qualifiers": null,
+          "subpath": null,
+          "primary_language": "JavaScript",
+          "description": null,
+          "release_date": null,
+          "parties": [],
+          "keywords": [],
+          "homepage_url": null,
+          "download_url": "https://registry.npmjs.org/expect/-/expect-23.6.0.tgz",
+          "size": null,
+          "sha1": null,
+          "md5": null,
+          "sha256": null,
+          "sha512": null,
+          "bug_tracking_url": null,
+          "code_view_url": null,
+          "vcs_url": "git+https://github.com/facebook/jest.git",
+          "copyright": null,
+          "license_expression": "mit",
+          "declared_license": "MIT",
+          "notice_text": null,
+          "manifest_path": "package.json",
+          "dependencies": [
+            {
+              "purl": "pkg:npm/ansi-styles",
+              "requirement": "^3.2.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-diff",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-get-type",
+              "requirement": "^22.1.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-matcher-utils",
+              "requirement": "^23.6.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-message-util",
+              "requirement": "^23.4.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            },
+            {
+              "purl": "pkg:npm/jest-regex-util",
+              "requirement": "^23.3.0",
+              "scope": "dependencies",
+              "is_runtime": true,
+              "is_optional": false,
+              "is_resolved": false
+            }
+          ],
+          "contains_source_code": null,
+          "source_packages": [],
+          "purl": "pkg:npm/expect@23.6.0",
+          "repository_homepage_url": "https://www.npmjs.com/package/expect",
+          "repository_download_url": "https://registry.npmjs.org/expect/-/expect-23.6.0.tgz",
+          "api_data_url": "https://registry.npmjs.org/expect/23.6.0"
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 13,
+      "dirs_count": 2,
+      "size_count": 576227,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/package.json",
+      "type": "file",
+      "name": "package.json",
+      "base_name": "package",
+      "extension": ".json",
+      "size": 441,
+      "date": "2018-09-10",
+      "sha1": "1da0a1a7637decd4fd55e8352aee55e93adcca31",
+      "md5": "7d6cdfc4b3eda625338427d405f55ebe",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 99.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 8,
+          "end_line": 8,
+          "matched_rule": {
+            "identifier": "mit_34.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": true,
+            "matcher": "2-aho",
+            "rule_length": 2,
+            "matched_length": 2,
+            "match_coverage": 100.0,
+            "rule_relevance": 99.0
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": true,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 180,
+      "date": "2018-07-06",
+      "sha1": "f2e6b2098768a7362e30ccbe46f8cdad2621ac89",
+      "md5": "d054e36a4ab24d06815b4ceb3cbf865e",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build",
+      "type": "directory",
+      "name": "build",
+      "base_name": "build",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 10,
+      "dirs_count": 0,
+      "size_count": 99670,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/asymmetric_matchers.js",
+      "type": "file",
+      "name": "asymmetric_matchers.js",
+      "base_name": "asymmetric_matchers",
+      "extension": ".js",
+      "size": 7188,
+      "date": "2018-09-10",
+      "sha1": "28e8e821bbd259a15e9171b603f145d2898ebeea",
+      "md5": "29afcc2ba668eb80799a239f71b036f8",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 15,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/extract_expected_assertions_errors.js",
+      "type": "file",
+      "name": "extract_expected_assertions_errors.js",
+      "base_name": "extract_expected_assertions_errors",
+      "extension": ".js",
+      "size": 2741,
+      "date": "2018-09-10",
+      "sha1": "6d8aa1a96dfb01b0a972232e4e1394ac63367263",
+      "md5": "bd5293d679df1283b146983af482c4ee",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 14,
+          "end_line": 15,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/fake_chalk.js",
+      "type": "file",
+      "name": "fake_chalk.js",
+      "base_name": "fake_chalk",
+      "extension": ".js",
+      "size": 817,
+      "date": "2018-09-10",
+      "sha1": "5268344d490ff6eaa1fa8a02c6321da0198599cd",
+      "md5": "be201848613f02e2390b452510f59336",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 15,
+          "end_line": 16,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 13,
+          "end_line": 13
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 12007,
+      "date": "2018-09-10",
+      "sha1": "3664ec71d5dd88d5eb3f85f826317bee7dbb8bd0",
+      "md5": "2011483fb1a42600b762244127b95ddd",
+      "mime_type": "text/x-c++",
+      "file_type": "C++ source, ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 56,
+          "end_line": 57,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 54,
+          "end_line": 54
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/jasmine_utils.js",
+      "type": "file",
+      "name": "jasmine_utils.js",
+      "base_name": "jasmine_utils",
+      "extension": ".js",
+      "size": 8771,
+      "date": "2018-09-10",
+      "sha1": "d29c168f11322cb85b6dbcec58edd1bce8a4313e",
+      "md5": "4209635e92e4308f9ad15ffc8eb736d3",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 21,
+          "end_line": 38,
+          "matched_rule": {
+            "identifier": "mit.LICENSE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 161,
+            "matched_length": 161,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Pivotal Labs",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2008-2016 Pivotal Labs",
+          "start_line": 19,
+          "end_line": 19
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/jest_matchers_object.js",
+      "type": "file",
+      "name": "jest_matchers_object.js",
+      "base_name": "jest_matchers_object",
+      "extension": ".js",
+      "size": 4078,
+      "date": "2018-09-10",
+      "sha1": "1b5b0bbd2e8c13580b0f5619691dffb47f3cbac0",
+      "md5": "8720ca237d4a604d106d06ac77b33217",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 22,
+          "end_line": 23,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 20,
+          "end_line": 20
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 20,
+          "end_line": 20
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/matchers.js",
+      "type": "file",
+      "name": "matchers.js",
+      "base_name": "matchers",
+      "extension": ".js",
+      "size": 27180,
+      "date": "2018-09-10",
+      "sha1": "cbf6769f5c9fb50ae34e6848f19cac319798176e",
+      "md5": "2c33b547381b447924ef94b9368b7b1b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 824,
+          "end_line": 825,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 822,
+          "end_line": 822
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 822,
+          "end_line": 822
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/spy_matchers.js",
+      "type": "file",
+      "name": "spy_matchers.js",
+      "base_name": "spy_matchers",
+      "extension": ".js",
+      "size": 23042,
+      "date": "2018-09-10",
+      "sha1": "a6dfd6cdee16c3e4e99db122697d5b9cba0e15d3",
+      "md5": "f6dbbc4061f5a8b06c2e4ce6d1b3edf7",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 65,
+          "end_line": 66,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 63,
+          "end_line": 63
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/to_throw_matchers.js",
+      "type": "file",
+      "name": "to_throw_matchers.js",
+      "base_name": "to_throw_matchers",
+      "extension": ".js",
+      "size": 6770,
+      "date": "2018-09-10",
+      "sha1": "c829a55063728214dc12c3776456bde35588f596",
+      "md5": "6b00d9896543899bb296fd2dc9e5cfa4",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 115,
+          "end_line": 116,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 113,
+          "end_line": 113
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 113,
+          "end_line": 113
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build/utils.js",
+      "type": "file",
+      "name": "utils.js",
+      "base_name": "utils",
+      "extension": ".js",
+      "size": 7076,
+      "date": "2018-09-10",
+      "sha1": "f448fbca2a21c33fdaa4e3f0acf597b85fa54dc0",
+      "md5": "5f0fc010dc6c542d5adc660991685382",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "mit",
+          "score": 100.0,
+          "name": "MIT License",
+          "short_name": "MIT License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "MIT",
+          "homepage_url": "http://opensource.org/licenses/mit-license.php",
+          "text_url": "http://opensource.org/licenses/mit-license.php",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit",
+          "spdx_license_key": "MIT",
+          "spdx_url": "https://spdx.org/licenses/MIT",
+          "start_line": 17,
+          "end_line": 18,
+          "matched_rule": {
+            "identifier": "mit_101.RULE",
+            "license_expression": "mit",
+            "licenses": [
+              "mit"
+            ],
+            "is_license_text": false,
+            "is_license_notice": true,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 22,
+            "matched_length": 22,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          }
+        }
+      ],
+      "license_expressions": [
+        "mit"
+      ],
+      "holders": [
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 15,
+          "end_line": 15
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build-es5",
+      "type": "directory",
+      "name": "build-es5",
+      "base_name": "build-es5",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [],
+      "copyrights": [],
+      "authors": [],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "files_count": 1,
+      "dirs_count": 0,
+      "size_count": 475936,
+      "scan_errors": []
+    },
+    {
+      "path": "expect-23.6.0.tgz-extract/package/build-es5/index.js",
+      "type": "file",
+      "name": "index.js",
+      "base_name": "index",
+      "extension": ".js",
+      "size": 475936,
+      "date": "2018-09-10",
+      "sha1": "0f8a6a48ead1bc4c6ed421cfe8fba981886b048c",
+      "md5": "202b19976ae28bc5b4acc04d2fab55c1",
+      "mime_type": "text/plain",
+      "file_type": "UTF-8 Unicode text, with very long lines, with CRLF, LF line terminators",
+      "programming_language": "JavaScript",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "holders": [
+        {
+          "value": "Denis Pushkarev",
+          "start_line": 281,
+          "end_line": 281
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 3750,
+          "end_line": 3750
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 3888,
+          "end_line": 3888
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4059,
+          "end_line": 4059
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4181,
+          "end_line": 4181
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4212,
+          "end_line": 4212
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4264,
+          "end_line": 4264
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4294,
+          "end_line": 4294
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4368,
+          "end_line": 4368
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4434,
+          "end_line": 4434
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4555,
+          "end_line": 4555
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4644,
+          "end_line": 4644
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 4704,
+          "end_line": 4704
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 5066,
+          "end_line": 5066
+        },
+        {
+          "value": "Pivotal Labs",
+          "start_line": 5235,
+          "end_line": 5235
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7682,
+          "end_line": 7682
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7716,
+          "end_line": 7716
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 7941,
+          "end_line": 7941
+        },
+        {
+          "value": "Joyent, Inc. and other Node contributors.",
+          "start_line": 8062,
+          "end_line": 8062
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 8334,
+          "end_line": 8334
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 8819,
+          "end_line": 8819
+        },
+        {
+          "value": "Jon Schlinkert",
+          "start_line": 9464,
+          "end_line": 9465
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 9475,
+          "end_line": 9476
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 9545,
+          "end_line": 9546
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 9729,
+          "end_line": 9730
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 9969,
+          "end_line": 9970
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 10038,
+          "end_line": 10039
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 10482,
+          "end_line": 10483
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 10931,
+          "end_line": 10932
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11095,
+          "end_line": 11096
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11277,
+          "end_line": 11278
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11310,
+          "end_line": 11311
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11330,
+          "end_line": 11331
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11342,
+          "end_line": 11343
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11441,
+          "end_line": 11442
+        },
+        {
+          "value": "Jon Schlinkert.",
+          "start_line": 11608,
+          "end_line": 11609
+        },
+        {
+          "value": "Simon Lydell",
+          "start_line": 12832,
+          "end_line": 12833
+        },
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 12862,
+          "end_line": 12862
+        },
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 13014,
+          "end_line": 13015
+        },
+        {
+          "value": "Ivan Nikulin",
+          "start_line": 13014,
+          "end_line": 13015
+        },
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 13160,
+          "end_line": 13160
+        },
+        {
+          "value": "Yusuke Suzuki",
+          "start_line": 13336,
+          "end_line": 13336
+        },
+        {
+          "value": "Facebook, Inc.",
+          "start_line": 14069,
+          "end_line": 14069
+        }
+      ],
+      "copyrights": [
+        {
+          "value": "copyright (c) 2018 Denis Pushkarev",
+          "start_line": 281,
+          "end_line": 281
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 3750,
+          "end_line": 3750
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 3888,
+          "end_line": 3888
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4059,
+          "end_line": 4059
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4181,
+          "end_line": 4181
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4212,
+          "end_line": 4212
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4264,
+          "end_line": 4264
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4294,
+          "end_line": 4294
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4368,
+          "end_line": 4368
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4434,
+          "end_line": 4434
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4555,
+          "end_line": 4555
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4644,
+          "end_line": 4644
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 4704,
+          "end_line": 4704
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 5066,
+          "end_line": 5066
+        },
+        {
+          "value": "Copyright (c) 2008-2016 Pivotal Labs",
+          "start_line": 5235,
+          "end_line": 5235
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7682,
+          "end_line": 7682
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7716,
+          "end_line": 7716
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 7941,
+          "end_line": 7941
+        },
+        {
+          "value": "Copyright Joyent, Inc. and other Node contributors.",
+          "start_line": 8062,
+          "end_line": 8062
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 8334,
+          "end_line": 8334
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 8819,
+          "end_line": 8819
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert",
+          "start_line": 9464,
+          "end_line": 9465
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 9475,
+          "end_line": 9476
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 9545,
+          "end_line": 9546
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 9729,
+          "end_line": 9730
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 9969,
+          "end_line": 9970
+        },
+        {
+          "value": "Copyright (c) 2015 Jon Schlinkert.",
+          "start_line": 10038,
+          "end_line": 10039
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 10482,
+          "end_line": 10483
+        },
+        {
+          "value": "Copyright (c) 2015-2016, Jon Schlinkert.",
+          "start_line": 10931,
+          "end_line": 10932
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 11095,
+          "end_line": 11096
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 11277,
+          "end_line": 11278
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 11310,
+          "end_line": 11311
+        },
+        {
+          "value": "Copyright (c) 2015, Jon Schlinkert.",
+          "start_line": 11330,
+          "end_line": 11331
+        },
+        {
+          "value": "Copyright (c) 2014-2017, Jon Schlinkert.",
+          "start_line": 11342,
+          "end_line": 11343
+        },
+        {
+          "value": "Copyright (c) 2015-2017, Jon Schlinkert.",
+          "start_line": 11441,
+          "end_line": 11442
+        },
+        {
+          "value": "Copyright (c) 2014-2015, Jon Schlinkert.",
+          "start_line": 11608,
+          "end_line": 11609
+        },
+        {
+          "value": "Copyright 2014, 2015, 2016, 2017 Simon Lydell",
+          "start_line": 12832,
+          "end_line": 12833
+        },
+        {
+          "value": "Copyright (c) 2013 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 12862,
+          "end_line": 12862
+        },
+        {
+          "value": "Copyright (c) 2013-2014 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 13014,
+          "end_line": 13015
+        },
+        {
+          "value": "Copyright (c) 2014 Ivan Nikulin <ifaaan@gmail.com>",
+          "start_line": 13014,
+          "end_line": 13015
+        },
+        {
+          "value": "Copyright (c) 2013 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 13160,
+          "end_line": 13160
+        },
+        {
+          "value": "Copyright (c) 2013 Yusuke Suzuki <utatane.tea@gmail.com>",
+          "start_line": 13336,
+          "end_line": 13336
+        },
+        {
+          "value": "Copyright (c) 2014-present, Facebook, Inc.",
+          "start_line": 14069,
+          "end_line": 14069
+        }
+      ],
+      "authors": [
+        {
+          "value": "Feross Aboukhadijeh <https://feross.org>",
+          "start_line": 9582,
+          "end_line": 9583
+        },
+        {
+          "value": "generate-index.js",
+          "start_line": 12839,
+          "end_line": 12841
+        }
+      ],
+      "packages": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": false,
+      "is_key_file": false,
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": [
+        "ERROR: for scanner: licenses:\nERROR: Processing interrupted: timeout after 10 seconds."
+      ]
+    }
+  ]
+}
