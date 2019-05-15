@@ -113,7 +113,7 @@ licensed as one with a prominent notice found in a file with a common name and
 located at the top level of the package code tree.
 
 
-File-level license and copyright
+Discovered
 --------------------------------
 
 Beyond top-level license documentation in key files, individual files can
@@ -201,7 +201,7 @@ information (a license declaration such as a license expression and/or a series
 of license statements or notices).  This is a binary score element.
 
 
-## Per-file license and copyright
+## Discovered
 ------------------------------
 
 This scoring element is computed as a percentage of files in the core facet of
@@ -249,7 +249,7 @@ awarded scoring element.
  Scoring element                            | Weight   | Formula   
 --------------------------------------------|----------|-----------
 [Clearly defined top-level, declared license] (#clearly-defined-top-level,-declared-license) | 30       | binary
-[File-level license and copyright] (#per-file-license-and-copyright)            | 25       | LICCOP / TOT
+[Discovered] (#discovered)            | 25       | LICCOP / TOT
 [License Consistency] (#license-consistency)                         | 15       | binary
 [SPDX Standard Licenses] (#spdx-standard-licenses)                      | 15       | binary
 [License Texts] (#license-texts)                               | 15       | binary
@@ -259,15 +259,15 @@ awarded scoring element.
 Scoring usage in practice
 =========================
 
-Base Score vs. Curated Score
+Tools Score vs. Effective Score
 ----------------------------
 
 We amy want to track two scores:
 
-1. A base score that is computed on the available data collected from a package
+1. A tools score that is computed on the available data collected from a package
    as it exists in the "upstream" project.
 
-2. A curated score that is computed with curated data overlaid when available.
+2. An effective score that is computed with curated data overlaid when available.
 
 A curation can have several impacts on the score:
 
@@ -280,7 +280,7 @@ A curation can have several impacts on the score:
 - Facets may have been contributed and the computed score is now different for
   the core facet.
 
-We will compute a new curated score based on curated data and in particular:
+We will compute a new effective score based on curated data and in particular:
 
 - Take facets in consideration when facets were contributed as part of the curation.
 
