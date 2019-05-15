@@ -190,8 +190,8 @@ ClearlyLicensed Scoring Elements
 Based on the discussion and definitions above, we have defined five scoring
 elements:
 
-Clearly defined top-level, declared license 
--------------------------------------------
+## Clearly defined top-level, declared license
+------------------------------
 
 A project has specific key file(s) at the top level of its code hierarchy such
 as LICENSE, NOTICE or similar (and/or a package manifest) containing structured
@@ -201,7 +201,7 @@ information (a license declaration such as a license expression and/or a series
 of license statements or notices).  This is a binary score element.
 
 
-Per-file license and copyright
+## Per-file license and copyright
 ------------------------------
 
 This scoring element is computed as a percentage of files in the core facet of
@@ -215,21 +215,21 @@ This is a progressive element that is computed based on:
   - TOT: the total number of files
 
 
-License Consistency
+## License Consistency
 -------------------
 
 This scoring element is awarded if all the licenses found anywhere in the core
 facet are also found in the top-level key files. This is a binary score element.
 
 
-SPDX Standard Licenses
+## SPDX Standard Licenses
 ----------------------
 
 This scoring element is awarded if all licenses found in the files of the core
 facet are all SPDX-listed licenses. This is a binary score element.
 
 
-License Texts
+## License Texts
 -------------
 
 This scoring element is awarded if there is copy of the full license text
@@ -248,11 +248,11 @@ awarded scoring element.
 
  Scoring element                            | Weight   | Formula   
 --------------------------------------------|----------|-----------
-Clearly defined top-level, declared license | 30       | binary
-File-level license and copyright            | 25       | LICCOP / TOT
-License Consistency                         | 15       | binary
-SPDX Standard Licenses                      | 15       | binary
-License Texts                               | 15       | binary
+[Clearly defined top-level, declared license] (#clearly-defined-top-level,-declared-license) | 30       | binary
+[File-level license and copyright] (#per-file-license-and-copyright)            | 25       | LICCOP / TOT
+[License Consistency] (#license-consistency)                         | 15       | binary
+[SPDX Standard Licenses] (#spdx-standard-licenses)                      | 15       | binary
+[License Texts] (#license-texts)                               | 15       | binary
 
 
 
