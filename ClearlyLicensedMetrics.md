@@ -262,7 +262,7 @@ Scoring usage in practice
 Tools Score vs. Effective Score
 ----------------------------
 
-We amy want to track two scores:
+We may want to track two scores:
 
 1. A tools score that is computed on the available data collected from a package
    as it exists in the "upstream" project.
