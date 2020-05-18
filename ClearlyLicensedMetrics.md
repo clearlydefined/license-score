@@ -48,7 +48,7 @@ determine the relative importance of the various sections of a software project:
 
 The focus for now is only on the core facet when facets are available and in
 some cases only on source code in the core facet (as opposed to media files,
-scripts, etc.) The metrics could be broken down by facets at a later stage if
+scripts, etc.). The metrics could be broken down by facets at a later stage if
 needed or consider the relative importance of some facets, such as core that is
 more important than other facets such as dev, docs, examples, and tests but this
 is not the initial focus.
@@ -162,7 +162,7 @@ Having standardized copyright statements contribute to clarity as it becomes
 easier to collect. A standard copyright statement is one that can be detected
 by tools. A typical copyright statement contains the following elements: 
 Copyright [(c)] [year or range of years] [name or names]
-The "(c)" or © after the word "Copyright" as well year range are optional.
+The "(c)" or © after the word "Copyright" as well as the year range are optional.
 Note: this is not yet used in the scoring.
 
 
@@ -226,13 +226,13 @@ SPDX Standard Licenses
 ----------------------
 
 This scoring element is awarded if all licenses found in the files of the core
-facet are all SPDX-listed licenses. This is a binary score element.
+facet are SPDX-listed licenses. This is a binary score element.
 
 
 License Texts
 -------------
 
-This scoring element is awarded if there is copy of the full license text
+This scoring element is awarded if there is a copy of the full license text
 available in one of the key files for every referenced license found in the
 core facet. This is a binary score element.
 
@@ -262,7 +262,7 @@ Scoring usage in practice
 Base Score vs. Curated Score
 ----------------------------
 
-We amy want to track two scores:
+We may want to track two scores:
 
 1. A base score that is computed on the available data collected from a package
    as it exists in the "upstream" project.
@@ -324,9 +324,9 @@ Each facet includes the following licensing-related information:
 
 Consider two extreme cases:
 
-1.  a component provides no licensing or copyright information. Nothing at all. This would likely be the lowest score
+1.  A component provides no licensing or copyright information. Nothing at all. This would likely be the lowest score.
 
-2.  a component provides explicit licensing or copyright information both in a human and machine form, both at the top level and in every file. The licensing and copyright is detected without ambiguities and all top-level and per-file documentation is consistent. This would likely be the highest score of licensing clarity.
+2.  A component provides explicit licensing or copyright information both in a human and machine form, both at the top level and in every file. The licensing and copyright is detected without ambiguities and all top-level and per-file documentation is consistent. This would likely be the highest score of licensing clarity.
 
 Between these two extreme and likely rare cases we have a continuum of increasingly clear licensing information available with some important thresholds where some usable and consistent set of information is provided.
 
