@@ -105,7 +105,7 @@ def pypi_source_url(name, version):
 
 def process_pypi():
     print('Querying PyPI for latest package version and source URLs...')
-    for pypi_package in get_pypi_packages('./source-data/top-pypi-packages-365-days.json'):
+    for pypi_package in get_pypi_packages('./source-data/top-pypi-packages-30-days.min.json'):
         name = pypi_package.get('project')
         latest_version = pypi_latest_release(name)
 
